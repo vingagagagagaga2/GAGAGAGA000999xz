@@ -1,23 +1,3 @@
-repeat task.wait() until game:IsLoaded()
-local LocalPlayer = game:GetService('Players').LocalPlayer
-repeat task.wait() until not LocalPlayer.PlayerGui:FindFirstChild('__INTRO')
-
-repeat
-    wait(2)
-until game:IsLoaded() and
-    game:GetService("Players").LocalPlayer:FindFirstChild("PlayerGui") and
-    game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("MainLeft") and
-    game:GetService("Players").LocalPlayer.PlayerGui.MainLeft.Left.Currency.Diamonds.Diamonds.Visible == true and
-    not game:GetService("Players").LocalPlayer:FindFirstChild("GUIFX Holder")
-
--- Xoá BasePlate nếu tồn tại
-pcall(function() workspace.BasePlate:Destroy() end)
-
--- Xoá CurrentExpansion trong workspace.Farm.Farm nếu tồn tại
-pcall(function() workspace.Farm.Farm.CurrentExpansion:Destroy() end)
-
-
-
 License = "AD13YZj2V2AcvBru8F2AinQNqTdDqvjM"
 
 getgenv().ConfigsKaitun = {
