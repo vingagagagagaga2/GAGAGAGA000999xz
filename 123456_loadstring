@@ -1,0 +1,7 @@
+if name_vps == "v7" or name_vps == "t1" then
+  script_key="yOKpBUmtjtJMJjpMTIXbJlvbDGWIrjzH";
+  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
+elseif name_vps == "v6" or name_vps == "t2" then
+  script_key="btFlEDWSvYfgyytzXcaaHAvKkyFquPPX";
+  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
+end
