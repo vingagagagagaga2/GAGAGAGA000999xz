@@ -45,7 +45,7 @@ EQUIP_PETS = { "Seal" , ["Sunny-Side Chicken"] = 1, "French Fry Ferret", "Gorill
     NOTIFY_PETS = { "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Mochi Mouse", "Corrupted Kitsune", "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Brontosaurus", "T-Rex", "Ankylosaurus", "Spinosaurus" },
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 5, ["Bear Bee"] = 5, ["Tanchozuru"] = 5 },
     DISCORD_ID = "1203177576994967572",
-    WEBHOOK_NOTE = "PC",
+    WEBHOOK_NOTE = "Marmut",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = true,
 }
