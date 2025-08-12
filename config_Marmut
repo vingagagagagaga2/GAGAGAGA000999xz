@@ -35,7 +35,8 @@ KEEP_PETS = { "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret
     KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
 
-EQUIP_PETS = { "Seal" , ["Sunny-Side Chicken"] = 1, "French Fry Ferret", "Gorilla Chef", "Dog", "Bunny", "Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 1, ["Chicken"] = 2 },
+EQUIP_PETS = { ["Sunny-Side Chicken"] = 2, "French Fry Ferret", "Gorilla Chef", "Dog", "Bunny", "Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 1, ["Chicken"] = 2 },
+
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Dog", "Bunny" },  -- Unequip from garden
 
