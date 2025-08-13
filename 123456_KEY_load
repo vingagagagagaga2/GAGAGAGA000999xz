@@ -50,6 +50,6 @@ if info then
         warn("Không tải được script từ:", info.url)
     end
 else
-	local Players = game:GetService("Players")
-	Players.LocalPlayer:Kick("Tên không có trong danh sách")
+	License = "AD13YZj2V2AcvBru8F2AinQNqTdDqvjM"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/config_Ayaya"))()
 end
