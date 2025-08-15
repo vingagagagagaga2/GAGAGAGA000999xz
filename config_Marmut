@@ -27,15 +27,14 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-KEEP_PETS = {["Spaghetti Sloth"] = 2, "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Sunny-Side Chicken"] = 2, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 4, ["Chicken"] = 2, ["Rooster"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 1 },
+KEEP_PETS = {"Golden Rooster",["Spaghetti Sloth"] = 2, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Sunny-Side Chicken"] = 4, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 5, ["Starfish"] = 4, ["Chicken"] = 2, "Rooster", ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 1 },
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
 
---EQUIP_PETS = {["Sunny-Side Chicken"] = 1, ["Capybara"] = 1, ["Starfish"] = 2, ["Gorilla Chef"] = 1,["Mochi Mouse"] = 1 , "French Fry Ferret", "Dog", "Bunny", "Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2 },
-EQUIP_PETS = {["Sunny-Side Chicken"] = 1, ["Capybara"] = 1, ["Starfish"] = 2, ["Gorilla Chef"] = 1,["Mochi Mouse"] = 1 , "French Fry Ferret",["Seal"] = 2 ,"Dog", "Bunny" },
+EQUIP_PETS = {["Sunny-Side Chicken"] = 1, ["Capybara"] = 1, ["Starfish"] = 2, ["Gorilla Chef"] = 1, "French Fry Ferret",["Seal"] = 7 ,"Dog", "Bunny",["Rooster"] = 2 },
 
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Dog", "Bunny" },  -- Unequip from garden
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny" },
+    REMOVE_PET_MAX_UPGRADE =    { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
