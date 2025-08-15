@@ -42,7 +42,7 @@ EQUIP_PETS = {["Brown Mouse"] = 1,["Grey Mouse"] = 1, ["Sunny-Side Chicken"] = 1
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1403579259498266775/QM_8n9V6ktWSFi-xIb_NavOqijEaTLmVs0f5apW1m4wctMl3wd9cJit6IxbE0YoNNnfA",
     SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1403579248446279681/c8RYc5OqxfcVTgISsrNpe7i4Xa-n5oVAwVNvTLeJq5ppsrydiOafZoQDHtSKBrufsEnd", 
     NOTIFY_PETS = { "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Brontosaurus", "T-Rex", "Ankylosaurus", "Spinosaurus" },
-    NOTIFY_PETS_WEIGHT = 6,
+    NOTIFY_PETS_WEIGHT = 5,
     DISCORD_ID = "1203177576994967572",
     WEBHOOK_NOTE = "Marmut",
     SHOW_WEBHOOK_USERNAME = true,
