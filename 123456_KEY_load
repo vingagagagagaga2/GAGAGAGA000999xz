@@ -44,6 +44,6 @@ if info then
         warn("Không tải được script từ:", info.url)
     end
 else
-	License = "AD13YZj2V2AcvBru8F2AinQNqTdDqvjM"
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/config_Ayaya"))()
+	script_key = "ZbPkipCEbqByvXuLgBYriGAoUSEWOFLo"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/config_Marmut"))()
 end
