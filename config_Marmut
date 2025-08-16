@@ -31,7 +31,7 @@ KEEP_PETS = {"Sushi Bear","Golden Rooster",["Spaghetti Sloth"] = 2, "Junkbot", [
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
 
-EQUIP_PETS = {["Sunny-Side Chicken"] = 1, ["Capybara"] = 1, ["Starfish"] = 2, ["Gorilla Chef"] = 1, "French Fry Ferret",["Seal"] = 7 ,"Dog", "Bunny",["Rooster"] = 2 },
+EQUIP_PETS = {["Sunny-Side Chicken"] = 1, ["Capybara"] = 1, ["Starfish"] = 2, ["Gorilla Chef"] = 2, "French Fry Ferret",["Seal"] = 7 ,"Dog", "Bunny",["Rooster"] = 2 },
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny" },
     REMOVE_PET_MAX_UPGRADE =    { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret" },  -- Unequip from garden
