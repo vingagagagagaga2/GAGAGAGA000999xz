@@ -30,7 +30,7 @@ MAX_PLANTS = 183,
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-KEEP_PETS = {"Spriggan","Golem","Golden Goose",["Sushi Bear"] = 5,"Golden Rooster",["Spaghetti Sloth"] = 2, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie",["Sunny-Side Chicken"] = 5, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 5, ["Starfish"] = 4, "Rooster", ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 1 },
+KEEP_PETS = {"Spriggan","Golem","Golden Goose",["Sushi Bear"] = 5,"Golden Rooster",["Spaghetti Sloth"] = 2, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie","Chicken",["Sunny-Side"] = 3, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 5, ["Starfish"] = 4, "Rooster", ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 1 },
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
 
