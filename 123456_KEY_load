@@ -12,6 +12,12 @@ local nameMap = {
         keyValue= "btFlEDWSvYfgyytzXcaaHAvKkyFquPPX",
         url     = "https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/config_Marmut"
     },
+	{
+        names   = {"BowersChristineh9125","Octaviton521","CaroleCruz","RyleeAsher520","SavionDotson518","TerrellHarbin519","XxFoxPix3lxX2020","FlameLi0nDrag0n","Echo_MINER2013","IsabellaNinja14","St0rm_Prism57","laokitaem24","bikawajnaha356","lalaskeicn2","AlekRipley532","XGFSoipAIx3h","MarciaYoung44","EdnaSandler","LoniTerry","mkakiemaj30","cvzbha93","kimgahwi2","kmadnjd9","EpicClaw202258","Aur0raCircuit200997","Luk3_Frost2024","C0deTurb0Beast2002","MiaZap27YT","BookerAllenk008","HessSharia9","HarperPhoenixPrimal1","S3bastianFlickZoom","Gam3r_Echo97","Hensler46576","neeskenter58214","akita1d6","FD7Fs4Hj763","AceVortexCrystal36","GlitchH3ro65","BearBl0ck200645","RIFT_Crystal24","CyberWraithStar2021Y","Puls3Shadow2006","benke45o","1797Grover2961","JoeLandry6","ElizabethTidwell","CraigRedman4","HobertBynum","MasonHelms522","AngieSteele","GertrudeBoyd","AshleyCain528","frankitay28","rautnah134","pitmajdura14","lobnjairu29","lotanimaki11","sakaraue350","caliokiaja2","palsaoikja35","iomkiljuna854","zalaoiase34","snowtaou0","mnguas29","bindamju65","bkikdan049","DavidWhitehead741","RoseVowels","ScottMiles60","RoseScott0","Cookie_Duck2003","JulianFrostLegend200","IsabellaZapMoon40","Flame_Chase31","NightBlast201188","WillowMysticPulse","SilverV0idPrism2019","LionSparkly60","kndasehm259","nfakwrlam4","brahjrp3","poraimlan3","vajiga450","cundarioa6","lotyaufah24","tyasmuna93","gi3kaia3","kitarau2984","vabhyata2","XxSebastianBlizzardD","JaxonEchoWolf202339","AbigailNightStorm","SophiaMoonProYT","ToxicInf3rnoGlitch","ToxicGolden38","Hyp3r_R0gu32010","HeroStarFury","V0idDriftTurb0","LionStealthFlick","Pix3lH3ro201975","AmeliaGalaxyTurbo201","XX_StormyPrimalJelly","Wolf_Shadow85","XxZo3VoidNovaxX","AUBREY_Blast94","OliviaCod3_YT","LaylaBlaz32006","SparkUltra200477","XxLaylaStreamxX2015","Hannah_Chill87","PulseRaven200922","BuilderFuryPhoenix12","XxBeastMagicxX2017"},
+        varType = "script_key",
+        keyValue= "ZbPkipCEbqByvXuLgBYriGAoUSEWOFLo",
+        url     = "https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/config_Marmut"
+    },
 }
 
 -- Tạo lookup table để tra nhanh
@@ -44,6 +50,6 @@ if info then
         warn("Không tải được script từ:", info.url)
     end
 else
-	script_key = "ZbPkipCEbqByvXuLgBYriGAoUSEWOFLo"
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/config_Marmut"))()
+	local Players = game:GetService("Players")
+	Players.LocalPlayer:Kick("ERROR KEY")
 end
