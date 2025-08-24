@@ -39,7 +39,7 @@ KEEP_PETS = {"Gnome", "Griffin",["Hotdog Daschund"]=3,"Spriggan",["Golem"] = 4,"
     KEEP_PETS_WEIGHT = 4,
     KEEP_PETS_AGE = 90,
 
-EQUIP_PETS = {[Chicken Zombie] = 1, ["Sunny-Side Chicken"] = 1, ["Capybara"] = 1, ["Starfish"] = 2, ["Gorilla Chef"] = 2, "French Fry Ferret",["Seal"] = 7 ,"Dog", "Bunny",["Rooster"] = 2 },
+EQUIP_PETS = {["Chicken Zombie"] = 1, ["Sunny-Side Chicken"] = 1, ["Capybara"] = 1, ["Starfish"] = 2, ["Gorilla Chef"] = 2, "French Fry Ferret",["Seal"] = 7 ,"Dog", "Bunny",["Rooster"] = 2 },
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny" },
     REMOVE_PET_MAX_UPGRADE =    { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret" },  -- Unequip from garden
