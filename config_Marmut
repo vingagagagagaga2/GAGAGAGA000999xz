@@ -1,17 +1,17 @@
 getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg", "Skyroot Chest" },
+    GET_HONEY = true,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan", "Skyroot Chest", "Gnome", "Sprout Seed Pack" },
-
-    MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
-    GET_HONEY = true,
     CLAIM_FOOD_CONNOISSEUR_REWARD = {"Culinarian Chest", "Gourmet Egg", "Sunny-Side Chicken"},
 
+    MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
 PLANT_EVENT_TREES = true,
 
+
 -- General:
-    AUTO_UPDATE_RESTART = true,
+    AUTO_UPDATE_RESTART = false,
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
@@ -19,9 +19,11 @@ PLANT_EVENT_TREES = true,
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
 
-MAX_PLANTS = 183,
-    DESTROY_UNTIL_MIN_PLANTS = 168,
+    MAX_PLANTS = 283,
+    DESTROY_UNTIL_MIN_PLANTS = 268,
+
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
+
     LIMIT_PLANT_SEED = { ["Strawberry"] = 5, ["Blueberry"] = 5, ["Apple"] = 5, ["Tomato"] = 5, ["Corn"] = 5, ["Bamboo"] = 5, ["Coconut"] = 5, ["Pumpkin"] = 5, ["Watermelon"] = 5, ["Pepper"] = 5 },
 
 BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
@@ -40,7 +42,7 @@ KEEP_PETS = {"Gnome", "Griffin",["Hotdog Daschund"]=3,"Spriggan",["Golem"] = 4,"
     KEEP_PETS_WEIGHT = 4,
     KEEP_PETS_AGE = 90,
 
-EQUIP_PETS = {["Chicken Zombie"] = 1, ["Sunny-Side Chicken"] = 1, ["Capybara"] = 1, ["Starfish"] = 2, ["Gorilla Chef"] = 2, "French Fry Ferret",["Seal"] = 7 ,"Dog", "Bunny",["Rooster"] = 2 },
+EQUIP_PETS = {["Capybara"] = 1, ["Starfish"] = 2, ["Chicken Zombie"] = 1, ["Sunny-Side Chicken"] = 1, ["Rooster"] = 2, "French Fry Ferret", ["Seal"] = 7 ,"Dog", "Bunny" },
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny" },
     REMOVE_PET_MAX_UPGRADE =    { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret" },  -- Unequip from garden
