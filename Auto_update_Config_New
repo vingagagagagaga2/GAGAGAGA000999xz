@@ -1,0 +1,38 @@
+local _Config_Online = 0
+
+--// tên file lưu cấu hình offline
+local FILE_NAME = "OFFLINE.txt"
+
+--// dịch vụ cần dùng
+local Players = game:GetService("Players")
+
+if not writefile or not readfile then
+    return
+end
+
+--// hàm lấy giá trị offline; nếu chưa có file thì tạo = 0
+local function getOffline()
+    if not isfile or not isfile(FILE_NAME) then
+        writefile(FILE_NAME, "0")
+        return 0
+    end
+    local content = readfile(FILE_NAME)
+    local val = tonumber(content)
+    if val == nil then
+        -- nếu file bị hỏng thì reset về 0
+        writefile(FILE_NAME, "0")
+        return 0
+    end
+    return val
+end
+
+--// hàm cập nhật offline theo online
+local function setOffline(v)
+    writefile(FILE_NAME, tostring(v))
+end
+
+local _Config_Offline = getOffline()
+ if _Config_Offline ~= _Config_Online then
+     setOffline(_Config_Online)
+     Players.LocalPlayer:Kick("Have UPDATE config")
+ end
