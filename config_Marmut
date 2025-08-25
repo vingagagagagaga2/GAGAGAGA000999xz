@@ -1,14 +1,14 @@
 getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg", "Skyroot Chest" },
-    GET_HONEY = true,
+    GET_HONEY = false,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan", "Skyroot Chest", "Gnome", "Sprout Seed Pack" },
     CLAIM_FOOD_CONNOISSEUR_REWARD = {"Culinarian Chest", "Gourmet Egg", "Sunny-Side Chicken"},
 
     MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
-PLANT_EVENT_TREES = true,
-
+PLANT_EVENT_TREES = false,
+PLACE_COSMETIC = { "Cooking Kit" },
 
 -- General:
     AUTO_UPDATE_RESTART = true,
