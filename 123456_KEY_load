@@ -26,6 +26,8 @@ for _, entry in ipairs(nameMap) do
     end
 end
 
+local currentName = game.Players.LocalPlayer.Name -- test: local currentName = "mario"
+
 -- Kiểm tra & xử lý
 local info = lookup[currentName]
 if info then
