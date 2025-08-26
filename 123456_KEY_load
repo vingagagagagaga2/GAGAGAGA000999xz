@@ -26,15 +26,6 @@ for _, entry in ipairs(nameMap) do
     end
 end
 
-local Players = game:GetService("Players")
-
-repeat task.wait() until Players.LocalPlayer
-local player = Players.LocalPlayer
-
-repeat task.wait() until player.Name
-local currentName = player.Name
-
-
 -- Kiểm tra & xử lý
 local info = lookup[currentName]
 if info then
