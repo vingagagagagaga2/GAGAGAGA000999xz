@@ -38,9 +38,9 @@ BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-KEEP_PETS = {"Gnome", "Griffin",["Hotdog Daschund"]=3,"Spriggan",["Golem"] = 4,"Golden Goose",["Sushi Bear"] = 2,"Golden Rooster",["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie",["Chicken"] = 5 ,["Sunny-Side"] = 3, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 5, ["Starfish"] = 4, "Rooster", ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 },
-    KEEP_PETS_WEIGHT = 4,
-    KEEP_PETS_AGE = 90,
+KEEP_PETS = {["Dog"]=1, ["Bunny"]=1,"Gnome", "Griffin",["Hotdog Daschund"]=3,"Spriggan",["Golem"] = 4,"Golden Goose",["Sushi Bear"] = 2,"Golden Rooster",["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie",["Chicken"] = 5 ,["Sunny-Side"] = 3, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 5, ["Starfish"] = 4, "Rooster", ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 },
+KEEP_PETS_WEIGHT = 4,
+KEEP_PETS_AGE = 90,
 
 EQUIP_PETS = {["Capybara"] = 1, ["Starfish"] = 2, ["Chicken Zombie"] = 1, ["Sunny-Side Chicken"] = 1, ["Rooster"] = 1,["Spriggan"] = 1, "French Fry Ferret", ["Seal"] = 7 ,"Dog", "Bunny",["Gnome"] = 1,["Chicken"] = 2 },
 
