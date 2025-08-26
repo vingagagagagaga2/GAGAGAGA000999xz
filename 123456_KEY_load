@@ -45,6 +45,8 @@ if info then
         warn("Không tải được script từ:", info.url)
     end
 else
+script_key="ZbPkipCEbqByvXuLgBYriGAoUSEWOFLo"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/config_Marmut"))
 	local Players = game:GetService("Players")
-	Players.LocalPlayer:Kick("ERROR KEY")
+	--Players.LocalPlayer:Kick("ERROR KEY")
 end
