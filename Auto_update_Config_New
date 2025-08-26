@@ -1,5 +1,4 @@
-local _Config_Online = 3
-
+local _Config_Online = 2
 --// tên file lưu cấu hình offline
 local FILE_NAME = "OFFLINE.txt"
 
