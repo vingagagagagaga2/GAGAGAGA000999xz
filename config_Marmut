@@ -42,9 +42,9 @@ KEEP_PETS = {["Dog"]=1, ["Bunny"]=1,"Gnome", "Griffin",["Hotdog Daschund"]=3,"Sp
 KEEP_PETS_WEIGHT = 4,
 KEEP_PETS_AGE = 90,
 
-EQUIP_PETS = {["Capybara"] = 1, ["Starfish"] = 2, ["Chicken Zombie"] = 1, ["Sunny-Side Chicken"] = 1, ["Rooster"] = 1,["Spriggan"] = 1, "French Fry Ferret", ["Seal"] = 7 ,"Dog", "Bunny",["Gnome"] = 1,["Chicken"] = 2 },
+EQUIP_PETS = {["Capybara"] = 1, ["Starfish"] = 2, ["Chicken Zombie"] = 1, ["Sunny-Side Chicken"] = 1, ["Rooster"] = 2,["Spriggan"] = 1, "French Fry Ferret", ["Seal"] = 7 ,["Dog"]=1, ["Bunny"]=1,["Gnome"] = 1,["Chicken"] = 2 },
 
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Spriggan","Gnome","Chicken" },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Spriggan","Gnome","Chicken","Rooster" },
     REMOVE_PET_MAX_UPGRADE =    { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret","Spriggan","Gnome","Chicken" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
