@@ -1,11 +1,17 @@
+wait(100)
+
+task.spawn(function()
+
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
+local sheckles = LocalPlayer:WaitForChild("leaderstats"):WaitForChild("Sheckles")
 
-for _, player in pairs(Players:GetPlayers()) do
-    if player ~= LocalPlayer then
-        pcall(function()
-            LocalPlayer:RequestFriendship(player)
-			task.wait(300)
-        end)
-    end
-end
+local initialValue = sheckles.Value
+
+task.delay(60, function()
+	if sheckles.Value == initialValue then
+		LocalPlayer:Kick("60S sheckles 0")
+	end
+end)
+
+end)
