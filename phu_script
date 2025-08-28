@@ -2,16 +2,5 @@
 
 task.spawn(function()
 
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-local sheckles = LocalPlayer:WaitForChild("leaderstats"):WaitForChild("Sheckles")
-
-local initialValue = sheckles.Value
-
-task.delay(60, function()
-	if sheckles.Value == initialValue then
-		LocalPlayer:Kick("60S sheckles 0")
-	end
-end)
 
 end)
