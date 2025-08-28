@@ -1,4 +1,4 @@
-wait(100)
+
 
 task.spawn(function()
 
