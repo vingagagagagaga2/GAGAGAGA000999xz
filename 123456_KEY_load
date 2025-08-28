@@ -26,7 +26,17 @@ for _, entry in ipairs(nameMap) do
     end
 end
 
-local currentName = game.Players.LocalPlayer.Name -- test: local currentName = "mario"
+--local currentName = game.Players.LocalPlayer.Name -- test: local currentName = "mario"
+
+local Players = game:GetService("Players")
+
+repeat task.wait() until Players.LocalPlayer
+local player = Players.LocalPlayer
+
+repeat task.wait() until player.Name
+local currentName = player.Name
+
+
 
 -- Kiểm tra & xử lý
 local info = lookup[currentName]
