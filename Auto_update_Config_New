@@ -1,5 +1,5 @@
-local _Config_Online = 2
---// tên file lưu cấu hình offline
+local _Config_Online = 0
+
 local FILE_NAME = "OFFLINE.txt"
 
 --// dịch vụ cần dùng
@@ -9,7 +9,7 @@ if not writefile or not readfile then
     return
 end
 
---// hàm lấy giá trị offline; nếu chưa có file thì tạo = 0
+
 local function getOffline()
     if not isfile or not isfile(FILE_NAME) then
         writefile(FILE_NAME, "0")
@@ -25,7 +25,7 @@ local function getOffline()
     return val
 end
 
---// hàm cập nhật offline theo online
+
 local function setOffline(v)
     writefile(FILE_NAME, tostring(v))
 end
