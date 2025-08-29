@@ -7,7 +7,7 @@ getgenv().gagConfig = {
     CLAIM_FOOD_CONNOISSEUR_REWARD = {"Culinarian Chest", "Gourmet Egg", "Sunny-Side Chicken"},
 
     MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
-PLANT_EVENT_TREES = true,
+PLANT_EVENT_TREES = false,
 PLACE_COSMETIC = { "Cooking Kit" },
 
 -- General:
