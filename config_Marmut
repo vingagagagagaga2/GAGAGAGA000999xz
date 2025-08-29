@@ -28,7 +28,7 @@ PLACE_COSMETIC = { "Cooking Kit" },
 
 BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
 
-    PLANT_EGGS = { "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
+    PLANT_EGGS = { "Sprout Egg","Rare Summer Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
 
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
@@ -42,10 +42,10 @@ KEEP_PETS = {["Dog"]=1, ["Bunny"]=1,"Gnome", "Griffin",["Hotdog Daschund"]=3,"Sp
 KEEP_PETS_WEIGHT = 4,
 KEEP_PETS_AGE = 90,
 
-EQUIP_PETS = {["Capybara"] = 1, ["Starfish"] = 2, ["Chicken Zombie"] = 1, ["Sunny-Side Chicken"] = 1, ["Rooster"] = 2,["Spriggan"] = 1, "French Fry Ferret", ["Seal"] = 7 ,["Dog"]=1, ["Bunny"]=1,["Gnome"] = 1,["Chicken"] = 2 },
+EQUIP_PETS = {["Capybara"] = 1, ["Starfish"] = 2, ["Chicken Zombie"] = 1, ["Sunny-Side Chicken"] = 1, ["Rooster"] = 2,["Spriggan"] = 1, "French Fry Ferret", ["Seal"] = 7 ,["Dog"]=1, ["Bunny"]=1,["Chicken"] = 2 },
 
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Spriggan","Gnome","Chicken","Rooster" },
-    REMOVE_PET_MAX_UPGRADE =    { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret","Spriggan","Gnome","Chicken" },  -- Unequip from garden
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Spriggan","Chicken","Rooster" },
+    REMOVE_PET_MAX_UPGRADE =    { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret","Spriggan","Chicken" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
