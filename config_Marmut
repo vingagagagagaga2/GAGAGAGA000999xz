@@ -1,7 +1,7 @@
 getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg", "Skyroot Chest","Sprout Egg" },
-    GET_HONEY = false,
+    GET_HONEY = true,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan", "Skyroot Chest", "Gnome", "Sprout Seed Pack" },
     CLAIM_FOOD_CONNOISSEUR_REWARD = {"Culinarian Chest", "Gourmet Egg", "Sunny-Side Chicken"},
