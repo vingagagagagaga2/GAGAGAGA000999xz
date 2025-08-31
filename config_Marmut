@@ -6,7 +6,7 @@ getgenv().gagConfig = {
     CLAIM_FAIRY_REWARD = { "Enchanted Egg", "FairyPoints", "Pet Shard Glimmering" },
 
     MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
-PLANT_EVENT_TREES = false,
+PLANT_EVENT_TREES = true,
 PLACE_COSMETIC = { "Cooking Kit" },
 
 -- General:
