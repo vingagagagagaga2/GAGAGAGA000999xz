@@ -41,7 +41,7 @@ KEEP_PETS = { "Cockatrice", ["Glimmering Sprite"] = 8,["Praying Mantis"]=2,["Squ
 KEEP_PETS_WEIGHT = 4,
 KEEP_PETS_AGE = 90,
 
-EQUIP_PETS = {["Capybara"] = 1, ["Starfish"] = 2, ["Chicken Zombie"] = 1, ["Sunny-Side Chicken"] = 1, ["Rooster"] = 1,["Spriggan"] = 1,["Glimmering Sprite"] = 1,"French Fry Ferret", ["Seal"] = 7 ,["Dog"]=1, ["Bunny"]=1,["Chicken"] = 2 },
+EQUIP_PETS = {["Glimmering Sprite"] = 1,["Capybara"] = 1, ["Starfish"] = 2, ["Chicken Zombie"] = 1, ["Sunny-Side Chicken"] = 1, ["Rooster"] = 1,["Spriggan"] = 1, ["Seal"] = 7 ,"French Fry Ferret",["Dog"]=1, ["Bunny"]=1,["Chicken"] = 2 },
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Spriggan","Chicken","Rooster" },
     REMOVE_PET_MAX_UPGRADE =    { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret","Spriggan","Chicken" },  -- Unequip from garden
