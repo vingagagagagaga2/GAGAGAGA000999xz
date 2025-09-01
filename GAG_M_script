@@ -1,17 +1,1 @@
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-setfpscap(3)
-
-spawn(function()
-	wait(100)
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/phu_script"))()
-
-  while true do
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/Auto_update_Config_New"))()
-    wait(300)
-  end
-end)
-
-
-
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/123456_KEY_load"))()
