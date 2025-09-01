@@ -7,7 +7,7 @@ spawn(function()
 
   while true do
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/Auto_update_Config_New"))()
-    wait(300)
+    wait(600)
   end
 end)
 
