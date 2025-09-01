@@ -8,10 +8,10 @@ local sheckles = LocalPlayer:WaitForChild("leaderstats"):WaitForChild("Sheckles"
 
 local initialValue = sheckles.Value
 
-task.delay(60, function()
+task.delay(300, function()
 	if sheckles.Value == initialValue then
 		game:Shutdown()
-		LocalPlayer:Kick("60S sheckles 0")
+		LocalPlayer:Kick("300S sheckles 0")
 	end
 end)
 
