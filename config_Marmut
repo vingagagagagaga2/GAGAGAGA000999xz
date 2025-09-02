@@ -17,7 +17,7 @@ getgenv().gagConfig = {
     CRAFT_EVENT = { "Anti Bee Egg"},
     GET_HONEY = true,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    CLAIM_FAIRY_REWARD = { "Enchanted Egg", "FairyPoints", "Pet Shard Glimmering" },
+    CLAIM_FAIRY_REWARD = { "Enchanted Egg", "FairyPoints", "Mutation Spray Glimmering", "Enchanted Seed Pack" },
 
     MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
 PLANT_EVENT_TREES = true,
@@ -60,7 +60,7 @@ EQUIP_PETS = {["Glimmering Sprite"] = 1,["Capybara"] = 1, ["Starfish"] = 2, ["Ch
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Spriggan","Chicken","Rooster" },
     REMOVE_PET_MAX_UPGRADE =    { "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret","Spriggan","Chicken" },  -- Unequip from garden
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket","Watering Can" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1403579259498266775/QM_8n9V6ktWSFi-xIb_NavOqijEaTLmVs0f5apW1m4wctMl3wd9cJit6IxbE0YoNNnfA",
