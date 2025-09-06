@@ -77,10 +77,10 @@ EQUIP_PETS = {
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket","Watering Can" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
-    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1403579259498266775/QM_8n9V6ktWSFi-xIb_NavOqijEaTLmVs0f5apW1m4wctMl3wd9cJit6IxbE0YoNNnfA",
-    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1403579248446279681/c8RYc5OqxfcVTgISsrNpe7i4Xa-n5oVAwVNvTLeJq5ppsrydiOafZoQDHtSKBrufsEnd", 
+    PET_WEBHOOK_URL = "",
+    SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS_WEIGHT = 5,
-    DISCORD_ID = "1203177576994967572",
+    DISCORD_ID = "",
     WEBHOOK_NOTE = "Marmut",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = true,
