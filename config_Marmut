@@ -21,7 +21,7 @@ getgenv().gagConfig = {
 
 CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
 
-    --MAX_EVENT_RESTOCK_SHECKLES = 1_000_000_000,  -- Restock stop at 48m
+    MAX_EVENT_RESTOCK_SHECKLES = 48000001,  -- Restock stop at 48m
 PLANT_EVENT_TREES = true,
 PLACE_COSMETIC = { "Cooking Kit" },
 
