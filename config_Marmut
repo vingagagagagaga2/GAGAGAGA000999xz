@@ -67,7 +67,7 @@ EQUIP_PETS = {
 ["Rooster"] = 1,
 ["Spriggan"] = 1, 
 "French Fry Ferret", 
-["Chicken"] = 2, 
+["Chicken"] = 1, 
 ["Dog"]=1, 
 ["Bunny"]=1, 
 ["Black Bunny"]=1
