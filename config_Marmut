@@ -77,6 +77,11 @@ EQUIP_PETS = {
     USE_PETS_FOR_UPGRADE_SLOT = { "Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Spriggan","Chicken","Rooster","Glimmering Sprite" },
     REMOVE_PET_MAX_UPGRADE =    { "Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret","Spriggan","Chicken" },  -- Unequip from garden
 
+KICK_AFTER_GIFT_PET = false,
+GIFT_USERNAME = { "veriotiai779" },
+GIFT_PET = {"Cockatrice"},
+
+
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", ["Harvest Tool"] = 10 },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
