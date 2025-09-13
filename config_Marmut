@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-setfpscap(2)
+setfpscap(3)
 
 spawn(function()
 	wait(100)
@@ -14,7 +14,7 @@ end)
 
 getgenv().gagConfig = {
     -- Event:
-    CRAFT_EVENT = {},
+
     GET_HONEY = true,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
 		BUY_EVENT_SHOP = { "Marmot", "Fall Egg", "Golden Acorn", "Sugar Glider", "Space Squirrel" },
