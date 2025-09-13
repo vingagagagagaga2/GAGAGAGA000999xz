@@ -14,13 +14,13 @@ end)
 
 getgenv().gagConfig = {
     -- Event:
-    CRAFT_EVENT = { "Fairy Net", "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
+    CRAFT_EVENT = {},
     GET_HONEY = true,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-	BUY_EVENT_SHOP = {"Enchanted Chest", "Luminous Sprite", "Drake" },
+	
 	MAX_REBIRTH_SHECKLES = 1_000_000_000_000,
 	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
-
+	EQUIP_COSMETICS = {["Cooking Kit"] = 8},
 
 CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
 
@@ -46,7 +46,7 @@ PLACE_COSMETIC = { "Cooking Kit" },
 
 BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
 
-    PLANT_EGGS = {"Enchanted Egg", "Sprout Egg","Rare Summer Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
+    PLANT_EGGS = {"Fall Egg", "Sprout Egg","Rare Summer Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
 
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
@@ -56,7 +56,7 @@ BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-KEEP_PETS = {"Phoenix", "Drake", "Wisp", "Luminous Sprite","Dilophosaurus","Pterodactyl","Cockatrice", ["Glimmering Sprite"] = 4,["Praying Mantis"]=2,["Giant Ant"]=2,["Red Giant Ant"]=2,"Gnome", "Griffin",["Hotdog Daschund"]=3,"Spriggan",["Golem"] = 4,"Golden Goose","Golden Rooster",["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie",["Chicken"] = 5 ,["Sunny-Side"] = 3, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 5, ["Starfish"] = 4, ["Rooster"]=3, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 },
+KEEP_PETS = {"Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider","Phoenix", "Drake", "Wisp", "Luminous Sprite","Dilophosaurus","Pterodactyl","Cockatrice", ["Glimmering Sprite"] = 4,["Praying Mantis"]=2,["Giant Ant"]=2,["Red Giant Ant"]=2,"Gnome", "Griffin",["Hotdog Daschund"]=3,"Spriggan",["Golem"] = 4,"Golden Goose","Golden Rooster",["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie",["Chicken"] = 5 ,["Sunny-Side"] = 3, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 5, ["Starfish"] = 4, ["Rooster"]=3, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 },
 KEEP_PETS_WEIGHT = 5,
 KEEP_PETS_AGE = 90,
 
