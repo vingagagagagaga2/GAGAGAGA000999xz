@@ -64,7 +64,6 @@ KEEP_PETS_WEIGHT = 5,
 KEEP_PETS_AGE = 90,
 
 EQUIP_PETS = {
-["Glimmering Sprite"] = 1, 
 ["Capybara"] = 1, 
 ["Starfish"] = 2, 
 ["Rooster"] = 2,
