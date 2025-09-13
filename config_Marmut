@@ -17,15 +17,18 @@ getgenv().gagConfig = {
     CRAFT_EVENT = {},
     GET_HONEY = true,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-	
+		BUY_EVENT_SHOP = { "Marmot", "Fall Egg", "Golden Acorn", "Sugar Glider", "Space Squirrel" },
+		EQUIP_COSMETICS = {["Cooking Kit"] = 8},
+		PLANT_EVENT_TREES = true,
+
 	MAX_REBIRTH_SHECKLES = 1_000_000_000_000,
 	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
-	EQUIP_COSMETICS = {["Cooking Kit"] = 8},
+	
 
 CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
 
     MAX_EVENT_RESTOCK_SHECKLES = 48000001,  -- Restock stop at 48m
-PLANT_EVENT_TREES = true,
+
 PLACE_COSMETIC = { "Cooking Kit" },
 
 -- General:
