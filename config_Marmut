@@ -24,9 +24,6 @@ getgenv().gagConfig = {
 	MAX_REBIRTH_SHECKLES = 1_000_000_000_000,
 	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
 	
-
-CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
-
     MAX_EVENT_RESTOCK_SHECKLES = 48000001,  -- Restock stop at 48m
 
 PLACE_COSMETIC = { "Cooking Kit" },
