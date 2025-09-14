@@ -13,22 +13,16 @@ end)
 
 
 getgenv().gagConfig = {
-    -- Event:
 
-    GET_HONEY = true,
+GET_HONEY = true,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
 		BUY_EVENT_SHOP = { "Marmot", "Fall Egg", "Golden Acorn", "Sugar Glider", "Space Squirrel" },
-		EQUIP_COSMETICS = {["Cooking Kit"] = 8},
-		PLANT_EVENT_TREES = true,
 
-	MAX_REBIRTH_SHECKLES = 1_000_000_000_000,
-	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
-	
-    MAX_EVENT_RESTOCK_SHECKLES = 48000001,  -- Restock stop at 48m
-
-PLACE_COSMETIC = { "Cooking Kit" },
+		PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
+		PLACE_COSMETIC = { "Cooking Kit" },
 
 -- General:
+
     AUTO_UPDATE_RESTART = false,
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
@@ -36,6 +30,7 @@ PLACE_COSMETIC = { "Cooking Kit" },
     EXTRA_PET_INVENTORY_SLOTS = 5,
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
+    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
     MAX_PLANTS = 283,
     DESTROY_UNTIL_MIN_PLANTS = 268,
@@ -69,14 +64,16 @@ EQUIP_PETS = {
 ["Rooster"] = 2,
 ["Chicken Zombie"] = 1, 
 ["Spriggan"] = 1, 
-"French Fry Ferret", 
 "Chicken",
 "Dog",
 "Bunny",
 "Black Bunny",
+    ["Glimmering Sprite"] = 2,
+    ["Space Squirrel"] = 2,
+    ["Barn Owl"] = 2,
 },
 
-    USE_PETS_FOR_UPGRADE_SLOT = { "Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Spriggan","Chicken","Rooster","Glimmering Sprite" },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Spriggan","Chicken","Rooster","Glimmering Sprite","Space Squirrel","Barn Owl" },
     REMOVE_PET_MAX_UPGRADE =    { "Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret","Spriggan","Chicken" },  -- Unequip from garden
 
 KICK_AFTER_GIFT_PET = false,
