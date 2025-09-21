@@ -14,7 +14,6 @@ end)
 
 getgenv().gagConfig = {
 
-GET_HONEY = true,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
 BUY_EVENT_SHOP = { "Fall Egg", "Golden Acorn", "Red Panda" },
 MAX_QUEST_REROLL_SHECKLES = 48000001,
