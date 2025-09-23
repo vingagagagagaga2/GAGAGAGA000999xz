@@ -1,4 +1,4 @@
-local _Config_Online = 1
+local _Config_Online = 2
 
 local FILE_NAME = "OFFLINE.txt"
 
@@ -39,5 +39,5 @@ local _Config_Offline = getOffline()
     local player = Players.LocalPlayer
     local placeId = game.PlaceId    
     -- Reload game
-    --TeleportService:Teleport(placeId, player)
+    TeleportService:Teleport(placeId, player)
  end
