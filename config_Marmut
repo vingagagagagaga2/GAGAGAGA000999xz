@@ -15,10 +15,13 @@ end)
 getgenv().gagConfig = {
 
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-BUY_EVENT_SHOP = {  "Red Panda", "Fall Egg", "Golden Acorn" },
+BUY_EVENT_SHOP = { "Evo Beetroot I", "Evo Blueberry I", "Evo Pumpkin I", "Evo Mushroom I" },
 MAX_QUEST_REROLL_SHECKLES = 48000001,
-		PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
-		PLACE_COSMETIC = { "Cooking Kit" },
+		
+
+    PLACE_COSMETIC = { "Cooking Kit" },
+    
+
 
 -- General:
 
@@ -55,7 +58,7 @@ PLANT_EGGS =
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-KEEP_PETS = {"Red Panda", "Barn Owl", "Swan", ["Marmot"]=2, "Space Squirrel", ["Sugar Glider"]=2,"Phoenix", "Drake", "Wisp", "Luminous Sprite","Dilophosaurus","Pterodactyl","Cockatrice", ["Glimmering Sprite"] = 2,["Praying Mantis"]=2,["Giant Ant"]=2,["Red Giant Ant"]=2,"Gnome", "Griffin",["Hotdog Daschund"]=3,"Spriggan",["Golem"] = 4,"Golden Goose","Golden Rooster",["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie",["Chicken"] = 5 ,["Sunny-Side"] = 3, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 5, ["Starfish"] = 4, ["Rooster"]=3, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 },
+KEEP_PETS = { "Tiger", "Red Panda", "Barn Owl", "Swan", ["Marmot"]=2, "Space Squirrel", ["Sugar Glider"]=2,"Phoenix", "Drake", "Wisp", "Luminous Sprite","Dilophosaurus","Pterodactyl","Cockatrice", ["Glimmering Sprite"] = 2,["Praying Mantis"]=2,["Giant Ant"]=2,["Red Giant Ant"]=2,"Gnome", "Griffin",["Hotdog Daschund"]=3,"Spriggan",["Golem"] = 4,"Golden Goose","Golden Rooster",["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie",["Chicken"] = 5 ,["Sunny-Side"] = 3, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 5, ["Starfish"] = 4, ["Rooster"]=3, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 },
 KEEP_PETS_WEIGHT = 6,
 KEEP_PETS_AGE = 90,
 
