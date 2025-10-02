@@ -15,3 +15,17 @@ task.delay(240, function()
 end)
 
 end)
+
+
+task.spawn(function()
+pcall(function() workspace.BasePlate:Destroy() end)
+pcall(function() workspace.Farm.Farm.CurrentExpansion:Destroy() end)
+end)
+
+
+
+
+
+
+
+
