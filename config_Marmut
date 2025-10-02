@@ -89,9 +89,12 @@ EQUIP_PETS = {
 "Dog",
 "Bunny",
 "Black Bunny",
+"Glimmering Sprite","Space Squirrel","Barn Owl","Sugar Glider",
+"Marmot",
+"Cockatrice",
 },
 
-    USE_PETS_FOR_UPGRADE_SLOT = { "Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Spriggan","Chicken","Rooster","Glimmering Sprite","Space Squirrel","Barn Owl","Sugar Glider" },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Spriggan","Chicken","Glimmering Sprite","Space Squirrel","Barn Owl","Sugar Glider" },
     REMOVE_PET_MAX_UPGRADE =    { "Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret","Spriggan","Chicken" },  -- Unequip from garden
 
 KICK_AFTER_GIFT_PET = false,
