@@ -75,6 +75,9 @@ EQUIP_PETS = {
 "Dog",
 "Bunny",
 "Black Bunny",
+"Glimmering Sprite","Space Squirrel","Barn Owl","Sugar Glider",
+"Marmot",
+"Cockatrice",
 },
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Spriggan","Chicken","Rooster","Glimmering Sprite","Space Squirrel","Barn Owl","Sugar Glider" },
