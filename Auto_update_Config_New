@@ -34,10 +34,6 @@ local _Config_Offline = getOffline()
  if _Config_Offline ~= _Config_Online then
      setOffline(_Config_Online)
 
-    local TeleportService = game:GetService("TeleportService")
-    local Players = game:GetService("Players")
-    local player = Players.LocalPlayer
-    local placeId = game.PlaceId    
-    -- Reload game
-    TeleportService:Teleport(placeId, player)
+    -- Shutdown
+    game:Shutdown()
  end
