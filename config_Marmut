@@ -79,9 +79,7 @@ KEEP_PETS_AGE = 90,
 
 EQUIP_PETS = {
 ["Chubby Chipmunk"]=1,
-"Rooster",
 ["Sunny-Side Chicken"]=1,
-"seal",
 ["Chicken Zombie"]=1, 
 },
 
