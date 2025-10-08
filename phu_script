@@ -1,23 +1,6 @@
 
 
 task.spawn(function()
-
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-local sheckles = LocalPlayer:WaitForChild("leaderstats"):WaitForChild("Sheckles")
-
-local initialValue = sheckles.Value
-
-task.delay(1200, function()
-	if sheckles.Value == initialValue then
-		game:Shutdown()
-	end
-end)
-
-end)
-
-
-task.spawn(function()
 pcall(function() workspace.BasePlate:Destroy() end)
 pcall(function() workspace.Farm.Farm.CurrentExpansion:Destroy() end)
 end)
