@@ -37,7 +37,7 @@ PLACE_COSMETIC = { "Cooking Kit" },
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
 
-BUY_EGGS = { "Jungle Egg","Paradise Egg", "Bug Egg", "Bee Egg",  "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
+BUY_EGGS = { "Jungle Egg","Paradise Egg", "Bug Egg", "Bee Egg",  "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
 PLANT_EGGS = 
 {
 "Bug Egg","Rare Egg",
