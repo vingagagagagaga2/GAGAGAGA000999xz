@@ -40,7 +40,7 @@ PLACE_COSMETIC = { "Cooking Kit" },
 BUY_EGGS = { "Jungle Egg","Paradise Egg", "Bug Egg", "Bee Egg",  "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
 PLANT_EGGS = 
 {
-"Bug Egg","Rare Egg",
+"Fall Egg","Bug Egg","Rare Egg",
 },
 
     BUY_SEED_SHOP = { "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango",
