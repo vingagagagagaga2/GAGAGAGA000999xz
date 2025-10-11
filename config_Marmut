@@ -75,7 +75,7 @@ EQUIP_PETS = {
 },
 
     USE_PETS_FOR_UPGRADE_SLOT = { 	"Praying Mantis","Idol Chipmunk","Farmer Chipmunk","Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Rooster","Spriggan","Chicken","Glimmering Sprite","Space Squirrel","Barn Owl","Sugar Glider" },
-    REMOVE_PET_MAX_UPGRADE =    {"Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny", "French Fry Ferret","Spriggan","Chicken" },  -- Unequip from garden
+    REMOVE_PET_MAX_UPGRADE =    {"Black Bunny", "Starfish", "Dog", "Bunny", "Chicken" },  -- Unequip from garden
 
 KICK_AFTER_GIFT_PET = false,
 GIFT_USERNAME = {"kuvindn12","8769Bynum9933","8765Williamson9929","ItsCosmos_PULS3","N3xusLaylaKnackdrift","PulseVortexHunter202","StormEcho47_YT","NovaGhostB3ar","Bl0ckZer0Omega2002","VipWill1505","veriotiai779","BarzARoy1107","nalsur71230"},
