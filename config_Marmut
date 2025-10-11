@@ -14,8 +14,9 @@ end)
 
 getgenv().gagConfig = {
 
-BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-BUY_EVENT_SHOP = { "Evo Beetroot I", "Evo Blueberry I", "Evo Pumpkin I", "Evo Mushroom I" },
+BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    BUY_EVENT_SHOP = { "Spooky Egg", "Reaper" },
+
 
     MAX_PLANTS = 100,
     DESTROY_UNTIL_MIN_PLANTS = 80,
@@ -40,7 +41,7 @@ PLACE_COSMETIC = { "Cooking Kit" },
 BUY_EGGS = { "Jungle Egg","Paradise Egg", "Bug Egg", "Bee Egg",  "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
 PLANT_EGGS = 
 {
-"Jungle Egg","Fall Egg","Bug Egg","Rare Egg",
+"Spooky Egg", "Jungle Egg","Fall Egg","Bug Egg","Rare Egg",
 },
 
     BUY_SEED_SHOP = { "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango",
@@ -56,16 +57,14 @@ PLANT_EGGS =
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
 KEEP_PETS = {
- "Fortune Squirrel", "Chinchilla", "Chubby Chipmunk", ["Farmer Chipmunk"] = 1, ["Idol Chipmunk"]=1,
+"Headless Horseman", "Reaper",
+ "Fortune Squirrel", "Chinchilla", "Chubby Chipmunk",
 	"Tiger",["Chimpanzee"]=2,"Mizuchi", "Silver Dragonfly", "Red Panda", ["Barn Owl"]=3, "Swan", ["Marmot"]=2, "Space Squirrel", ["Sugar Glider"]=2,"Phoenix", "Drake", "Wisp", "Luminous Sprite","Dilophosaurus","Pterodactyl","Cockatrice", ["Glimmering Sprite"] = 2,["Praying Mantis"]=2,["Giant Ant"]=2,["Red Giant Ant"]=2,"Gnome", "Griffin",["Hotdog Daschund"]=3,"Spriggan",["Golem"] = 4,"Golden Goose",["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", ["Chicken Zombie"]=1,["Chicken"] = 2 ,["Sunny-Side"] = 2, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 10, ["Starfish"] = 4, ["Rooster"]=5, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 },
 
 KEEP_PETS_WEIGHT = 6,
 KEEP_PETS_AGE = 90,
 
 EQUIP_PETS = {
-["Chubby Chipmunk"]=1,
-["Farmer Chipmunk"] = 1,
-["Idol Chipmunk"]=1,
 ["Sunny-Side Chicken"]=1,
 ["Chicken"]=1,
 ["Rooster"]=1, 
