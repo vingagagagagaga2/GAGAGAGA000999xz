@@ -67,7 +67,7 @@ KEEP_PETS_AGE = 90,
 EQUIP_PETS = {
 ["Sunny-Side Chicken"]=1,
 ["Chicken"]=1,
-["Rooster"]=1, 
+"Rooster", 
 ["Chicken Zombie"]=1,
 ["Praying Mantis"]=1,
 "seal",
