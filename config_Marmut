@@ -57,7 +57,7 @@ PLANT_EGGS =
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
 KEEP_PETS = {
-["Ghost Bear"] = 8,
+["Ghost Bear"] = 4,
 ["Black Cat"] = 2,
 "Headless Horseman", "Reaper",
  "Fortune Squirrel", "Chinchilla", "Chubby Chipmunk",
