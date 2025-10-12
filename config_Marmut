@@ -15,9 +15,7 @@ end)
 getgenv().gagConfig = {
 
 BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Spooky Egg", "Reaper" },
-
-
+    BUY_EVENT_SHOP = { "Spooky Egg", ["Ghost Bear"] = 8, "Reaper" },
     MAX_PLANTS = 100,
     DESTROY_UNTIL_MIN_PLANTS = 80,
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
@@ -35,8 +33,10 @@ PLACE_COSMETIC = { "Cooking Kit" },
     EXTRA_PET_INVENTORY_SLOTS = 5,
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
-    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
+COLLECT_FRUIT_PER_SECOND = 3,
 
+    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
+  
 
 BUY_EGGS = { "Jungle Egg","Paradise Egg", "Bug Egg", "Bee Egg",  "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
 PLANT_EGGS = 
@@ -57,6 +57,7 @@ PLANT_EGGS =
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
 KEEP_PETS = {
+["Ghost Bear"] = 8,
 "Headless Horseman", "Reaper",
  "Fortune Squirrel", "Chinchilla", "Chubby Chipmunk",
 	"Tiger",["Chimpanzee"]=2,"Mizuchi", "Silver Dragonfly", "Red Panda", ["Barn Owl"]=3, "Swan", ["Marmot"]=2, "Space Squirrel", ["Sugar Glider"]=2,"Phoenix", "Drake", "Wisp", "Luminous Sprite","Dilophosaurus","Pterodactyl","Cockatrice", ["Glimmering Sprite"] = 2,["Praying Mantis"]=2,["Giant Ant"]=2,["Red Giant Ant"]=2,"Gnome", "Griffin",["Hotdog Daschund"]=3,"Spriggan",["Golem"] = 4,"Golden Goose",["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", ["Chicken Zombie"]=1,["Chicken"] = 2 ,["Sunny-Side"] = 2, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 10, ["Starfish"] = 4, ["Rooster"]=5, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 },
@@ -65,13 +66,7 @@ KEEP_PETS_WEIGHT = 6,
 KEEP_PETS_AGE = 90,
 
 EQUIP_PETS = {
-["Sunny-Side Chicken"]=1,
-["Chicken"]=1,
-"Rooster", 
-["Chicken Zombie"]=1,
-["Praying Mantis"]=1,
-"seal",
-
+["Ghost Bear"] = 8,
 },
 
     USE_PETS_FOR_UPGRADE_SLOT = { 	"Praying Mantis","Idol Chipmunk","Farmer Chipmunk","Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Rooster","Spriggan","Chicken","Glimmering Sprite","Space Squirrel","Barn Owl","Sugar Glider" },
