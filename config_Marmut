@@ -67,7 +67,12 @@ KEEP_PETS_WEIGHT = 6,
 KEEP_PETS_AGE = 90,
 
 EQUIP_PETS = {
-["Ghost Bear"] = 8,
+["Ghost Bear"] = 4,
+["Sunny-Side Chicken"] = 1,
+["Rooster"] = 2,
+["Chicken Zombie"]=1,
+["Chicken"] = 1 ,
+
 },
 
     USE_PETS_FOR_UPGRADE_SLOT = { 	"Praying Mantis","Idol Chipmunk","Farmer Chipmunk","Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Rooster","Spriggan","Chicken","Glimmering Sprite","Space Squirrel","Barn Owl","Sugar Glider" },
