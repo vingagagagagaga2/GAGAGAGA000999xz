@@ -65,8 +65,8 @@ KEEP_PETS = {
 
 KEEP_PETS_WEIGHT = 6,
 KEEP_PETS_AGE = 90,
-SELL_PETS_WEIGHT = {"Black Bunny","Bunny","Dog"}  -- Add Pet Name To Disable KEEP_PETS_WEIGHT
-SELL_PETS_AGE = {"Black Bunny","Bunny","Dog"}   -- Add Pet Name To Disable KEEP_PETS_AGE
+SELL_PETS_WEIGHT = {"Black Bunny","Bunny","Dog"}  ,
+SELL_PETS_AGE = {"Black Bunny","Bunny","Dog"}   ,
 
 
 EQUIP_PETS = {
