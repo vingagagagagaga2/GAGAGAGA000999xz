@@ -17,7 +17,7 @@ getgenv().gagConfig = {
 BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Spooky Egg", ["Ghost Bear"] = 8, "Reaper" },
     MAX_PLANTS = 100,
-    DESTROY_UNTIL_MIN_PLANTS = 80,
+    DESTROY_UNTIL_MIN_PLANTS = 100,
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
 PLACE_COSMETIC = { "Cooking Kit" },
@@ -33,7 +33,6 @@ PLACE_COSMETIC = { "Cooking Kit" },
     EXTRA_PET_INVENTORY_SLOTS = 5,
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
-COLLECT_FRUIT_PER_SECOND = 3,
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
   
