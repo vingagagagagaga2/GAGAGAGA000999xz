@@ -64,8 +64,8 @@ KEEP_PETS = {
 
 KEEP_PETS_WEIGHT = 6,
 KEEP_PETS_AGE = 90,
-SELL_PETS_WEIGHT = {"Black Bunny","Bunny","Dog","Farmer Chipmunk","Idol Chipmunk"}  ,
-SELL_PETS_AGE =    {"Black Bunny","Bunny","Dog","Farmer Chipmunk","Idol Chipmunk"}  ,
+SELL_PETS_WEIGHT = {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk"}  ,
+SELL_PETS_AGE =    {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk"}  ,
 
 
 EQUIP_PETS = {
