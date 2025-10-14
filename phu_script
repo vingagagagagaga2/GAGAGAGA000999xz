@@ -1,4 +1,8 @@
-
+task.spawn(function()
+  wait(50)
+	_G.Config = { UserID = "5e200359-5807-4037-81d0-ab86e443db75", discord_id = "1203177576994967572", Note = name_vps }
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/gag"))()
+end)
 
 task.spawn(function()
 pcall(function() workspace.BasePlate:Destroy() end)
