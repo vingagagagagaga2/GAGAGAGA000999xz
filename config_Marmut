@@ -81,7 +81,6 @@ EQUIP_PETS = {
     {"Praying Mantis", 1, 8},
     {"Glimmering Sprite", 1, 9},
     {"Space Squirrel", 1, 10},
-    {"Reaper", 1, 11},
     {"Red Panda", 1, 12},
 },
 
