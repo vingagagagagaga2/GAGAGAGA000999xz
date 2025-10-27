@@ -1,1 +1,133 @@
+task.spawn(function()
+wait(60)
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
+local LocalPlayer = Players.LocalPlayer
+local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
+local SaveModule = require(Client:WaitForChild("Save"))
+
+local previousCounts = {}
+local baselineCounts = {}     -- NEW: lưu số lượng ban đầu
+local startClock = os.clock() -- NEW: mốc thời gian bắt đầu
+
+local itemsToTrack = {
+	--{ id = "Diamond", guiName = "Item4", row = 1, col = 1, color = Color3.fromRGB(192,192,192) }, -- xám
+	--{ id = "Summer Block Party Ticket", guiName = "Item1", row = 0, col = 0, color = Color3.fromRGB(255, 165, 0) }, -- cam
+	{ id = "Diamond", guiName = "Item2", row = 0, col = 1, color = Color3.fromRGB(255, 255, 255) },       -- trắng
+}
+
+local function createItemFrame(itemConfig, displayNumber)
+	local frameSize = 100
+	local spacing = 10
+	local cols = 2
+	local rows = 2
+
+	-- tính vị trí chính giữa màn hình
+	local offsetX = (itemConfig.col * (frameSize + spacing)) - ((cols - 1) * (frameSize + spacing) / 2)
+	local offsetY = (itemConfig.row * (frameSize + spacing)) - ((rows - 1) * (frameSize + spacing) / 2) + 80
+
+	local screenGui = Instance.new("ScreenGui")
+	screenGui.Name = itemConfig.guiName
+	screenGui.Parent = PlayerGui
+	screenGui.ResetOnSpawn = false
+	screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	local frame = Instance.new("Frame")
+	frame.Name = "ItemFrame"
+	frame.Size = UDim2.new(0, frameSize, 0, frameSize)
+	frame.Position = UDim2.new(0.75, offsetX, 1, -offsetY)
+	frame.AnchorPoint = Vector2.new(0.5, 1)
+	frame.BackgroundColor3 = itemConfig.color
+	frame.BorderSizePixel = 2
+	frame.Parent = screenGui
+
+	local label = Instance.new("TextLabel")
+	label.Size = UDim2.new(1, 0, 1, 0)
+	label.BackgroundTransparency = 1
+	label.Text = tostring(displayNumber)
+	label.TextColor3 = Color3.fromRGB(0, 0, 0)
+	label.TextScaled = true
+	label.Font = Enum.Font.GothamBold
+	label.Parent = frame
+end
+
+
+local function countItem(inventory, itemId)
+	-- Đặc biệt: Diamond đọc trong Inventory.Currency với v.id == "Diamonds"
+	if itemId == "Diamond" then
+		local amount = 0
+		local currency = (inventory and inventory.Currency) or {}
+		for uid, v in pairs(currency) do
+			if v and v.id == "Diamonds" then
+				amount = tonumber(v._am) or 0
+				break
+			end
+		end
+		return amount
+	end
+
+	-- Mặc định: đếm như code gốc
+	local total = 0
+	for _, group in pairs(inventory or {}) do
+		for _, obj in pairs(group) do
+			if obj and obj.id == itemId then
+				total += (tonumber(obj._am) or 1)
+			end
+		end
+	end
+	return total
+end
+
+
+
+local function checkInventory()
+	local save = SaveModule.Get()
+	local inventory = (save and save.Inventory) or {}
+	local currentCounts = {}
+
+	-- Xóa GUI cũ
+	for _, item in ipairs(itemsToTrack) do
+		local oldGui = PlayerGui:FindFirstChild(item.guiName)
+		if oldGui then oldGui:Destroy() end
+	end
+
+	
+	local elapsedMin = math.max(1, (os.clock() - startClock) / 60)
+
+	for _, item in ipairs(itemsToTrack) do
+		
+		local count = countItem(inventory, item.id)
+		currentCounts[item.id] = count
+
+		
+		if baselineCounts[item.id] == nil then
+			baselineCounts[item.id] = count
+		end
+		local delta = count - baselineCounts[item.id]
+		if delta < 0 then delta = 0 end
+
+		local avgPerHour = (delta / elapsedMin) * 60
+		local display
+		if item.id == "Diamond" then
+			display = tostring(math.floor((avgPerHour / 1_000_000) * 100 *24 + 0.5) / 100) .. "M"
+		else
+			display = math.floor(avgPerHour * 100 *24 + 0.5) / 100
+		end
+
+		createItemFrame(item, display)
+	end
+
+	previousCounts = currentCounts
+end
+
+checkInventory()
+while true do
+	task.wait(60)
+	checkInventory()
+end
+
+
+
+end)
