@@ -1,0 +1,340 @@
+local FPS = _G.FPSvvv -- thay nếu muốn
+
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Lighting = game:GetService("Lighting")
+local StarterGui = game:GetService("StarterGui")
+local GuiService = game:GetService("GuiService")
+local CoreGui = game:GetService("CoreGui")
+local Workspace = game:GetService("Workspace")
+
+local LocalPlayer = Players.LocalPlayer
+local Terrain = Workspace:FindFirstChildWhichIsA("Terrain") or Workspace:FindFirstChild("Terrain")
+
+-- an toàn nếu hàm exploit không tồn tại
+local function safe_call(fn, ...)
+    local ok, res = pcall(fn, ...)
+    return ok, res
+end
+
+local function ClearItem(v)
+    if not v then return end
+    if v.Name == "SystemExodus" then return end
+
+    safe_call(function()
+        if v:IsA("Model") and v.Parent == workspace and LocalPlayer and v.Name ~= LocalPlayer.Name then
+            v:Destroy()
+            return
+        end
+
+        if v:IsA("Workspace") then
+            if v.Terrain then
+                pcall(function()
+                    v.Terrain.WaterWaveSize = 0
+                    v.Terrain.WaterWaveSpeed = 0
+                    v.Terrain.Elasticity = 0
+                    v.Terrain.WaterReflectance = 0
+                    v.Terrain.WaterTransparency = 1
+                end)
+            end
+            pcall(function() sethiddenproperty(v, "StreamingTargetRadius", 64) end)
+            pcall(function() sethiddenproperty(v, "StreamingPauseMode", 2) end)
+            pcall(function() sethiddenproperty(v.Terrain, "Decoration", false) end)
+            return
+        end
+
+        if v:IsA("Model") then
+            pcall(function() sethiddenproperty(v, "LevelOfDetail", 1) end)
+            return
+        end
+
+        if v:IsA("TextButton") or v:IsA("TextLabel") or v:IsA("ImageLabel") then
+            pcall(function() v.Visible = false end)
+            return
+        end
+
+        if v:IsA("BasePart") then
+            pcall(function()
+                v.Material = Enum.Material.Plastic
+                v.Reflectance = 0
+                v.Transparency = 1
+            end)
+            return
+        end
+
+        if v:IsA("MeshPart") then
+            pcall(function()
+                v.Transparency = 0
+                v.CanCollide = false
+            end)
+            return
+        end
+
+        if v:IsA("Texture") or v:IsA("Decal") then
+            pcall(function()
+                v.Texture = ""
+                v.Transparency = 1
+            end)
+            return
+        end
+
+        if v:IsA("SpecialMesh") then
+            pcall(function() v.TextureId = "" end)
+            return
+        end
+
+        if v:IsA("ShirtGraphic") then
+            pcall(function() v.Graphic = 1 end)
+            return
+        end
+
+        if v:IsA("Lighting") then
+            pcall(function() sethiddenproperty(v, "Technology", 2) end)
+            pcall(function() v.GlobalShadows = false end)
+            pcall(function() v.FogEnd = 0 end)
+            pcall(function() v.Brightness = 0 end)
+            return
+        end
+
+        if v:IsA("Shirt") or v:IsA("Pants") then
+            pcall(function() v[v.ClassName .. "Template"] = "" end)
+            return
+        end
+
+        if v:IsA("ParticleEmitter") or v:IsA("Trail") then
+            pcall(function()
+                v.Lifetime = NumberRange.new(0)
+                v.Enabled = false
+            end)
+            return
+        end
+
+        if v:IsA("NetworkClient") then
+            pcall(function() v:SetOutgoingKBPSLimit(100) end)
+            return
+        end
+
+        if v:IsA("BlurEffect") or v:IsA("SunRaysEffect") or v:IsA("ColorCorrectionEffect") or v:IsA("BloomEffect")
+        or v:IsA("DepthOfFieldEffect") or v:IsA("UIGradient") or v:IsA("UIStroke") or v:IsA("PointLight")
+        or v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") or v:IsA("Sparkles") or v:IsA("Beam")
+        or v:IsA("BillboardGui") or v:IsA("SurfaceGui") or v:IsA("ScreenGui") then
+            pcall(function() v.Enabled = false end)
+            return
+        end
+
+        if v:IsA("Highlight") then
+            pcall(function()
+                v.OutlineTransparency = 1
+                v.FillTransparency = 1
+            end)
+            return
+        end
+
+        if v:IsA("Explosion") then
+            pcall(function()
+                v.BlastPressure = 0
+                v.BlastRadius = 0
+                v.Visible = false
+                v.Position = Vector3.new(0,0,0)
+            end)
+            return
+        end
+
+        if v:IsA("Sound") then
+            pcall(function()
+                v.Playing = false
+                v.Volume = 0
+            end)
+            return
+        end
+
+        if v.ClassName == "CharacterMesh" or v:IsA('CharacterMesh') then
+            pcall(function()
+                v.BaseTextureId = ""
+                v.MeshId = ""
+                v.OverlayTextureId = ""
+            end)
+            return
+        end
+    end)
+end
+
+-- Main optimize routine
+local function Optimize(fps)
+    -- user settings
+    pcall(function()
+        if UserSettings and UserSettings().GetService then
+            local ugs = UserSettings():GetService("UserGameSettings")
+            ugs.GraphicsQualityLevel = 1
+            ugs.SavedQualityLevel = Enum.SavedQualitySetting.QualityLevel1
+            ugs.MasterVolume = 0
+        end
+    end)
+
+    pcall(function()
+        if settings and settings().Rendering then
+            settings().Rendering.QualityLevel = 1
+            settings().Rendering.MeshPartDetailLevel = Enum.MeshPartDetailLevel.Level04
+        end
+    end)
+
+    pcall(function()
+        if Terrain then
+            pcall(function() sethiddenproperty(Terrain, "Decoration", false) end)
+        end
+        pcall(function() sethiddenproperty(Lighting, "Technology", 2) end)
+    end)
+
+    -- lighting
+    for _,v in ipairs(Lighting:GetChildren()) do
+        pcall(function() v:Destroy() end)
+    end
+    pcall(function() Lighting.GlobalShadows = false end)
+    pcall(function() Lighting.ShadowSoftness = 1 end)
+    pcall(function() Lighting.Brightness = 0 end)
+    pcall(function() Lighting.Ambient = Color3.new(0,0,0) end)
+    pcall(function() Lighting.FogEnd = 0 end)
+    pcall(function() Lighting.FogStart = 0 end)
+    pcall(function() Lighting.Technology = Enum.Technology.Voxel end)
+
+    if Terrain then
+        pcall(function()
+            Terrain.WaterWaveSize = 0
+            Terrain.WaterWaveSpeed = 0
+            Terrain.WaterReflectance = 0
+            Terrain.WaterTransparency = 1
+        end)
+    end
+
+    -- clear workspace descendants
+    for _,v in next, workspace:GetDescendants() do
+        pcall(ClearItem, v)
+    end
+
+    -- clear other players' stuff
+    for _,pl in next, Players:GetChildren() do
+        if pl ~= LocalPlayer then
+            for _,desc in next, pl:GetDescendants() do
+                pcall(ClearItem, desc)
+            end
+        end
+    end
+
+    -- try to neutralize some client modules (best-effort)
+    safe_call(function()
+        local function safeDisableTable(t)
+            if not t then return end
+            for i2,v2 in next, t do
+                if type(v2) == "function" then
+                    pcall(function() t[i2] = function() return end end)
+                end
+            end
+        end
+
+        local okLib, Library = pcall(function() return rawget(_G, "Library") end)
+        local items = {}
+        if LocalPlayer and LocalPlayer.PlayerScripts then
+            pcall(function()
+                local rs = LocalPlayer.PlayerScripts
+                if rs.Scripts and rs.Scripts.Game then
+                    local flag = rs.Scripts.Game:FindFirstChild("Rainbow & Shiny Flag")
+                    if flag then
+                        local senv = pcall(function() return getsenv and getsenv(rs.Scripts.Game[flag.Name]) end)
+                        if senv then table.insert(items, senv) end
+                    end
+                    if rs.Scripts.Game.Pets then
+                        local petm = rs.Scripts.Game.Pets:FindFirstChild("Pet Replication Manager")
+                        if petm then
+                            local senv2 = pcall(function() return getsenv and getsenv(rs.Scripts.Game.Pets[petm.Name]) end)
+                            if senv2 then table.insert(items, senv2) end
+                        end
+                    end
+                end
+            end)
+        end
+        if okLib and Library then
+            pcall(function()
+                if Library.Leaderboards then table.insert(items, Library.Leaderboards) end
+                if Library.PlayerPet then table.insert(items, Library.PlayerPet) end
+                if Library.CustomPet then table.insert(items, Library.CustomPet) end
+                if Library.NotificationCmds then table.insert(items, Library.NotificationCmds) end
+            end)
+        end
+        for _,t in next, items do
+            safeDisableTable(t)
+        end
+    end)
+
+    local Blacklisted = {"Pet Replication Manager", "Relics", "Breakables Frontend", "Hidden Gifts", "Flying Gifts", "Scripts", "Leveling XP Bar", "Legacy Merchants", "Chat Nametags", "Core", "Event", "GUIs", "Game", "Misc", "Test"}
+    pcall(function()
+        if LocalPlayer and LocalPlayer.PlayerScripts then
+            for _,v in next, LocalPlayer.PlayerScripts:GetDescendants() do
+                if not table.find(Blacklisted, v.Name) then
+                    pcall(function() v:Destroy() end)
+                end
+            end
+        end
+    end)
+
+    -- clean ReplicatedStorage
+    pcall(function()
+        for _,v in next, ReplicatedStorage:GetDescendants() do
+            pcall(ClearItem, v)
+        end
+    end)
+
+    -- listen for new descendants and clean
+    pcall(function()
+        workspace.DescendantAdded:Connect(function(v)
+            pcall(ClearItem, v)
+        end)
+    end)
+
+    -- disable some remote events on client (best-effort)
+    pcall(function()
+        local Network = ReplicatedStorage:FindFirstChild("Network")
+        if Network then
+            local names = {"Random Events: Coin Jar Data", "NPC Quests: Update Total Progress", "Item Index: Add", "TNT_Spawn", "HatchScreens_Update", "Breakables_UpdatePets", "Pets_ReplicateChanges", "Breakables_UpdateHealth", "Instance Quests: Set State", "Eggs_ConsumableVFX", "Thieving_Animation", "BreakableQuests_IncrementOne"}
+            for _,name in next, names do
+                local obj = Network:FindFirstChild(name)
+                if obj and obj.IsA and obj:IsA("RemoteEvent") and obj.OnClientEvent then
+                    obj.OnClientEvent:Connect(function() end)
+                end
+            end
+        end
+    end)
+
+    -- disable GUIs
+    pcall(function()
+        if LocalPlayer and LocalPlayer.PlayerGui then
+            for _,v in next, LocalPlayer.PlayerGui:GetChildren() do
+                if v.Name ~= "System Exodus" then
+                    pcall(function() v.Enabled = false end)
+                end
+            end
+        end
+    end)
+
+    pcall(function()
+        for _,v in next, CoreGui:GetChildren() do
+            if v.Name ~= "DevConsoleMaster" and v:IsA("ScreenGui") then
+                pcall(function() v.Enabled = false end)
+            end
+        end
+    end)
+
+    pcall(function() StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false) end)
+    pcall(function() GuiService.TouchControlsEnabled = false end)
+    pcall(function() setfpscap(fps or 10) end)
+end
+
+-- run
+safe_call(function() Optimize(FPS) end)
+
+-- feedback
+pcall(function()
+    if typeof(setclipboard) == "function" then
+        -- noop
+    end
+end)
+print(("Delta Optimize script executed — target FPS: %d"):format(FPS))
