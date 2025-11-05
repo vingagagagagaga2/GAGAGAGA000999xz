@@ -14,7 +14,7 @@ local startClock = os.clock() -- NEW: mốc thời gian bắt đầu
 
 local itemsToTrack = {
 	--{ id = "Diamond", guiName = "Item4", row = 1, col = 1, color = Color3.fromRGB(192,192,192) }, -- xám
-	--{ id = "Summer Block Party Ticket", guiName = "Item1", row = 0, col = 0, color = Color3.fromRGB(255, 165, 0) }, -- cam
+	{ id = "MVP Key Upper Half", guiName = "Item1", row = 0, col = 0, color = Color3.fromRGB(255, 165, 0) }, -- cam
 	{ id = "Diamond", guiName = "Item2", row = 0, col = 1, color = Color3.fromRGB(255, 255, 255) },       -- trắng
 }
 
