@@ -14,12 +14,11 @@ end)
 
 getgenv().gagConfig = {
 
-BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg" },
     BUY_EVENT_SHOP = { "Safari Egg" },
     DISABLE_REAPER_EVENT = false,
 
-MAX_PLANTS = 180,
-    DESTROY_UNTIL_MIN_PLANTS = 180,
+
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
 PLACE_COSMETIC = { "Cooking Kit" },
@@ -33,12 +32,27 @@ PLACE_COSMETIC = { "Cooking Kit" },
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
     EXTRA_PET_INVENTORY_SLOTS = 5,
-		MAX_REBIRTH_SHECKLES = 0,
+	MAX_REBIRTH_SHECKLES = 0,
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
-		COLLECT_FRUIT_PER_SECOND = 3,
+	COLLECT_FRUIT_PER_SECOND = 3,
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
-  
+
+    MAX_PLANTS = 168,
+    DESTROY_UNTIL_MIN_PLANTS = 168,
+    LIMIT_PLANT_SEED = { ["Lily of the Valley"] = 2,["Lilac"] = 2,["Nectarine"] = 2,["Bitter Melon"] = 2,["Gleamroot"] = 2,["Serenity"] = 2,["Guanabana"] = 2,
+    ["Grand Volcania"] = 2,["Rosy Delight"] = 2,["Parasol Flower"] = 2,["Canary Melon"] = 2,["Wispwing"] = 2,["Badlands Pepper"] = 2,["Nectar Thorn"] = 2,
+    ["Amberheart"] = 2,["Romanesco"] = 2,["Amber Spine"] = 2,["Sunflower"] = 2,["Bendboo"] = 2,["Mushroom"] = 2,["Zen Rocks"] = 2,["Firefly Fern"] = 2,
+    ["Boneboo"] = 2,["Burning Bud"] = 2,["Lingonberry"] = 2,["Butternut Squash"] = 2,["Spirit Flower"] = 2,["Soft Sunshine"] = 2,["Cocovine"] = 2,
+    ["Lucky Bamboo"] = 2,["Meyer Lemon"] = 2,["Pyracantha"] = 2,["Enkaku"] = 2,["Lightshoot"] = 2,["Aurora Vine"] = 2,["Taro Flower"] = 2,
+    ["King Cabbage"] = 2,["Princess Thorn"] = 2,["Kniphofia"] = 2,["Aetherfruit"] = 2,["Snaparino Beanarini"] = 2,["Duskpuff"] = 2,
+    ["Tall Asparagus"] = 2,["Crown Melon"] = 2,["Honeysuckle"] = 2,["Maple Resin"] = 9,["Spiked Mango"] = 9,["Traveler's Fruit"] = 9,
+    ["Dragon Pepper"] = 9,["Fossilight"] = 9,["Elephant Ears"] = 7,["Giant Pinecone"] = 7,["Sugar Apple"] = 7,["Tranquil Bloom"] = 7,
+    ["Potato"] = 7,["Brussels Sprout"] = 5,["Moon Blossom"] = 5,["Golden Peach"] = 5,["Poseidon Plant"] = 5,["Hive Fruit"] = 5,
+    ["Beanstalk"] = 5,["Moon Mango"] = 5,["Mangrove"] = 5,["Elder Strawberry"] = 5,["Cacao"] = 5,["Sunbulb"] = 5,["Mango"] = 5,
+    ["Coconut"] = 5,["Dragon Fruit"] = 5,["Apple"] = 5,["Tomato"] = 5,["Blueberry"] = 5,["Strawberry"] = 5,["Multitrap"] = 5,["Urchin Plant"] = 5,
+    ["Corpse Flower"] = 5,["Inferno Quince"] = 5,["Evo Beetroot IV"] = 5,["Evo Blueberry IV"] = 5,["Evo Pumpkin IV"] = 5,["Evo Mushroom IV"] = 5 },
+
 
 BUY_EGGS = { "Jungle Egg","Paradise Egg", "Bug Egg", "Bee Egg",  "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
 PLANT_EGGS = 
@@ -59,7 +73,7 @@ PLANT_EGGS =
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
 KEEP_PETS = {
-"Elephant","Lich", "Mummy","Wereplant",["Rhino"]=2,
+"Hydra","Elephant","Lich", "Mummy","Wereplant",["Rhino"]=2,
 "Hex Serpent",["Black Cat"] = 2,"Headless Horseman", "Reaper",
  "Fortune Squirrel", "Chinchilla", "Chubby Chipmunk",
 ["Praying Mantis"]=1,"Tiger",["Chimpanzee"]=2,"Mizuchi", "Silver Dragonfly", "Red Panda", ["Barn Owl"]=3, "Swan", "Space Squirrel", ["Sugar Glider"]=2,"Phoenix", "Drake", "Wisp", "Luminous Sprite","Dilophosaurus","Pterodactyl","Cockatrice","Gnome", "Griffin",["Hotdog Daschund"]=3,["Spriggan"]=2,["Golem"] = 4,"Golden Goose",["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", ["Chicken Zombie"]=1,["Chicken"] = 1 ,["Sunny-Side"] = 1, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 10, ["Starfish"] = 4, ["Rooster"]=5, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 },
@@ -71,7 +85,7 @@ SELL_PETS_AGE =    {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk","Mar
 
 
 EQUIP_PETS = {
-		{"Chinchilla", 1, 1},
+	{"Chinchilla", 1, 1},
     {"Sunny-Side Chicken", 1, 2},
     {"Chicken Zombie", 1, 3},
     {"Rooster", 2, 4},
