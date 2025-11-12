@@ -19,8 +19,8 @@ getgenv().gagConfig = {
     SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker", "Bear Bee", "Honey Bee", "Bee", "Ostrich" },
 
 
-    MAX_PLANTS = 155,
-    DESTROY_UNTIL_MIN_PLANTS = 155,
+    MAX_PLANTS = 140,
+    DESTROY_UNTIL_MIN_PLANTS = 140,
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 	PLACE_COSMETIC = { "Cooking Kit" },
     
