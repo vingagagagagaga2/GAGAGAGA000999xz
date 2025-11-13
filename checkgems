@@ -111,7 +111,7 @@ local function checkInventory()
 		local avgPerHour = (delta / elapsedMin) * 60
 		local display
 		if item.id == "Diamond" then
-			display = tostring(math.floor((avgPerHour / 1_000_000) * 100 *24 + 0.5) / 100) .. "M"
+			display = tostring(math.floor((avgPerHour / 1_000_000) * 100 *24 + 0.5) / 100)
 		else
 			display = math.floor(avgPerHour * 100 *24 + 0.5) / 100
 		end
