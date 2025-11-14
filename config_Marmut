@@ -46,7 +46,7 @@ getgenv().gagConfig = {
 BUY_EGGS = { "Jungle Egg","Paradise Egg", "Bug Egg", "Bee Egg",  "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
 PLANT_EGGS = 
 {
-"Safari Egg","Spooky Egg", "Bug Egg","Rare Egg",
+"Rare Summer Egg","Safari Egg","Spooky Egg", "Bug Egg","Rare Egg",
 },
 
     BUY_SEED_SHOP = {"Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango",
@@ -74,17 +74,16 @@ SELL_PETS_AGE =    {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk","Mar
 
 
 EQUIP_PETS = {
-	{"Chinchilla", 1, 1},
+		{"Seal", 4, 1},
     {"Sunny-Side Chicken", 1, 2},
     {"Chicken Zombie", 1, 3},
     {"Rooster", 2, 4},
     {"Bald Eagle", 1, 5},
     {"Blood Kiwi", 1, 6},
-    {"Seal", 1, 7},
-    {"Praying Mantis", 1, 8},
-    {"Glimmering Sprite", 1, 9},
-    {"Space Squirrel", 1, 10},
-    {"Red Panda", 1, 11},
+    {"Praying Mantis", 1, 7},
+    {"Glimmering Sprite", 1, 8},
+    {"Space Squirrel", 1, 9},
+    {"Red Panda", 1, 10},
 },
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Praying Mantis","Idol Chipmunk","Farmer Chipmunk","Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Rooster","Spriggan","Chicken","Glimmering Sprite","Space Squirrel","Barn Owl","Sugar Glider" },
