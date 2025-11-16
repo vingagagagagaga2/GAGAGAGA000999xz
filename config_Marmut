@@ -14,9 +14,10 @@ end)
 
 getgenv().gagConfig = {
 
-    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Safari Egg", "Lion" },
-    SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker", "Bear Bee", "Honey Bee", "Bee", "Ostrich" },
+BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},
+    CRAFT_EVENT = { "Gem Egg", "Cheetah" },
+    IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Coal" },  -- "Coal" will ignore all types of Coal
 
 
     MAX_PLANTS = 140,
@@ -46,12 +47,10 @@ getgenv().gagConfig = {
 BUY_EGGS = { "Jungle Egg","Paradise Egg", "Bug Egg", "Bee Egg",  "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
 PLANT_EGGS = 
 {
-"Rare Summer Egg","Safari Egg","Spooky Egg", "Bug Egg","Rare Egg",
+"Gem Egg", "Safari Egg","Spooky Egg", "Bug Egg","Rare Egg",
 },
 
-    BUY_SEED_SHOP = {"Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango",
-    "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, 
-    ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    BUY_SEED_SHOP = { "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
     KEEP_SEEDS = { "Cactus", "Corn", "Glowthorn", "Briar Rose", "Carrot", "Rhubarb", "Calla Lily", "Flare Daisy",
     "Daffodil", "Sugarglaze", "Pumpkin", "Emerald Bud", "Pepper", "Orange Tulip", "Grape", "Ember Lily",
@@ -62,6 +61,7 @@ PLANT_EGGS =
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
 KEEP_PETS = {
+["Orange Tabby"] = 2,"Goblin Miner", "Ruby Squid", "Diamond Panther",
 "Lion","Hydra","Elephant","Lich", "Mummy","Wereplant",["Rhino"]=2,
 "Hex Serpent",["Black Cat"] = 2,"Headless Horseman", "Reaper",
  "Fortune Squirrel", "Chinchilla", "Chubby Chipmunk",
