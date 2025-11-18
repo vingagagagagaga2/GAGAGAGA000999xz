@@ -61,7 +61,7 @@ PLANT_EGGS =
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
 KEEP_PETS = {
-["Orange Tabby"] = 2,"Goblin Miner", "Ruby Squid", "Diamond Panther",
+["Sapphire Macaw"] = 2,"Goblin Miner", "Ruby Squid", "Diamond Panther",
 "Lion","Hydra","Elephant","Lich", "Mummy","Wereplant",["Rhino"]=2,
 "Hex Serpent",["Black Cat"] = 2,"Headless Horseman", "Reaper",
  "Fortune Squirrel", "Chinchilla", "Chubby Chipmunk",
