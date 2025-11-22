@@ -65,12 +65,13 @@ KEEP_PETS = {
 "Lion","Hydra","Elephant","Lich", "Mummy","Wereplant",["Rhino"]=2,
 ["Hex Serpent"]=2,["Black Cat"] = 2,"Headless Horseman", ["Reaper"]=2,
  "Fortune Squirrel", ["Chinchilla"] = 2, "Chubby Chipmunk",
-["Praying Mantis"]=1,"Tiger",["Chimpanzee"]=2,"Mizuchi", "Silver Dragonfly", "Red Panda", ["Barn Owl"]=3, "Swan", ["Space Squirrel"]=2, ["Sugar Glider"]=2,"Phoenix", "Drake", "Wisp", "Luminous Sprite","Dilophosaurus","Pterodactyl","Cockatrice","Gnome", "Griffin",["Hotdog Daschund"]=3,["Spriggan"]=2,["Golem"] = 4,"Golden Goose",["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", ["Chicken Zombie"]=1,["Chicken"] = 1 ,["Sunny-Side"] = 1, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 10, ["Starfish"] = 4, ["Rooster"]=5, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 },
+["Praying Mantis"]=1,"Tiger",["Chimpanzee"]=2,"Mizuchi", "Silver Dragonfly", "Red Panda", ["Barn Owl"]=3, "Swan", ["Space Squirrel"]=2, ["Sugar Glider"]=2,"Phoenix", "Drake", "Wisp", "Luminous Sprite","Dilophosaurus","Pterodactyl","Cockatrice","Gnome", "Griffin",["Hotdog Daschund"]=3,["Spriggan"]=2,["Golem"] = 4,"Golden Goose",["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", 
+["Seal"]= 4, "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", ["Chicken Zombie"]=1,["Chicken"] = 1 ,["Sunny-Side"] = 1, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 10, ["Starfish"] = 4, ["Rooster"]=5, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 },
 
 KEEP_PETS_WEIGHT = 6,
 KEEP_PETS_AGE = 90,
-SELL_PETS_WEIGHT = {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk","Marmot","Ghost Bear",}  ,
-SELL_PETS_AGE =    {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk","Marmot","Ghost Bear",}  ,
+SELL_PETS_WEIGHT = {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk","Marmot","Ghost Bear","Golden Lab"}  ,
+SELL_PETS_AGE =    {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk","Marmot","Ghost Bear","Golden Lab"}  ,
 
 
 EQUIP_PETS = {
