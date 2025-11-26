@@ -1,0 +1,65 @@
+setfpscap(3)
+
+getgenv().gagConfig = {
+    -- Event:
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    
+    -- General:
+    AUTO_UPDATE_RESTART = true,
+    REDEEM_CODES = {},
+    EXTRA_PET_SLOTS = 5,
+    EXTRA_EGG_SLOTS = 5,
+    ADD_FRIEND = true,
+    OPEN_ALL_SEED_PACK = true,
+
+    MAX_PLANTS = 250,
+    DESTROY_UNTIL_MIN_PLANTS = 200,
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
+    
+    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
+    PLANT_EGGS = { "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
+    
+    BUY_SEED_SHOP = { "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    KEEP_SEEDS = { "Bone Blossom" },
+    KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
+    
+    FAVOURITE_FRUIT_MUTATIONS = {},
+    SKIP_HARVEST_MUTATIONS = {},
+
+    KEEP_PETS = {
+"Bearded Dragon", ["Pack Mule"] = 2,
+["Sapphire Macaw"] = 2,"Goblin Miner", "Ruby Squid", "Diamond Panther",
+"Lion","Hydra","Elephant","Lich", "Mummy","Wereplant",["Rhino"]=2,
+["Hex Serpent"]=2,["Black Cat"] = 2,"Headless Horseman", ["Reaper"]=2,
+["Chinchilla"] = 2, "Chubby Chipmunk",
+["Praying Mantis"]=1,"Tiger",["Chimpanzee"]=2,"Mizuchi", "Silver Dragonfly", "Red Panda", ["Barn Owl"]=3, "Swan", ["Space Squirrel"]=2, ["Sugar Glider"]=2,"Phoenix", "Drake", "Wisp", "Luminous Sprite","Dilophosaurus","Pterodactyl","Cockatrice","Gnome", "Griffin",["Hotdog Daschund"]=3,["Spriggan"]=2,["Golem"] = 4,"Golden Goose",["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5, "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", 
+["Seal"]= 4, "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", ["Chicken Zombie"]=1,["Chicken"] = 1 ,["Sunny-Side"] = 1, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 10, ["Starfish"] = 4, ["Rooster"]=5, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 },
+
+KEEP_PETS_WEIGHT = 7,
+KEEP_PETS_AGE = 90,
+
+EQUIP_PETS = {
+		{"Seal", 4, 1},
+    {"Sunny-Side Chicken", 2, 2},
+    {"Chicken Zombie", 2, 3},
+    {"Rooster", 8, 4},
+    {"Chicken", 8, 3},
+},
+
+
+    USE_PETS_FOR_UPGRADE_SLOT = { "Chicken","Rooster","Sunny-Side Chicken","Chicken Zombie", },
+    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Chicken" },  -- Unequip from garden
+
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
+    USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
+
+    PET_WEBHOOK_URL = "", 
+    SHOW_PUBLIC_DISCORD_ID = true,
+
+    DISCORD_ID = "",
+    WEBHOOK_NOTE = "",
+    SHOW_WEBHOOK_USERNAME = true,
+    SHOW_WEBHOOK_JOBID = true,
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
