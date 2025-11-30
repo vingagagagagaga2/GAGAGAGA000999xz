@@ -87,6 +87,10 @@ EQUIP_PETS = {
     {"Red Panda", 1, 10},
 },
 
+EQUIP_PET_SHARD = {["Sunny-Side Chicken"] = "Nutty", ["Chicken Zombie"] = "Nutty", ["Rooster"] = "Nutty", ["Seal"] = "Nutty", ["Chinchilla"] = "Nutty"},
+    LEVELUP_LOLLIPOP_MIN_LEVEL = 90,
+
+
     USE_PETS_FOR_UPGRADE_SLOT = { "Praying Mantis","Idol Chipmunk","Farmer Chipmunk","Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Rooster","Spriggan","Chicken","Glimmering Sprite","Space Squirrel","Barn Owl","Sugar Glider" },
     REMOVE_PET_MAX_UPGRADE =    {"Black Bunny", "Starfish", "Dog", "Bunny", "Chicken" },  -- Unequip from garden
 
