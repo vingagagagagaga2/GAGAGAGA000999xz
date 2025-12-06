@@ -13,12 +13,13 @@ end)
 
 
 getgenv().gagConfig = {
-
-BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    PLANT_EVENT_TREES = true,
+    -- Event:
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    BUY_EVENT_SHOP = { "Santa's Surprise Present" },
+    OPEN_ALL_PRESENT = true,
     
-    MAX_PLANTS = 300,
-    DESTROY_UNTIL_MIN_PLANTS = 250,
+    MAX_PLANTS = 200,
+    DESTROY_UNTIL_MIN_PLANTS = 150,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
@@ -39,16 +40,13 @@ BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Fei
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
 
-
-
-
 BUY_EGGS = { "Jungle Egg","Paradise Egg", "Bug Egg", "Bee Egg",  "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
 PLANT_EGGS = 
 {
 "Gem Egg", "Safari Egg","Spooky Egg", "Bug Egg","Rare Egg",
 },
 
-    BUY_SEED_SHOP = { "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    BUY_SEED_SHOP = { "Peppermint Vine Seed", "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
 
     KEEP_SEEDS = { "Cactus", "Corn", "Glowthorn", "Briar Rose", "Carrot", "Rhubarb", "Calla Lily", "Flare Daisy",
@@ -60,6 +58,7 @@ PLANT_EGGS =
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
 KEEP_PETS = {
+"Krampus",
 "Bearded Dragon", ["Pack Mule"] = 2, ["Camel"] = 1,
 ["Sapphire Macaw"] = 2,"Goblin Miner", "Ruby Squid", "Diamond Panther",
 "Lion","Hydra","Elephant","Lich", "Mummy","Wereplant",["Rhino"]=2,
@@ -75,10 +74,10 @@ SELL_PETS_AGE =    {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk","Mar
 
 
 EQUIP_PETS = {
-		{"Seal", 4, 1},
+	{"Seal", 4, 1},
     {"Sunny-Side Chicken", 1, 2},
     {"Chicken Zombie", 1, 3},
-    {"Rooster", 2, 4},
+    {"Rooster", 4, 4},
     {"Bald Eagle", 1, 5},
     {"Blood Kiwi", 1, 6},
     {"Praying Mantis", 1, 7},
@@ -93,11 +92,6 @@ EQUIP_PET_SHARD = {["Sunny-Side Chicken"] = "Nutty", ["Chicken Zombie"] = "Nutty
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Praying Mantis","Idol Chipmunk","Farmer Chipmunk","Black Bunny", "Starfish", "Capybara","Gorilla Chef", "Dog", "Bunny","Rooster","Spriggan","Chicken","Glimmering Sprite","Space Squirrel","Barn Owl","Sugar Glider" },
     REMOVE_PET_MAX_UPGRADE =    {"Black Bunny", "Starfish", "Dog", "Bunny", "Chicken" },  -- Unequip from garden
-
-KICK_AFTER_GIFT_PET = false,
-GIFT_USERNAME = {"kuvindn12","8769Bynum9933","8765Williamson9929","ItsCosmos_PULS3","N3xusLaylaKnackdrift","PulseVortexHunter202","StormEcho47_YT","NovaGhostB3ar","Bl0ckZer0Omega2002","VipWill1505","veriotiai779","BarzARoy1107","nalsur71230"},
-GIFT_PET = {"Cockatrice","Phoenix"},
-
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket",
     ["Harvest Tool"] = 10, ["Watering Can"] = 20 },
