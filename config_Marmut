@@ -27,7 +27,7 @@ getgenv().gagConfig = {
 
 
 -- General:
-
+		PRIVATE_SERVER = true,
     AUTO_UPDATE_RESTART = false,
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
