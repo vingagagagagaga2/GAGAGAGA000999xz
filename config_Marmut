@@ -58,7 +58,7 @@ PLANT_EGGS =
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
 KEEP_PETS = {
-"Krampus",
+"Krampus", ["Mistletoad"] = 1,
 "Bearded Dragon", ["Pack Mule"] = 2, ["Camel"] = 1,
 ["Sapphire Macaw"] = 2,"Goblin Miner", "Ruby Squid", "Diamond Panther",
 "Lion","Hydra","Elephant","Lich", "Mummy","Wereplant",["Rhino"]=2,
