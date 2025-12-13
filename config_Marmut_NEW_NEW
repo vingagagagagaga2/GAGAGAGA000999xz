@@ -23,11 +23,17 @@ if SELL_PET == true then
 getgenv().gagBoothCfg = {  
     SELL_PETS = { 
 
-	{"Bearded Dragon", 0, "", 0, 30},
-	{"Chinchilla", 0, "", 0, 30},
-	{"Cockatrice", 0, "", 0, 30},
-	{"Diamond Panther", 0, "", 0, 35},
-	},  
+{"Bearded Dragon", 0, "", 0, 30},
+{"Chinchilla", 0, "", 0, 30},
+{"Cockatrice", 0, "", 0, 30},
+{"Diamond Panther", 0, "", 0, 35},
+{"Hex Serpent", 0, "", 0, 20},
+{"Elephant", 0, "", 0, 50},
+
+
+
+
+},  
 
 
 	-- {Pet Name, Min Weight, Mutation, Min Age}
