@@ -19,6 +19,10 @@ SELL_PET = isSuperName(player.Name) and true or false
 
 if SELL_PET == true then
 
+task.spawn(function()
+	wait(3600)
+	game:Shutdown()
+end)
 
 getgenv().gagBoothCfg = {  
     SELL_PETS = { 
