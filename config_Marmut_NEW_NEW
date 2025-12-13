@@ -4,7 +4,7 @@ while not player do
 	task.wait(1)
 	player = Players.LocalPlayer
 end				
-local name_super = {"XxHarperWraithS0nicx","XxCraze_FlickxX49","R0gueWraithPr02016","V3NOMROCK3TDRIFT_YT"}
+local name_super = {"XxHarperWraithS0nicx","XxCraze_FlickxX49","R0gueWraithPr02016","V3NOMROCK3TDRIFT_YT","FlickSpark2021","Haze_Silver44"}
 local function isSuperName(name)
 	for _, v in ipairs(name_super) do
 		if v == name then
@@ -29,9 +29,6 @@ getgenv().gagBoothCfg = {
 {"Diamond Panther", 0, "", 0, 35},
 {"Hex Serpent", 0, "", 0, 20},
 {"Elephant", 0, "", 0, 50},
-
-
-
 
 },  
 
