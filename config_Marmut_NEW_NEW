@@ -24,6 +24,19 @@ task.spawn(function()
 	game:Shutdown()
 end)
 
+task.spawn(function()
+
+task.wait(60)
+local VirtualInputManager = game:GetService("VirtualInputManager")
+while true do
+VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.Space, false, game)
+task.wait(0.1)
+VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.Space, false, game)
+task.wait(300)
+end
+
+end)
+
 getgenv().gagBoothCfg = {  
     SELL_PETS = { 
 
