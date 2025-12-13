@@ -1,3 +1,54 @@
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+while not player do
+	task.wait(1)
+	player = Players.LocalPlayer
+end				
+local name_super = {"XxHarperWraithS0nicx","XxCraze_FlickxX49","R0gueWraithPr02016","V3NOMROCK3TDRIFT_YT"}
+local function isSuperName(name)
+	for _, v in ipairs(name_super) do
+		if v == name then
+			return true
+		end
+	end
+	return false
+end
+
+SELL_PET = isSuperName(player.Name) and true or false
+
+
+if SELL_PET == true then
+
+
+getgenv().gagBoothCfg = {  
+    SELL_PETS = { 
+
+	{"Bearded Dragon", 0, "", 0, 30},
+	{"Chinchilla", 0, "", 0, 30},
+	{"Cockatrice", 0, "", 0, 30},
+	{"Diamond Panther", 0, "", 0, 35},
+	},  
+
+
+	-- {Pet Name, Min Weight, Mutation, Min Age}
+    SELL_PET_RAP_PERCENTAGE = 100,  -- 100 -> 100% RAP Price, 200 -> 200% RAP Price
+    
+    TRADE_WORLD_WEBHOOK_URL = "https://discord.com/api/webhooks/1447199764612513924/PZqJHfccoRm_oGxDPqHZU_fOlMYOJJcYXXCLn0-0P-Fqpw5vkIXZCRxLAuhxPTBd4ULj", 
+    DISCORD_ID = "",
+    NOTIFY_TOKEN_AMOUNT = 1,  -- Notify webhook if sold min token amount
+    PING_TOKEN_AMOUNT = 1,  -- @Ping If sold min token amount
+    SHOW_WEBHOOK_JOBID = true,
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3c21639596fad4b60da17acece14c7da.lua"))()
+
+end
+
+
+
+if SELL_PET == false then
+
+
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 setfpscap(3)
 
@@ -71,3 +122,5 @@ EQUIP_PETS = {
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
+
+end
