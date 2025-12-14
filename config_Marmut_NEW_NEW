@@ -24,7 +24,11 @@ if SELL_PET == true then
 spawn(function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/phu_script"))()
 end)
-task.wait(30)
+
+if game.PlaceId == 126884695634066 then
+    task.wait(30)
+end
+
 
 
 task.spawn(function()
