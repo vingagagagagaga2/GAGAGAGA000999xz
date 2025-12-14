@@ -6,7 +6,7 @@ while not player do
 	task.wait(1)
 	player = Players.LocalPlayer
 end				
-local name_super = {"XxHarperWraithS0nicx","XxCraze_FlickxX49","R0gueWraithPr02016","V3NOMROCK3TDRIFT_YT","FlickSpark2021","Haze_Silver44","BaneLavaBuilder","Arrow_Inferno44","Xx_ScarlettChaosBlad","StealthGiga200825","PaisleyTurboBlaze74","JamesHeroRaven2013","Puls3Cod3Nova2005","XxGold3nSparkPandaxX","RavenGolden99","XxAquaZeroPixelxX","AlphaCyb3rHunt3r","ItsCosmos_PULS3","R0gu3StarryMax35","LionRocketZero","FrostGalaxyVortex"}
+local name_super = {"XxHarperWraithS0nicx","XxCraze_FlickxX49","R0gueWraithPr02016","V3NOMROCK3TDRIFT_YT","FlickSpark2021","Haze_Silver44","BaneLavaBuilder","Xx_ScarlettChaosBlad","StealthGiga200825","PaisleyTurboBlaze74","Puls3Cod3Nova2005","XxGold3nSparkPandaxX","RavenGolden99","XxAquaZeroPixelxX","AlphaCyb3rHunt3r","ItsCosmos_PULS3","R0gu3StarryMax35","LionRocketZero","FrostGalaxyVortex","ViperPr02011","ProWraithJelly","DuckHyperDancer15","Br00klynV0id79","ZapVip3r15","MinerProSaber","XxBuilderCrystalWolf"}
 local function isSuperName(name)
 	for _, v in ipairs(name_super) do
 		if v == name then
