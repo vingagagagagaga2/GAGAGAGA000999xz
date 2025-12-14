@@ -15,7 +15,7 @@ end)
 getgenv().gagConfig = {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Santa's Surprise Present" },
+    BUY_EVENT_SHOP = { "Santa's Surprise Present", "Jingle Bells" },
     OPEN_ALL_PRESENT = true,
     
     MAX_PLANTS = 200,
@@ -23,7 +23,7 @@ getgenv().gagConfig = {
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
-    PLACE_COSMETIC = { "Cooking Kit" },
+    PLACE_COSMETIC = { "Cooking Kit", "Jingle Bells" },
 
 
 -- General:
@@ -43,6 +43,7 @@ getgenv().gagConfig = {
 BUY_EGGS = { "Jungle Egg","Paradise Egg", "Bug Egg", "Bee Egg",  "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
 PLANT_EGGS = 
 {
+ "Christmas Egg",
 "Paradise Egg","Gem Egg","Safari Egg","Spooky Egg","Bug Egg","Rare Egg","Uncommon Egg","Rare Summer Egg","Fall Egg",
 },
 
@@ -65,7 +66,7 @@ KEEP_PETS = {
 "Frost Dragon","Krampus","Chimera","Bearded Dragon","Ruby Squid","Diamond Panther","Lion","Hydra","Elephant", "Mummy","Lich","Hex Serpent","Reaper","Chinchilla",
 "Mizuchi","Tiger","Phoenix","Red Panda","Swan","Space Squirrel","Cockatrice","Griffin","Golden Goose","Lobster Thermidor","French Fry Ferret","Spinosaurus",
 "Raiju","Disco Bee","Queen Bee","T-Rex","Fennec Fox","Night Owl","Raccoon","Blood Owl"
-
+"Ice Golem", "Yeti",
 },
 
 KEEP_PETS_WEIGHT = 6,
