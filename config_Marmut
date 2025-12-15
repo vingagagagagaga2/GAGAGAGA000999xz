@@ -17,6 +17,7 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Santa's Surprise Present", "Jingle Bells" },
     OPEN_ALL_PRESENT = true,
+    USE_CHRISTMAS_GEAR = {"Jingle Bells", "Ice Wand"},
     
     MAX_PLANTS = 200,
     DESTROY_UNTIL_MIN_PLANTS = 150,
@@ -24,7 +25,7 @@ getgenv().gagConfig = {
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
     PLACE_COSMETIC = { "Cooking Kit", "Jingle Bells" },
-
+    
 
 -- General:
 		PRIVATE_SERVER = true,
