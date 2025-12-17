@@ -25,12 +25,6 @@ spawn(function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/phu_script"))()
 end)
 
-if game.PlaceId == 126884695634066 then
-    task.wait(30)
-end
-
-
-
 task.spawn(function()
 	wait(7200)
 	game:Shutdown()
