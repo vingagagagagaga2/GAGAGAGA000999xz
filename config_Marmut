@@ -62,7 +62,7 @@ PLANT_EGGS =
 KEEP_PETS = {
 
 ["Mistletoad"] = 1,["Pack Mule"] = 2, ["Camel"] = 1,["Sapphire Macaw"] = 2,"Goblin Miner","Wereplant",["Rhino"]=2,["Black Cat"] = 2,"Headless Horseman", "Chubby Chipmunk",
-["Praying Mantis"]=1,["Chimpanzee"]=2, "Silver Dragonfly",  "Barn Owl",   ["Sugar Glider"]=2, "Drake", "Wisp", "Luminous Sprite","Dilophosaurus","Pterodactyl","Gnome", ["Hotdog Daschund"]=3,["Spriggan"]=2,["Golem"] = 4,["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5,   "Corrupted Kitsune",  "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus",  "Brontosaurus", 
+["Praying Mantis"]=1,["Chimpanzee"]=1, "Silver Dragonfly",  "Barn Owl",   ["Sugar Glider"]=2, "Drake", "Wisp", "Luminous Sprite","Dilophosaurus","Pterodactyl","Gnome", ["Hotdog Daschund"]=3,["Spriggan"]=2,["Golem"] = 4,["Spaghetti Sloth"] = 5, "Junkbot", ["Gorilla Chef"] = 5,   "Corrupted Kitsune",  "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus",  "Brontosaurus", 
 ["Seal"]= 4,      "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster",  "Cooked Owl", "Golden Bee", "Owl", "Firefly", ["Chicken Zombie"]=1,["Chicken"] = 2 ,["Sunny-Side"] = 1, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 10, ["Starfish"] = 4, ["Rooster"]=5, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 ,
 "Frost Dragon","Krampus","Chimera","Bearded Dragon","Ruby Squid","Diamond Panther","Lion","Hydra","Elephant", "Mummy","Lich","Hex Serpent","Reaper","Chinchilla",
 "Mizuchi","Tiger","Phoenix","Red Panda","Swan","Space Squirrel","Cockatrice","Griffin","Golden Goose","Lobster Thermidor","French Fry Ferret","Spinosaurus",
