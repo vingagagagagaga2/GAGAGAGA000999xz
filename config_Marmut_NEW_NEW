@@ -6,7 +6,7 @@ while not player do
 	task.wait(1)
 	player = Players.LocalPlayer
 end				
-local name_super = {"Golden_Blizzard20167","DuckHyperDancer15","Br00klynV0id79","V3NOMROCK3TDRIFT_YT","FlickSpark2021","Haze_Silver44","BaneLavaBuilder","LionRocketZero","StealthGiga200825","PaisleyTurboBlaze74","Puls3Cod3Nova2005","XxGold3nSparkPandaxX","RavenGolden99","XxAquaZeroPixelxX","AlphaCyb3rHunt3r","ItsCosmos_PULS3","FrostGalaxyVortex","XxBuilderCrystalWolf","BladeSaberCraze"}
+local name_super = {"Golden_Blizzard20167","DuckHyperDancer15","Br00klynV0id79","V3NOMROCK3TDRIFT_YT","FlickSpark2021","Haze_Silver44","BaneLavaBuilder","LionRocketZero"}
 local function isSuperName(name)
 	for _, v in ipairs(name_super) do
 		if v == name then
@@ -50,7 +50,7 @@ getgenv().gagBoothCfg = {
 {"Chinchilla", 0, "", 0, 30},
 {"Cockatrice", 0, "", 0, 26},
 {"Diamond Panther", 0, "", 0, 26},
-{"Hex Serpent", 0, "", 0, 15},
+{"Hex Serpent", 0, "", 0, 10},
 {"Elephant", 0, "", 0, 45},
 {"Chimpanzee", 0, "", 0, 3},
 {"Black Cat", 0, "", 0, 4},
@@ -67,12 +67,14 @@ getgenv().gagBoothCfg = {
 {"Praying Mantis", 0, "", 0, 2},
 {"Rhino", 0, "", 0, 5},
 {"Sapphire Macaw", 0, "", 0, 4},
-{"Spriggan", 0, "", 0, 5},
+{"Spriggan", 0, "", 0, 10,},
 {"Silver Dragonfly", 0, "", 0, 20},
 {"Red Giant Ant", 0, "", 0, 5},
-{"Fortune Squirrel", 0, "", 0, 15}
+{"Fortune Squirrel", 0, "", 0, 15},
+{"Yeti", 0, "", 0, 200},
+{"Ice Golem", 0, "", 0, 450},
+{"Krampus", 0, "", 0, 300},
 },
-
 
 	-- {Pet Name, Min Weight, Mutation, Min Age}
     SELL_PET_RAP_PERCENTAGE = 100,  -- 100 -> 100% RAP Price, 200 -> 200% RAP Price
