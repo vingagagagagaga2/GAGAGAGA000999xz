@@ -46,9 +46,11 @@ end)
 getgenv().gagBoothCfg = {  
     SELL_PETS = { 
 
-{"Yeti", 0, "", 0, 200},
-{"Ice Golem", 0, "", 0, 450},
-{"Krampus", 0, "", 0, 300},
+{"Yeti", 0, "", 0, 55},
+{"Ice Golem", 0, "", 0, 200},
+{"Krampus", 0, "", 0, 200},
+{"Frost Dragon", 0, "", 0, 250},
+{"Ruby Squid", 0, "", 0, 95},
 
 {"Bearded Dragon", 0, "", 0, 28},
 {"Chinchilla", 0, "", 0, 30},
@@ -60,7 +62,6 @@ getgenv().gagBoothCfg = {
 {"Black Cat", 0, "", 0, 4},
 {"Swan", 0, "", 0, 15},
 {"Space Squirrel", 0, "", 0, 7},
-{"Ruby Squid", 0, "", 0, 110},
 {"Red Panda", 0, "", 0, 9},
 {"Reaper", 0, "", 0, 4},
 {"Mizuchi", 0, "", 0, 40},
