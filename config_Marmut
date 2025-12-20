@@ -90,7 +90,7 @@ EQUIP_PETS = {
 
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish","Rooster","Chicken", },
-    REMOVE_PET_MAX_UPGRADE =    {"Black Bunny", "Starfish", "Dog", "Bunny", "Chicken", ,"Praying Mantis","Glimmering Sprite","Space Squirrel","Red Panda","Praying"},  -- Unequip from garden
+    REMOVE_PET_MAX_UPGRADE =    {"Black Bunny", "Starfish", "Dog", "Bunny", "Chicken","Praying Mantis","Glimmering Sprite","Space Squirrel","Red Panda","Praying"},  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket",
     ["Harvest Tool"] = 10, ["Watering Can"] = 20 },
