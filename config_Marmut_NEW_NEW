@@ -47,35 +47,7 @@ end)
 
 getgenv().gagBoothCfg = {  
     SELL_PETS = { 
-
 {"Yeti", 0, "", 0, 55},
-{"Ice Golem", 0, "", 0, 200},
-{"Krampus", 0, "", 0, 200},
-{"Frost Dragon", 0, "", 0, 250},
-{"Ruby Squid", 0, "", 0, 95},
-
-{"Bearded Dragon", 0, "", 0, 28},
-{"Chinchilla", 0, "", 0, 30},
-{"Cockatrice", 0, "", 0, 26},
-{"Diamond Panther", 0, "", 0, 26},
-{"Hex Serpent", 0, "", 0, 10},
-{"Elephant", 0, "", 0, 45},
-{"Chimpanzee", 0, "", 0, 3},
-{"Black Cat", 0, "", 0, 4},
-{"Swan", 0, "", 0, 15},
-{"Space Squirrel", 0, "", 0, 7},
-{"Red Panda", 0, "", 0, 9},
-{"Reaper", 0, "", 0, 4},
-{"Mizuchi", 0, "", 0, 40},
-{"Camel", 0, "", 0, 6},
-{"Firefly", 0, "", 0, 11},
-{"Pack Mule", 0, "", 0, 4},
-{"Praying Mantis", 0, "", 0, 2},
-{"Sapphire Macaw", 0, "", 0, 4},
-{"Silver Dragonfly", 0, "", 0, 20},
-{"Red Giant Ant", 0, "", 0, 5},
-{"Fortune Squirrel", 0, "", 0, 15},
-
 },
 
 	-- {Pet Name, Min Weight, Mutation, Min Age}
