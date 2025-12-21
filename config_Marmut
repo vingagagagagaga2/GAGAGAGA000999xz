@@ -44,8 +44,8 @@ getgenv().gagConfig = {
 BUY_EGGS = { "Jungle Egg","Paradise Egg", "Bug Egg", "Bee Egg",  "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
 PLANT_EGGS = 
 {
-"Christmas Egg",
-"Rare Egg","Rare Summer Egg",
+"Christmas Egg","Jungle Egg",
+"Rare Summer Egg","Rare Egg",
 "Paradise Egg","Gem Egg","Safari Egg","Spooky Egg","Bug Egg","Uncommon Egg","Fall Egg",
 },
 
@@ -89,7 +89,7 @@ EQUIP_PETS = {
 
 
 
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish","Rooster","Chicken", },
+    USE_PETS_FOR_UPGRADE_SLOT = {"Seal", "Starfish","Rooster","Chicken", },
     REMOVE_PET_MAX_UPGRADE =    {"Black Bunny", "Starfish", "Dog", "Bunny", "Chicken","Praying Mantis","Glimmering Sprite","Space Squirrel","Red Panda","Praying"},  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket",
