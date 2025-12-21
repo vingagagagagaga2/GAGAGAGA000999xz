@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
---setfpscap(2)
+
 
 spawn(function()
 	wait(100)
@@ -11,7 +11,7 @@ spawn(function()
   end
 end)
 
-
+setfpscap(3)
 getgenv().gagConfig = {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
@@ -26,7 +26,6 @@ getgenv().gagConfig = {
 
     PLACE_COSMETIC = { "Cooking Kit", "Jingle Bells" },
     
-
 -- General:
 		PRIVATE_SERVER = true,
     AUTO_UPDATE_RESTART = false,
@@ -41,10 +40,11 @@ getgenv().gagConfig = {
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
 
-BUY_EGGS = { "Jungle Egg","Paradise Egg", "Bug Egg", "Bee Egg",  "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
+BUY_EGGS = { ["Common Egg"] = 10, "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
+
 PLANT_EGGS = 
 {
-"Christmas Egg","Jungle Egg",
+"Winter Egg", "Christmas Egg","Jungle Egg",
 "Rare Summer Egg","Rare Egg",
 "Paradise Egg","Gem Egg","Safari Egg","Spooky Egg","Bug Egg","Uncommon Egg","Fall Egg",
 },
@@ -67,8 +67,8 @@ KEEP_PETS = {
 ["Seal"]= 4,      "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster",  "Cooked Owl", "Golden Bee", "Owl", "Firefly", ["Chicken Zombie"]=1,["Chicken"] = 2 ,["Sunny-Side"] = 1, ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 10, ["Starfish"] = 4, ["Rooster"]=5, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Mochi Mouse"] = 2 ,
 "Frost Dragon","Krampus","Chimera","Bearded Dragon","Ruby Squid","Diamond Panther","Lion","Hydra","Elephant", "Mummy","Lich","Hex Serpent","Reaper","Chinchilla",
 "Mizuchi","Tiger","Phoenix","Red Panda","Swan","Space Squirrel","Cockatrice","Griffin","Golden Goose","Lobster Thermidor","French Fry Ferret","Spinosaurus",
-"Raiju","Disco Bee","Queen Bee","T-Rex","Fennec Fox","Night Owl","Raccoon","Blood Owl",
-"Ice Golem", "Yeti",
+"Raiju","Disco Bee","Queen Bee","T-Rex","Fennec Fox","Night Owl","Raccoon","Blood Owl","Ice Golem", "Yeti",
+"Wendigo",
 },
 
 KEEP_PETS_WEIGHT = 6,
