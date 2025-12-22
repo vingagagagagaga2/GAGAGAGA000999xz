@@ -19,7 +19,7 @@ getgenv().gagConfig = {
     OPEN_ALL_PRESENT = true,
     USE_CHRISTMAS_GEAR = {"Jingle Bells", "Ice Wand"},
     
-    MAX_PLANTS = 200,
+    MAX_PLANTS = 170,
     DESTROY_UNTIL_MIN_PLANTS = 150,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
