@@ -7,7 +7,7 @@ while not player do
 	player = Players.LocalPlayer
 end		
 
-local name_super = {"Golden_Blizzard20167","XxWilliamPhoenixStar","StealthGiga200825","V3NOMROCK3TDRIFT_YT","Haze_Silver44","BaneLavaBuilder","LionRocketZero","BladeSaberCraze"}
+local name_super = {"Golden_Blizzard20167","XxWilliamPhoenixStar","Puls3Cod3Nova2005","V3NOMROCK3TDRIFT_YT","Haze_Silver44","BaneLavaBuilder","LionRocketZero","BladeSaberCraze"}
 
 local function isSuperName(name)
 	for _, v in ipairs(name_super) do
@@ -65,7 +65,6 @@ getgenv().gagBoothCfg = {
 {"Camel", 0, "", 0, 6},
 {"Firefly", 0, "", 0, 11},
 {"Glimmering Sprite", 0, "", 0, 4},
-{"Pack Mule", 0, "", 0, 4},
 {"Praying Mantis", 0, "", 0, 2},
 {"Rhino", 0, "", 0, 5},
 {"Sapphire Macaw", 0, "", 0, 4},
@@ -78,7 +77,7 @@ getgenv().gagBoothCfg = {
 {"Krampus", 0, "", 0, 200},
 {"Frost Dragon", 0, "", 0, 200},
 {"Mistletoad", 0, "", 0, 5},
-{"Mummy", 0, "", 0, 50},
+{"Wendigo", 0, "", 0, 250}
 },
 
 
