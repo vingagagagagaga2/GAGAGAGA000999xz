@@ -15,10 +15,13 @@ setfpscap(3)
 getgenv().gagConfig = {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Santa's Surprise Present", "Jingle Bells" },
+    BUY_EVENT_SHOP = { "Santa's Surprise Present", "Jingle Bells", "Christmas Stocking" },
     OPEN_ALL_PRESENT = true,
     USE_CHRISTMAS_GEAR = {"Jingle Bells", "Ice Wand"},
-    
+
+
+
+
     MAX_PLANTS = 170,
     DESTROY_UNTIL_MIN_PLANTS = 150,
     KEEP_SEEDS = { "Bone Blossom" },
@@ -51,14 +54,8 @@ PLANT_EGGS =
 
     BUY_SEED_SHOP = { "Peppermint Vine Seed", "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
-
-    KEEP_SEEDS = { "Cactus", "Corn", "Glowthorn", "Briar Rose", "Carrot", "Rhubarb", "Calla Lily", "Flare Daisy",
-    "Daffodil", "Sugarglaze", "Pumpkin", "Emerald Bud", "Pepper", "Orange Tulip", "Grape", "Ember Lily",
-    "Mangosteen", "Crown of Thorns", "Watermelon", "Taco Fern", "Jalapeno", "Bamboo", "Sundew", "Black Bat Flower", "Mandrone Berry" },
-    KEEP_SEEDS_AFTER_MAX_PLANTS = {},
-    
-    FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
-    SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
+FAVOURITE_FRUIT_MUTATIONS = {},
+SKIP_HARVEST_MUTATIONS = {},
 
 KEEP_PETS = {
 
@@ -73,9 +70,6 @@ KEEP_PETS = {
 
 KEEP_PETS_WEIGHT = 6,
 KEEP_PETS_AGE = 100,
-SELL_PETS_WEIGHT = {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk","Marmot","Ghost Bear","Golden Lab",}  ,
-SELL_PETS_AGE =    {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk","Marmot","Ghost Bear","Golden Lab",}  ,
-
 
 EQUIP_PETS = {
 	{"Seal", 4, 1},
@@ -86,15 +80,17 @@ EQUIP_PETS = {
     {"Starfish", 4, 6},
 },
 
+LEVELUP_LOLLIPOP_MIN_LEVEL = 90,
+
+BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", "Levelup Lollipop" },
+USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
 
+SELL_PETS_WEIGHT = {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk","Marmot","Ghost Bear","Golden Lab",}  ,
+SELL_PETS_AGE =    {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk","Marmot","Ghost Bear","Golden Lab",}  ,
 
-    USE_PETS_FOR_UPGRADE_SLOT = {"Seal", "Starfish","Rooster","Chicken", },
-    REMOVE_PET_MAX_UPGRADE =    {"Black Bunny", "Starfish", "Dog", "Bunny", "Chicken","Praying Mantis","Glimmering Sprite","Space Squirrel","Red Panda","Praying"},  -- Unequip from garden
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket",
-    ["Harvest Tool"] = 10, ["Watering Can"] = 20 },
-    USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
+USE_PETS_FOR_UPGRADE_SLOT = {"Seal", "Starfish","Rooster","Chicken", },
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1419265267808075877/pUAjPUeJ3h2DgAMkr2pTTlfU6oirULLyRyt1FjT0FrhCBseANbd4ywChParm_7jhXkqr",
     SEED_WEBHOOK_URL = "", 
