@@ -44,7 +44,6 @@ task.wait(300)
 end
 
 end)
-
 getgenv().gagBoothCfg = {  
     SELL_PETS = { 
 
@@ -73,13 +72,15 @@ getgenv().gagBoothCfg = {
 {"Red Giant Ant", 0, "", 0, 5},
 {"Fortune Squirrel", 0, "", 0, 15},
 {"Yeti", 0, "", 0, 45},
-{"Ice Golem", 0, "", 0, 180},
-{"Krampus", 0, "", 0, 200},
-{"Frost Dragon", 0, "", 0, 200},
+{"Ice Golem", 0, "", 0, 150},
+{"Krampus", 0, "", 0, 100},
+{"Frost Dragon", 0, "", 0, 180},
 {"Mistletoad", 0, "", 0, 5},
-{"Wendigo", 0, "", 0, 250}
+{"Wendigo", 0, "", 0, 220},
+{"Lion", 0, "", 0, 10},
+{"Headless Horseman", 0, "", 0, 200},
+{"Corrupted Kitsune", 0, "", 0, 200},
 },
-
 
 
 	-- {Pet Name, Min Weight, Mutation, Min Age}
