@@ -44,15 +44,15 @@ task.wait(300)
 end
 
 end)
+
 getgenv().gagBoothCfg = {  
     SELL_PETS = { 
 
-{"Bearded Dragon", 0, "", 0, 28},
+{"Bearded Dragon", 0, "", 0, 35},
 {"Cockatrice", 0, "", 0, 26},
-{"Diamond Panther", 0, "", 0, 26},
-{"Elephant", 0, "", 0, 45},
+{"Diamond Panther", 0, "", 0, 30},
 {"Chimpanzee", 0, "", 0, 3},
-{"Swan", 0, "", 0, 15},
+{"Swan", 0, "", 0, 20},
 {"Space Squirrel", 0, "", 0, 7},
 {"Red Panda", 0, "", 0, 9},
 {"Reaper", 0, "", 0, 4},
@@ -67,9 +67,10 @@ getgenv().gagBoothCfg = {
 {"Frost Dragon", 0, "", 0, 180},
 {"Mistletoad", 0, "", 0, 5},
 {"Wendigo", 0, "", 0, 220},
-{"Lion", 0, "", 0, 15},
+{"Lion", 0, "", 0, 25},
 {"Headless Horseman", 0, "", 0, 150},
-{"Corrupted Kitsune", 0, "", 0, 150},
+{"Hydra", 0, "", 0, 250},
+{"Tiger", 0, "", 0, 50},
 },
 
 
