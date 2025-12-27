@@ -11,24 +11,22 @@ spawn(function()
   end
 end)
 
-setfpscap(3)
+setfpscap(2)
+
 getgenv().gagConfig = {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Santa's Surprise Present", "Jingle Bells", "Christmas Stocking" },
+    BUY_EVENT_SHOP = { "New Year's Egg" },
     OPEN_ALL_PRESENT = true,
-    USE_CHRISTMAS_GEAR = {"Jingle Bells", "Ice Wand"},
-
-
-
-
-    MAX_PLANTS = 170,
+    
+    MAX_PLANTS = 200,
     DESTROY_UNTIL_MIN_PLANTS = 150,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
     PLACE_COSMETIC = { "Cooking Kit", "Jingle Bells" },
-    
+
+
 -- General:
 		PRIVATE_SERVER = true,
     AUTO_UPDATE_RESTART = false,
@@ -47,6 +45,7 @@ BUY_EGGS = { ["Common Egg"] = 10, "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise 
 
 PLANT_EGGS = 
 {
+ "New Year's Egg", 
 "Winter Egg", "Christmas Egg","Jungle Egg",
 "Rare Summer Egg","Rare Egg",
 "Paradise Egg","Gem Egg","Safari Egg","Spooky Egg","Bug Egg","Uncommon Egg","Fall Egg",
@@ -65,7 +64,7 @@ KEEP_PETS = {
 "Frost Dragon","Krampus","Chimera","Bearded Dragon","Ruby Squid","Diamond Panther","Lion","Hydra","Elephant", "Mummy","Lich","Hex Serpent","Reaper","Chinchilla",
 "Mizuchi","Tiger","Phoenix","Red Panda","Swan","Space Squirrel","Cockatrice","Griffin","Golden Goose","Lobster Thermidor","French Fry Ferret","Spinosaurus",
 "Raiju","Disco Bee","Queen Bee","T-Rex","Fennec Fox","Night Owl","Raccoon","Blood Owl","Ice Golem", "Yeti",
-"Wendigo",
+"Wendigo","New Year's Dragon", 
 },
 
 KEEP_PETS_WEIGHT = 6,
