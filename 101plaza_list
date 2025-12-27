@@ -42,12 +42,11 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Golden Gingerbread Angelus", Data= {Price = 80 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Shiny Rainbow Gingerbread Angelus", Data= {Price = 300 + math.random(1,20)*0.01 .."m"}}, 	
 
-
-{Name = "Titanic Starlight Pony", Data = {Price = 7 + math.random(1,100)*0.01 .."b"}}, 
-{Name = "Golden Titanic Starlight Pony", Data = {Price = 7 + math.random(1,100)*0.01 .."b"}}, 
-{Name = "Rainbow Titanic Starlight Pony", Data = {Price = 22 + math.random(1,500)*0.01 .."b"}}, 
-{Name = "Shiny Titanic Starlight Pony", Data = {Price = "30b"}},
 {Name = "Shiny Rainbow Titanic Starlight Pony", Data = {Price = "400b"}},
+{Name = "Shiny Titanic Starlight Pony", Data = {Price = "30b"}},
+{Name = "Rainbow Titanic Starlight Pony", Data = {Price = 22 + math.random(1,500)*0.01 .."b"}}, 
+{Name = "Golden Titanic Starlight Pony", Data = {Price = 7 + math.random(1,100)*0.01 .."b"}}, 
+{Name = "Titanic Starlight Pony", Data = {Price = 7 + math.random(1,100)*0.01 .."b"}}, 
 
 --------------------------------------------------------------------------------------
 {Name = "Gargantuan Blurred Agony", Data = {Price = 90 + math.random(1,50)*0.1 .."b"}}, 
