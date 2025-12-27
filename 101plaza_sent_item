@@ -175,14 +175,14 @@ getgenv().Settings_sentPET = {
 ["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 2},
 
 ["Golden Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
-["Golden Hippomint"] = = {Soluong_Yeu_cau = 1},
+["Golden Hippomint"] = {Soluong_Yeu_cau = 1},
 ["Rainbow Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
-["Rainbow Hippomint"] = = {Soluong_Yeu_cau = 1},
+["Rainbow Hippomint"] = {Soluong_Yeu_cau = 1},
 
 ["Shiny Golden Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
-["Shiny Golden Hippomint"] = = {Soluong_Yeu_cau = 1},
+["Shiny Golden Hippomint"] = {Soluong_Yeu_cau = 1},
 ["Shiny Rainbow Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
-["Shiny Rainbow Hippomint"] = = {Soluong_Yeu_cau = 1},
+["Shiny Rainbow Hippomint"] = {Soluong_Yeu_cau = 1},
 
 },
    
