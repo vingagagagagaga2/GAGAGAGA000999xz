@@ -1,4 +1,4 @@
-local _Config_Online = 0
+local _Config_Online = 1
 
 local FILE_NAME = "OFFLINE.txt"
 
@@ -35,5 +35,5 @@ local _Config_Offline = getOffline()
      setOffline(_Config_Online)
 
     -- Shutdown
-   game:Shutdown()
+   --game:Shutdown()
  end
