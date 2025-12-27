@@ -1,0 +1,373 @@
+PAUSE_or_SEND = "p"
+
+wait(1)
+--Sent chìa
+task.spawn(function()
+
+if PAUSE_or_SEND == "p" then
+	return
+end
+
+NAME_USER_SEND = "veriotiai779"
+
+
+function Sent_item_all()
+
+getgenv().Settings_sentitem = {		
+
+
+--["Halloween Lucky Block Gift"] = {Class = "Lootbox", Id = "Halloween Lucky Block Gift", MinAmount = 1},	--ok
+["Summer Block Party Ticket"] = {Class = "Misc", Id = "Summer Block Party Ticket",MinAmount = 1, keepAmount = 0},	--ok
+["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	--ok
+["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 50000},	
+--["Tech Key"] = {Class = "Misc", Id = "Tech Key", MinAmount = 1000},	
+--["Coins"] = {Class = "Enchant", Id = "Coins", TN = 7, MinAmount = 1000}, 
+--["Diamond"] = {Class = "Seed", Id = "Diamond", MinAmount = 2000},
+--["Insta Plant Capsule"] = {Class = "Misc", Id = "Insta Plant Capsule", MinAmount = 500},
+
+}
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
+local Network = require(Client.Network)
+local SaveData = require(ReplicatedStorage.Library.Client.Save).Get()
+local Players = game:GetService("Players")
+
+local player = Players.LocalPlayer
+local Inventory = SaveData.Inventory
+
+local itemsFound = {} -- K?t qu? tìm du?c
+
+-- ?? Danh sách l?i chúc
+local messages = {
+    "Happy Birthday %s!",
+    "Hope today brings %s!",
+    "Wishing you luck %s!",
+    "Congrats on your %s!",
+    "Give away %s!",
+    "You are amazing %s"
+}
+
+local message = string.format(messages[math.random(1, #messages)], NAME_USER_SEND)	
+
+-- ?? Hàm chuy?n don v? "100m", "1b" thành s?
+local function parseNumber(str)
+	if type(str) == "number" then return str end
+	str = str:lower()
+	local multipliers = {k = 1e3, m = 1e6, b = 1e9, t = 1e12}
+	local num = tonumber(str:match("[%d%.]+")) or 0
+	local suffix = str:match("[a-z]+")
+	return num * (multipliers[suffix] or 1)
+end
+
+-- ?? Tìm item trong Inventory
+local function findMatchingItems(class, id, allVariants, requiredTN)
+	local results = {}
+	local sub = Inventory[class]
+	if not sub then return results end
+
+	for uid, v in pairs(sub) do
+		if type(v) == "table" and v.id then
+			local match = false
+			if allVariants then
+				match = string.find(v.id, id)
+			else
+				match = v.id == id
+			end
+
+			-- ?? Ki?m tra thêm TN n?u có
+			if match then
+				if requiredTN == nil or v.tn == requiredTN then
+					table.insert(results, {
+						UID = uid,
+						ID = v.id,
+						PT = v.pt,
+						SH = v.sh,
+						TN = v.tn,
+						Count = tonumber(v._am) or 1,
+						Class = class,
+					})
+				end
+			end
+		end
+	end
+
+	return results
+end
+
+
+-- ?? Duy?t qua t?ng m?c c?u hình
+for key, config in pairs(getgenv().Settings_sentitem) do
+	local class = config.Class
+	local id = config.Id
+	local minAmount = parseNumber(config.MinAmount)
+	local keepAmount = config.KeepAmount and parseNumber(config.KeepAmount) or 0
+	local allVariants = config.AllVariants or false
+	wait(2)
+	if class == "Currency" then
+
+	for uid, v in pairs(Inventory.Currency) do
+		if v.id == id then
+			local current = tonumber(v._am) or 0
+			local sendAmount = current - keepAmount
+			
+			if sendAmount >= minAmount then
+				print("?? G?i currency:", id, "?", sendAmount)
+				local success, err = pcall(function()
+					return Network.Invoke("Mailbox: Send", NAME_USER_SEND, message, "Currency", uid, sendAmount)
+				end)
+				if not success then
+					warn("? G?i currency l?i:", err)
+				end
+				task.wait(2)
+			end
+		end
+	end
+
+	else
+    local matched = findMatchingItems(class, id, allVariants, config.TN)
+
+		for _, item in ipairs(matched) do
+			local count = item.Count
+			local sendCount = count
+
+			if keepAmount > 0 and count > keepAmount then
+				sendCount = count - keepAmount
+			end
+
+			if sendCount >= minAmount then
+	
+				print("?? G?i item:", item.ID, "| SL:", sendCount, "| Lo?i:", item.Class)
+				local success, err = pcall(function()
+					return Network.Invoke("Mailbox: Send", NAME_USER_SEND, message, class, item.UID, sendCount)
+				end)
+				if not success then
+					warn("? G?i item l?i:", err)
+				end
+				task.wait(2)
+			end
+		end
+	end
+end
+
+end
+
+Sent_item_all()
+
+end)
+
+wait(1)
+-- send pet hiem hoac huge gia cao. Soluong_Yeu_cau = 1 thì gi? l?i 1 con, khác 1 thì ph?i ch? nhi?u hon Soluong_Yeu_cau thì m?i send t?t c?
+task.spawn(function() 
+
+if PAUSE_or_SEND == "p" then
+	return
+end
+
+getgenv().Settings_sentPET = {
+    ["list_pet"] = {
+
+--["Huge Shark Cat"] 	= {Soluong_Yeu_cau = 1},
+--["Huge Specter Owl"] 	= {Soluong_Yeu_cau = 1},
+--["Golden Huge Shark Cat"] 	= {Soluong_Yeu_cau = 1},
+--["Golden Huge Specter Owl"] 	= {Soluong_Yeu_cau = 1},
+
+["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 2},
+
+["Golden Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
+["Golden Hippomint"] = = {Soluong_Yeu_cau = 1},
+["Rainbow Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
+["Rainbow Hippomint"] = = {Soluong_Yeu_cau = 1},
+
+["Shiny Golden Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
+["Shiny Golden Hippomint"] = = {Soluong_Yeu_cau = 1},
+["Shiny Rainbow Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
+["Shiny Rainbow Hippomint"] = = {Soluong_Yeu_cau = 1},
+
+},
+   
+}
+
+
+ds_nguoi_nhan_pet = {"veriotiai779"}
+
+
+-- Hàm ki?m tra tên có ch?a t? khóa
+function Kiem_tra_ten_co_them_tu_la_(itemName)
+    local SH_find = false
+    local PT_find = false
+    local TN_find = false    
+    local category_find = false
+	
+    -- Ki?m tra n?u itemName có t? "Shiny"
+    if string.find(itemName, "Shiny") then
+        SH_find = true
+        itemName = string.gsub(itemName, "Shiny ", "") -- Lo?i b? t? "Shiny"
+        warn("SH_find true")
+    end
+
+    -- Ki?m tra n?u itemName có t? "Golden"
+    if string.find(itemName, "Golden") then
+        PT_find = 1
+        itemName = string.gsub(itemName, "Golden ", "") -- Lo?i b? t? "Golden"
+        warn("PT_find 1")
+    end
+
+    -- Ki?m tra n?u itemName có t? "Rainbow"
+    if string.find(itemName, "Rainbow") then
+        PT_find = 2
+        itemName = string.gsub(itemName, "Rainbow ", "") -- Lo?i b? t? "Rainbow"
+        warn("PT_find 2")
+    end
+
+    -- Ki?m tra n?u itemName có t? "Shiny Golden"
+    if string.find(itemName, "Shiny Golden") then
+        SH_find = true
+        PT_find = 1
+        itemName = string.gsub(itemName, "Shiny Golden ", "") -- Lo?i b? t? "Shiny Golden"
+        warn("PT_find 1 SH_find true")
+    end
+
+    -- Ki?m tra n?u itemName có t? "Shiny Rainbow"
+    if string.find(itemName, "Shiny Rainbow") then
+        SH_find = true
+        PT_find = 2
+        itemName = string.gsub(itemName, "Shiny Rainbow ", "") -- Lo?i b? t? "Shiny Rainbow"
+        warn("PT_find 2 SH_find true")
+    end
+
+    -- Ki?m tra n?u itemName có t? "TNx"
+    local tnMatch = itemName:match("TN(%d)")  -- Tìm ki?m "TN" kèm m?t s?
+    if tnMatch then
+        TN_find = tonumber(tnMatch)  -- Gán giá tr? c?a TN_find
+        itemName = string.gsub(itemName, " TN%d", "")  -- Lo?i b? ph?n "TNx" kh?i itemName
+    end
+
+    -- Ki?m tra category
+    if string.find(itemName, "Potion") then
+        category_find = "Potion"
+        itemName = string.gsub(itemName, "Potion ", "") -- Lo?i b? t? "Potion"
+        warn("category Potion")
+    end
+    if string.find(itemName, "Enchant") then
+        category_find = "Enchant"
+        itemName = string.gsub(itemName, "Enchant ", "") -- Lo?i b? t? "Enchant"
+        warn("category Enchant")
+    end
+	if string.find(itemName, "XPPotion") then
+        category_find = "XPPotion"
+        itemName = string.gsub(itemName, "XPPotion ", "") -- Lo?i b? t? "XPPotion"
+        warn("category XPPotion")
+    end
+
+    -- Tr? v? t?t c? các giá tr?
+    return itemName, SH_find, PT_find
+end
+
+-- Hàm tìm trong t?ng b?ng con c?a Inventory
+local function findInInventorySubTable(subTable, itemName, PT_find, SH_find)
+    if type(subTable) ~= "table" then return end
+
+    -- S? d?ng string.match d? tìm chính xác itemName
+    for uid, v in pairs(subTable) do
+        if type(v) == "table" and v.id then
+            -- Ki?m tra xem id có kh?p chính xác v?i itemName và PT_find, SH_find, TN_find
+            if string.match(v.id, "^" .. itemName .. "$") then  -- Dùng string.match d? tìm ph?n chu?i chính xác
+                local ok = true
+
+                -- Ki?m tra di?u ki?n PT_find n?u có
+                if PT_find ~= false and v.pt ~= PT_find then
+                    ok = false
+                end
+                if PT_find == false and v.pt == 1 then
+                    ok = false
+                end
+                if PT_find == false and v.pt == 2 then
+                    ok = false
+                end
+                -- Ki?m tra di?u ki?n SH_find n?u có
+                if SH_find == true and v.sh == nil then
+                    ok = false 
+                end
+                if SH_find == false and v.sh == true then
+                    -- N?u SH_find là nil thì ch? ch?p nh?n v.sh là nil
+                    ok = false
+                end
+
+                -- N?u t?t c? di?u ki?n d?u th?a mãn, thêm vào danh sách
+                if ok then
+                    table.insert(itemsFound, {
+                        UID = uid,
+                        ID = v.id,
+                        PT = v.pt,
+                        SH = v.sh,
+                        TN = v.tn,
+                        Count = tonumber(v._am) or 1,
+                        Category = categoryName  -- Thêm category cho t?ng m?c
+                    })
+                end
+            end
+        end
+    end
+end
+
+-- Hàm ki?m tra và g?i pet
+local function sendExcessPets()
+
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
+	local Network = require(Client.Network)
+	local SaveData = require(ReplicatedStorage.Library.Client.Save).Get()   
+
+    -- L?p qua t?ng pet trong list_pet
+    for petName, petData in pairs(getgenv().Settings_sentPET["list_pet"]) do
+        local itemName = petName
+        local requiredAmount = petData.Soluong_Yeu_cau
+        local itemName,SH_find, PT_find = Kiem_tra_ten_co_them_tu_la_(itemName)
+        -- Reset l?i danh sách pet
+        itemsFound = {}
+
+        -- Tìm trong Inventory
+        findInInventorySubTable(SaveData.Inventory.Pet, itemName, PT_find, SH_find)
+        
+        -- Ki?m tra s? lu?ng pet có s?n trong kho
+        local totalCount = 0
+        for _, item in pairs(itemsFound) do
+            if item.ID == itemName then
+                totalCount = totalCount + item.Count
+            end
+        end
+
+        if totalCount >= requiredAmount then
+            
+            local randomRecipient = ds_nguoi_nhan_pet[math.random(1, #ds_nguoi_nhan_pet)]
+            local message = string.format("Happy birthday %s! You received an excess pet: %s", randomRecipient, itemName)
+
+            -- L?p qua và g?i pet
+            local petSent = 0
+            for _, item in pairs(itemsFound) do
+				
+                if item.ID == itemName and petSent < totalCount then
+					wait(3)
+					if string.find(itemName,"Huge") then
+						--warn("Huge chi send 1")
+						totalCount = 1
+					end
+                    local success, err = pcall(function()
+
+                        return Network.Invoke("Mailbox: Send", randomRecipient, message, "Pet", item.UID, totalCount)
+                    end)
+ 
+
+                    
+                end
+            end
+        else
+            warn("?? Không có d? pet " .. itemName .. " trong kho d? g?i.")
+        end
+    end
+end
+
+sendExcessPets()
+
+end)
