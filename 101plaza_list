@@ -21,8 +21,8 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Golden Hippomint", Data= {Price = 200 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Shiny Rainbow Hippomint", Data= {Price = 1000 + math.random(1,20)*0.01 .."m"}}, 
 
-{Name = "Candycane Kitsune", Data= {Price = 15 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Golden Candycane Kitsune", Data= {Price = 15 + math.random(1,20)*0.01 .."m"}}, 	
+{Name = "Candycane Kitsune", Data= {Price = 20 + math.random(1,20)*0.01 .."m"}}, 	
+{Name = "Golden Candycane Kitsune", Data= {Price = 20 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Rainbow Candycane Kitsune", Data= {Price = 60 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Shiny Candycane Kitsune", Data= {Price = 60 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Shiny Golden Candycane Kitsune", Data= {Price = 200 + math.random(1,20)*0.01 .."m"}}, 	
