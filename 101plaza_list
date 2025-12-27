@@ -11,8 +11,8 @@ getgenv().Settings_autoplaza = {
 {Name = "Golden Huge Frostbyte Snowman", Data = {Price = 150 + math.random(1,50)*0.1 .."m"}}, 
 {Name = "Rainbow Huge Frostbyte Snowman", Data = {Price = 900 + math.random(1,50)*0.1 .."m"}}, 
 
-{Name = "Candycane Gift", Data = {Price = 200 + math.random(1,30) .."k"}},
-{Name = "Santa Gift", Data = {Price = 200 + math.random(1,30) .."k"}},
+{Name = "Candycane Gift", Data = {Price = 350 + math.random(1,30) .."k"}},
+{Name = "Santa Gift", Data = {Price = 350 + math.random(1,30) .."k"}},
 
 {Name = "Hippomint", Data= {Price = 15 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Golden Hippomint", Data= {Price = 15 + math.random(1,20)*0.01 .."m"}}, 	
