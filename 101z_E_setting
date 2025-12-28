@@ -42,7 +42,7 @@ getgenv().GZONE_TO = 999  -- to enter event from W1 put 1, from W2 put 100, from
 
 getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
 getgenv().GGFX_MODE = 1
-getgenv().GHATCH_CHARGED_EGGS = false
+getgenv().GHATCH_CHARGED_EGGS = true
 getgenv().GHATCH_GOLDEN_EGGS = false
 getgenv().GCLEAR_FAVORITE_PETS = true
 
