@@ -16,32 +16,14 @@ getgenv().Settings_autoplaza = {
 {Name = "Santa Gift", Data = {Price = 470 + math.random(1,30) .."k"}},
 
 {Name = "Hippomint", Data= {Price = 17 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Golden Hippomint", Data= {Price = 15 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Rainbow Hippomint", Data= {Price = 60 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Shiny Hippomint", Data= {Price = 60 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Shiny Golden Hippomint", Data= {Price = 200 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Shiny Rainbow Hippomint", Data= {Price = 1000 + math.random(1,20)*0.01 .."m"}}, 
 
 {Name = "Candycane Kitsune", Data= {Price = 17 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Golden Candycane Kitsune", Data= {Price = 20 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Rainbow Candycane Kitsune", Data= {Price = 60 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Shiny Candycane Kitsune", Data= {Price = 60 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Shiny Golden Candycane Kitsune", Data= {Price = 200 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Shiny Rainbow Candycane Kitsune", Data= {Price = 1000 + math.random(1,20)*0.01 .."m"}}, 
 
 {Name = "Elf Golem", Data= {Price = 22 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Golden Elf Golem", Data= {Price = 30 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Rainbow Elf Golem", Data= {Price = 60 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Shiny Elf Golem", Data= {Price = 60 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Shiny Golden Elf Golem", Data= {Price = 200 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Shiny Rainbow Elf Golem", Data= {Price = 1000 + math.random(1,20)*0.01 .."m"}}, 
 
-{Name = "Gingerbread Angelus", Data= {Price = 900 + math.random(1,20) .."k"}}, 	
-{Name = "Golden Gingerbread Angelus", Data= {Price = 4 + math.random(1,20)*0.01 .."m"}}, 	
+{Name = "Gingerbread Angelus", Data= {Price = 900 + math.random(1,20) .."k"}}, 		
 {Name = "Rainbow Gingerbread Angelus", Data= {Price = 15 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Shiny Gingerbread Angelus", Data= {Price = 10 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Shiny Golden Gingerbread Angelus", Data= {Price = 80 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Shiny Rainbow Gingerbread Angelus", Data= {Price = 300 + math.random(1,20)*0.01 .."m"}}, 	
 
 {Name = "Shiny Rainbow Titanic Starlight Pony", Data = {Price = "350b"}},
 {Name = "Shiny Titanic Starlight Pony", Data = {Price = "30b"}},
