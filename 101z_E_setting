@@ -1,0 +1,136 @@
+task.spawn(function()
+wait(20)
+setfpscap(3)
+end)
+getgenv().GEVENT_FPS  = 3
+
+getgenv().GDO_XMAS_WORLD = true
+getgenv().GHOP_ON_STAFF = true
+getgenv().GEVENT_UPGRADES = {
+"MegaPresentGrowFaster",
+"MegaPresentMoreLoot",
+"MegaPresentEggLuckBoost",
+"MegaPresentHigherHugeChance",
+"MegaPresentHigherTitanicChance",
+"MegaPresentHigherGargantuanChance"
+}
+
+getgenv().GXMAS_WORLD_AUTO_CRAFT = true
+getgenv().GXMAS_WORLD_FOCUS_EGGS_FOR_AUTO_CRAFT_PETS = true
+
+getgenv().GDO_ADVENT_CALENDAR = true
+getgenv().GXMAS_WORLD_CRAFT_SANTA_GIFTS = false
+
+getgenv().GDO_LOCKPICKING = true
+getgenv().GXMAS_WORLD_DO_ICE_BLOCKS = true
+
+getgenv().GXMAS_WORLD_PET_ORDER_GOOD_TO_BAD = { "Elf Golem","Candycane Kitsune","Hippomint",  "Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
+
+
+getgenv().GXMAS_WORLD_MIN_HATCH_REQUESTS_PER_CYCLE = 50
+getgenv().GXMAS_WORLD_MIN_FARM_TIME_SECONDS = 1200
+
+getgenv().GXMAS_WORLD_DO_MEGA_PRESENT = false
+getgenv().GXMAS_WORLD_OPEN_MEGA_PRESENT_IF_LUCK_REACH = 2000
+getgenv().GXMAS_WORLD_PETS_EXCLUDED_FROM_SENDING = {"Elf Golem","Gingerbread Angelus","Holiday Owl","Merry Mule","Snowflake Dragon"}
+
+getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Gym","Starlight Pony","Ball"}
+--getgenv().GRANK_FIRST = true
+--getgenv().GRANK_TO = 2
+--getgenv().GREBIRTH_TO = 2
+getgenv().GZONE_TO = 999  -- to enter event from W1 put 1, from W2 put 100, from W3 200, from W4 240
+
+getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
+getgenv().GGFX_MODE = 1
+getgenv().GHATCH_CHARGED_EGGS = false
+getgenv().GHATCH_GOLDEN_EGGS = false
+getgenv().GCLEAR_FAVORITE_PETS = true
+
+
+getgenv().GLOOTBOXES = {"Time Trial Gift","Locked Hype Egg"}
+-----------------------
+getgenv().GUSE_SPINNY_WHEEL = true
+getgenv().GCOMBINE_KEYS = true
+getgenv().GMASTERY_TO_MAX = "Pets"
+getgenv().GCONSUME_CHARMS = true
+getgenv().GDAYCARE = true
+--------------------------
+
+getgenv().GMAX_EGG_SLOTS = 99
+getgenv().GMAX_EQUIP_SLOTS = 99
+
+
+getgenv().GHOLD_GIFTS = true
+getgenv().GHOLD_BUNDLES = false
+getgenv().GCONSUME_SEED_BAGS = true  -- mở túi seed
+getgenv().GOPEN_ITEMS_IN_BULK = true -- mở hộp quà sl lớn
+getgenv().GMAX_ZONE_UPGRADE_COST = 30000000
+
+getgenv().GCOLLECT_FREE_ITEMS = true  -- nhận free item
+
+getgenv().GUSE_SPRINKLERS = true
+getgenv().GUSE_ULTIMATES = {"Tsunami", "Tornado", "Pet Surge", "Chest Spell","Ground Pound"}
+getgenv().GUSE_FLAGS = {"Fortune Flag","Diamonds Flag","Coins Flag"}
+getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata","Party Box","Mini Lucky Block"}
+getgenv().GFRUITS = {"Watermelon","Candycane","Apple","Rainbow","Pineapple","Orange","Banana"}
+getgenv().GPOTIONS = {"Coins","Lucky","The Cocktail","Huge","Treasure Hunter","Walkspeed","Diamonds","Damage"}
+getgenv().GPOTIONS_MAX_TIER = 99
+
+getgenv().GENCHANTS = {"Explosive","Large Taps","Super Lightning","Huge Hunter","Lucky Eggs","Treasure Hunter","Criticals","Lucky Eggs","Diamonds"}
+
+getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
+getgenv().GHUGE_COUNT = 50999
+
+--getgenv().GMAX_MAIL_COST = "4m"
+getgenv().GMAIL_ITEMS = {		
+
+["Mega Lucky Gingerbread"] = {Class = "Misc", Id = "Mega Lucky Gingerbread", Amount = 5},
+
+["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
+["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
+["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
+["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},	
+
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "100m", MinAmount = "500m"},
+
+["Candycane Gift"] = {Class = "Lootbox", Id= "Candycane Gift", MinAmount = 300},
+["Santa Gift"] = {Class = "Lootbox", Id= "Santa Gift", MinAmount = 300},
+
+["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 5},
+["Hype Egg 2"] = {Class = "Lootbox", Id= "Hype Egg 2", MinAmount = 1},
+["Ice Cube egg"] = {Class = "Egg", Id = "Exclusive Egg 58", MinAmount = 1},
+["Huge Pajamas Shark"] = {Class = "Pet", Id = "Huge Pajamas Shark", MinAmount = 1, AllVariants = true},
+["Huge Festive Bear"] = {Class = "Pet", Id = "Huge Pajamas Shark", MinAmount = 1, AllVariants = true},
+
+--["Gingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", KeepAmount = 1, MinAmount = 100},
+--["GGingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", MinAmount = 20,IsGold = true},
+--["RBGingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", MinAmount = 3,IsRainbow = true},
+--["SHGingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", MinAmount = 3,IsShiny = true},
+--["SHGGingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", MinAmount = 1,IsShiny = true, IsGold = true},
+--["SHRBGingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", MinAmount = 1,IsShiny = true, IsRainbow = true},
+
+["Elf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 10, KeepAmount = 1},
+--["GElf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 3,IsGold = true},
+["RBElf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 4,IsRainbow = true ,KeepAmount = 1},
+--["SHElf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 1,IsShiny = true},
+--["SHGElf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 1,IsShiny = true, IsGold = true},
+--["SHRBElf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 1,IsShiny = true, IsRainbow = true},
+
+["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 10},
+--["GCandycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 3,IsGold = true},
+--["RBCandycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 1,IsRainbow = true},
+--["SHCandycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 1,IsShiny = true},
+--["SHGCandycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 1,IsShiny = true, IsGold = true},
+--["SHRBCandycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 1,IsShiny = true, IsRainbow = true},
+
+["Hippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 10},
+--["GHippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 3,IsGold = true},
+--["RBHippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 1,IsRainbow = true},
+--["SHHippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 1,IsShiny = true},
+--["SHGHippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 1,IsShiny = true, IsGold = true},
+--["SHRBHippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 1,IsShiny = true, IsRainbow = true},
+
+
+}
+getgenv().GMAIL_RECEIVERS = {"sijmongirthss","Ash3rP0w3rPanda2018","soystaylan5","dreddyewele60","1971Nowak3135","Sky_Giga2017","Inferno_Eagle200889","XxOwenC0dexX2023","TurboTig3rStr3am","1953Crutchfield3117","FusionShadowCyber","AceInferno202467","R0ck3tClaw2021_YT","Xx_VictoriaUltraCybe","Magic_Legend200469","MysticFireS0nic","Noah_SKATER35","RowlandCollinq943","GalaxyRider200343","ChillMaster2011","XxRocketClawFlashxX","Vip3rB3arDragon2014","Rock3tWolfKing2009","StormyAce15"}
+   
