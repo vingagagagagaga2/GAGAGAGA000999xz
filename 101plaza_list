@@ -52,6 +52,10 @@ getgenv().Settings_autoplaza = {
 {Name = "Exclusive Egg 57", Data = {Price = "120m"}},
 {Name = "Exclusive Egg 58", Data = {Price = "120m"}},
 
+--------------------------------------------------------------------------------------
+{Name = "Huge Hot Cocoa Cow", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Huge Holiday Owl", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
+--------------------------------------------------------------------------------------
 
 {Name = "Titanic Pixel Dominus Astra",Data = {Price = 6.5 + math.random(1,100)*0.01 .."b"}},
 {Name = "Titanic Narwhal",Data = {Price = 7.5 + math.random(1,100)*0.01 .."b"}},
@@ -81,10 +85,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Fantasy Key", Data = {Price = 70 + math.random(1,10) .."k"}},
 {Name = "Hacker Key", Data = {Price = "200k"}},
 
-{Name = "Candycorn Unicorn", Data = {Price = "5m"}},
-{Name = "Golden Candycorn Unicorn", Data = {Price = "7m"}},
-{Name = "Rainbow Candycorn Unicorn", Data = {Price = "15m"}},
-{Name = "Shiny Candycorn Unicorn", Data = {Price = "15m"}},
+
 
 {Name = "Shiny Palace Pooka", Data = {Price = "60m"}},
 {Name = "Shiny Rainbow Palace Pooka", Data = {Price = "120m"}},
@@ -102,10 +103,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Huge Specter Owl", Data = {Price = 2 + math.random(1,100)*0.01 .."b"}}, 
 {Name = "Golden Huge Specter Owl", Data = {Price = "1b"}},
 
---------------------------------------------------------------------------------------
-{Name = "Huge Hot Cocoa Cow", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Huge Holiday Owl", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
---------------------------------------------------------------------------------------
+
 
 {Name = "All Huges", Data = {Price = "+5%", Min_sell = 17 + math.random(1,40)*0.01 .."m", Max_sell = "80m" }}, 
 {Name = "Golden All Huges", Data = {Price = "+5%", Min_sell = 22 + math.random(1,50)*0.01 .."m", Max_sell = "90m" }}, 
