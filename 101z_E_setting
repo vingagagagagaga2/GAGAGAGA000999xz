@@ -27,7 +27,7 @@ getgenv().GXMAS_WORLD_DO_ICE_BLOCKS = true
 getgenv().GXMAS_WORLD_PET_ORDER_GOOD_TO_BAD = { "Elf Golem","Candycane Kitsune","Hippomint",  "Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
 
 
-getgenv().GXMAS_WORLD_MIN_HATCH_REQUESTS_PER_CYCLE = 50
+getgenv().GXMAS_WORLD_MIN_HATCH_REQUESTS_PER_CYCLE = 2
 getgenv().GXMAS_WORLD_MIN_FARM_TIME_SECONDS = 1200
 
 getgenv().GXMAS_WORLD_DO_MEGA_PRESENT = false
@@ -42,7 +42,7 @@ getgenv().GZONE_TO = 999  -- to enter event from W1 put 1, from W2 put 100, from
 
 getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
 getgenv().GGFX_MODE = 1
-getgenv().GHATCH_CHARGED_EGGS = false
+getgenv().GHATCH_CHARGED_EGGS = true
 getgenv().GHATCH_GOLDEN_EGGS = false
 getgenv().GCLEAR_FAVORITE_PETS = true
 
