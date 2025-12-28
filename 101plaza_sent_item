@@ -176,14 +176,20 @@ getgenv().Settings_sentPET = {
 
 ["Shiny Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
 ["Shiny Hippomint"] = {Soluong_Yeu_cau = 1},
+["Shiny Elf Golem"] = {Soluong_Yeu_cau = 1},
 
+["Golden Elf Golem"] = {Soluong_Yeu_cau = 1},
 ["Golden Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
 ["Golden Hippomint"] = {Soluong_Yeu_cau = 1},
+
 ["Rainbow Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
 ["Rainbow Hippomint"] = {Soluong_Yeu_cau = 1},
 
+["Shiny Golden Elf Golem"] = {Soluong_Yeu_cau = 1},
 ["Shiny Golden Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
 ["Shiny Golden Hippomint"] = {Soluong_Yeu_cau = 1},
+
+["Shiny Rainbow Elf Golem"] = {Soluong_Yeu_cau = 1},
 ["Shiny Rainbow Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
 ["Shiny Rainbow Hippomint"] = {Soluong_Yeu_cau = 1},
 
@@ -196,7 +202,7 @@ ds_nguoi_nhan_pet = {"veriotiai779"}
 
 
 -- Hàm ki?m tra tên có ch?a t? khóa
-function Kiem_tra_ten_co_them_tu_la_(itemName)
+function check_name_sent_pet(itemName)
     local SH_find = false
     local PT_find = false
     local TN_find = false    
@@ -326,7 +332,7 @@ local function sendExcessPets()
     for petName, petData in pairs(getgenv().Settings_sentPET["list_pet"]) do
         local itemName = petName
         local requiredAmount = petData.Soluong_Yeu_cau
-        local itemName,SH_find, PT_find = Kiem_tra_ten_co_them_tu_la_(itemName)
+        local itemName,SH_find, PT_find = check_name_sent_pet(itemName)
         -- Reset l?i danh sách pet
         itemsFound = {}
 
