@@ -6,7 +6,7 @@ getgenv().Settings_autoplaza = {
 -------------------------------------------------------------------------------
 {Name = "Mega Lucky Gingerbread", Data = {Price = 30 + math.random(1,50)*0.1 .."m"}},
 
-{Name = "Huge Festive Bear", Data = {Price = 500 + math.random(1,50)*0.1 .."m"}}, 
+{Name = "Huge Festive Bear", Data = {Price = 450 + math.random(1,50)*0.1 .."m"}}, 
 
 {Name = "Huge Frostbyte Snowman", Data = {Price = 100 + math.random(1,50)*0.1 .."m"}}, 
 {Name = "Golden Huge Frostbyte Snowman", Data = {Price = 120 + math.random(1,50)*0.1 .."m"}}, 
