@@ -103,32 +103,12 @@ getgenv().GMAIL_ITEMS = {
 ["Huge Festive Bear"] = {Class = "Pet", Id = "Huge Pajamas Shark", MinAmount = 1, AllVariants = true},
 
 --["Gingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", KeepAmount = 1, MinAmount = 100},
---["GGingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", MinAmount = 20,IsGold = true},
 --["RBGingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", MinAmount = 3,IsRainbow = true},
---["SHGingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", MinAmount = 3,IsShiny = true},
---["SHGGingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", MinAmount = 1,IsShiny = true, IsGold = true},
---["SHRBGingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", MinAmount = 1,IsShiny = true, IsRainbow = true},
 
-["Elf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 10, KeepAmount = 1},
---["GElf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 3,IsGold = true},
 ["RBElf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 4,IsRainbow = true ,KeepAmount = 1},
---["SHElf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 1,IsShiny = true},
---["SHGElf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 1,IsShiny = true, IsGold = true},
---["SHRBElf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 1,IsShiny = true, IsRainbow = true},
-
-["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 10},
---["GCandycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 3,IsGold = true},
---["RBCandycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 1,IsRainbow = true},
---["SHCandycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 1,IsShiny = true},
---["SHGCandycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 1,IsShiny = true, IsGold = true},
---["SHRBCandycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 1,IsShiny = true, IsRainbow = true},
-
-["Hippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 10},
---["GHippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 3,IsGold = true},
---["RBHippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 1,IsRainbow = true},
---["SHHippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 1,IsShiny = true},
---["SHGHippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 1,IsShiny = true, IsGold = true},
---["SHRBHippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 1,IsShiny = true, IsRainbow = true},
+["Elf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 20, KeepAmount = 6},
+["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 20, KeepAmount = 5},
+["Hippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 20, KeepAmount = 5},
 
 
 }
