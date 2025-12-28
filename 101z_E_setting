@@ -76,7 +76,7 @@ getgenv().GFRUITS = {"Watermelon","Candycane","Apple","Rainbow","Pineapple","Ora
 getgenv().GPOTIONS = {"Coins","Lucky","The Cocktail","Huge","Treasure Hunter","Walkspeed","Diamonds","Damage"}
 getgenv().GPOTIONS_MAX_TIER = 99
 
-getgenv().GENCHANTS = {"Explosive","Large Taps","Super Lightning","Huge Hunter","Lucky Eggs","Treasure Hunter","Criticals","Lucky Eggs","Diamonds"}
+getgenv().GENCHANTS = {"Explosive","Large Taps","Super Lightning","Lucky Eggs","Lucky Eggs","Lucky Eggs","Criticals","Lucky Eggs","Diamonds"}
 
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
