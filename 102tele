@@ -1,0 +1,13 @@
+local HttpService = game:GetService("HttpService")
+local Players = game:GetService("Players")
+local TeleportService = game:GetService("TeleportService")
+local LocalPlayer = Players.LocalPlayer
+
+local function serverhopTo(placeId)
+	TeleportService:Teleport(placeId, LocalPlayer)
+end
+task.spawn(function()	
+wait(60)
+game:Shutdown()
+end)
+serverhopTo(_G.placeid_tele)
