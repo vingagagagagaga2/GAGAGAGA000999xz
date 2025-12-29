@@ -90,6 +90,14 @@ if name_vps == "V0" or name_vps == "V1" or name_vps == "V2" then
 
 	["Huge Pajamas Shark"] = {Class = "Pet", Id = "Huge Pajamas Shark", MinAmount = 1, AllVariants = true},
 	["Huge Festive Bear"] = {Class = "Pet", Id = "Huge Festive Bear", MinAmount = 1, AllVariants = true},
+
+
+	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 25, KeepAmount = 5},
+	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 25, KeepAmount = 5},
+	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 25, KeepAmount = 5},
+	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 25, KeepAmount = 5},
+
+
 	}
 
 else
