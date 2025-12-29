@@ -1,4 +1,4 @@
-local _Config_Online = 1
+local _Config_Online = 3
 
 local FILE_NAME = "OFFLINE.txt"
 
