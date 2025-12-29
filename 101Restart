@@ -1,4 +1,4 @@
-local _Config_Online = 5
+local _Config_Online = 6
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -26,9 +26,9 @@ local _Config_Offline = getOffline()
 		return
 	end
 	----------------------
-	if name_vps == "V0" or name_vps == "V1" or name_vps == "V2" then
+	--if name_vps == "V0" or name_vps == "V1" or name_vps == "V2" then
 	game:Shutdown()
-	end
+	--end
  end
 
 if _G.Restart == true then
