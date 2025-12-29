@@ -196,6 +196,7 @@ getgenv().Settings_sentPET = {
 ["Elf Golem"] = {Soluong_Yeu_cau = 1},
 ["Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
 ["Hippomint"] = {Soluong_Yeu_cau = 1},
+["Krampus"] = {Soluong_Yeu_cau = 1},
 
 },
    
