@@ -19,7 +19,7 @@ getgenv().GEVENT_UPGRADES = {
 --getgenv().GXMAS_WORLD_FOCUS_EGGS_FOR_AUTO_CRAFT_PETS = true
 
 getgenv().GDO_ADVENT_CALENDAR = true
-getgenv().GXMAS_WORLD_CRAFT_SANTA_GIFTS = true
+getgenv().GXMAS_WORLD_CRAFT_SANTA_GIFTS = false
 
 getgenv().GDO_LOCKPICKING = true
 getgenv().GXMAS_WORLD_DO_ICE_BLOCKS = false
