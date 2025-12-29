@@ -101,8 +101,8 @@ if name_vps == "V0" or name_vps == "V1" or name_vps == "V2" then
 
 
 	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 120, KeepAmount = 60},
-	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 25, KeepAmount = 10},
-	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 25, KeepAmount = 10},
+	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 75, KeepAmount = 50},
+	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 75, KeepAmount = 50},
 	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 75, KeepAmount = 50},
 
 
