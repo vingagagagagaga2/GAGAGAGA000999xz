@@ -41,7 +41,7 @@ getgenv().GXMAS_WORLD_AUTO_CRAFT = true
 
 getgenv().GDO_ADVENT_CALENDAR = true
 
---getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Elf Golem","Candycane Kitsune","Hippomint",  "Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
+--getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Hippomint","Candycane Kitsune", "Elf Golem", "Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
 --getgenv().GRANK_FIRST = true
 --getgenv().GRANK_TO = 2
 --getgenv().GREBIRTH_TO = 2
