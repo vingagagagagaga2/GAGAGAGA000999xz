@@ -1,0 +1,87 @@
+task.spawn(function()
+wait(20)
+setfpscap(3)
+end)
+getgenv().GEVENT_FPS  = 3
+
+getgenv().GLOOTBOXES = {"Tropical Gift","Time Trial Gift","Locked Hype Egg"}
+
+--getgenv().GRANK_FIRST = true
+getgenv().GZONE_TO = 999
+
+getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
+getgenv().GGFX_MODE = 1
+
+getgenv().GCLEAR_FAVORITE_PETS = true
+
+if game.PlaceId == 119454325063278 then 
+		getgenv().GDO_FARMING_WORLD = true
+    getgenv().GEVENT_UPGRADES = {
+            "FarmingHugeChance",
+            "FarmingTitanicChance",
+            "FarmingPixelRainbowLuck",
+            "FarmingGoldHatchChance",
+            "FarmingRainbowHatchChance",
+            "FarmingShinyHatchChance"
+        }
+		getgenv().GENCHANTS = {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Huge Hunter","Treasure Hunter","Diamonds"}        
+elseif game.PlaceId == 95635359880599 then
+		getgenv().GDO_FISHING_EVENT = true
+    getgenv().GUSE_BOOSTS = true
+		getgenv().GENCHANTS = {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Huge Hunter","Treasure Hunter","Diamonds"}
+else
+    getgenv().GENCHANTS = {"Explosive","Criticals","Lucky Eggs","Diamonds","Treasure Hunter","Super Lightning","Diamonds","Huge Hunter","Tap Power"}
+end
+
+
+-----------------------
+getgenv().GUSE_SPINNY_WHEEL = true
+--getgenv().GAUTO_UPGRADE_PETS = true
+getgenv().GCOMBINE_KEYS = true
+getgenv().GMASTERY_TO_MAX = "Pets"
+getgenv().GCONSUME_CHARMS = true
+getgenv().GDAYCARE = true
+--------------------------
+
+getgenv().GMAX_EGG_SLOTS = 99
+getgenv().GMAX_EQUIP_SLOTS = 99
+
+
+getgenv().GHOLD_GIFTS = true
+getgenv().GHOLD_BUNDLES = false
+getgenv().GCONSUME_SEED_BAGS = true  -- mở túi seed
+getgenv().GOPEN_ITEMS_IN_BULK = true -- mở hộp quà sl lớn
+getgenv().GMAX_ZONE_UPGRADE_COST = 30000000
+
+getgenv().GCOLLECT_FREE_ITEMS = true  -- nhận free item
+
+getgenv().GUSE_SPRINKLERS = true
+getgenv().GUSE_ULTIMATES = {"Tsunami", "Tornado", "Pet Surge", "Chest Spell","Ground Pound"}
+getgenv().GUSE_FLAGS = {"Fortune Flag","Diamonds Flag","Coins Flag"}
+getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata","Party Box","Mini Lucky Block"}
+getgenv().GFRUITS = {"Watermelon","Candycane","Apple","Rainbow","Pineapple","Orange","Banana"}
+getgenv().GPOTIONS = {"Coins","Lucky","The Cocktail","Huge","Treasure Hunter","Walkspeed","Diamonds","Damage"}
+getgenv().GPOTIONS_MAX_TIER = 99
+
+
+getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
+getgenv().GHUGE_COUNT = 50999
+
+getgenv().GMAX_MAIL_COST = "2m"
+getgenv().GMAIL_ITEMS = {		
+
+["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
+["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
+["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
+["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},	
+
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "5m", MinAmount = "350m"},
+
+["Candycane Gift"] = {Class = "Lootbox", Id= "Candycane Gift", MinAmount = 10},
+["Santa Gift"] = {Class = "Lootbox", Id= "Santa Gift", MinAmount = 10},
+["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 2},
+["Hype Egg 2"] = {Class = "Lootbox", Id= "Hype Egg 2", MinAmount = 1},
+
+
+}
+getgenv().GMAIL_RECEIVERS = {"sijmongirthss","Ash3rP0w3rPanda2018","soystaylan5","dreddyewele60","1971Nowak3135","Sky_Giga2017","Inferno_Eagle200889","XxOwenC0dexX2023","TurboTig3rStr3am","1953Crutchfield3117","FusionShadowCyber","AceInferno202467","R0ck3tClaw2021_YT","Xx_VictoriaUltraCybe","Magic_Legend200469","MysticFireS0nic","Noah_SKATER35","RowlandCollinq943","GalaxyRider200343","ChillMaster2011","XxRocketClawFlashxX","Vip3rB3arDragon2014","Rock3tWolfKing2009","StormyAce15"}
