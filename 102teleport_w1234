@@ -1,0 +1,76 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local rank = Save.Get().Rank
+check_map = Save.Get().UnlockedZones
+
+MAP_w2_true = check_map["Tech Spawn"]
+MAP_w3_true = check_map["Prison HQ"]
+MAP_w4_true = check_map["Fantasy Spawn"]
+
+if not MAP_w2_true then
+	if game.PlaceId == 95635359880599 or game.PlaceId == 119454325063278 then
+		local Players = game:GetService("Players")
+		local TeleportService = game:GetService("TeleportService")
+		TeleportService:Teleport(8737899170, LocalPlayer)
+		wait(10)
+	end
+    return
+end
+
+
+task.spawn(function()
+
+while true do
+	task.wait(60)
+	if game.PlaceId == 119454325063278 or game.PlaceId == 95635359880599 then
+		game:Shutdown()	
+	end
+end
+
+end)
+
+local TeleportMapping = {
+	[1] = "World1Teleport",
+	[2] = "World2Teleport",
+    [3] = "World3Teleport",
+    [4] = "World4Teleport"
+}
+
+-- Nếu đang ở đúng map cần thoát
+if game.PlaceId == 119454325063278 or game.PlaceId == 95635359880599 then
+	if not MAP_w3_true then
+		teleportName = TeleportMapping[2]
+	elseif not MAP_w4_true then
+		teleportName = TeleportMapping[3]
+	else
+		teleportName = TeleportMapping[4]
+	end
+    
+    
+    if teleportName then
+        for attempt = 1, 2 do
+            local success, result = pcall(function()
+                return ReplicatedStorage:WaitForChild("Network"):WaitForChild(teleportName):InvokeServer()
+            end) 
+            wait(10)
+
+            if game.PlaceId == 140403681187145 then
+                warn("✅ Đã teleport thành công!")
+                break
+            end
+			
+
+            if attempt == 2 and game.PlaceId == 119454325063278 then
+                game:Shutdown()	
+            end
+			if attempt == 2 and game.PlaceId == 95635359880599 then
+                game:Shutdown()	
+            end
+        end
+    else
+		player:Kick("Không tìm thấy teleport phù hợp")
+    end
+end
