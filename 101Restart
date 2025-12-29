@@ -27,7 +27,7 @@ local _Config_Offline = getOffline()
 	end
 	----------------------
 	--if name_vps == "V0" or name_vps == "V1" or name_vps == "V2" then
-	game:Shutdown()
+	--game:Shutdown()
 	--end
  end
 
