@@ -1,10 +1,6 @@
-	
 local _Config_Online = 1
 local FILE_NAME = "OFFLINE.txt"
-
-if not writefile or not readfile then
-    return
-end
+if not writefile or not readfile then    return	end
 local function getOffline()
     if not isfile or not isfile(FILE_NAME) then
         writefile(FILE_NAME, "0")
@@ -24,7 +20,15 @@ end
 local _Config_Offline = getOffline()
  if _Config_Offline ~= _Config_Online then
     setOffline(_Config_Online)
-			if EVENT_or_FARM == "E" then
-	    		game:Shutdown()		
-			end
+	if _G.Restart == true then
+		_G.Restart = false 	
+		return
+	end
+	----------------------
+	game:Shutdown()
  end
+
+if _G.Restart == true then
+	_G.Restart = false 	
+end
+
