@@ -18,7 +18,7 @@ getgenv().GXMAS_WORLD_DO_ICE_BLOCKS = true
 getgenv().GXMAS_WORLD_GRINCH_SPRAY_THRESHOLD = 10
 getgenv().GXMAS_WORLD_PET_ORDER_GOOD_TO_BAD = { "Elf Golem","Candycane Kitsune","Hippomint",  "Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
 
-getgenv().GXMAS_WORLD_MIN_HATCH_REQUESTS_PER_CYCLE = 3000
+getgenv().GXMAS_WORLD_MIN_HATCH_REQUESTS_PER_CYCLE = 200
 getgenv().GXMAS_WORLD_MIN_FARM_TIME_SECONDS = 300
 getgenv().GXMAS_WORLD_CRAFT_SANTA_GIFTS = false
 
@@ -29,10 +29,9 @@ getgenv().GXMAS_WORLD_PETS_EXCLUDED_FROM_SENDING = {"Elf Golem","Gingerbread Ang
 
 
 getgenv().GXMAS_WORLD_AUTO_CRAFT = true
-getgenv().GXMAS_WORLD_FOCUS_EGGS_FOR_AUTO_CRAFT_PETS = true
+--getgenv().GXMAS_WORLD_FOCUS_EGGS_FOR_AUTO_CRAFT_PETS = true
+
 getgenv().GDO_ADVENT_CALENDAR = true
-
-
 
 --getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Elf Golem","Candycane Kitsune","Hippomint",  "Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
 --getgenv().GRANK_FIRST = true
