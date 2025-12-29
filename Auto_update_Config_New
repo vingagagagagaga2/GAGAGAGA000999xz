@@ -33,7 +33,14 @@ end
 local _Config_Offline = getOffline()
  if _Config_Offline ~= _Config_Online then
      setOffline(_Config_Online)
-
+	if _G.Restart == true then
+		_G.Restart = false 	
+		return
+	end
     -- Shutdown
    game:Shutdown()
  end
+
+if _G.Restart == true then
+	_G.Restart = false 	
+end
