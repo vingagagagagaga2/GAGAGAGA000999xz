@@ -14,26 +14,27 @@ getgenv().GEVENT_UPGRADES = {
 "MegaPresentHigherTitanicChance",
 "MegaPresentHigherGargantuanChance"
 }
-
-getgenv().GXMAS_WORLD_AUTO_CRAFT = true
-getgenv().GXMAS_WORLD_FOCUS_EGGS_FOR_AUTO_CRAFT_PETS = true
-
-getgenv().GDO_ADVENT_CALENDAR = true
-getgenv().GXMAS_WORLD_CRAFT_SANTA_GIFTS = false
-
-getgenv().GDO_LOCKPICKING = true
-getgenv().GXMAS_WORLD_DO_ICE_BLOCKS = false
-
+getgenv().GXMAS_WORLD_DO_ICE_BLOCKS = true
+getgenv().GXMAS_WORLD_GRINCH_SPRAY_THRESHOLD = 10
 getgenv().GXMAS_WORLD_PET_ORDER_GOOD_TO_BAD = { "Elf Golem","Candycane Kitsune","Hippomint",  "Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
 
 getgenv().GXMAS_WORLD_MIN_HATCH_REQUESTS_PER_CYCLE = 3000
 getgenv().GXMAS_WORLD_MIN_FARM_TIME_SECONDS = 300
+getgenv().GXMAS_WORLD_CRAFT_SANTA_GIFTS = false
 
+getgenv().GDO_LOCKPICKING = true
 getgenv().GXMAS_WORLD_DO_MEGA_PRESENT = false
 getgenv().GXMAS_WORLD_OPEN_MEGA_PRESENT_IF_LUCK_REACH = 2000
 getgenv().GXMAS_WORLD_PETS_EXCLUDED_FROM_SENDING = {"Elf Golem","Gingerbread Angelus","Holiday Owl","Merry Mule","Snowflake Dragon"}
 
-getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Elf Golem","Candycane Kitsune","Hippomint",  "Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
+
+getgenv().GXMAS_WORLD_AUTO_CRAFT = true
+getgenv().GXMAS_WORLD_FOCUS_EGGS_FOR_AUTO_CRAFT_PETS = true
+getgenv().GDO_ADVENT_CALENDAR = true
+
+
+
+--getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Elf Golem","Candycane Kitsune","Hippomint",  "Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
 --getgenv().GRANK_FIRST = true
 --getgenv().GRANK_TO = 2
 --getgenv().GREBIRTH_TO = 2
@@ -43,13 +44,12 @@ getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
 getgenv().GGFX_MODE = 1
 getgenv().GHATCH_CHARGED_EGGS = false
 getgenv().GHATCH_GOLDEN_EGGS = false
-getgenv().GCLEAR_FAVORITE_PETS = true
-
+getgenv().GCLEAR_FAVORITE_PETS = false
 
 getgenv().GLOOTBOXES = {"Santa Gift","Candycane Gift","Time Trial Gift","Locked Hype Egg"}
 -----------------------
-getgenv().GUSE_SPINNY_WHEEL = true
-getgenv().GCOMBINE_KEYS = true
+getgenv().GUSE_SPINNY_WHEEL = false
+getgenv().GCOMBINE_KEYS = false
 getgenv().GMASTERY_TO_MAX = "Pets"
 getgenv().GCONSUME_CHARMS = true
 getgenv().GDAYCARE = true
@@ -57,7 +57,6 @@ getgenv().GDAYCARE = true
 
 getgenv().GMAX_EGG_SLOTS = 99
 getgenv().GMAX_EQUIP_SLOTS = 99
-
 
 getgenv().GHOLD_GIFTS = true
 getgenv().GHOLD_BUNDLES = false
