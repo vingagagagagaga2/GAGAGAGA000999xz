@@ -26,7 +26,7 @@ local _Config_Offline = getOffline()
 		return
 	end
 	----------------------
-	game:Shutdown()
+	--game:Shutdown()
  end
 
 if _G.Restart == true then
