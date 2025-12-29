@@ -33,7 +33,7 @@ getgenv().GXMAS_WORLD_DO_MEGA_PRESENT = false
 getgenv().GXMAS_WORLD_OPEN_MEGA_PRESENT_IF_LUCK_REACH = 2000
 getgenv().GXMAS_WORLD_PETS_EXCLUDED_FROM_SENDING = {"Elf Golem","Gingerbread Angelus","Holiday Owl","Merry Mule","Snowflake Dragon"}
 
-getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Gym","Starlight Pony","Ball"}
+getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Elf Golem","Candycane Kitsune","Hippomint",  "Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
 --getgenv().GRANK_FIRST = true
 --getgenv().GRANK_TO = 2
 --getgenv().GREBIRTH_TO = 2
@@ -46,7 +46,7 @@ getgenv().GHATCH_GOLDEN_EGGS = false
 getgenv().GCLEAR_FAVORITE_PETS = true
 
 
-getgenv().GLOOTBOXES = {"Time Trial Gift","Locked Hype Egg"}
+getgenv().GLOOTBOXES = {"Santa Gift","Candycane Gift","Time Trial Gift","Locked Hype Egg"}
 -----------------------
 getgenv().GUSE_SPINNY_WHEEL = true
 getgenv().GCOMBINE_KEYS = true
