@@ -41,7 +41,7 @@ getgenv().GZONE_TO = 999  -- to enter event from W1 put 1, from W2 put 100, from
 
 getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
 getgenv().GGFX_MODE = 1
-getgenv().GHATCH_CHARGED_EGGS = false
+getgenv().GHATCH_CHARGED_EGGS = true
 getgenv().GHATCH_GOLDEN_EGGS = false
 getgenv().GCLEAR_FAVORITE_PETS = false
 
@@ -79,39 +79,41 @@ getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
 
 --getgenv().GMAX_MAIL_COST = "4m"
-getgenv().GMAIL_ITEMS = {		
 
-["Mega Lucky Gingerbread"] = {Class = "Misc", Id = "Mega Lucky Gingerbread", Amount = 5},
+if name_vps == "V0" or name_vps == "V1" or name_vps == "V2" then
 
-["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
-["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
-["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
-["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},	
+	getgenv().GMAIL_ITEMS = {	
+	
+	["Mega Lucky Gingerbread"] = {Class = "Misc", Id = "Mega Lucky Gingerbread", Amount = 5},
+	["Ice Cube egg"] = {Class = "Egg", Id = "Exclusive Egg 58", MinAmount = 1},
+	["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "100m", MinAmount = "500m"},
 
-["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "100m", MinAmount = "500m"},
+	["Huge Pajamas Shark"] = {Class = "Pet", Id = "Huge Pajamas Shark", MinAmount = 1, AllVariants = true},
+	["Huge Festive Bear"] = {Class = "Pet", Id = "Huge Festive Bear", MinAmount = 1, AllVariants = true},
+	}
 
-["Candycane Gift"] = {Class = "Lootbox", Id= "Candycane Gift", MinAmount = 300},
-["Santa Gift"] = {Class = "Lootbox", Id= "Santa Gift", MinAmount = 300},
+else
 
-["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 5},
-["Hype Egg 2"] = {Class = "Lootbox", Id= "Hype Egg 2", MinAmount = 1},
-["Ice Cube egg"] = {Class = "Egg", Id = "Exclusive Egg 58", MinAmount = 1},
-["Huge Pajamas Shark"] = {Class = "Pet", Id = "Huge Pajamas Shark", MinAmount = 1, AllVariants = true},
-["Huge Festive Bear"] = {Class = "Pet", Id = "Huge Festive Bear", MinAmount = 1, AllVariants = true},
+	getgenv().GMAIL_ITEMS = {	
+	
+	["Mega Lucky Gingerbread"] = {Class = "Misc", Id = "Mega Lucky Gingerbread", Amount = 5},
+	["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "100m", MinAmount = "500m"},
+	["Candycane Gift"] = {Class = "Lootbox", Id= "Candycane Gift", MinAmount = 300},
+	["Santa Gift"] = {Class = "Lootbox", Id= "Santa Gift", MinAmount = 300},
+	["Ice Cube egg"] = {Class = "Egg", Id = "Exclusive Egg 58", MinAmount = 1},
 
---["Gingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", KeepAmount = 1, MinAmount = 100},
---["RBGingerbread Angelus"] = {Class = "Pet", Id = "Gingerbread Angelus", MinAmount = 3,IsRainbow = true},
---["RBElf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 4,IsRainbow = true ,KeepAmount = 1},
+	["Huge Pajamas Shark"] = {Class = "Pet", Id = "Huge Pajamas Shark", MinAmount = 1, AllVariants = true},
+	["Huge Festive Bear"] = {Class = "Pet", Id = "Huge Festive Bear", MinAmount = 1, AllVariants = true},
 
-["Elf Golem"] = {Class = "Pet", Id = "Elf Golem", MinAmount = 10, KeepAmount = 6},
-["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune", MinAmount = 10, KeepAmount = 5},
-["Hippomint"] = {Class = "Pet", Id = "Hippomint", MinAmount = 10, KeepAmount = 5},
+	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 6},
+	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 6, KeepAmount = 1},
+	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 6},
+	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 6},
+	}
 
+end
 
-}
 getgenv().GMAIL_RECEIVERS = {"sijmongirthss","Ash3rP0w3rPanda2018","soystaylan5","dreddyewele60","1971Nowak3135","Sky_Giga2017","Inferno_Eagle200889","XxOwenC0dexX2023","TurboTig3rStr3am","1953Crutchfield3117","FusionShadowCyber","AceInferno202467","R0ck3tClaw2021_YT","Xx_VictoriaUltraCybe","Magic_Legend200469","MysticFireS0nic","Noah_SKATER35","RowlandCollinq943","GalaxyRider200343","ChillMaster2011","XxRocketClawFlashxX","Vip3rB3arDragon2014","Rock3tWolfKing2009","StormyAce15"}
-   
-
 
 
 
