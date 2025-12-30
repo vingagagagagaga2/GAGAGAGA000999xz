@@ -37,7 +37,7 @@ getgenv().GXMAS_WORLD_PETS_EXCLUDED_FROM_SENDING = {"Elf Golem","Gingerbread Ang
 
 
 getgenv().GXMAS_WORLD_AUTO_CRAFT = true
---getgenv().GXMAS_WORLD_FOCUS_EGGS_FOR_AUTO_CRAFT_PETS = true
+getgenv().GXMAS_WORLD_FOCUS_EGGS_FOR_AUTO_CRAFT_PETS = true
 
 getgenv().GDO_ADVENT_CALENDAR = true
 
@@ -88,28 +88,6 @@ getgenv().GHUGE_COUNT = 50999
 
 --getgenv().GMAX_MAIL_COST = "4m"
 
-if name_vps == "V0" or name_vps == "V1" or name_vps == "V2" then
-
-	getgenv().GMAIL_ITEMS = {	
-	
-	["Mega Lucky Gingerbread"] = {Class = "Misc", Id = "Mega Lucky Gingerbread", Amount = 5},
-	["Ice Cube egg"] = {Class = "Egg", Id = "Exclusive Egg 58", MinAmount = 1},
-	["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "100m", MinAmount = "500m"},
-
-	["Huge Pajamas Shark"] = {Class = "Pet", Id = "Huge Pajamas Shark", MinAmount = 1, AllVariants = true},
-	["Huge Festive Bear"] = {Class = "Pet", Id = "Huge Festive Bear", MinAmount = 1, AllVariants = true},
-
-
-	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 120, KeepAmount = 60},
-	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 75, KeepAmount = 50},
-	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 75, KeepAmount = 50},
-	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 75, KeepAmount = 50},
-
-
-	}
-
-else
-
 	getgenv().GMAIL_ITEMS = {	
 	
 	["Mega Lucky Gingerbread"] = {Class = "Misc", Id = "Mega Lucky Gingerbread", Amount = 5},
@@ -121,13 +99,12 @@ else
 	["Huge Pajamas Shark"] = {Class = "Pet", Id = "Huge Pajamas Shark", MinAmount = 1, AllVariants = true},
 	["Huge Festive Bear"] = {Class = "Pet", Id = "Huge Festive Bear", MinAmount = 1, AllVariants = true},
 
-	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 60},
-	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 6, KeepAmount = 1},
-	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 6},
-	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 6},
+	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 80, KeepAmount = 60},
+	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 60, KeepAmount = 50},
+	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 60, KeepAmount = 50},
+	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 60, KeepAmount = 50},
 	}
 
-end
 
 getgenv().GMAIL_RECEIVERS = {"sijmongirthss","Ash3rP0w3rPanda2018","soystaylan5","dreddyewele60","1971Nowak3135","Sky_Giga2017","Inferno_Eagle200889","XxOwenC0dexX2023","TurboTig3rStr3am","1953Crutchfield3117","FusionShadowCyber","AceInferno202467","R0ck3tClaw2021_YT","Xx_VictoriaUltraCybe","Magic_Legend200469","MysticFireS0nic","Noah_SKATER35","RowlandCollinq943","GalaxyRider200343","ChillMaster2011","XxRocketClawFlashxX","Vip3rB3arDragon2014","Rock3tWolfKing2009","StormyAce15"}
 
