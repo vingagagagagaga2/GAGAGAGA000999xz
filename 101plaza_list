@@ -25,8 +25,8 @@ getgenv().Settings_autoplaza = {
 
 
 
-{Name = "Candycane Gift", Data = {Price = 370 + math.random(1,30) .."k"}},
-{Name = "Santa Gift", Data = {Price = 470 + math.random(1,30) .."k"}},
+{Name = "Candycane Gift", Data = {Price = 200 + math.random(1,30) .."k"}},
+{Name = "Santa Gift", Data = {Price = 200 + math.random(1,30) .."k"}},
 
 
 {Name = "Krampus", Data= {Price = 1 + math.random(1,20)*0.01 .."m"}}, 	
