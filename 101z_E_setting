@@ -86,7 +86,7 @@ getgenv().GENCHANTS = {"Explosive","Large Taps","Super Lightning","Lucky Eggs","
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
 
---getgenv().GMAX_MAIL_COST = "4m"
+getgenv().GMAX_MAIL_COST = "4m"
 
 	getgenv().GMAIL_ITEMS = {	
 	
@@ -99,10 +99,10 @@ getgenv().GHUGE_COUNT = 50999
 	["Huge Pajamas Shark"] = {Class = "Pet", Id = "Huge Pajamas Shark", MinAmount = 1, AllVariants = true},
 	["Huge Festive Bear"] = {Class = "Pet", Id = "Huge Festive Bear", MinAmount = 1, AllVariants = true},
 
-	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 200, KeepAmount = 100},
-	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 26, KeepAmount = 20},
-	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 25, KeepAmount = 20},
-	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 25, KeepAmount = 20},
+--	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 200, KeepAmount = 100},
+	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 26, KeepAmount = 1},
+	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 25},
+	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 25},
 	}
 
 
