@@ -26,9 +26,9 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Huge Festive Bear", Data = {Price = 499 + math.random(1,2) .."m"}}, 
 
-{Name = "Huge Frostbyte Snowman", Data = {Price = 100 + math.random(1,50)*0.1 .."m"}}, 
-{Name = "Golden Huge Frostbyte Snowman", Data = {Price = 120 + math.random(1,50)*0.1 .."m"}}, 
-{Name = "Rainbow Huge Frostbyte Snowman", Data = {Price = 800 + math.random(1,100) .."m"}}, 
+{Name = "Huge Frostbyte Snowman", Data = {Price = 50 + math.random(1,50)*0.1 .."m"}}, 
+{Name = "Golden Huge Frostbyte Snowman", Data = {Price = 55 + math.random(1,50)*0.1 .."m"}}, 
+{Name = "Rainbow Huge Frostbyte Snowman", Data = {Price = 500 + math.random(1,100) .."m"}}, 
 
 {Name = "Candycane Gift", Data = {Price = 370 + math.random(1,30) .."k"}},
 {Name = "Santa Gift", Data = {Price = 470 + math.random(1,30) .."k"}},
@@ -57,7 +57,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Exclusive Egg 58", Data = {Price = "120m"}},
 
 --------------------------------------------------------------------------------------
-{Name = "Huge Snowflake Dragon", Data = {Price = 50 + math.random(1,5) .."m"}}, 
+{Name = "Huge Snowflake Dragon", Data = {Price = 80 + math.random(1,5) .."m"}}, 
 {Name = "Golden Huge Snowflake Dragon", Data = {Price = 120 + math.random(1,5) .."m"}}, 
 
 {Name = "Huge Hot Cocoa Cow", Data = {Price = 14.5 + math.randoms(1,50)*0.01 .."m"}}, 
