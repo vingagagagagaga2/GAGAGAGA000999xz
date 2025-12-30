@@ -26,7 +26,7 @@ elseif quill_random == 2 then
 end
 
 
-getgenv().GXMAS_WORLD_MIN_HATCH_REQUESTS_PER_CYCLE = 200
+getgenv().GXMAS_WORLD_MIN_HATCH_REQUESTS_PER_CYCLE = 50
 getgenv().GXMAS_WORLD_MIN_FARM_TIME_SECONDS = 300
 getgenv().GXMAS_WORLD_CRAFT_SANTA_GIFTS = true
 
