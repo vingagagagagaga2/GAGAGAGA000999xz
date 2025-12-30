@@ -86,7 +86,7 @@ getgenv().GENCHANTS = {"Explosive","Large Taps","Super Lightning","Lucky Eggs","
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
 
-getgenv().GMAX_MAIL_COST = "4m"
+--getgenv().GMAX_MAIL_COST = "4m"
 
 	getgenv().GMAIL_ITEMS = {	
 	
