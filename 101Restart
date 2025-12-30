@@ -1,4 +1,4 @@
-local _Config_Online = 2
+local _Config_Online = 3
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
