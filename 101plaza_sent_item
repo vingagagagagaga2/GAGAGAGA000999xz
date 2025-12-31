@@ -1,10 +1,10 @@
-PAUSE_or_SEND = "p"
+PAUSE_or_SEND = "s"
 
 wait(1)
 --Sent chìa
 task.spawn(function()
 
-if PAUSE_or_SEND == "p" then
+if PAUSE_or_SEND == "p" or PAUSE_or_SEND == "s" then
 	return
 end
 
