@@ -1,4 +1,4 @@
-PAUSE_or_SEND = "p"
+PAUSE_or_SEND = "s"
 
 wait(1)
 --Sent chìa
@@ -174,29 +174,11 @@ getgenv().Settings_sentPET = {
 
 ["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 2},
 
-["Shiny Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
-["Shiny Hippomint"] = {Soluong_Yeu_cau = 1},
-["Shiny Elf Golem"] = {Soluong_Yeu_cau = 1},
-
-["Golden Elf Golem"] = {Soluong_Yeu_cau = 1},
-["Golden Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
-["Golden Hippomint"] = {Soluong_Yeu_cau = 1},
-
-["Rainbow Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
-["Rainbow Hippomint"] = {Soluong_Yeu_cau = 1},
-
-["Shiny Golden Elf Golem"] = {Soluong_Yeu_cau = 1},
-["Shiny Golden Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
-["Shiny Golden Hippomint"] = {Soluong_Yeu_cau = 1},
-
-["Shiny Rainbow Elf Golem"] = {Soluong_Yeu_cau = 1},
-["Shiny Rainbow Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
-["Shiny Rainbow Hippomint"] = {Soluong_Yeu_cau = 1},
-
-["Elf Golem"] = {Soluong_Yeu_cau = 10},
-["Candycane Kitsune"] = {Soluong_Yeu_cau = 10},
-["Hippomint"] = {Soluong_Yeu_cau = 10},
-["Krampus"] = {Soluong_Yeu_cau = 10},
+["Huge Festive Bear"] = {Soluong_Yeu_cau = 1},
+--["Elf Golem"] = {Soluong_Yeu_cau = 10},
+--["Candycane Kitsune"] = {Soluong_Yeu_cau = 10},
+--["Hippomint"] = {Soluong_Yeu_cau = 10},
+--["Krampus"] = {Soluong_Yeu_cau = 10},
 
 },
    
