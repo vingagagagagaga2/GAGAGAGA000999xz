@@ -96,9 +96,9 @@ getgenv().GHUGE_COUNT = 50999
 	["Huge Festive Bear"] = {Class = "Pet", Id = "Huge Festive Bear", MinAmount = 1, AllVariants = true},
 
 --	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 200},
-	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 10, KeepAmount = 1},
-	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 10},
-	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 10},
+	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 6, KeepAmount = 1},
+	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 5},
+	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 5},
 	}
 
 
