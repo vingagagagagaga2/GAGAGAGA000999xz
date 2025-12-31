@@ -95,7 +95,6 @@ getgenv().GHUGE_COUNT = 50999
 	["Santa Gift"] = {Class = "Lootbox", Id= "Santa Gift", MinAmount = 300},
 	["Ice Cube egg"] = {Class = "Egg", Id = "Exclusive Egg 58", MinAmount = 1},
 
-	["Huge Pajamas Shark"] = {Class = "Pet", Id = "Huge Pajamas Shark", MinAmount = 1, AllVariants = true},
 	["Huge Festive Bear"] = {Class = "Pet", Id = "Huge Festive Bear", MinAmount = 1, AllVariants = true},
 
 --	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 200},
