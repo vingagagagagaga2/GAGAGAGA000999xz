@@ -1,4 +1,4 @@
-local _Config_Online = 1
+local _Config_Online = 2
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -26,14 +26,13 @@ local _Config_Offline = getOffline()
 		return
 	end
 	----------------------
-	--if name_vps == "V0" or name_vps == "V1" or name_vps == "V2" then
+	if name_vps == "G2" then
+	--game:Shutdown()
+	ReplicatedStorage = game:GetService("ReplicatedStorage")
+	ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()	
+	end
 
-	game:Shutdown()
 
-	--ReplicatedStorage = game:GetService("ReplicatedStorage")
-	--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
-	
-	--end
  end
 
 if _G.Restart == true then
