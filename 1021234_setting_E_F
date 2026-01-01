@@ -18,14 +18,16 @@ if name_vps == "xV0" or name_vps == "xV1" or name_vps == "xV5" then
 					break
 				end
 			end
-
-else
-
-	EVENT_or_FARM = "E"
-
 end
 
-EVENT_or_FARM = "E"
+
+
+if name_vps == "G2" then
+	EVENT_or_FARM = "P"
+else
+	EVENT_or_FARM = "E"
+end
+
 
 Start_ford = 1
 task.spawn(function()
