@@ -27,7 +27,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Santa Gift", Data = {Price = 200 + math.random(1,30) .."k"}},
 
 {Name = "Krampus", Data= {Price = 1 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Hippomint", Data= {Price = 40 + math.random(1,20)*0.01 .."m"}}, 	
+{Name = "Hippomint", Data= {Price = 35 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Candycane Kitsune", Data= {Price = 35 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Elf Golem", Data= {Price = 35 + math.random(1,20)*0.01 .."m"}}, 	
 
