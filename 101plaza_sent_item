@@ -1,4 +1,4 @@
-PAUSE_or_SEND = "p"
+PAUSE_or_SEND = "s"
 
 wait(1)
 --Sent chìa
@@ -344,7 +344,7 @@ local function sendExcessPets()
             for _, item in pairs(itemsFound) do
 				
                 if item.ID == itemName and petSent < totalCount then
-					wait(3)
+					task.wait(5)
 					if string.find(itemName,"Huge") then
 						--warn("Huge chi send 1")
 						totalCount = 1
