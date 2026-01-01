@@ -127,7 +127,4 @@ while true do
 	task.wait(60)
 	checkInventory()
 end
-
-
-
 end)
