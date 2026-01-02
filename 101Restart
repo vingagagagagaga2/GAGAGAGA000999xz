@@ -27,7 +27,7 @@ local _Config_Offline = getOffline()
 	end
 	----------------------
 	if name_vps == "L1" then
-		loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
+
 	end
 	--game:Shutdown()
 	--ReplicatedStorage = game:GetService("ReplicatedStorage")
