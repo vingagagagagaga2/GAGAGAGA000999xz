@@ -1,0 +1,90 @@
+local username = "nalsur71230"
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
+local Network = require(Client.Network)
+local SaveData = require(Client.Save).Get()
+
+-- ================== SEND ==================
+local function sendBook(uid, count)
+	local message = "free " .. username
+	local success, result = Network.Invoke("Mailbox: Send", username, message, "Enchant", uid, count)
+	if success then
+		warn("✅ Đã gửi", count, "cuốn UID:", uid)
+	else
+		warn("❌ Lỗi gửi UID:", uid, tostring(result))
+	end
+end
+
+-- ================== COLLECT ==================
+local books = {
+	[8]  = {},
+	[9]  = {},
+	[10] = {},
+}
+
+for uid, v in pairs(SaveData.Inventory.Enchant or {}) do
+	if v.id == "Lucky Eggs" and books[v.tn] then
+		table.insert(books[v.tn], {
+			uid = uid,
+			amount = tonumber(v._am) or 1
+		})
+	end
+end
+
+-- ================== STEP 1: SEND ALL LV8 ==================
+for _, b in ipairs(books[8]) do
+	sendBook(b.uid, b.amount)
+	task.wait(2)
+end
+
+-- ================== STEP 2: HANDLE LV10 ==================
+local totalLv10 = 0
+for _, b in ipairs(books[10]) do
+	totalLv10 += b.amount
+end
+
+local KEEP_LV10 = 2
+local sentLv10 = 0
+local keptLv10 = 0
+
+for _, b in ipairs(books[10]) do
+	if keptLv10 >= KEEP_LV10 then
+		sendBook(b.uid, b.amount)
+		task.wait(2)
+		sentLv10 += b.amount
+	else
+		local canKeep = KEEP_LV10 - keptLv10
+		if b.amount > canKeep then
+			sendBook(b.uid, b.amount - canKeep)
+			task.wait(2)
+			keptLv10 += canKeep
+			sentLv10 += (b.amount - canKeep)
+		else
+			keptLv10 += b.amount
+		end
+	end
+end
+
+-- ================== STEP 3: HANDLE LV9 ==================
+local keepLv9
+if keptLv10 >= 2 then
+	keepLv9 = 1
+elseif keptLv10 == 1 then
+	keepLv9 = 2
+else
+	keepLv9 = 3
+end
+
+local keptLv9 = 0
+
+for _, b in ipairs(books[9]) do
+	local canKeep = math.max(keepLv9 - keptLv9, 0)
+	if b.amount > canKeep then
+		sendBook(b.uid, b.amount - canKeep)
+		task.wait(2)
+		keptLv9 += canKeep
+	else
+		keptLv9 += b.amount
+	end
+end
