@@ -32,7 +32,7 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Krampus", Data= {Price = 1 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Hippomint", Data= {Price = 17 + math.random(1,20)*0.01 .."m"}}, 	
-{Name = "Candycane Kitsune", Data= {Price = 20 + math.random(1,20)*0.01 .."m"}}, 	
+{Name = "Candycane Kitsune", Data= {Price = 25 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Elf Golem", Data= {Price = 20 + math.random(1,20)*0.01 .."m"}}, 	
 
 {Name = "Rainbow Elf Golem", Data= {Price = 40 + math.random(1,20)*0.01 .."m"}}, 	
