@@ -90,7 +90,7 @@ getgenv().GHUGE_COUNT = 50999
 	getgenv().GMAIL_ITEMS = {	
 	
 	["Mega Lucky Gingerbread"] = {Class = "Misc", Id = "Mega Lucky Gingerbread", Amount = 5},
-	["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "100m", MinAmount = "500m"},
+	["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "300m", MinAmount = "600m"},
 	["Candycane Gift"] = {Class = "Lootbox", Id= "Candycane Gift", MinAmount = 300},
 	["Santa Gift"] = {Class = "Lootbox", Id= "Santa Gift", MinAmount = 300},
 	["Ice Cube egg"] = {Class = "Egg", Id = "Exclusive Egg 58", MinAmount = 1},
