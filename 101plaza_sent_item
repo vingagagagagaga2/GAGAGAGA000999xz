@@ -4,7 +4,7 @@ wait(1)
 --Sent chìa
 task.spawn(function()
 
-if PAUSE_or_SEND == "p" or PAUSE_or_SEND == "s" then
+if PAUSE_or_SEND == "p" then
 	return
 end
 
@@ -174,7 +174,7 @@ getgenv().Settings_sentPET = {
 
 ["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 2},
 
-["Huge Candycane Shake Shark"] = {Soluong_Yeu_cau = 1},
+--["Huge Candycane Shake Shark"] = {Soluong_Yeu_cau = 1},
 --["Elf Golem"] = {Soluong_Yeu_cau = 10},
 --["Candycane Kitsune"] = {Soluong_Yeu_cau = 10},
 --["Hippomint"] = {Soluong_Yeu_cau = 10},
