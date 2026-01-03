@@ -103,7 +103,7 @@ getgenv().GHUGE_COUNT = 50999
 --	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 200},
 	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 16, KeepAmount = 10},
 	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 16, KeepAmount = 10},
-	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 25, KeepAmount = 20},
+	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 35, KeepAmount = 25},
 	}
 
 
