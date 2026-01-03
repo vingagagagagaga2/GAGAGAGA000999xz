@@ -8,7 +8,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Titanic Starlight Pony", Data = {Price = 26 + math.random(1,5) .."b"}}, 
 {Name = "Rainbow Titanic Starlight Pony", Data = {Price = 22 + math.random(1,500)*0.01 .."b"}}, 
 {Name = "Golden Titanic Starlight Pony", Data = {Price = 6.9 + math.random(1,10)*0.01 .."b"}}, 
-{Name = "Titanic Starlight Pony", Data = {Price = 6.3 + math.random(10,50)*0.01 .."b"}}, 
+{Name = "Titanic Starlight Pony", Data = {Price = 6.4 + math.random(10,50)*0.01 .."b"}}, 
 
 
 {Name = "Gargantuan Snowflake Dragon", Data = {Price = 90 + math.random(1,40).."b"}}, 
@@ -23,7 +23,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Titanic Candycane Kitsune", Data = {Price = 6 + math.random(1,3)*0.01 .."b"}}, 
 {Name = "Titanic Gingerbread Angelus", Data = {Price = 6.4 + math.random(1,100)*0.01 .."b"}}, 
 {Name = "Titanic Hippomint", Data = {Price = 6 + math.random(1,20)*0.01 .."b"}}, 
-{Name = "Golden Titanic Hippomint", Data = {Price = 7 + math.random(1,50)*0.01 .."b"}}, 
+{Name = "Golden Titanic Hippomint", Data = {Price = 8.5 + math.random(1,50)*0.01 .."b"}}, 
 {Name = "Titanic Night Terror Dog", Data = {Price = 6 + math.random(1,50)*0.01 .."b"}}, 
 
 -------------------------------------------------------------------------------
