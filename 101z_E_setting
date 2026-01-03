@@ -75,7 +75,7 @@ getgenv().GMAX_ZONE_UPGRADE_COST = 30000000
 getgenv().GCOLLECT_FREE_ITEMS = true  -- nhận free item
 
 getgenv().GUSE_SPRINKLERS = true
-getgenv().GUSE_ULTIMATES = {"Tsunami", "Tornado", "Pet Surge", "Chest Spell","Ground Pound"}
+getgenv().GUSE_ULTIMATES = {"UFO","Tsunami","Tornado",","Lightning Storm"","Ground Pound"}
 getgenv().GUSE_FLAGS = {"Fortune Flag","Diamonds Flag","Coins Flag"}
 getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata","Party Box","Mini Lucky Block"}
 getgenv().GFRUITS = {"Watermelon","Candycane","Apple","Rainbow","Pineapple","Orange","Banana"}
