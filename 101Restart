@@ -1,3 +1,5 @@
+task.wait(800)
+
 local _Config_Online = 8
 
 local FILE_NAME = "OFFLINE.txt"
