@@ -1,4 +1,4 @@
-local _Config_Online = 7
+local _Config_Online = 8
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -27,9 +27,9 @@ local _Config_Offline = getOffline()
 	end
 	----------------------
 	if name_vps == "L1" then
-	else
-		loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
 	end
+		loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
+	
 	--game:Shutdown()
 	--ReplicatedStorage = game:GetService("ReplicatedStorage")
 	--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()	
