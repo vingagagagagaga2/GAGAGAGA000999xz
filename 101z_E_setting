@@ -35,7 +35,7 @@ getgenv().GXMAS_WORLD_OPEN_MEGA_PRESENT_IF_LUCK_REACH = 2000
 getgenv().GXMAS_WORLD_PETS_EXCLUDED_FROM_SENDING = {"Elf Golem","Gingerbread Angelus","Holiday Owl","Merry Mule","Snowflake Dragon"}
 
 
-getgenv().GXMAS_WORLD_AUTO_CRAFT = false
+getgenv().GXMAS_WORLD_AUTO_CRAFT = true
 getgenv().GXMAS_WORLD_FOCUS_EGGS_FOR_AUTO_CRAFT_PETS = false
 
 getgenv().GDO_ADVENT_CALENDAR = true
