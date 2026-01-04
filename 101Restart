@@ -55,8 +55,8 @@ getgenv().GMAIL_ITEMS = {
 	["Huge Candycane Shake Shark"] = {Class = "Pet", Id = "Huge Candycane Shake Shark", MinAmount = 1, AllVariants = true},
 
 --	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 200},
-	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 16, KeepAmount = 10},
-	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 16, KeepAmount = 10},
+	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 20, KeepAmount = 16},
+	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 20, KeepAmount = 16},
 	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 35, KeepAmount = 25},
 	}
 
