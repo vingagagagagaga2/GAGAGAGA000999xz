@@ -32,7 +32,7 @@ local _Config_Offline = getOffline()
 	end
 	loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
 	
-	game:Shutdown()
+	--game:Shutdown()
 	--ReplicatedStorage = game:GetService("ReplicatedStorage")
 	--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()	
 
