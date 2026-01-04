@@ -1,4 +1,4 @@
-PAUSE_or_SEND = "p"
+PAUSE_or_SEND = "s"
 
 wait(1)
 --Sent chìa
@@ -176,9 +176,9 @@ getgenv().Settings_sentPET = {
 ["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 2},
 
 --["Huge Candycane Shake Shark"] = {Soluong_Yeu_cau = 1},
---["Elf Golem"] = {Soluong_Yeu_cau = 10},
-["Candycane Kitsune"] = {Soluong_Yeu_cau = 100},
---["Hippomint"] = {Soluong_Yeu_cau = 100},
+["Elf Golem"] = {Soluong_Yeu_cau = 10},
+["Candycane Kitsune"] = {Soluong_Yeu_cau = 50},
+["Hippomint"] = {Soluong_Yeu_cau = 50},
 --["Krampus"] = {Soluong_Yeu_cau = 10},
 
 },
