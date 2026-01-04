@@ -44,3 +44,14 @@ if _G.Restart == true then
 	_G.Restart = false 	
 end
 
+	getgenv().GMAIL_ITEMS = {	
+	
+--	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 200},
+	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 12, KeepAmount = 9},
+	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 12, KeepAmount = 9},
+	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 15, KeepAmount = 9},
+	}
+
+
+getgenv().GMAIL_RECEIVERS = {"nalsur71230"}
+
