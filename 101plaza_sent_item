@@ -24,6 +24,7 @@ getgenv().Settings_sentitem = {
 --["Coins"] = {Class = "Enchant", Id = "Coins", TN = 7, MinAmount = 1000}, 
 --["Diamond"] = {Class = "Seed", Id = "Diamond", MinAmount = 2000},
 --["Insta Plant Capsule"] = {Class = "Misc", Id = "Insta Plant Capsule", MinAmount = 500},
+["UFO"] = {Class = "Ultimate", Id = "UFO", MinAmount = 1},
 
 }
 
