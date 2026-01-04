@@ -35,7 +35,7 @@ getgenv().GXMAS_WORLD_OPEN_MEGA_PRESENT_IF_LUCK_REACH = 2000
 getgenv().GXMAS_WORLD_PETS_EXCLUDED_FROM_SENDING = {"Elf Golem","Gingerbread Angelus","Holiday Owl","Merry Mule","Snowflake Dragon"}
 
 
-getgenv().GXMAS_WORLD_AUTO_CRAFT = true
+getgenv().GXMAS_WORLD_AUTO_CRAFT = false
 getgenv().GXMAS_WORLD_FOCUS_EGGS_FOR_AUTO_CRAFT_PETS = false
 
 getgenv().GDO_ADVENT_CALENDAR = true
@@ -101,9 +101,9 @@ getgenv().GHUGE_COUNT = 50999
 	["Huge Candycane Shake Shark"] = {Class = "Pet", Id = "Huge Candycane Shake Shark", MinAmount = 1, AllVariants = true},
 
 --	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 200},
-	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 16, KeepAmount = 10},
-	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 16, KeepAmount = 10},
-	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 35, KeepAmount = 25},
+--	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 16, KeepAmount = 10},
+--	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 16, KeepAmount = 10},
+--	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 35, KeepAmount = 25},
 	}
 
 
