@@ -1,6 +1,6 @@
 --task.wait(800)
 
-local _Config_Online = 14
+local _Config_Online = 15
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -30,9 +30,9 @@ local _Config_Offline = getOffline()
 	----------------------
 	if name_vps == "L1" then
 	end
-	loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
+	--loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
 	
-	--game:Shutdown()
+	game:Shutdown()
 	--ReplicatedStorage = game:GetService("ReplicatedStorage")
 	--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()	
 
@@ -44,12 +44,5 @@ if _G.Restart == true then
 	_G.Restart = false 	
 end
 
-	getgenv().GMAIL_ITEMS = {	
-	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 12, KeepAmount = 9},
-	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 20, KeepAmount = 9},
-	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 15, KeepAmount = 9},
-	}
 
-
-getgenv().GMAIL_RECEIVERS = {"nalsur71230"}
 
