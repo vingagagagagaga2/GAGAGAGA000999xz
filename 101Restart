@@ -1,6 +1,6 @@
-task.wait(800)
+--task.wait(800)
 
-local _Config_Online = 8
+local _Config_Online = 9
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -30,7 +30,7 @@ local _Config_Offline = getOffline()
 	----------------------
 	if name_vps == "L1" then
 	end
-		loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
+	loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
 	
 	--game:Shutdown()
 	--ReplicatedStorage = game:GetService("ReplicatedStorage")
