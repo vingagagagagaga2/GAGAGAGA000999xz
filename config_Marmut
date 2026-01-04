@@ -16,7 +16,6 @@ setfpscap(2)
 getgenv().gagConfig = {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "New Year's Egg" },
     OPEN_ALL_PRESENT = true,
     
     MAX_PLANTS = 200,
@@ -45,15 +44,15 @@ BUY_EGGS = { ["Common Egg"] = 10, "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise 
 
 PLANT_EGGS = 
 {
- "New Year's Egg", 
+  "Carnival Egg", "New Year's Egg", 
 "Winter Egg", "Christmas Egg","Jungle Egg",
 "Rare Summer Egg","Rare Egg",
 "Paradise Egg","Gem Egg","Safari Egg","Spooky Egg","Bug Egg","Uncommon Egg","Fall Egg",
 },
 
-    BUY_SEED_SHOP = { "Peppermint Vine Seed", "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+BUY_SEED_SHOP = { "Bonanza Bloom Seed", "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
-FAVOURITE_FRUIT_MUTATIONS = {},
+URITE_FRUIT_MUTATIONS = {},
 SKIP_HARVEST_MUTATIONS = {},
 
 KEEP_PETS = {
@@ -65,6 +64,7 @@ KEEP_PETS = {
 "Mizuchi","Tiger","Phoenix","Red Panda","Swan","Space Squirrel","Cockatrice","Griffin","Golden Goose","Lobster Thermidor","French Fry Ferret","Spinosaurus",
 "Raiju","Disco Bee","Queen Bee","T-Rex","Fennec Fox","Night Owl","Raccoon","Blood Owl","Ice Golem", "Yeti",
 "Wendigo","New Year's Dragon", ["Star Wolf"] = 3,
+"Carnival Elephant",
 },
 
 KEEP_PETS_WEIGHT = 6,
