@@ -44,6 +44,20 @@ if _G.Restart == true then
 	_G.Restart = false 	
 end
 
+getgenv().GMAIL_ITEMS = {	
+	
+	["Mega Lucky Gingerbread"] = {Class = "Misc", Id = "Mega Lucky Gingerbread", Amount = 5},
+	["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "300m", MinAmount = "600m"},
+	["Candycane Gift"] = {Class = "Lootbox", Id= "Candycane Gift", MinAmount = 300},
+	["Santa Gift"] = {Class = "Lootbox", Id= "Santa Gift", MinAmount = 300},
+	["Ice Cube egg"] = {Class = "Egg", Id = "Exclusive Egg 58", MinAmount = 1},
 
+	["Huge Candycane Shake Shark"] = {Class = "Pet", Id = "Huge Candycane Shake Shark", MinAmount = 1, AllVariants = true},
+
+--	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 200},
+	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 16, KeepAmount = 10},
+	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 16, KeepAmount = 10},
+	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 35, KeepAmount = 25},
+	}
 
 	
