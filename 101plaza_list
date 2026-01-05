@@ -14,7 +14,7 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Gargantuan Blurred Agony", Data = {Price = 80 + math.random(1,20)*0.1 .."b"}}, 
 
-{Name = "Titanic Holiday Owl", Data = {Price = 49 + math.random(1,10)*0.1 .."b"}}, 
+{Name = "Titanic Holiday Owl", Data = {Price = 40 + math.random(1,10)*0.1 .."b"}}, 
 
 {Name = "Titanic Crackling Dragon", Data = {Price = 6.5 + math.random(1,50)*0.01 .."b"}}, 
 
@@ -31,8 +31,8 @@ getgenv().Settings_autoplaza = {
 -------------------------------------------------------------------------------
 {Name = "Mega Lucky Gingerbread", Data = {Price = 30 + math.random(1,50)*0.1 .."m"}},
 
-{Name = "Candycane Gift", Data = {Price = 200 + math.random(1,30) .."k"}},
-{Name = "Santa Gift", Data = {Price = 200 + math.random(1,30) .."k"}},
+{Name = "Candycane Gift", Data = {Price = 180 + math.random(1,30) .."k"}},
+{Name = "Santa Gift", Data = {Price = 180 + math.random(1,30) .."k"}},
 
 {Name = "Krampus", Data= {Price = 1 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Hippomint", Data= {Price = 6 + math.random(1,20)*0.01 .."m"}}, 	
