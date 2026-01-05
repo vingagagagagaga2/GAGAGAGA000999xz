@@ -29,7 +29,7 @@ local _Config_Offline = getOffline()
 	end
 	----------------------
 	if name_vps == "M68"then
-		getgenv().GDO_XMAS_WORLD = false
+		
 	end
 	--game:Shutdown()
 	--ReplicatedStorage = game:GetService("ReplicatedStorage")
