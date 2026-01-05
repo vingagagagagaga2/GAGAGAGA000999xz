@@ -22,7 +22,7 @@ else
 	EVENT_or_FARM = "E"
 end
 
-
+EVENT_or_FARM = "E"
 
 
 
