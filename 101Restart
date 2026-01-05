@@ -1,6 +1,6 @@
 --task.wait(3600)
 
-local _Config_Online = 22
+local _Config_Online = 23
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -31,7 +31,7 @@ local _Config_Offline = getOffline()
 	if name_vps == "M68"then
 		
 	end
-	--game:Shutdown()
+	game:Shutdown()
 	--ReplicatedStorage = game:GetService("ReplicatedStorage")
 	--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()	
 
