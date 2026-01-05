@@ -45,5 +45,5 @@ if _G.Restart == true then
 	_G.Restart = false 	
 end
 
-getgenv().GLOOTBOXES = {"Time Trial Gift","Locked Hype Egg"}
+getgenv().GLOOTBOXES = {"Locked Hype Egg"}
 
