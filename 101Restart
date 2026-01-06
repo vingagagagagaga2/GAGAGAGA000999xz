@@ -1,6 +1,6 @@
 --task.wait(3600)
 
-local _Config_Online = 25
+local _Config_Online = 26
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -44,6 +44,4 @@ local _Config_Offline = getOffline()
 if _G.Restart == true then
 	_G.Restart = false 	
 end
-
-getgenv().GLOOTBOXES = {"Locked Hype Egg"}
 
