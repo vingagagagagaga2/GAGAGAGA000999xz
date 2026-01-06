@@ -1,6 +1,6 @@
 --task.wait(3600)
 
-local _Config_Online = 26
+local _Config_Online = 28
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -32,13 +32,17 @@ local _Config_Offline = getOffline()
 	end
 
 	if EVENT_or_FARM == "E" then
-		game:Shutdown()
+		
 	end
 	--ReplicatedStorage = game:GetService("ReplicatedStorage")
 	--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()	
 
 	--loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/103sendluckyegg"))()	
-
+local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local rank = Save.Get().Rank
+if rank < 30 then
+	game:Shutdown()
+end
  end
 
 if _G.Restart == true then
