@@ -20,7 +20,7 @@ getgenv().gagConfig = {
     
     MAX_PLANTS = 200,
     DESTROY_UNTIL_MIN_PLANTS = 150,
-    KEEP_SEEDS = { "Bone Blossom" },
+    KEEP_SEEDS = { "Bonanza Bloom Seed" , "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
     PLACE_COSMETIC = { "Cooking Kit", "Jingle Bells" },
@@ -91,9 +91,10 @@ SELL_PETS_AGE =    {"Black Bunny","Bunny","Farmer Chipmunk","Idol Chipmunk","Mar
 
 USE_PETS_FOR_UPGRADE_SLOT = {"Seal", "Starfish","Rooster","Chicken", },
 
-    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1419265267808075877/pUAjPUeJ3h2DgAMkr2pTTlfU6oirULLyRyt1FjT0FrhCBseANbd4ywChParm_7jhXkqr",
-    SEED_WEBHOOK_URL = "", 
+    PET_WEBHOOK_URL = wehhook_petgag,
+    SEED_WEBHOOK_URL = wehhook_seedgag,
     NOTIFY_PETS_WEIGHT = 6,
+
     DISCORD_ID = "",
     WEBHOOK_NOTE = "Huge",
     SHOW_WEBHOOK_USERNAME = true,
