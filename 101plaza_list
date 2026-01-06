@@ -1,3 +1,5 @@
+_G.Restart = true
+
 getgenv().Settings_autoplaza = {
 ["Items"] = {
 {Name = "MVP Key", Data= {Price = 3.5 + math.random(1,20)*0.01 .."m"}}, 	
