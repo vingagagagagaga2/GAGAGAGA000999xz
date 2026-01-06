@@ -4,7 +4,7 @@ setfpscap(3)
 end)
 getgenv().GEVENT_FPS  = 3
 
-getgenv().GLOOTBOXES = {"Tropical Gift","Time Trial Gift","Locked Hype Egg"}
+getgenv().GLOOTBOXES = {"Locked Hype Egg"}
 
 --getgenv().GRANK_FIRST = true
 getgenv().GZONE_TO = 999
