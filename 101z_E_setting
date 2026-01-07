@@ -1,8 +1,8 @@
 task.spawn(function()
 wait(20)
-setfpscap(3)
+setfpscap(2)
 end)
-getgenv().GEVENT_FPS  = 3
+getgenv().GEVENT_FPS  = 2
 
 getgenv().GDO_XMAS_WORLD = true
 getgenv().GHOP_ON_STAFF = true
