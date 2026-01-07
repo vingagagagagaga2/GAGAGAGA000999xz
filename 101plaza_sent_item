@@ -53,7 +53,7 @@ getgenv().Settings_sentitem = {
 
 --["Halloween Lucky Block Gift"] = {Class = "Lootbox", Id = "Halloween Lucky Block Gift", MinAmount = 1},	--ok
 ["Summer Block Party Ticket"] = {Class = "Misc", Id = "Summer Block Party Ticket",MinAmount = 1, keepAmount = 0},	--ok
-["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	--ok
+["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 200},	--ok
 ["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 50000},	
 --["Tech Key"] = {Class = "Misc", Id = "Tech Key", MinAmount = 1000},	
 --["Coins"] = {Class = "Enchant", Id = "Coins", TN = 7, MinAmount = 1000}, 
