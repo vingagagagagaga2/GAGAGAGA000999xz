@@ -1,6 +1,6 @@
 --task.wait(3600)
 
-local _Config_Online = 28
+local _Config_Online = 29
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -21,29 +21,30 @@ local function setOffline(v)
     writefile(FILE_NAME, tostring(v))
 end
 local _Config_Offline = getOffline()
- if _Config_Offline ~= _Config_Online then
-    setOffline(_Config_Online)
-	if _G.Restart == true then
-		_G.Restart = false 	
-		return
-	end
-	----------------------
-	if name_vps == "M68"then		
-	end
+if _Config_Offline ~= _Config_Online then
 
-	if EVENT_or_FARM == "E" then
-		
-	end
-	--ReplicatedStorage = game:GetService("ReplicatedStorage")
-	--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()	
+	    setOffline(_Config_Online)
+		if _G.Restart == true then
+			_G.Restart = false 	
+			return
+		end
+		----------------------
+		if name_vps == "M68"then		
+		end
+	
+		if EVENT_or_FARM == "E" then			
+		end
+		--ReplicatedStorage = game:GetService("ReplicatedStorage")
+		--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()	
+	
+		--loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/103sendluckyegg"))()	
+		local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+		local rank = Save.Get().Rank
+		if rank < 30 and EVENT_or_FARM == "E" then
+			game:Shutdown()
+		end
 
-	--loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/103sendluckyegg"))()	
-local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
-local rank = Save.Get().Rank
-if rank < 30 then
-	game:Shutdown()
 end
- end
 
 if _G.Restart == true then
 	_G.Restart = false 	
