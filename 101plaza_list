@@ -56,25 +56,8 @@ getgenv().Settings_autoplaza = {
 {Name = "Exclusive Egg 57", Data = {Price = "120m"}},
 {Name = "Exclusive Egg 58", Data = {Price = "120m"}},
 
--------------------------------------------------------------------------------------- >> 20m
-{Name = "Rainbow Huge Frostbyte Snowman", Data = {Price = 350 + math.random(1,100) .."m"}}, 
+-------------------------------------------------------------------------------------- 
 
-{Name = "Huge Hot Cocoa Cow", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Huge Holiday Owl", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
-
-{Name = "Huge Merry Mule", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Huge Nutcracker Bunny", Data = {Price = 60 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Huge Gingerbread Lion", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
-
-
-
-{Name = "Huge Festive Bear", Data = {Price = 20 + math.random(1,2) .."m"}}, 
-{Name = "Huge Snowflake Dragon", Data = {Price = 29 + math.random(1,5) .."m"}}, 
-{Name = "Golden Huge Snowflake Dragon", Data = {Price = 40 + math.random(1,5) .."m"}}, 
-{Name = "Rainbow Huge Snowflake Dragon", Data = {Price = 350 + math.random(1,5) .."m"}}, 
-
-{Name = "Huge Frostbyte Snowman", Data = {Price = 29 + math.random(1,2) .."m"}}, 
-{Name = "Golden Huge Frostbyte Snowman", Data = {Price = 40 + math.random(1,2) .."m"}}, 
 --------------------------------------------------------------------------------------
 
 {Name = "Titanic Pixel Dominus Astra",Data = {Price = 6.5 + math.random(1,100)*0.01 .."b"}},
@@ -105,25 +88,12 @@ getgenv().Settings_autoplaza = {
 {Name = "Fantasy Key", Data = {Price = 70 + math.random(1,10) .."k"}},
 {Name = "Hacker Key", Data = {Price = "200k"}},
 
-
-
-{Name = "Shiny Palace Pooka", Data = {Price = "60m"}},
-{Name = "Shiny Rainbow Palace Pooka", Data = {Price = "120m"}},
+{Name = "Shiny Palace Pooka", Data = {Price = "100m"}},
+{Name = "Shiny Rainbow Palace Pooka", Data = {Price = "200m"}},
 
 {Name = "Shiny All Huges", Data = {Price = "10%", Min_sell = "80m", Max_sell = "700m"}},
 {Name = "Shiny Golden All Huges", Data = {Price = "5%", Min_sell = "400m", Max_sell = "1b"}},
-{Name = "Shiny Rainbow All Huges", Data = {Price = "15%", Min_sell = "1b", Max_sell = "10b"}},
-
-{Name = "Huge Vampire Agony", Data = {Price = 700 + math.random(1,10)*0.01 .."m"}}, 
-
-{Name = "Huge Hacked Reaper", Data = {Price = 160 + math.random(1,10)*0.01 .."m"}}, 
-{Name = "Golden Huge Hacked Reaper", Data = {Price = 160 + math.random(1,10)*0.01 .."m"}}, 
-{Name = "Rainbow Huge Hacked Reaper", Data = {Price = 760 + math.random(1,10)*0.01 .."m"}}, 
-
-{Name = "Huge Specter Owl", Data = {Price = 2 + math.random(1,100)*0.01 .."b"}}, 
-{Name = "Golden Huge Specter Owl", Data = {Price = "1b"}},
-
-
+{Name = "Shiny Rainbow All Huges", Data = {Price = "15%", Min_sell = "1b", Max_sell = "6b"}},
 
 {Name = "All Huges", Data = {Price = "+5%", Min_sell = 17 + math.random(1,40)*0.01 .."m", Max_sell = "80m" }}, 
 {Name = "Golden All Huges", Data = {Price = "+5%", Min_sell = 22 + math.random(1,50)*0.01 .."m", Max_sell = "90m" }}, 
