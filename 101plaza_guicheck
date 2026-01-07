@@ -1,5 +1,5 @@
 
-local itemsToTrack = {
+itemsToTrack_plaza = {
 	
 	{ id = "Santa Gift", 			guiName = "Item11", row = 1, col = 0, color = Color3.fromRGB(0, 255, 255) },			--xanh
 	{ id = "Huge", 					guiName = "Item12", row = 1, col = 1, color = Color3.fromRGB(192,192,192) }, 		--xám
