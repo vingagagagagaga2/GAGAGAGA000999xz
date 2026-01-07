@@ -1,0 +1,16 @@
+
+local itemsToTrack = {
+	
+	{ id = "Santa Gift", 			guiName = "Item11", row = 1, col = 0, color = Color3.fromRGB(0, 255, 255) },			--xanh
+	{ id = "Huge", 					guiName = "Item12", row = 1, col = 1, color = Color3.fromRGB(192,192,192) }, 		--xám
+	{ id = "Huge Candycane Shake Shark",guiName = "Item13", row = 1, col = 2, color = Color3.fromRGB(0, 255, 0) }, 		--xanh lá cây
+	{ id = "MVP Key", 				guiName = "Item14", row = 1, col = 3, color = Color3.fromRGB(255, 255, 255) },				--trang
+
+
+	{ id = "Candycane Gift", 		guiName = "Item21", row = 0, col = 0, color = Color3.fromRGB(255, 165, 0) },		-- cam
+	{ id = "Gingerbread Angelus", 	guiName = "Item22", row = 0, col = 1, color = Color3.fromRGB(255, 255, 255) },				--trang
+	{ id = "Hippomint", 			guiName = "Item23", row = 0, col = 2, color = Color3.fromRGB(255, 0, 0) },				--đỏ
+	{ id = "Candycane Kitsune", 	guiName = "Item24", row = 0, col = 3, color = Color3.fromRGB(255, 165, 0) },		-- cam
+	{ id = "Elf Golem", 			guiName = "Item25", row = 0, col = 4, color = Color3.fromRGB(0, 255, 0) },		--xanh lá cây
+
+}
