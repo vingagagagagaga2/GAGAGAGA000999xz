@@ -1,5 +1,5 @@
 --task.wait(3600)
-setfpscap(2)
+setfpscap(3)
 
 local _Config_Online = 32
 
