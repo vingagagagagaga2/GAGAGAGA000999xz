@@ -1,6 +1,6 @@
 --task.wait(3600)
 
-local _Config_Online = 31
+local _Config_Online = 32
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -29,9 +29,10 @@ if _Config_Offline ~= _Config_Online then
 			return
 		end
 		--------------------------------------------
-		if name_vps == "M68"then		
+		if name_vps ~= "L1" and EVENT_or_FARM == "E" then	
+			game:Shutdown()
 		end
-		game:Shutdown()
+		
 		if EVENT_or_FARM == "E" then			
 		end
 		--ReplicatedStorage = game:GetService("ReplicatedStorage")
