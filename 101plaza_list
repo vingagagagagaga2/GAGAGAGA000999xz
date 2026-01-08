@@ -12,8 +12,8 @@ getgenv().Settings_autoplaza = {
 {Name = "Golden Titanic Starlight Pony", Data = {Price = 6.9 + math.random(1,10)*0.01 .."b"}}, 
 {Name = "Titanic Starlight Pony", Data = {Price = 6 + math.random(10,50)*0.01 .."b"}}, 
 
-{Name = "Gargantuan Snowflake Dragon", Data = {Price = 79 + math.random(1,15).."b"}}, 
-{Name = "Gargantuan Blurred Agony", Data = {Price = 82 + math.random(1,15).."b"}}, 
+{Name = "Gargantuan Snowflake Dragon", Data = {Price = 79 + math.random(1,5).."b"}}, 
+{Name = "Gargantuan Blurred Agony", Data = {Price = 82 + math.random(1,5).."b"}}, 
 
 {Name = "Titanic Holiday Owl", Data = {Price = 20 + math.random(1,10)*0.1 .."b"}}, 
 
@@ -90,7 +90,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Huge Nutcracker Bunny", Data = {Price = 60 + math.random(1,50)*0.01 .."m"}}, 
 {Name = "Huge Gingerbread Lion", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}},
 
-{Name = "Huge Festive Bear", Data = {Price = 20 + math.random(1,2) .."m"}}, 
+{Name = "Huge Festive Bear", Data = {Price = 18 + math.random(1,2) .."m"}}, 
 {Name = "Huge Snowflake Dragon", Data = {Price = 29 + math.random(1,5) .."m"}}, 
 {Name = "Golden Huge Snowflake Dragon", Data = {Price = 40 + math.random(1,5) .."m"}}, 
 {Name = "Rainbow Huge Snowflake Dragon", Data = {Price = 350 + math.random(1,5) .."m"}}, 
