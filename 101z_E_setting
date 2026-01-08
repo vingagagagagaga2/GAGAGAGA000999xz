@@ -25,8 +25,8 @@ elseif quill_random == 2 then
 getgenv().GXMAS_WORLD_PET_ORDER_GOOD_TO_BAD = {"Elf Golem","Hippomint","Candycane Kitsune",  	"Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
 end
 
-getgenv().GXMAS_WORLD_MIN_HATCH_REQUESTS_PER_CYCLE = 600
-getgenv().GXMAS_WORLD_MIN_FARM_TIME_SECONDS = 600
+getgenv().GXMAS_WORLD_MIN_HATCH_REQUESTS_PER_CYCLE = 50
+getgenv().GXMAS_WORLD_MIN_FARM_TIME_SECONDS = 300
 getgenv().GXMAS_WORLD_CRAFT_SANTA_GIFTS = true
 
 getgenv().GDO_LOCKPICKING = true
