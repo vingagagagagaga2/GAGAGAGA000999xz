@@ -1,4 +1,4 @@
-PAUSE_or_SEND = "p"
+PAUSE_or_SEND = "s"
 
 local _Config_Online = 0
 
@@ -50,16 +50,13 @@ function Sent_item_all()
 
 getgenv().Settings_sentitem = {		
 
-
---["Halloween Lucky Block Gift"] = {Class = "Lootbox", Id = "Halloween Lucky Block Gift", MinAmount = 1},	--ok
-["Summer Block Party Ticket"] = {Class = "Misc", Id = "Summer Block Party Ticket",MinAmount = 1, keepAmount = 0},	--ok
 ["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 200},	--ok
-["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 50000},	
---["Tech Key"] = {Class = "Misc", Id = "Tech Key", MinAmount = 1000},	
+--["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 50000},	
+["Tech Key"] = {Class = "Misc", Id = "Tech Key", MinAmount = 50000},	
 --["Coins"] = {Class = "Enchant", Id = "Coins", TN = 7, MinAmount = 1000}, 
 --["Diamond"] = {Class = "Seed", Id = "Diamond", MinAmount = 2000},
 --["Insta Plant Capsule"] = {Class = "Misc", Id = "Insta Plant Capsule", MinAmount = 500},
-["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
+--["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
 
 }
 
@@ -216,10 +213,6 @@ getgenv().Settings_sentPET = {
 --["Hippomint"] = {Soluong_Yeu_cau = 50},
 --["Krampus"] = {Soluong_Yeu_cau = 10},
 
-
-["Rainbow Gingerbread Angelus"] = {Soluong_Yeu_cau = 1},
-["Golden Gingerbread Angelus"] = {Soluong_Yeu_cau = 1},
-["Rainbow Elf Golem"] = {Soluong_Yeu_cau = 1},
 
 },
    
