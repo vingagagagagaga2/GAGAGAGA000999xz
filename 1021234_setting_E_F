@@ -22,7 +22,10 @@ else
 	EVENT_or_FARM = "E"
 end
 
-
+EVENT_or_FARM = "F"
+if name_vps == "L1" or name_vps == "L2" then
+	EVENT_or_FARM = "E"
+end
 
 Start_ford = 1
 task.spawn(function()
