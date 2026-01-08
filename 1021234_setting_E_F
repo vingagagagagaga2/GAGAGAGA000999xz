@@ -22,14 +22,6 @@ else
 	EVENT_or_FARM = "E"
 end
 
-if name_vps == "L1" then
-	EVENT_or_FARM = "E"
-else
-	EVENT_or_FARM = "F"
-end
-
-
-
 
 
 Start_ford = 1
