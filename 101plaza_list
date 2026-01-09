@@ -83,7 +83,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Hacker Key", Data = {Price = "200k"}},
 
 -------------------------------------------------------------------------------------- 
-{Name = "Huge Nutcracker Bunny", Data = {Price = 60 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Huge Nutcracker Bunny", Data = {Price = 30 + math.random(1,50)*0.01 .."m"}}, 
 
 {Name = "Huge Hot Cocoa Cow", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
 {Name = "Huge Holiday Owl", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
