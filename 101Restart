@@ -1,7 +1,7 @@
 --task.wait(3600)
 --setfpscap(3)
 
-local _Config_Online = 33
+local _Config_Online = 34
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -33,8 +33,9 @@ if _Config_Offline ~= _Config_Online then
 		if name_vps ~= "L1" and EVENT_or_FARM == "E" then	
 			
 		end
-		game:Shutdown()
-		if EVENT_or_FARM == "E" then			
+		
+		if EVENT_or_FARM == "E" then	
+			game:Shutdown()
 		end
 		--ReplicatedStorage = game:GetService("ReplicatedStorage")
 		--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()			
