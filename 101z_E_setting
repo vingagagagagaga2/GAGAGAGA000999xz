@@ -101,7 +101,7 @@ getgenv().GMAX_MAIL_COST = "4m"
 	["Santa Gift"] = {Class = "Lootbox", Id= "Santa Gift", MinAmount = 300},
 	["Ice Cube egg"] = {Class = "Egg", Id = "Exclusive Egg 58", MinAmount = 1},
 
-	["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 500, KeepAmount = 240},
+	["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 1000, KeepAmount = 500},
 
 	["Huge Candycane Shake Shark"] = {Class = "Pet", Id = "Huge Candycane Shake Shark", MinAmount = 1, AllVariants = true},
 
