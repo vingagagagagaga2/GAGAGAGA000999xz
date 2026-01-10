@@ -1,7 +1,7 @@
 --task.wait(3600)
 --setfpscap(3)
 
-local _Config_Online = 34
+local _Config_Online = 35
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -30,7 +30,7 @@ if _Config_Offline ~= _Config_Online then
 			return
 		end
 		--------------------------------------------
-		if name_vps ~= "L1" and EVENT_or_FARM == "E" then	
+		if name_vps == "L1" or name_vps == "L2" then	
 			
 		end
 		
