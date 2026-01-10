@@ -53,7 +53,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Deep Sea Treasure Chest", Data = {Price = "7m"}},		
 
 {Name = "Hype Egg", Data = {Price = "14m"}},
-{Name = "Huge Machine Egg 5", Data = {Price = "700m"}},
+{Name = "Gargantuan Machine Grim Reaper Egg", Data = {Price = "800m"}},
 {Name = "Exclusive Egg 56", Data = {Price = "120m"}},
 {Name = "Exclusive Egg 57", Data = {Price = "120m"}},
 {Name = "Exclusive Egg 58", Data = {Price = "120m"}},
