@@ -95,9 +95,9 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Golden All Huges", Data = {Price = 199 + math.random(1,5) .."m"}}, 
 {Name = "Shiny Rainbow All Huges", Data = {Price = "15%", Min_sell = "2b", Max_sell = "6b"}},
 
-{Name = "All Huges", 			Data = {Price = "+2%", Min_sell = 16 + math.random(1,40)*0.01 .."m", Max_sell = "18m" }}, 
 {Name = "Golden All Huges", 	Data = {Price = "+5%", Min_sell = 17 + math.random(1,50)*0.01 .."m", Max_sell = "20m" }}, 
 {Name = "Rainbow All Huges", 	Data = {Price = "+5%", Min_sell = 80 + math.random(1,50)*0.01 .."m", Max_sell = "85m" }}, 
+{Name = "All Huges", 			Data = {Price = "+2%", Min_sell = 16 + math.random(1,40)*0.01 .."m", Max_sell = "18m" }}, 
 
 --sold_by_convention = true
 
