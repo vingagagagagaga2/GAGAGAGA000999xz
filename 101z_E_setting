@@ -105,8 +105,10 @@ getgenv().GMAX_MAIL_COST = "4m"
 
 	["Huge Candycane Shake Shark"] = {Class = "Pet", Id = "Huge Candycane Shake Shark", MinAmount = 1, AllVariants = true},
 
+
+	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 51, KeepAmount = 1},
+
 --	["Krampus"] = 			{Class = "Pet", Id = "Krampus", 			MinAmount = 200},
---	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 6, KeepAmount = 1},
 --	["Candycane Kitsune"] = {Class = "Pet", Id = "Candycane Kitsune",	MinAmount = 16, KeepAmount = 10},
 --	["Hippomint"] = 		{Class = "Pet", Id = "Hippomint", 			MinAmount = 35, KeepAmount = 25},
 	}
