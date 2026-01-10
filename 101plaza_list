@@ -85,55 +85,19 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Palace Pooka", Data = {Price = "100m"}},
 {Name = "Shiny Rainbow Palace Pooka", Data = {Price = "200m"}},
 -------------------------------------------------------------------------------------- 
-{Name = "Shiny Golden Huge Holiday Owl", Data = {Price = 200 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Golden Huge Holiday Owl", Data = {Price = 18 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Rainbow Huge Holiday Owl", Data = {Price = 75 + math.random(1,50)*0.01 .."m"}}, 
-
-{Name = "Huge Hot Cocoa Bear", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Huge Hot Cocoa Cow", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Huge Holiday Owl", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Huge Holly Capybara", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Huge Sacred Deer", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Huge Gingerbread Lion", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}},
-
-{Name = "Golden Huge Hot Cocoa Bear", Data = {Price = 17 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Golden Huge Hot Cocoa Cow", Data = {Price = 17 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Golden Huge Holiday Owl", Data = {Price = 17 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Golden Huge Holly Capybara", Data = {Price = 17 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Golden Huge Sacred Deer", Data = {Price = 17 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Golden Huge Gingerbread Lion", Data = {Price = 17 + math.random(1,50)*0.01 .."m"}},
-
-{Name = "Huge Merry Mule", Data = {Price = 20 + math.random(1,50)*0.01 .."m"}}, 
 
 
-{Name = "Huge Festive Bear", Data = {Price = 18 + math.random(1,2) .."m"}}, 
-{Name = "Huge Snowflake Dragon", Data = {Price = 29 + math.random(1,5) .."m"}}, 
-{Name = "Golden Huge Snowflake Dragon", Data = {Price = 40 + math.random(1,5) .."m"}}, 
-{Name = "Rainbow Huge Snowflake Dragon", Data = {Price = 350 + math.random(1,5) .."m"}}, 
 
-{Name = "Huge Frostbyte Snowman", Data = {Price = 29 + math.random(1,2) .."m"}}, 
-{Name = "Golden Huge Frostbyte Snowman", Data = {Price = 40 + math.random(1,2) .."m"}}, 
-
-{Name = "Huge Nutcracker Bunny", Data = {Price = 30 + math.random(1,50)*0.01 .."m"}}, 
-
-{Name = "Huge Festive Seal", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Huge Pajamas Shark", Data = {Price = 20 + math.random(1,50)*0.01 .."m"}}, 
-
-{Name = "Shiny Huge Holiday Owl", Data = {Price = 100 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Shiny Huge Festive Seal", Data = {Price = 100 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Shiny Huge Holly Capybara", Data = {Price = 100 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Shiny Huge Sacred Deer", Data = {Price = 100 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Shiny Huge Hot Cocoa Bear", Data = {Price = 100 + math.random(1,50)*0.01 .."m"}}, 
 --------------------------------------------------------------------------------------
 
 
-{Name = "Shiny All Huges", Data = {Price = "10%", Min_sell = "80m", Max_sell = "700m"}},
-{Name = "Shiny Golden All Huges", Data = {Price = "5%", Min_sell = "400m", Max_sell = "1b"}},
+{Name = "Shiny All Huges", Data = {Price = "10%", Min_sell = "80m", Max_sell = "100m"}},
+{Name = "Shiny Golden All Huges", Data = {Price = "5%", Min_sell = "150m", Max_sell = "200m"}},
 {Name = "Shiny Rainbow All Huges", Data = {Price = "15%", Min_sell = "1b", Max_sell = "6b"}},
 
-{Name = "All Huges", Data = {Price = "+2%", Min_sell = 15 + math.random(1,40)*0.01 .."m", Max_sell = "80m" }}, 
-{Name = "Golden All Huges", Data = {Price = "+5%", Min_sell = 22 + math.random(1,50)*0.01 .."m", Max_sell = "90m" }}, 
-{Name = "Rainbow All Huges", Data = {Price = "5%", Min_sell = "90m", Max_sell = "200m"}}, 
+{Name = "All Huges", 			Data = {Price = "+2%", Min_sell = 15 + math.random(1,40)*0.01 .."m", Max_sell = "16m" }}, 
+{Name = "Golden All Huges", 	Data = {Price = "+5%", Min_sell = 16 + math.random(1,50)*0.01 .."m", Max_sell = "17m" }}, 
+{Name = "Rainbow All Huges", 	Data = {Price = "+5%", Min_sell = 80 + math.random(1,50)*0.01 .."m", Max_sell = "85m" }}, 
 
 --sold_by_convention = true
 
