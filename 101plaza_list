@@ -71,7 +71,11 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Palace Pooka", Data = {Price = "100m"}},
 {Name = "Shiny Rainbow Palace Pooka", Data = {Price = "200m"}},
 -------------------------------------------------------------------------------------- 
-{Name = "Huge Candycane Kitsune", Data = {Price = 65 + math.random(1,50)*0.01 .."m"}}, 
+
+{Name = "Rainbow Huge Candycane Kitsune", Data = {Price = 400 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Golden Huge Candycane Kitsune", Data = {Price = 95 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Huge Candycane Kitsune", Data = {Price = 68 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Shiny Huge Candycane Kitsune", Data = {Price = 690 + math.random(1,50)*0.01 .."m"}}, 
 
 {Name = "Huge Nutcracker Bunny", Data = {Price = 40 + math.random(1,50)*0.01 .."m"}}, 
 {Name = "Golden Huge Nutcracker Bunny", Data = {Price = 60 + math.random(1,50)*0.01 .."m"}}, 
@@ -81,10 +85,11 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Shiny All Huges", Data = {Price = "+5%", Min_sell = "99m", Max_sell = "110m"}},
 {Name = "Shiny Golden All Huges", Data = {Price = "+5%", Min_sell = "199m", Max_sell = "210m"}},
-{Name = "Shiny Rainbow All Huges", Data = {Price = "15%", Min_sell = "2b", Max_sell = "6b"}},
+{Name = "Shiny Rainbow All Huges", Data = {Price = "25%", Min_sell = "2b", Max_sell = "6b"}},
 
-{Name = "All Huges", 			Data = {Price = "+2%", Min_sell = 16 + math.random(1,40)*0.01 .."m", Max_sell = "18m" }}, 
+
 {Name = "Golden All Huges", 	Data = {Price = "+5%", Min_sell = 17 + math.random(1,50)*0.01 .."m", Max_sell = "20m" }}, 
+{Name = "All Huges", 			Data = {Price = "+2%", Min_sell = 15 + math.random(1,40)*0.01 .."m", Max_sell = "17m" }}, 
 {Name = "Rainbow All Huges", 	Data = {Price = "+5%", Min_sell = 80 + math.random(1,50)*0.01 .."m", Max_sell = "85m" }}, 
 
 --sold_by_convention = true
