@@ -1,7 +1,7 @@
 repeat task.wait() until game:IsLoaded()
 local LocalPlayer = game:GetService('Players').LocalPlayer
 repeat task.wait() until not LocalPlayer.PlayerGui:FindFirstChild('__INTRO')
-
+_G.Super_S = false
 if name_vps == "V0" or name_vps == "V1" or name_vps == "V5" then
 	
 			local Players = game:GetService("Players")
@@ -15,6 +15,7 @@ if name_vps == "V0" or name_vps == "V1" or name_vps == "V5" then
 			for _, name in ipairs(USER_SUPER_drop) do
 				if name == username then
 					EVENT_or_FARM = "F"
+					_G.Super_S = true
 					break
 				end
 			end
