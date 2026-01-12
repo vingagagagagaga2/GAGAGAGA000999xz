@@ -9,39 +9,32 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Rainbow Titanic Starlight Pony", Data = {Price = "350b"}},
 {Name = "Shiny Titanic Starlight Pony", Data = {Price = 20 + math.random(1,5) .."b"}}, 
 {Name = "Rainbow Titanic Starlight Pony", Data = {Price = 20 + math.random(1,5) .."b"}}, 
-{Name = "Golden Titanic Starlight Pony", Data = {Price = 6.9 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Golden Titanic Starlight Pony", Data = {Price = 6.5 + math.random(1,10)*0.01 .."b"}}, 
 {Name = "Titanic Starlight Pony", Data = {Price = 6 + math.random(10,50)*0.01 .."b"}}, 
 
-{Name = "Gargantuan Snowflake Dragon", Data = {Price = 78 + math.random(1,10).."b"}}, 
-{Name = "Gargantuan Blurred Agony", Data = {Price = 78 + math.random(1,5).."b"}}, 
+{Name = "Gargantuan Snowflake Dragon", Data = {Price = 77 + math.random(1,10).."b"}}, 
 
-{Name = "Titanic Holiday Owl", Data = {Price = 18 + math.random(1,10)*0.1 .."b"}}, 
-
-{Name = "Titanic Crackling Dragon", Data = {Price = 5.8 + math.random(1,20)*0.01 .."b"}}, 
+{Name = "Titanic Holiday Owl", Data = {Price = 17 + math.random(1,10)*0.1 .."b"}}, 
+{Name = "Titanic Crackling Dragon", Data = {Price = 6 + math.random(1,20)*0.01 .."b"}}, 
 
 {Name = "Titanic North Pole Unicorn", Data = {Price = 6 + math.random(1,5)*0.1 .."b"}}, 
-{Name = "Titanic Candycane Kitsune", Data = {Price = 6 + math.random(1,3)*0.01 .."b"}}, 
 
-{Name = "Shiny Titanic Hippomint", Data = {Price = 24 + math.random(1,20)*0.01 .."b"}}, 
-{Name = "Golden Titanic Hippomint", Data = {Price = 10 + math.random(1,50)*0.01 .."b"}}, 
-{Name = "Titanic Hippomint", Data = {Price = 5.5 + math.random(1,20)*0.01 .."b"}}, 
+{Name = "Titanic Hippomint", Data = {Price = 5.7 + math.random(1,20)*0.01 .."b"}}, 
 
-{Name = "Titanic Night Terror Dog", Data = {Price = 5.6 + math.random(1,50)*0.01 .."b"}}, 
+{Name = "Titanic Night Terror Dog", Data = {Price = 5.7 + math.random(1,50)*0.01 .."b"}}, 
 
 -------------------------------------------------------------------------------
 {Name = "Mega Lucky Gingerbread", Data = {Price = 50 + math.random(1,50)*0.1 .."m"}},
-{Name = "Candycane Gift", Data = {Price = 180 + math.random(1,30) .."k"}},
-{Name = "Santa Gift", Data = {Price = 180 + math.random(1,30) .."k"}},
+{Name = "Candycane Gift", Data = {Price = 150 + math.random(1,30) .."k"}},
+{Name = "Santa Gift", Data = {Price = 150 + math.random(1,30) .."k"}},
 
 --{Name = "Krampus", Data= {Price = 1 + math.random(1,20)*0.01 .."m"}}, 	
 --{Name = "Hippomint", Data= {Price = 6 + math.random(1,20)*0.01 .."m"}}, 	
 --{Name = "Candycane Kitsune", Data= {Price = 10 + math.random(1,20)*0.01 .."m"}}, 	
 
-{Name = "Elf Golem", Data= {Price = 1.2 + math.random(1,20)*0.01 .."m"}}, 	
+{Name = "Elf Golem", Data= {Price = 1 + math.random(1,20)*0.01 .."m"}}, 	
 {Name = "Rainbow Elf Golem", Data= {Price = 15 + math.random(1,20)*0.01 .."m"}},
 {Name = "Shiny Rainbow Elf Golem", Data= {Price = 270 + math.random(1,20)*0.01 .."m"}},
-
-
 
 --------------------------------------------------------------------------------------
 
@@ -52,15 +45,10 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Hype Egg", Data = {Price = "14m"}},
 {Name = "Gargantuan Machine Grim Reaper Egg", Data = {Price = "800m"}},
-{Name = "Exclusive Egg 56", Data = {Price = "120m"}},
-{Name = "Exclusive Egg 57", Data = {Price = "120m"}},
 {Name = "Exclusive Egg 58", Data = {Price = "120m"}},
-
-
 
 --{Name = "Rainbow Swirl PetSecret", Data = {Price = "9b"}},
 
-{Name = "Millionaire Bucks", Data = {Price = "+10%"}},
 {Name = "Insta-Plant Capsule", Data = {Price = 20 + math.random(1,100)*0.01 .."k"}},
 {Name = "XPPotion Mastery", Data = {Price = 700 + math.random(1,100) .."k"}},
 
