@@ -6,15 +6,14 @@ getgenv().Settings_autoplaza = {
 {Name = "MVP Key Upper Half", Data = {Price = 2.9 + math.random(1,20)*0.01 .."m"}}, 	
 --{Name = "MVP Key Lower Half", Data = {Price = 30 + math.random(1,20)*1 .."k"}}, 
 
-{Name = "Shiny Rainbow Titanic Starlight Pony", Data = {Price = "350b"}},
 {Name = "Shiny Titanic Starlight Pony", Data = {Price = 20 + math.random(1,5) .."b"}}, 
 {Name = "Rainbow Titanic Starlight Pony", Data = {Price = 20 + math.random(1,5) .."b"}}, 
-{Name = "Golden Titanic Starlight Pony", Data = {Price = 6.5 + math.random(1,10)*0.01 .."b"}}, 
-{Name = "Titanic Starlight Pony", Data = {Price = 6 + math.random(10,50)*0.01 .."b"}}, 
+{Name = "Golden Titanic Starlight Pony", Data = {Price = 6.2 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Titanic Starlight Pony", Data = {Price = 6 + math.random(1,10)*0.01 .."b"}}, 
 
 {Name = "Gargantuan Snowflake Dragon", Data = {Price = 75 + math.random(1,15).."b"}}, 
 
-{Name = "Titanic Holiday Owl", Data = {Price = 17 + math.random(1,10)*0.1 .."b"}}, 
+{Name = "Titanic Holiday Owl", Data = {Price = 16 + math.random(1,10)*0.1 .."b"}}, 
 {Name = "Titanic Crackling Dragon", Data = {Price = 6 + math.random(1,20)*0.01 .."b"}}, 
 
 {Name = "Titanic North Pole Unicorn", Data = {Price = 6 + math.random(1,5)*0.1 .."b"}}, 
