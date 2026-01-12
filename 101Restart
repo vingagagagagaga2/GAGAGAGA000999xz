@@ -1,7 +1,7 @@
 --task.wait(3600)
 --setfpscap(3)
 
-local _Config_Online = 37
+local _Config_Online = 38
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -30,11 +30,10 @@ if _Config_Offline ~= _Config_Online then
 			return
 		end
 		--------------------------------------------
-		if name_vps == "L3" then	
-			game:Shutdown()
+		if name_vps == "L3" then				
 		end
 		
-		if EVENT_or_FARM == "E" then	
+		if EVENT_or_FARM == "F" then	
 			game:Shutdown()
 		end
 		--ReplicatedStorage = game:GetService("ReplicatedStorage")
