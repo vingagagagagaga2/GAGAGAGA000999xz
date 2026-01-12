@@ -18,12 +18,9 @@ getgenv().GXMAS_WORLD_DO_ICE_BLOCKS = true
 --getgenv().GXMAS_WORLD_GRINCH_SPRAY_THRESHOLD = 10
 
 
-quill_random = math.random(1,2)
-if quill_random == 1 then
-getgenv().GXMAS_WORLD_PET_ORDER_GOOD_TO_BAD = {"Elf Golem","Candycane Kitsune","Hippomint",  	"Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
-elseif quill_random == 2 then
-getgenv().GXMAS_WORLD_PET_ORDER_GOOD_TO_BAD = {"Elf Golem","Hippomint","Candycane Kitsune",  	"Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
-end
+--getgenv().GXMAS_WORLD_PET_ORDER_GOOD_TO_BAD = {"Elf Golem","Candycane Kitsune","Hippomint",  	"Krampus","Gingerbread Angelus", "Holiday Owl", "Snowflake Dragon", "Merry Mule"}
+
+getgenv().GXMAS_WORLD_SPECIFIC_EGG_TO_HATCH = "Present Egg"
 
 getgenv().GXMAS_WORLD_MIN_HATCH_REQUESTS_PER_CYCLE = 50
 getgenv().GXMAS_WORLD_MIN_FARM_TIME_SECONDS = 300
