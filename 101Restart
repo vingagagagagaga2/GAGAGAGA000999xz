@@ -1,7 +1,7 @@
 --task.wait(3600)
 --setfpscap(3)
 
-local _Config_Online = 35
+local _Config_Online = 36
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
