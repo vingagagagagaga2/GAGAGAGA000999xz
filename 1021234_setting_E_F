@@ -23,7 +23,7 @@ else
 	EVENT_or_FARM = "E"
 end
 
-EVENT_or_FARM = "E"
+--EVENT_or_FARM = "E"
 
 Start_ford = 1
 task.spawn(function()
