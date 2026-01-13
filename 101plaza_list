@@ -109,8 +109,8 @@ getgenv().Settings_autoplaza = {
 {Name = "Rainbow Huge Candycane Unicorn", Data = {Price = 300 + math.random(1,50)*0.01 .."m"}}, 
 
 
-{Name = "Huge Hot Cocoa Cow", Data = {Price = 14 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Huge Holiday Owl", Data = {Price = 14 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Huge Hot Cocoa Cow", Data = {Price = 13 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Huge Holiday Owl", Data = {Price = 13 + math.random(1,50)*0.01 .."m"}}, 
 
 
 
