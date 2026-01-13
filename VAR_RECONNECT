@@ -17,7 +17,7 @@ end)
 end
 
 CoreGui:WaitForChild("RobloxPromptGui").promptOverlay.ChildAdded:Connect(function(gui)
-	task.wait(0.2)
+	task.wait(2)
 	local msg = gui:FindFirstChildWhichIsA("TextLabel", true)
 	if not msg or not msg.Text then return end
 	local text = string.lower(msg.Text)
