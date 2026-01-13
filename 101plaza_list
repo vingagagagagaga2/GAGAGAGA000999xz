@@ -80,33 +80,55 @@ getgenv().Settings_autoplaza = {
 {Name = "Rainbow Huge Candycane Kitsune", Data = {Price = 400 + math.random(1,50)*0.01 .."m"}}, 
 {Name = "Golden Huge Candycane Kitsune", Data = {Price = 95 + math.random(1,50)*0.01 .."m"}}, 
 {Name = "Huge Candycane Kitsune", Data = {Price = 68 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Shiny Huge Candycane Kitsune", Data = {Price = 690 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Shiny Huge Candycane Kitsune", Data = {Price = 590 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Shiny Rainbow Huge Candycane Kitsune", Data = {Price = 590 + math.random(1,50)*0.01 .."m"}}, 
+
 
 {Name = "Huge Nutcracker Bunny", Data = {Price = 40 + math.random(1,50)*0.01 .."m"}}, 
 {Name = "Golden Huge Nutcracker Bunny", Data = {Price = 60 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Rainbow Huge Nutcracker Bunny", Data = {Price = 200 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Shiny Rainbow Huge Nutcracker Bunny", Data = {Price = 10 + math.random(1,50)*0.01 .."b"}}, 
+
+{Name = "Shiny Rainbow Huge Holiday Owl", Data = {Price = 2.8 + math.random(1,50)*0.01 .."b"}}, 
+
+
+{Name = "Huge Frostbyte Snowman", Data = {Price = 20 + math.random(1,50)*0.01 .."m"}}, 
 {Name = "Shiny Golden Huge Frostbyte Snowman", Data = {Price = 990 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Shiny Rainbow Huge Frostbyte Snowman", Data = {Price = 9 + math.random(1,50)*0.01 .."b"}}, 
+
 {Name = "Shiny Huge Moray Eel", Data = {Price = 340 + math.random(1,50)*0.01 .."m"}}, 
 {Name = "Shiny Huge Gorilla", Data = {Price = 340 + math.random(1,50)*0.01 .."m"}}, 
 {Name = "Shiny Huge Horse", Data = {Price = 270 + math.random(1,50)*0.01 .."m"}}, 
 {Name = "Shiny Huge Pajamas Shark", Data = {Price = 178 + math.random(1,50)*0.01 .."m"}}, 
 
 
+{Name = "Huge Present Dragon", Data = {Price = 60 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Shiny Huge Present Dragon", Data = {Price = 4 + math.random(1,50)*0.01 .."b"}}, 
+{Name = "Huge Candycane Unicorn", Data = {Price = 40 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Shiny Huge Candycane Unicorn", Data = {Price = 200 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Rainbow Huge Candycane Unicorn", Data = {Price = 300 + math.random(1,50)*0.01 .."m"}}, 
+
+
 {Name = "Huge Hot Cocoa Cow", Data = {Price = 14 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Huge Holiday Ow", Data = {Price = 14 + math.random(1,50)*0.01 .."m"}}, 
+
+
+
+
 
 --------------------------------------------------------------------------------------
 
 
 
 
-{Name = "Shiny Rainbow All Huges", Data = {Price = "25%", Min_sell = "2b", Max_sell = "4.5b"}},
+{Name = "Shiny Rainbow All Huges", Data = {Price = "25%", Min_sell = "5b", Max_sell = "10b"}},
 
-
-{Name = "Golden All Huges", 	Data = {Price = "+5%", Min_sell = 19 + math.random(1,50)*0.01 .."m", Max_sell = "20m" }}, 
 {Name = "All Huges", 			Data = {Price = "+2%", Min_sell = 15 + math.random(1,40)*0.01 .."m", Max_sell = "17m" }}, 
+{Name = "Golden All Huges", 	Data = {Price = "+5%", Min_sell = 19 + math.random(1,50)*0.01 .."m", Max_sell = "20m" }}, 
 {Name = "Rainbow All Huges", 	Data = {Price = "+5%", Min_sell = 80 + math.random(1,50)*0.01 .."m", Max_sell = "85m" }}, 
 
-{Name = "Shiny All Huges", Data = {Price = "+5%", Min_sell = "80m", Max_sell = "95m"}},
-{Name = "Shiny Golden All Huges", Data = {Price = "+5%", Min_sell = "350m", Max_sell = "450m"}},
+{Name = "Shiny All Huges", Data = {Price = "+5%", Min_sell = "150m", Max_sell = "200m"}},
+{Name = "Shiny Golden All Huges", Data = {Price = "+5%", Min_sell = "350m", Max_sell = "1b"}},
 
 --sold_by_convention = true
 
