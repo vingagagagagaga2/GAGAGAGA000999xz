@@ -70,7 +70,7 @@ getgenv().gagBoothCfg = {
 {"Pack Mule", 0, "", 0, 5},
 {"New Year's Dragon", 0, "", 0, 100},
 {"Show Pony", 0, "", 0, 15},
-{"Carnival Elephant", 0, "", 0, 100},
+{"Carnival Elephant", 0, "", 0, 35},
 },
 
 	-- {Pet Name, Min Weight, Mutation, Min Age}
