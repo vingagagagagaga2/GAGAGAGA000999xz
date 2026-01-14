@@ -199,7 +199,7 @@ end
 getgenv().Settings_sentPET = {
     ["list_pet"] = {
 
-["Shiny Rainbow Huge"] 	= {Soluong_Yeu_cau = 1},
+
 --["Huge Shark Cat"] 	= {Soluong_Yeu_cau = 1},
 --["Huge Specter Owl"] 	= {Soluong_Yeu_cau = 1},
 --["Golden Huge Shark Cat"] 	= {Soluong_Yeu_cau = 1},
