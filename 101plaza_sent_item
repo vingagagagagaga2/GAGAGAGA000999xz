@@ -1,4 +1,4 @@
-PAUSE_or_SEND = "s"
+PAUSE_or_SEND = "p"
 
 local _Config_Online = 1
 
@@ -47,14 +47,14 @@ function Sent_item_all()
 
 getgenv().Settings_sentitem = {		
 
---["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 200},	--ok
+["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 200},	--ok
 ["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 5000},	
 --["Tech Key"] = {Class = "Misc", Id = "Tech Key", MinAmount = 50000},	
 --["Coins"] = {Class = "Enchant", Id = "Coins", TN = 7, MinAmount = 1000}, 
 --["Diamond"] = {Class = "Seed", Id = "Diamond", MinAmount = 2000},
 --["Insta Plant Capsule"] = {Class = "Misc", Id = "Insta Plant Capsule", MinAmount = 500},
---["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
---["Lucky"] = {Class = "Potion", Id = "Lucky", TN = 9, MinAmount = 500},
+["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
+["Lucky"] = {Class = "Potion", Id = "Lucky", TN = 9, MinAmount = 500},
 --["Tornado"] = {Class = "Ultimate", Id = "Tornado", MinAmount = 1},
 
 }
@@ -205,7 +205,7 @@ getgenv().Settings_sentPET = {
 --["Golden Huge Shark Cat"] 	= {Soluong_Yeu_cau = 1},
 --["Golden Huge Specter Owl"] 	= {Soluong_Yeu_cau = 1},
 
---["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 2},
+["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 2},
 
 
 
