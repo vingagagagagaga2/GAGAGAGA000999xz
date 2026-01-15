@@ -23,10 +23,7 @@ else
 	EVENT_or_FARM = "E"
 end
 
-EVENT_or_FARM = "F"
-if name_vps == "L1" or name_vps == "L2" or name_vps == "L3" or name_vps == "L4" then
-EVENT_or_FARM = "E"
-end
+
 
 Start_ford = 1
 task.spawn(function()
