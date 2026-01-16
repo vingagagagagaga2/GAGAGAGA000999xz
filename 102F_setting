@@ -71,9 +71,6 @@ getgenv().GHUGE_COUNT = 50999
 getgenv().GMAX_MAIL_COST = "2m"
 getgenv().GMAIL_ITEMS = {	
 
-	["Tornado"] = {Class = "Ultimate", Id = "Tornado", KeepAmount = 1, MinAmount = 10}, 
-	["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", KeepAmount = 1, MinAmount = 2}, 
-
 ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
 ["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
 ["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
@@ -83,7 +80,9 @@ getgenv().GMAIL_ITEMS = {
 
 ["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 2},
 ["Hype Egg 2"] = {Class = "Lootbox", Id= "Hype Egg 2", MinAmount = 1},
+
 ["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 1000, KeepAmount = 500},
+["Diamonds"] = {Class = "Potion", Tier = 9 ,Id = "Diamonds", MinAmount = 1000, KeepAmount = 500},
 
 
 }
