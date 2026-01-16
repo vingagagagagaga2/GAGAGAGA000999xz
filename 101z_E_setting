@@ -91,7 +91,6 @@ getgenv().GMAX_MAIL_COST = "4m"
 
 	getgenv().GMAIL_ITEMS = {	
 
-	["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", KeepAmount = 1, MinAmount = 2}, 
 	["Mega Lucky Gingerbread"] = {Class = "Misc", Id = "Mega Lucky Gingerbread", Amount = 1},
 	["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "300m", MinAmount = "600m"},
 	["Candycane Gift"] = {Class = "Lootbox", Id= "Candycane Gift", MinAmount = 300},
@@ -99,8 +98,7 @@ getgenv().GMAX_MAIL_COST = "4m"
 	["Ice Cube egg"] = {Class = "Egg", Id = "Exclusive Egg 58", MinAmount = 1},
 
 	["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 1000, KeepAmount = 500},
-
-	["Huge Candycane Shake Shark"] = {Class = "Pet", Id = "Huge Candycane Shake Shark", MinAmount = 1, AllVariants = true},
+	["Diamonds"] = {Class = "Potion", Tier = 9 ,Id = "Diamonds", MinAmount = 1000, KeepAmount = 500},
 
 
 --	["Elf Golem"] = 		{Class = "Pet", Id = "Elf Golem", 			MinAmount = 51, KeepAmount = 1},
