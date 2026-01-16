@@ -72,8 +72,8 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Rainbow Huge Gingerbread Lion", Data = {Price = 5 + math.random(1,50)*0.01 .."b"}}, 
 
 
-{Name = "Huge Hot Cocoa Cow", Data = {Price = 13 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Huge Holiday Owl", Data = {Price = 13 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Huge Hot Cocoa Cow", Data = {Price = 11 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Huge Holiday Owl", Data = {Price = 11 + math.random(1,50)*0.01 .."m"}}, 
 
 {Name = "Huge Abyssal Axolotl", Data = {Price = 43 + math.random(1,50)*0.01 .."m"}}, 
 {Name = "Golden Huge Abyssal Axolotl", Data = {Price = 90 + math.random(1,50)*0.01 .."m"}}, 
