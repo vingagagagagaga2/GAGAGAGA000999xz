@@ -8,7 +8,7 @@
     "DelayOpen": 20,
     "Fpsunlocker": false,
     "OpenTab": 1,
-    "LDPlayerFolder": "C:/LDPlayer/LDPlayer9",
+    "LDPlayerFolder": LD_LINK_FOLDER,
     "Delay Inject [S]": 60,
     "Arrange Size": 120,
     "Delay Sort [S]": 120,
