@@ -1,27 +1,25 @@
 repeat task.wait() until game:IsLoaded()
 local LocalPlayer = game:GetService('Players').LocalPlayer
 repeat task.wait() until not LocalPlayer.PlayerGui:FindFirstChild('__INTRO')
-_G.Super_S = false
-if name_vps == "V0" or name_vps == "V1" or name_vps == "V5" then
+
 	
-			local Players = game:GetService("Players")
-			local player = Players.LocalPlayer
-			local username = player.Name
-			
-			local USER_SUPER_drop = {"detmerskanbahlaaq","8815Falk9979","881Caden882","hadriamullavey70","LegendFusionNova","MinerHaze74","ProVoid41","IsabellaArrowFlash","Ninja_Knight82","MoonNeonLion2023","FlameEch0Hawk","Tygirlllyr1370","Henry89084","teomond345320","laboture121","Ruiz202457","shimartje525","commtigge246","dyagalsea883","redman721212","britconter8462","pisekhotch788","79Kiera80","80Jovany81","11Davion125","Tyerlasnullum30","racbracfe25","10Rebekah11","tamuleviazulayv","sollarleats","wannergbatokaiiz","Betts41829","Lilly457365","Rice84348","Weiland44899","Reeder67056","killedsanthi85","hegemangaltieri81","kuvindn13","renovandenei54","Yuri207x","lundellgeorgeano","quochuyfarm2","kuvyndn","kuvyndn115","quochuyfarm1","Thienktdeptrai09","2390Muir3554","2391Ellsworth3555","10dayhetga3","minhlhuyldiet8","mpkute2201","1787Vickery2951","878Tina879","549Treyton1713","1835Haskins2999","1837Gallegos3001","550Kennedy1714","Hall210231","Caraballo15271","Ruffin54837","Nance52630","kians54232","Briar10664","Blake10676","Nathaniel10681","Emilio111546","Charles11184","Bockman96259","Garfinkel85778","Plourde49152","Corbett17154","1880Fritz3044","1851Moon3015","8402Whitehead9566","8403Cooney9567","2389Ayers3553","1836Edmonds3000","1841Kearney3005","Aaron10657","Russell71796","Denzel11179","1840Harper3004","rank8z100","kthatch101","2386Conte3550","8406Donohue9570","Toups51814","8593Gaskins9757","10zwemerbtam10","1785Dihg","lavinie91258","affiegutterin9","34Jaret35","bosonvoormah","16Giancarlo17","38Johan39","48Giavanna49","8394Corbett9558","1871Luther3035","49Dayton50","854Elliott855","pafnucymargit21","soojung48573","17Leland18","bhosievvanister","feodslogeshy","mcconchifredjeyo","bradodette49","ghaldoun9247","ecclweltst","fadile66096","11eijtenisiktam11","dzLCBpCO34","OlsenMiffyf7","MichaelBobbyj767","8407Castellanos9571","XxSaber_Ech0xX2006","burchard6297","whelmssteviac","ulkeboraxb","1863Echols3027","dQ9PQsBg54","jrpB44FT38","YTAzK1dX05","7vmW8gRw14","tunostri486","eyassamba55"}
-			
-			EVENT_or_FARM = "E"
-			
-			for _, name in ipairs(USER_SUPER_drop) do
-				if name == username then
-					EVENT_or_FARM = "F"
-					_G.Super_S = true
-					break
-				end
-			end
-else
-	EVENT_or_FARM = "E"
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local username = player.Name
+
+local USER_SUPER_drop = {"detmerskanbahlaaq","8815Falk9979","881Caden882","hadriamullavey70","LegendFusionNova","MinerHaze74","ProVoid41","IsabellaArrowFlash","Ninja_Knight82","MoonNeonLion2023","FlameEch0Hawk","Tygirlllyr1370","Henry89084","teomond345320","laboture121","Ruiz202457","shimartje525","commtigge246","dyagalsea883","redman721212","britconter8462","pisekhotch788","79Kiera80","80Jovany81","11Davion125","Tyerlasnullum30","racbracfe25","10Rebekah11","tamuleviazulayv","sollarleats","wannergbatokaiiz","Betts41829","Lilly457365","Rice84348","Weiland44899","Reeder67056","killedsanthi85","hegemangaltieri81","kuvindn13","renovandenei54","Yuri207x","lundellgeorgeano","quochuyfarm2","kuvyndn","kuvyndn115","quochuyfarm1","Thienktdeptrai09","2390Muir3554","2391Ellsworth3555","10dayhetga3","minhlhuyldiet8","mpkute2201","1787Vickery2951","878Tina879","549Treyton1713","1835Haskins2999","1837Gallegos3001","550Kennedy1714","Hall210231","Caraballo15271","Ruffin54837","Nance52630","kians54232","Briar10664","Blake10676","Nathaniel10681","Emilio111546","Charles11184","Bockman96259","Garfinkel85778","Plourde49152","Corbett17154","1880Fritz3044","1851Moon3015","8402Whitehead9566","8403Cooney9567","2389Ayers3553","1836Edmonds3000","1841Kearney3005","Aaron10657","Russell71796","Denzel11179","1840Harper3004","rank8z100","kthatch101","2386Conte3550","8406Donohue9570","Toups51814","8593Gaskins9757","10zwemerbtam10","1785Dihg","lavinie91258","affiegutterin9","34Jaret35","bosonvoormah","16Giancarlo17","38Johan39","48Giavanna49","8394Corbett9558","1871Luther3035","49Dayton50","854Elliott855","pafnucymargit21","soojung48573","17Leland18","bhosievvanister","feodslogeshy","mcconchifredjeyo","bradodette49","ghaldoun9247","ecclweltst","fadile66096","11eijtenisiktam11","dzLCBpCO34","OlsenMiffyf7","MichaelBobbyj767","8407Castellanos9571","XxSaber_Ech0xX2006","burchard6297","whelmssteviac","ulkeboraxb","1863Echols3027","dQ9PQsBg54","jrpB44FT38","YTAzK1dX05","7vmW8gRw14","tunostri486","eyassamba55"}
+
+EVENT_or_FARM = "E"
+_G.Super_S = false
+
+for _, name in ipairs(USER_SUPER_drop) do
+	if name == username then
+		EVENT_or_FARM = "F"
+		_G.Super_S = true
+		break
+	end
 end
+
 
 
 
