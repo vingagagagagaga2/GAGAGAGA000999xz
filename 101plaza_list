@@ -64,12 +64,13 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Palace Pooka", Data = {Price = "80m"}},
 {Name = "Shiny Rainbow Palace Pooka", Data = {Price = "151m"}},
 -------------------------------------------------------------------------------------- 
-{Name = "Shiny Rainbow Huge Holiday Owl", Data = {Price = 2 + math.random(1,50)*0.01 .."b"}}, 
-{Name = "Shiny Rainbow Huge Starry Eye Bunny", Data = {Price = 3 + math.random(1,50)*0.01 .."b"}}, 
-{Name = "Shiny Rainbow Huge Fiddlefern Cat", Data = {Price = 3 + math.random(1,50)*0.01 .."b"}}, 
-{Name = "Shiny Rainbow Huge Moray Eel", Data = {Price = 4.5 + math.random(1,50)*0.01 .."b"}}, 
-{Name = "Shiny Rainbow Huge Telescope Owl", Data = {Price = 3 + math.random(1,50)*0.01 .."b"}}, 
-{Name = "Shiny Rainbow Huge Gingerbread Lion", Data = {Price = 4.5 + math.random(1,50)*0.01 .."b"}}, 
+{Name = "Shiny Rainbow Huge Holiday Owl", Data = {Price = 1.95 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Shiny Rainbow Huge Starry Eye Bunny", Data = {Price = 3 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Shiny Rainbow Huge Fiddlefern Cat", Data = {Price = 3 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Shiny Rainbow Huge Moray Eel", Data = {Price = 4.5 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Shiny Rainbow Huge Telescope Owl", Data = {Price = 3 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Shiny Rainbow Huge Gingerbread Lion", Data = {Price = 4.5 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Shiny Rainbow Festive Seal", Data = {Price = 1.95 + math.random(1,10)*0.01 .."b"}}, 
 
 
 {Name = "Huge Hot Cocoa Cow", Data = {Price = 11 + math.random(1,50)*0.01 .."m"}}, 
