@@ -1,4 +1,4 @@
-task.wait(7)
+
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
@@ -43,6 +43,9 @@ local TeleportMapping = {
 
 -- Nếu đang ở đúng map cần thoát
 if game.PlaceId == 119454325063278 or game.PlaceId == 95635359880599 then
+
+task.wait(7)
+
 	if not MAP_w3_true then
 		teleportName = TeleportMapping[2]
 	elseif not MAP_w4_true then
