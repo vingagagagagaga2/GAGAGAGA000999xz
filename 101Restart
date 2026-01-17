@@ -2,7 +2,7 @@
 --task.wait(3600)
 _G.capcha_pause_tri_tioi = false
 
-local _Config_Online = 38
+local _Config_Online = 39
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -35,7 +35,7 @@ if _Config_Offline ~= _Config_Online then
 		end
 		
 		if EVENT_or_FARM == "F" then	
-			game:Shutdown()
+			--game:Shutdown()
 		end
 		--ReplicatedStorage = game:GetService("ReplicatedStorage")
 		--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()			
@@ -45,6 +45,7 @@ if _Config_Offline ~= _Config_Online then
 		if rank < 30 and EVENT_or_FARM == "E" then
 			
 		end
+		loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
 		--------------------------------------------
 end
 
@@ -52,5 +53,5 @@ if _G.Restart == true then
 	_G.Restart = false 	
 end
 		if EVENT_or_FARM == "E" then	
-			--loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
+			--
 		end
