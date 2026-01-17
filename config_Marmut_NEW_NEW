@@ -54,24 +54,26 @@ getgenv().gagBoothCfg = {
 {"Swan", 0, "", 0, 10},
 {"Red Panda", 0, "", 0, 10},
 {"Reaper", 0, "", 0, 15},
-{"Mizuchi", 0, "", 0, 40},
+{"Mizuchi", 0, "", 0, 50},
 {"Sapphire Macaw", 0, "", 0, 10},
 {"Silver Dragonfly", 0, "", 0, 20},
 {"Red Giant Ant", 0, "", 0, 5},
-{"Yeti", 0, "", 0, 20},
-{"Ice Golem", 0, "", 0, 110},
-{"Frost Dragon", 0, "", 0, 150},
-{"Wendigo", 0, "", 0, 55},
+{"Yeti", 0, "", 0, 30},
+{"Ice Golem", 0, "", 0, 115},
+{"Frost Dragon", 0, "", 0, 220},
+{"Wendigo", 0, "", 0, 60},
 {"Lion", 0, "", 0, 45},
 {"Tiger", 0, "", 0, 100},
 {"Red Fox", 0, "", 0, 15},
 {"Hex Serpent", 0, "", 0, 10},
 {"Pack Mule", 0, "", 0, 5},
 {"New Year's Dragon", 0, "", 0, 150},
-{"Show Pony", 0, "", 0, 5},
-{"Carnival Elephant", 0, "", 0, 35},
+{"Show Pony", 0, "", 0, 3},
+{"Carnival Elephant", 0, "", 0, 45},
 {"Dragonfly", 0, "", 0, 35}
+"Ruby Squid", 0, "", 0, 120}
 },
+
 
 	-- {Pet Name, Min Weight, Mutation, Min Age}
     SELL_PET_RAP_PERCENTAGE = 100,  -- 100 -> 100% RAP Price, 200 -> 200% RAP Price
