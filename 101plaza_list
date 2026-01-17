@@ -43,11 +43,11 @@ getgenv().Settings_autoplaza = {
 --{Name = "Rainbow Swirl PetSecret", Data = {Price = "9b"}},
 
 {Name = "Insta-Plant Capsule", Data = {Price = 20 + math.random(1,100)*0.01 .."k"}},
-{Name = "XPPotion Mastery", Data = {Price = 700 + math.random(1,100) .."k"}},
+{Name = "XPPotion Mastery", Data = {Price = 950 + math.random(1,100) .."k"}},
 
-{Name = "Royalty TN1", Data = {Price = 10 + math.random(1,30)*0.01 .."m"}}, 
-{Name = "Overload TN1", Data = {Price = 10 + math.random(1,30)*0.01 .."m"}}, 
-{Name = "XP TN1", Data = {Price = "150k"}},
+{Name = "Royalty TN1", Data = {Price = 13 + math.random(1,30)*0.01 .."m"}}, 
+{Name = "Overload TN1", Data = {Price = 13 + math.random(1,30)*0.01 .."m"}}, 
+{Name = "XP TN1", Data = {Price = "200k"}},
 {Name = "Glittering TN1", Data = {Price = "200k"}},
 
 {Name = "Chest Spell", Data = {Price = "80m"}},
