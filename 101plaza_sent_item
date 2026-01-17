@@ -1,4 +1,4 @@
-PAUSE_or_SEND = "p"
+PAUSE_or_SEND = "s"
 
 local _Config_Online = 1
 
@@ -54,7 +54,7 @@ getgenv().Settings_sentitem = {
 --["Diamond"] = {Class = "Seed", Id = "Diamond", MinAmount = 2000},
 --["Insta Plant Capsule"] = {Class = "Misc", Id = "Insta Plant Capsule", MinAmount = 500},
 ["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
-["Lucky"] = {Class = "Potion", Id = "Lucky", TN = 9, MinAmount = 500},
+--["Lucky"] = {Class = "Potion", Id = "Lucky", TN = 9, MinAmount = 500},
 --["Tornado"] = {Class = "Ultimate", Id = "Tornado", MinAmount = 1},
 
 }
