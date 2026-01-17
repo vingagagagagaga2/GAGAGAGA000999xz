@@ -1,6 +1,6 @@
 --setfpscap(3)
 --task.wait(3600)
-_G.capcha_pause_tri_tioi = false
+_G.capcha_pause_tri_tioi = true
 
 local _Config_Online = 39
 
