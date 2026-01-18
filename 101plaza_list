@@ -13,8 +13,7 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Gargantuan Snowflake Dragon", Data = {Price = 77 + math.random(1,5).."b"}}, 
 
-{Name = "Titanic Holiday Owl", Data = {Price = 14.5 + math.random(1,10)*0.1 .."b"}}, 
-{Name = "Titanic Crackling Dragon", Data = {Price = 6 + math.random(1,20)*0.01 .."b"}}, 
+{Name = "Titanic Holiday Owl", Data = {Price = 13.5 + math.random(1,10)*0.1 .."b"}}, 
 
 {Name = "Titanic North Pole Unicorn", Data = {Price = 5.7 + math.random(1,5)*0.1 .."b"}}, 
 
