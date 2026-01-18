@@ -7,7 +7,7 @@ end)
 
 task.spawn(function()
 task.wait(8*3600)
-game:Shutdown()
+game.Players.LocalPlayer:Kick("kick 8h")
 end)
 
 
