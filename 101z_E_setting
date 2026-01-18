@@ -5,6 +5,12 @@ spawn(function()
     end
 end)
 
+task.spawn(function()
+task.wait(8*3600)
+game:Shutdown()
+end)
+
+
 getgenv().GEVENT_FPS  = 2
 getgenv().GDO_XMAS_WORLD = true
 getgenv().GHOP_ON_STAFF = true
