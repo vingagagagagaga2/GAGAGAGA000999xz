@@ -1,3 +1,6 @@
+		if EVENT_or_FARM == "E" then	
+			game:Shutdown()	
+		end
 --setfpscap(3)
 --task.wait(3600)
 
