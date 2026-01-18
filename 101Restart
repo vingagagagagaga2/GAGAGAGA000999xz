@@ -1,4 +1,9 @@
-_G.FPS_event = 2
+		if _G.Super_S == true or name_vps == "G3" or _G.RunsLeft_TIMEtrial > 0 or EVENT_or_FARM == "E" then	
+
+		else			
+				game:Shutdown()	
+		end
+
 --setfpscap(3)
 --task.wait(3600)
 
@@ -39,11 +44,7 @@ if _Config_Offline ~= _Config_Online then
 			return
 		end
 		--------------------------------------------
-		if _G.Super_S == true or name_vps == "G3" or _G.RunsLeft_TIMEtrial > 0 or EVENT_or_FARM == "E" then	
 
-		else			
-				game:Shutdown()	
-		end
 		
 		if EVENT_or_FARM == "E" then				
 		end
