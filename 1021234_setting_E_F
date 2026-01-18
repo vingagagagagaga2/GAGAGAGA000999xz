@@ -21,9 +21,7 @@ end
 if name_vps == "G3" or name_vps == "PM36" then
 EVENT_or_FARM = "F"
 end
-if _G.RunsLeft_TIMEtrial > 0 then
-EVENT_or_FARM = "F"
-end
+
 
 Start_ford = 1
 task.spawn(function()
