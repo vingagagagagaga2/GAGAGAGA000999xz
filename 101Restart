@@ -10,7 +10,7 @@ if xvxv < 2 then
 end
 --task.wait(3600)
 
-local _Config_Online = 1
+local _Config_Online = 2
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -39,10 +39,10 @@ if _Config_Offline ~= _Config_Online then
 			return
 		end
 		--------------------------------------------
-		if _G.Super_S == true or name_vps == "G3" or _G.RunsLeft_TIMEtrial > 0 then	
+		if _G.Super_S == true or name_vps == "G3" or _G.RunsLeft_TIMEtrial > 0 or EVENT_or_FARM == "E" then	
 
-		else
-			game:Shutdown()	
+		else			
+				game:Shutdown()	
 		end
 		
 		if EVENT_or_FARM == "E" then				
