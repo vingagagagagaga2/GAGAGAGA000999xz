@@ -8,10 +8,13 @@ local GuiService = game:GetService("GuiService")
 local function crash()
 
 pcall(function()
+
+task.wait(30)
 local t = {}
 for i = 1, 1e9 do
     t[i] = i
 end
+
 end)
 
 end
