@@ -1,7 +1,7 @@
 		if _G.Super_S == true or name_vps == "G3" or _G.RunsLeft_TIMEtrial > 0 or EVENT_or_FARM == "E" then	
 
 		else			
-				game:Shutdown()	
+				game.Players.LocalPlayer:Kick("kick reset")
 		end
 
 --setfpscap(3)
