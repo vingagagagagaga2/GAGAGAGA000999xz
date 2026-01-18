@@ -1,19 +1,14 @@
-		if _G.Super_S == true or name_vps == "G3" or name_vps == "PM36" or _G.RunsLeft_TIMEtrial > 0 or EVENT_or_FARM == "E" then	
+		--if _G.Super_S == true or name_vps == "G3" or name_vps == "PM36" or _G.RunsLeft_TIMEtrial > 0 or EVENT_or_FARM == "E" then
+		--else			
+		--		game.Players.LocalPlayer:Kick("kick reset")
+		--end
 
-		else			
-				game.Players.LocalPlayer:Kick("kick reset")
-		end
-
---setfpscap(3)
 --task.wait(3600)
-
-_G.capcha_pause_tri_tioi = false
-
 xvxv = math.random(1,2)
 if xvxv < 2 then
 	_G.capcha_pause_tri_tioi = false
 end
---task.wait(3600)
+_G.capcha_pause_tri_tioi = true
 
 local _Config_Online = 2
 
