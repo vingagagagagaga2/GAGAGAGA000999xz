@@ -62,3 +62,16 @@ end
 		if EVENT_or_FARM == "E" then	
 			--loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
 		end
+
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local playerCount = #Players:GetPlayers()
+if playerCount > 1 and game.PlaceId == 140403681187145 then
+--	Players.LocalPlayer:Kick("kick severvip")
+end
+
+
+
+
