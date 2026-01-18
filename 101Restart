@@ -1,4 +1,4 @@
-_G.FPS_farm = 4
+
 --setfpscap(3)
 --task.wait(3600)
 
