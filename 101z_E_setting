@@ -1,6 +1,8 @@
-task.spawn(function()
-wait(20)
-setfpscap(2)
+spawn(function()
+    while true do
+        setfpscap(2)
+        wait(1)
+    end
 end)
 
 getgenv().GEVENT_FPS  = 2
