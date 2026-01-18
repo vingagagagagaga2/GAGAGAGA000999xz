@@ -9,7 +9,7 @@ if xvxv < 2 then
 end
 --task.wait(3600)
 
-local _Config_Online = 40
+local _Config_Online = 0
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -40,9 +40,9 @@ if _Config_Offline ~= _Config_Online then
 		--------------------------------------------
 		if name_vps == "L3" then				
 		end
-		game:Shutdown()
-		if EVENT_or_FARM == "F" then	
-			
+		
+		if EVENT_or_FARM == "E" then	
+			game:Shutdown()	
 		end
 		--ReplicatedStorage = game:GetService("ReplicatedStorage")
 		--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()			
