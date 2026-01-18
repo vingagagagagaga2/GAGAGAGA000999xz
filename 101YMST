@@ -5,7 +5,7 @@
     "Webhook": "",
     "OpenWh": false,
     "Delete Cache": true,
-    "DelayOpen": 20,
+    "DelayOpen": 30,
     "Fpsunlocker": false,
     "OpenTab": 1,
     "LDPlayerFolder": LD_LINK_FOLDER,
