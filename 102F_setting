@@ -1,7 +1,12 @@
-task.spawn(function()
-wait(20)
-setfpscap(5)
+_G.FPS_farm = 5
+spawn(function()
+    while true do
+        setfpscap(_G.FPS_farm)
+        wait(1)
+    end
 end)
+
+
 getgenv().GEVENT_FPS  = 5
 
 getgenv().GLOOTBOXES = {"Locked Hype Egg"}
