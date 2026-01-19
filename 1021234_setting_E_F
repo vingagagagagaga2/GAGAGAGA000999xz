@@ -48,10 +48,4 @@ spawn(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/VAR_RECONNECT"))()
 end)
 
-repeat
-    wait(2)
-until game:IsLoaded() and
-    game:GetService("Players").LocalPlayer:FindFirstChild("PlayerGui") and
-    game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("MainLeft") and
-    game:GetService("Players").LocalPlayer.PlayerGui.MainLeft.Left.Currency.Diamonds.Diamonds.Visible == true and
-    not game:GetService("Players").LocalPlayer:FindFirstChild("GUIFX Holder")
+
