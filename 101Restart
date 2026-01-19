@@ -3,6 +3,11 @@
 				game.Players.LocalPlayer:Kick("kick reset")
 		end
 
+		if EVENT_or_FARM == "E" and _G.RunsLeft_TIMEtrial > 0 then	
+			game.Players.LocalPlayer:Kick("kick reset")
+		end
+
+
 --task.wait(3600)
 
 _G.ALL_E_goto_F = false
@@ -43,9 +48,7 @@ if _Config_Offline ~= _Config_Online then
 			return
 		end
 		--------------------------------------------		
-		if EVENT_or_FARM == "E" then	
-			game.Players.LocalPlayer:Kick("kick reset")
-		end
+
 		--ReplicatedStorage = game:GetService("ReplicatedStorage")
 		--ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()			
 		--loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/103sendluckyegg"))()	
