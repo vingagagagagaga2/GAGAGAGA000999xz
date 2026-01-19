@@ -1,4 +1,4 @@
-_G.FPS_event = 3
+_G.FPS_event = 2
 spawn(function()
     while true do
         setfpscap(_G.FPS_event)
