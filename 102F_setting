@@ -1,4 +1,4 @@
-_G.FPS_farm = 7
+_G.FPS_farm = 5
 spawn(function()
     while true do
         setfpscap(_G.FPS_farm)
