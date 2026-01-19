@@ -12,7 +12,7 @@
 _G.capcha_pause_tri_tioi = true
 xvxv = math.random(1,2)
 if xvxv < 2 then
-	_G.capcha_pause_tri_tioi = false
+	--_G.capcha_pause_tri_tioi = false
 end
 
 
