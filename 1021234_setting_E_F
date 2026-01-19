@@ -21,8 +21,9 @@ end
 if name_vps == "G3" or name_vps == "PM36" then
 EVENT_or_FARM = "F"
 end
-
-
+----------------
+if _G.RunsLeft_TIMEtrial > 0 then EVENT_or_FARM = "F" end
+----------------
 Start_ford = 1
 task.spawn(function()
 wait(50)
@@ -30,7 +31,7 @@ wait(50)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/pet99"))()
 end)
 
-if EVENT_or_FARM == "E" or EVENT_or_FARM == "E2" then
+if EVENT_or_FARM == "E"then
 	vinGWEBHOOK_LINK = dis_event
 else
 	vinGWEBHOOK_LINK = dis_farm
