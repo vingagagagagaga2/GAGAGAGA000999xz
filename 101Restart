@@ -4,6 +4,10 @@
 		--end
 
 --task.wait(3600)
+
+_G.ALL_E_goto_F = false
+_G.ALL_E_goto_F = true
+
 _G.capcha_pause_tri_tioi = true
 xvxv = math.random(1,2)
 if xvxv < 2 then
