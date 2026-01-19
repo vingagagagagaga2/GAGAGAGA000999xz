@@ -40,9 +40,9 @@ if name_vps == "PM37" or name_vps == "PM36" then
 EVENT_or_FARM = "F"
 end
 ----------------
-if _G.ALL_E_goto_F == true then
-	if _G.RunsLeft_TIMEtrial > 0 then EVENT_or_FARM = "F" end
-end
+
+if _G.RunsLeft_TIMEtrial > 0 then EVENT_or_FARM = "F" end
+
 ----------------
 
 if EVENT_or_FARM == "E"then
