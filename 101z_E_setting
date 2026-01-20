@@ -62,7 +62,7 @@ getgenv().GHATCH_CHARGED_EGGS = false
 getgenv().GHATCH_GOLDEN_EGGS = false
 getgenv().GCLEAR_FAVORITE_PETS = false
 
-getgenv().GLOOTBOXES = {"Locked Hype Egg"}
+getgenv().GLOOTBOXES = {"Locked Hype Egg","Candycane Gift","Santa Gift"}
 -----------------------
 getgenv().GUSE_SPINNY_WHEEL = false
 getgenv().GCOMBINE_KEYS = true
