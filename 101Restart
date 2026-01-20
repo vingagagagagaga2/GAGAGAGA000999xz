@@ -2,6 +2,9 @@ task.spawn(function()
 
 --_G.FPS_farm = 2
 --_G.FPS_event = 2
+if not _G.POINT_TIMEtrial then
+game.Players.LocalPlayer:Kick("kick poin")
+end
 
 if _G.Super_S == true or name_vps == "PM37" or name_vps == "PM36" then
 else			
