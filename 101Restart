@@ -74,7 +74,7 @@ end
 			--
 		end
 
-loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
+--loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
 
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
