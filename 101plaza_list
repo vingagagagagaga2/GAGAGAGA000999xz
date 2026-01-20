@@ -64,11 +64,11 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Rainbow Palace Pooka", Data = {Price = "100m"}},
 -------------------------------------------------------------------------------------- 
 {Name = "Shiny Rainbow Huge Holiday Owl", Data = {Price = 1.95 + math.random(1,10)*0.01 .."b"}}, 
-{Name = "Shiny Rainbow Huge Starry Eye Bunny", Data = {Price = 3 + math.random(1,10)*0.01 .."b"}}, 
-{Name = "Shiny Rainbow Huge Fiddlefern Cat", Data = {Price = 3 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Shiny Rainbow Huge Starry Eye Bunny", Data = {Price = 2.4 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Shiny Rainbow Huge Fiddlefern Cat", Data = {Price = 2.4 + math.random(1,10)*0.01 .."b"}}, 
 {Name = "Shiny Rainbow Huge Moray Eel", Data = {Price = 4.5 + math.random(1,10)*0.01 .."b"}}, 
-{Name = "Shiny Rainbow Huge Telescope Owl", Data = {Price = 3.5 + math.random(1,10)*0.01 .."b"}}, 
-{Name = "Shiny Rainbow Huge Gingerbread Lion", Data = {Price = 4.5 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Shiny Rainbow Huge Telescope Owl", Data = {Price = 2.8+ math.random(1,10)*0.01 .."b"}}, 
+{Name = "Shiny Rainbow Huge Gingerbread Lion", Data = {Price = 4 + math.random(1,10)*0.01 .."b"}}, 
 {Name = "Shiny Rainbow Festive Seal", Data = {Price = 1.5 + math.random(1,10)*0.01 .."b"}}, 
 
 
