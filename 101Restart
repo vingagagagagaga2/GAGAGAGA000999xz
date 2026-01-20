@@ -1,11 +1,7 @@
 task.spawn(function()
-getgenv().GLOOTBOXES = {"Locked Hype Egg","Candycane Gift","Santa Gift"}
+
 _G.FPS_farm = 4
 _G.FPS_event = 3
-
-if _G.POINT_TIMEtrial > 999 and _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "E" then
-game.Players.LocalPlayer:Kick("kick poin")
-end
 
 if _G.Super_S == true or name_vps == "PM37" or name_vps == "PM36" then
 else			
