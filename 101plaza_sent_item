@@ -210,12 +210,10 @@ getgenv().Settings_sentPET = {
 --["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 2},
 
 
-
---["Huge Candycane Shake Shark"] = {Soluong_Yeu_cau = 1},
---["Elf Golem"] = {Soluong_Yeu_cau = 10},
---["Candycane Kitsune"] = {Soluong_Yeu_cau = 50},
---["Hippomint"] = {Soluong_Yeu_cau = 50},
---["Krampus"] = {Soluong_Yeu_cau = 10},
+["Elf Golem"] = {Soluong_Yeu_cau = 1},
+["Candycane Kitsune"] = {Soluong_Yeu_cau = 1},
+["Hippomint"] = {Soluong_Yeu_cau = 1},
+["Krampus"] = {Soluong_Yeu_cau = 1},
 
 
 },
