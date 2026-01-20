@@ -60,8 +60,8 @@ getgenv().Settings_autoplaza = {
 {Name = "Fantasy Key", Data = {Price = 70 + math.random(1,10) .."k"}},
 {Name = "Hacker Key", Data = {Price = "200k"}},
 
-{Name = "Shiny Palace Pooka", Data = {Price = "80m"}},
-{Name = "Shiny Rainbow Palace Pooka", Data = {Price = "151m"}},
+{Name = "Shiny Palace Pooka", Data = {Price = "50m"}},
+{Name = "Shiny Rainbow Palace Pooka", Data = {Price = "100m"}},
 -------------------------------------------------------------------------------------- 
 {Name = "Shiny Rainbow Huge Holiday Owl", Data = {Price = 1.95 + math.random(1,10)*0.01 .."b"}}, 
 {Name = "Shiny Rainbow Huge Starry Eye Bunny", Data = {Price = 3 + math.random(1,10)*0.01 .."b"}}, 
