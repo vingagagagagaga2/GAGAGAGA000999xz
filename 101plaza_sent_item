@@ -49,7 +49,7 @@ getgenv().Settings_sentitem = {
 
 ["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 200},	--ok
 ["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 50000},	
-["Tech Key"] = {Class = "Misc", Id = "Tech Key", MinAmount = 50000},	
+--["Tech Key"] = {Class = "Misc", Id = "Tech Key", MinAmount = 50000},	
 --["Coins"] = {Class = "Enchant", Id = "Coins", TN = 7, MinAmount = 1000}, 
 --["Diamond"] = {Class = "Seed", Id = "Diamond", MinAmount = 2000},
 --["Insta Plant Capsule"] = {Class = "Misc", Id = "Insta Plant Capsule", MinAmount = 500},
