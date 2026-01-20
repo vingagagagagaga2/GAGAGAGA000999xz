@@ -1,3 +1,5 @@
+task.spawn(function()
+
 _G.FPS_farm = 2
 _G.FPS_event = 2
 
@@ -79,5 +81,29 @@ if playerCount > 1 and game.PlaceId == 140403681187145 then
 end
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end)
 
 
