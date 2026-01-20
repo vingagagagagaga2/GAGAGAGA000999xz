@@ -2,9 +2,9 @@ _G.Restart = true
 
 getgenv().Settings_autoplaza = {
 ["Items"] = {
-{Name = "MVP Key", Data= {Price = 2.35 + math.random(1,10)*0.01 .."m"}}, 	
-{Name = "MVP Key Upper Half", Data = {Price = 2.35 + math.random(1,10)*0.01 .."m"}}, 	
-{Name = "MVP Key Lower Half", Data = {Price = 45 + math.random(1,10)*1 .."k"}}, 
+{Name = "MVP Key", Data= {Price = 2.39 + math.random(1,10)*0.01 .."m"}}, 	
+{Name = "MVP Key Upper Half", Data = {Price = 2.39 + math.random(1,10)*0.01 .."m"}}, 	
+{Name = "MVP Key Lower Half", Data = {Price = 40 + math.random(1,10)*1 .."k"}}, 
 
 {Name = "Shiny Titanic Starlight Pony", Data = {Price = 24 + math.random(1,10)*0.01 .."b"}}, 
 {Name = "Rainbow Titanic Starlight Pony", Data = {Price = 24 + math.random(1,10)*0.01 .."b"}}, 
