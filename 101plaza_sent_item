@@ -47,8 +47,8 @@ function Sent_item_all()
 
 getgenv().Settings_sentitem = {		
 
-["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 200},	--ok
-["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 50000},	
+--["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 200},	--ok
+--["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 50000},	
 --["Tech Key"] = {Class = "Misc", Id = "Tech Key", MinAmount = 50000},	
 --["Coins"] = {Class = "Enchant", Id = "Coins", TN = 7, MinAmount = 1000}, 
 --["Diamond"] = {Class = "Seed", Id = "Diamond", MinAmount = 2000},
@@ -57,7 +57,7 @@ getgenv().Settings_sentitem = {
 ["Tornado"] = {Class = "Ultimate", Id = "Tornado", MinAmount = 1},
 
 --["Lucky"] = {Class = "Potion", Id = "Lucky", TN = 9, MinAmount = 500},
-
+["Diamonds"] = {Class = "Potion", Id = "Diamonds", TN = 9, MinAmount = 500},
 
 }
 
@@ -207,7 +207,7 @@ getgenv().Settings_sentPET = {
 --["Golden Huge Shark Cat"] 	= {Soluong_Yeu_cau = 1},
 --["Golden Huge Specter Owl"] 	= {Soluong_Yeu_cau = 1},
 
-["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 2},
+--["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 2},
 
 
 
