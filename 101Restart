@@ -2,7 +2,7 @@ task.spawn(function()
 
 --_G.FPS_farm = 2
 --_G.FPS_event = 2
-if _G.POINT_TIMEtrial > 4999 and _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "E" then
+if _G.POINT_TIMEtrial > 999 and _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "E" then
 game.Players.LocalPlayer:Kick("kick poin")
 end
 
