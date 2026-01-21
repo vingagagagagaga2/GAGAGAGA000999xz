@@ -60,7 +60,7 @@ getgenv().gagBoothCfg = {
 {"Red Giant Ant", 0, "", 0, 5},
 {"Yeti", 0, "", 0, 25},
 {"Ice Golem", 0, "", 0, 110},
-{"Frost Dragon", 0, "", 0, 220},
+{"Frost Dragon", 0, "", 0, 150},
 {"Wendigo", 0, "", 0, 60},
 {"Lion", 0, "", 0, 35},
 {"Tiger", 0, "", 0, 55},
@@ -69,7 +69,7 @@ getgenv().gagBoothCfg = {
 {"Pack Mule", 0, "", 0, 5},
 {"New Year's Dragon", 0, "", 0, 150},
 {"Show Pony", 0, "", 0, 3},
-{"Carnival Elephant", 0, "", 0, 50},
+{"Carnival Elephant", 0, "", 0, 40},
 {"Dragonfly", 0, "", 0, 35},
 {"Ruby Squid", 0, "", 0, 120}
 },
