@@ -39,7 +39,7 @@ getgenv().GUSE_DIAMOND_LOCKPICK = true
 getgenv().GXMAS_USE_MEGA_LUCKY_GINGERBREADS = true
 
 getgenv().GXMAS_WORLD_DO_MEGA_PRESENT = true
-getgenv().GXMAS_WORLD_OPEN_MEGA_PRESENT_IF_LUCK_REACH = 9500
+getgenv().GXMAS_WORLD_OPEN_MEGA_PRESENT_IF_LUCK_REACH = 8000
 getgenv().GXMAS_WORLD_PETS_EXCLUDED_FROM_SENDING = {"Gingerbread Angelus","Holiday Owl","Merry Mule","Snowflake Dragon"}
 
 getgenv().GXMAS_WORLD_ENTER_RAFFLE = true
