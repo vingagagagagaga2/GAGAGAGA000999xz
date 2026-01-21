@@ -7,8 +7,6 @@ spawn(function()
 end)
 
 
-getgenv().GEVENT_FPS  = 5
-
 getgenv().GLOOTBOXES = {"Locked Hype Egg","Candycane Gift","Santa Gift"}
 
 --getgenv().GRANK_FIRST = true
