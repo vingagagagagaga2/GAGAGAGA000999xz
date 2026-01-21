@@ -1,6 +1,6 @@
 task.spawn(function()
 
-_G.FPS_farm = 4
+_G.FPS_farm = 2
 _G.FPS_event = 3
 
 if _G.Super_S == true or name_vps == "PM37" or name_vps == "PM36" then
