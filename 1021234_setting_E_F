@@ -33,7 +33,7 @@ for _, name in ipairs(USER_SUPER_drop) do
 		break
 	end
 end
-if name_vps == "PM37" or name_vps == "PM36" then
+if name_vps == "PM37" or name_vps == "PM36" or name_vps == "D1" then
 EVENT_or_FARM = "F"
 end
 ----------------
