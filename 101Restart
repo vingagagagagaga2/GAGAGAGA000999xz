@@ -9,7 +9,7 @@ if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" then
 	game.Players.LocalPlayer:Kick("kick fin")
 end
 if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" then
-	game.Players.LocalPlayer:Kick("kick pla")
+	--game.Players.LocalPlayer:Kick("kick pla")
 end
 end
 
