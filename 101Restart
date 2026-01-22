@@ -3,7 +3,7 @@ task.spawn(function()
 _G.FPS_farm = 5
 _G.FPS_event = 3
 
-if _G.Super_S == true or name_vps == "PM37" or name_vps == "PM36" then
+if _G.Super_S == true or name_vps == "PM37" or name_vps == "PM36" or name_vps == "D1" then
 else			
 if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" then
 	game.Players.LocalPlayer:Kick("kick fin")
