@@ -38,7 +38,7 @@ EVENT_or_FARM = "F"
 end
 ----------------
 
---if _G.RunsLeft_TIMEtrial > 0 then EVENT_or_FARM = "F" end
+if _G.RunsLeft_TIMEtrial > 0 then EVENT_or_FARM = "F" end
 
 ----------------
 
