@@ -67,7 +67,7 @@ local player = Players.LocalPlayer
 
 local playerCount = #Players:GetPlayers()
 if playerCount > 1 and game.PlaceId == 140403681187145 then
-	Players.LocalPlayer:Kick("kick severvip")
+	--Players.LocalPlayer:Kick("kick severvip")
 end
 
 
