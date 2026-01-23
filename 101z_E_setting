@@ -88,7 +88,7 @@ getgenv().GUSE_ULTIMATES = {"UFO","Tsunami","Tornado","Lightning Storm","Ground 
 --getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata","Party Box","Mini Lucky Block"}
 
 getgenv().GFRUITS = {"Watermelon","Candycane","Apple","Rainbow","Pineapple","Orange","Banana"}
-getgenv().GPOTIONS = {"Coins","Lucky","The Cocktail","Huge","Treasure Hunter","Walkspeed","Diamonds","Damage"}
+getgenv().GPOTIONS = {"Coins","Lucky","The Cocktail","Huge","Treasure Hunter","Walkspeed","Damage"}
 getgenv().GPOTIONS_MAX_TIER = 99
 
 getgenv().GENCHANTS = {"Explosive","Large Taps","Super Lightning","Huge Hunter","Lucky Eggs","Lucky Eggs","Lucky Eggs","Criticals","Diamonds"}
