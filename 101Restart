@@ -1,23 +1,23 @@
 task.spawn(function()
-
+_G.start_vvv_ = true
 _G.FPS_farm = 2
 _G.FPS_event = 3
 
 if _G.Super_S == true or name_vps == "PM37" or name_vps == "PM36" or name_vps == "D1" then
 else			
-if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" then
-	game.Players.LocalPlayer:Kick("kick fin")
-end
-if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" then
-	game.Players.LocalPlayer:Kick("kick pla")
-end
+	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" then
+		game.Players.LocalPlayer:Kick("kick fin")
+	end
+	if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and _G.start_vvv_ == true then
+		game.Players.LocalPlayer:Kick("kick pla")
+	end
 end
 
 --task.wait(3600)
 
 _G.capcha_pause_tri_tioi = true
 xvxv = math.random(1,2)
-if xvxv < 2 then
+if xvxv < 2 and _G.start_vvv_ == true then
 	_G.capcha_pause_tri_tioi = false
 end
 
