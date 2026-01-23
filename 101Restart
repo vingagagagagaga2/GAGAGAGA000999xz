@@ -1,6 +1,6 @@
 task.spawn(function()
 _G.start_vvv_ = true
-_G.FPS_farm = 2
+_G.FPS_farm = 5
 _G.FPS_event = 3
 
 if _G.Super_S == true then
