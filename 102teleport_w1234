@@ -40,7 +40,7 @@ task.spawn(function()
 while true do
 	task.wait(60)
 	if game.PlaceId == 119454325063278 or game.PlaceId == 95635359880599 then
-		game:Shutdown()	
+		game.Players.LocalPlayer:Kick("kick FIFA") 
 	end
 end
 
@@ -81,13 +81,13 @@ task.wait(7)
 			
 
             if attempt == 2 and game.PlaceId == 119454325063278 then
-                game:Shutdown()	
+                game.Players.LocalPlayer:Kick("kick FA")
             end
 			if attempt == 2 and game.PlaceId == 95635359880599 then
-                game:Shutdown()	
+                game.Players.LocalPlayer:Kick("kick FI")
             end
         end
     else
-		player:Kick("Không tìm thấy teleport phù hợp")
+		player:Kick("SETTING SAI")
     end
 end
