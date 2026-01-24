@@ -59,7 +59,7 @@ getgenv().gagBoothCfg = {
 {"Yeti", 0, "", 0, 15},
 {"Ice Golem", 0, "", 0, 110},
 {"Frost Dragon", 0, "", 0, 150},
-{"Wendigo", 0, "", 0, 60},
+{"Wendigo", 0, "", 0, 100},
 {"Lion", 0, "", 0, 35},
 {"Tiger", 0, "", 0, 35},
 {"Red Fox", 0, "", 0, 15},
