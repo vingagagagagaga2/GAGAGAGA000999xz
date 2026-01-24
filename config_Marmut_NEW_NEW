@@ -49,10 +49,10 @@ getgenv().gagBoothCfg = {
     SELL_PETS = { 
 
 {"Bearded Dragon", 0, "", 0, 35},
-{"Cockatrice", 0, "", 0, 30},
+{"Cockatrice", 0, "", 0, 26},
 {"Diamond Panther", 0, "", 0, 21},
 {"Swan", 0, "", 0, 18},
-{"Reaper", 0, "", 0, 20},
+{"Reaper", 0, "", 0, 16},
 {"Mizuchi", 0, "", 0, 50},
 {"Sapphire Macaw", 0, "", 0, 5},
 {"Silver Dragonfly", 0, "", 0, 20},
@@ -63,7 +63,7 @@ getgenv().gagBoothCfg = {
 {"Lion", 0, "", 0, 35},
 {"Tiger", 0, "", 0, 35},
 {"Red Fox", 0, "", 0, 15},
-{"Hex Serpent", 0, "", 0, 20},
+{"Hex Serpent", 0, "", 0, 18},
 {"Pack Mule", 0, "", 0, 5},
 {"New Year's Dragon", 0, "", 0, 150},
 {"Show Pony", 0, "", 0, 3},
@@ -72,7 +72,8 @@ getgenv().gagBoothCfg = {
 {"Ruby Squid", 0, "", 0, 150},
 {"Star Wolf", 0, "", 0, 15},
 {"Brown Owl", 0, "", 0, 3},
-{"Gold Finch", 0, "", 0, 15},
+{"Gold Finch", 0, "", 0, 10},
+{"Mimic Octopus", 0, "", 0, 20},
 },
 
 
