@@ -1,4 +1,4 @@
-PAUSE_or_SEND = "s"
+PAUSE_or_SEND = "p"
 
 local _Config_Online = 1
 
