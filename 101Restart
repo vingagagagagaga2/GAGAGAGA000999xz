@@ -1,5 +1,7 @@
 task.spawn(function()
-_G.start_vvv_ = false
+_G.start_vvv_ = true
+_G.capcha_pause_tri_tioi = true
+
 _G.FPS_farm = 5
 _G.FPS_event = 3
 
@@ -15,7 +17,7 @@ end
 
 --task.wait(3600)
 
-_G.capcha_pause_tri_tioi = true
+
 xvxv = math.random(1,2)
 if xvxv < 2 and _G.start_vvv_ == true then
 	_G.capcha_pause_tri_tioi = false
