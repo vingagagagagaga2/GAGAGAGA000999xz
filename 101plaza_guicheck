@@ -12,6 +12,6 @@ itemsToTrack_plaza = {
 	{ id = "Mastery", 	guiName = "Item22", row = 0, col = 1, color = Color3.fromRGB(255, 255, 255) },				--trang
 	{ id = "Huge Frostbyte Snowman", 			guiName = "Item23", row = 0, col = 2, color = Color3.fromRGB(255, 0, 0) },				--đỏ
 	{ id = "Huge Snowflake Dragon", 	guiName = "Item24", row = 0, col = 3, color = Color3.fromRGB(255, 165, 0) },		-- cam
-	{ id = "Elf Golem", 			guiName = "Item25", row = 0, col = 4, color = Color3.fromRGB(0, 255, 0) },		--xanh lá cây
+	{ id = "Huge Candycane Kitsune", 			guiName = "Item25", row = 0, col = 4, color = Color3.fromRGB(0, 255, 0) },		--xanh lá cây
 
 }
