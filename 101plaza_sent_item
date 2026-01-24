@@ -49,9 +49,14 @@ getgenv().Settings_sentitem = {
 
 ["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 200},	--ok
 --["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 50001, keepAmount = 40000},	
+["Time Trial Gift"] = {Class = "Lootbox", Id = "Time Trial Gift", MinAmount = 50001, keepAmount = 40000},
 ["Santa Gift"] = {Class = "Lootbox", Id = "Santa Gift", MinAmount = 50001, keepAmount = 40000},
 ["Candycane Gift"] = {Class = "Lootbox", Id = "Candycane Gift", MinAmount = 50001, keepAmount = 40000},
 ["Tech Key"] = {Class = "Misc", Id = "Tech Key", MinAmount = 50001, keepAmount = 40000},	
+["Secret Key"] = {Class = "Misc", Id = "Secret Key", MinAmount = 50001, keepAmount = 40000},	
+["Crystal Key"] = {Class = "Misc", Id = "Crystal Key", MinAmount = 50001, keepAmount = 40000},	
+["Void Key"] = {Class = "Misc", Id = "Void Key", MinAmount = 50001, keepAmount = 40000},	
+["Fantasy Key"] = {Class = "Misc", Id = "Fantasy Key", MinAmount = 50001, keepAmount = 40000},	
 
 ["Coins"] = {Class = "Enchant", Id = "Coins", TN = 6, MinAmount = 1000}, 
 ["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
