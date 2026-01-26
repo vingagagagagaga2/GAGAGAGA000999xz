@@ -2,9 +2,13 @@ task.spawn(function()
 _G.start_vvv_ = true
 _G.capcha_pause_tri_tioi = true
 
+if _G.start_vvv_ then
 _G.FPS_farm = 2
 _G.FPS_event = 2
-
+else
+_G.FPS_farm = 5
+_G.FPS_event = 3
+end
 if _G.Super_S == true then
 else			
 	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" then
