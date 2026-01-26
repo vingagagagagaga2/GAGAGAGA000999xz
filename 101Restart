@@ -1,5 +1,5 @@
 task.spawn(function()
-_G.start_vvv_ = true
+_G.start_vvv_ = false
 _G.capcha_pause_tri_tioi = false
 
 if _G.start_vvv_ then
