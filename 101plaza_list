@@ -20,11 +20,11 @@ getgenv().Settings_autoplaza = {
 {Name = "Golden Titanic North Pole Unicorn", Data = {Price = 6 + math.random(1,10)*0.01 .."b"}}, 
 {Name = "Titanic North Pole Unicorn", Data = {Price = 5.1 + math.random(1,10)*0.01 .."b"}}, 
 
-{Name = "Shiny Titanic Hippomint", Data = {Price = 16 + math.random(1,10)*0.01 .."b"}}, 
-{Name = "Golden Titanic Hippomint", Data = {Price = 6 + math.random(1,10)*0.01 .."b"}}, 
-{Name = "Titanic Hippomint", Data = {Price = 5.1 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Shiny Titanic Hippomint", Data = {Price = 15 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Golden Titanic Hippomint", Data = {Price = 5.5 + math.random(1,10)*0.01 .."b"}}, 
+{Name = "Titanic Hippomint", Data = {Price = 5 + math.random(1,10)*0.01 .."b"}}, 
 
-{Name = "Titanic Night Terror Dog", Data = {Price = 5.7 + math.random(1,50)*0.01 .."b"}}, 
+{Name = "Titanic Night Terror Dog", Data = {Price = 5.7 + math.random(1,10)*0.01 .."b"}}, 
 
 -------------------------------------------------------------------------------
 {Name = "Mega Lucky Gingerbread", Data = {Price = 50 + math.random(1,50)*0.1 .."m"}},
