@@ -35,7 +35,7 @@ for _, name in ipairs(USER_SUPER_drop) do
 end
 ----------------
 
-if _G.RunsLeft_TIMEtrial > 0 and _G.start_vvv_ == true then 
+if _G.RunsLeft_TIMEtrial > 0 and _G.start_vvv_ then 
 EVENT_or_FARM = "F" 
 end
 
