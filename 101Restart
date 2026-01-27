@@ -6,6 +6,9 @@ _G.capcha_pause_tri_tioi = false
 _G.FPS_farm = 3
 _G.FPS_event = 3
 
+if _G.tb_GG < 59 then
+	_G.FPS_farm = 5
+end
 if _G.Super_S == true then
 	_G.FPS_farm = 5
 else			
