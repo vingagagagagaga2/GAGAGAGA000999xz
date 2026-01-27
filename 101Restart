@@ -1,7 +1,8 @@
 task.spawn(function()
 _G.start_vvv_ = false
 _G.delay_play_vvv3 = 3
-_G.capcha_pause_tri_tioi = false
+
+
 
 _G.FPS_farm = 3
 _G.FPS_event = 3
