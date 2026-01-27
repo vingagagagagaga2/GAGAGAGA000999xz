@@ -20,7 +20,7 @@ end
 --task.wait(3600)
 
 
-local _Config_Online = 7
+local _Config_Online = 8
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
 local function getOffline()
@@ -51,7 +51,7 @@ if _Config_Offline ~= _Config_Online then
 		if EVENT_or_FARM == "E" then
 			game.Players.LocalPlayer:Kick("kick reset")		
 		end
-		
+		game.Players.LocalPlayer:Kick("kick reset")		
 		--------------------------------------------
 end
 
