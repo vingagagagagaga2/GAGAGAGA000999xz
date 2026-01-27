@@ -14,7 +14,7 @@ else
 		--game.Players.LocalPlayer:Kick("kick fin")
 	end
 	if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and _G.start_vvv_ == true then
-		game.Players.LocalPlayer:Kick("kick pla")
+		--game.Players.LocalPlayer:Kick("kick pla")
 	end
 end
 
