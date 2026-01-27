@@ -3,14 +3,11 @@ _G.start_vvv_ = true
 _G.delay_play_vvv3 = 3
 _G.capcha_pause_tri_tioi = false
 
-if _G.start_vvv_ then
-_G.FPS_farm = 2
-_G.FPS_event = 2
-else
-_G.FPS_farm = 5
+_G.FPS_farm = 3
 _G.FPS_event = 3
-end
+
 if _G.Super_S == true then
+	_G.FPS_farm = 5
 else			
 	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" then
 		--game.Players.LocalPlayer:Kick("kick fin")
