@@ -1,5 +1,6 @@
 task.spawn(function()
 _G.start_vvv_ = true
+_G.capcha_pause_tri_tioi = false
 
 if _G.start_vvv_ then
 _G.FPS_farm = 2
