@@ -28,7 +28,7 @@ if xvxv < 2 and _G.start_vvv_ == true then
 end
 
 
-local _Config_Online = 5
+local _Config_Online = 6
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
 local function getOffline()
@@ -57,8 +57,9 @@ if _Config_Offline ~= _Config_Online then
 		end
 		--------------------------------------------
 		if EVENT_or_FARM == "E" then
-			game.Players.LocalPlayer:Kick("kick reset")		
+				
 		end
+		game.Players.LocalPlayer:Kick("kick reset")	
 		--------------------------------------------
 end
 
