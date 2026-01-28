@@ -24,20 +24,22 @@ end)
 
 task.wait(2)
 ----------------------
-local SUPER_USERS = {}
-for _, v in ipairs(USER_SUPER_drop) do
-	SUPER_USERS[v] = true
-end
-for _, v in ipairs(USER_VERY_BOT) do
-	SUPER_USERS[v] = true
+local function checkUser(list)
+	for _, name in ipairs(list) do
+		if name == username then
+			return true
+		end
+	end
+	return false
 end
 EVENT_or_FARM = "E"
 _G.Super_S = false
 
-if SUPER_USERS[username] then
+if checkUser(USER_SUPER_drop) then
 	EVENT_or_FARM = "F"
 	_G.Super_S = true
 end
+--if checkUser(USER_VERY_BOT)  then end
 -----------------------
 
 local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
