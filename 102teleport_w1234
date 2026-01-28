@@ -81,10 +81,10 @@ task.wait(7)
 			
 
             if attempt == 2 and game.PlaceId == 119454325063278 then
-                game.Players.LocalPlayer:Kick("kick FA")
+                game.Players.LocalPlayer:Kick("FAaaaaaaaaaa")
             end
 			if attempt == 2 and game.PlaceId == 95635359880599 then
-                game.Players.LocalPlayer:Kick("kick FI")
+                game.Players.LocalPlayer:Kick("FIiiiiiiiiiii")
             end
         end
     else
