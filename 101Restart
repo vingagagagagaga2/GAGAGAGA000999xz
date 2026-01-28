@@ -5,7 +5,7 @@ task.spawn(function()
 _G.start_vvv_ = true
 _G.delay_play_vvv3 = 1
 
-_G.FPS_farm = 3
+_G.FPS_farm = 2
 _G.FPS_event = 3
 
 if _G.tb_GG < 59 then
