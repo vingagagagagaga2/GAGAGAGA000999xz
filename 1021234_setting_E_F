@@ -48,7 +48,7 @@ if rank < 30 then
 EVENT_or_FARM = "F" 
 end
 ----------------
-
+EVENT_or_FARM = "F" 
 if _G.RunsLeft_TIMEtrial > 0 and _G.start_vvv_ then 
 EVENT_or_FARM = "F" 
 end
