@@ -34,9 +34,9 @@ for _, name in ipairs(USER_SUPER_drop) do
 	end
 end
 if name_vps == "PM31" or name_vps == "ANHG2" then
-EVENT_or_FARM = "F"
+	EVENT_or_FARM = "F"
 end
-EVENT_or_FARM = "F"
+
 ----------------
 
 if _G.RunsLeft_TIMEtrial > 0 and _G.start_vvv_ then 
