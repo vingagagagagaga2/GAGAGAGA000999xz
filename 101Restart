@@ -64,7 +64,7 @@ end
 loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
 
 
-task.wait(20)
+task.wait(60)
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
