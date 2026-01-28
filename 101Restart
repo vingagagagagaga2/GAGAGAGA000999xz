@@ -8,8 +8,8 @@ _G.FPS_event = 3
 if _G.tb_GG < 59 then
 	_G.FPS_farm = 5
 end
-if _G.Super_S == true or name_vps == "PM31" or name_vps == "ANHG2" then
-	_G.FPS_farm = 5
+if _G.Super_S == true then
+	
 else			
 	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" then
 		--game.Players.LocalPlayer:Kick("kick fin")
