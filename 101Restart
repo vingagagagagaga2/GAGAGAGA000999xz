@@ -1,4 +1,7 @@
 task.spawn(function()
+		if EVENT_or_FARM == "E" then
+			game.Players.LocalPlayer:Kick("kick reset")		
+		end
 _G.start_vvv_ = true
 _G.delay_play_vvv3 = 1
 
@@ -53,7 +56,6 @@ if _Config_Offline ~= _Config_Online then
 		if EVENT_or_FARM == "E" then
 			game.Players.LocalPlayer:Kick("kick reset")		
 		end
-		game.Players.LocalPlayer:Kick("kick reset")		
 		--------------------------------------------
 end
 
