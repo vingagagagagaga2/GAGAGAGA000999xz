@@ -35,7 +35,6 @@ for _, name in ipairs(USER_SUPER_drop) do
 end
 if name_vps == "PM31" or name_vps == "ANHG2" then
 EVENT_or_FARM = "F"
-_G.Super_S = true
 end
 EVENT_or_FARM = "F"
 ----------------
