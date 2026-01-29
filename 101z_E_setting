@@ -7,7 +7,7 @@ spawn(function()
 end)
 
 task.spawn(function()
-task.wait(30*3600)
+task.wait(300*3600)
 game.Players.LocalPlayer:Kick("kick 10h")
 end)
 
