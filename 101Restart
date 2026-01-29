@@ -4,11 +4,11 @@ task.spawn(function()
 _G.start_vvv_ = true
 _G.delay_play_vvv3 = 1
 
-_G.FPS_farm = 2
-_G.FPS_event = 3
+_G.FPS_farm = 5
+_G.FPS_event = 5
 
 if _G.tb_GG < 59 then
-	_G.FPS_farm = 4
+	_G.FPS_farm = 5
 end
 if _G.Super_S == true then
 	
