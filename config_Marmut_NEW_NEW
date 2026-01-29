@@ -72,7 +72,7 @@ getgenv().gagBoothCfg = {
 {"Ruby Squid", 0, "", 0, 220},
 {"Star Wolf", 0, "", 0, 15},
 {"French Fry Ferret", 0, "", 0, 250},
-{"Jumbo Disco Bee", 0, "", 0, 400},
+{"Disco Bee", 0, "", 0, 400},
 },
 
 
