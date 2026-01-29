@@ -49,6 +49,7 @@ getgenv().gagBoothCfg = {
     SELL_PETS = { 
 
 {"Bearded Dragon", 0, "", 0, 50},
+{"Hydra", 0, "", 0, 100},
 {"Chinchilla", 0, "", 0, 50},
 {"Cockatrice", 0, "", 0, 25},
 {"Diamond Panther", 0, "", 0, 25},
