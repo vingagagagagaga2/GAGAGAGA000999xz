@@ -9,7 +9,7 @@ _G.FPS_farm = 2
 _G.FPS_event = 3
 
 if _G.tb_GG < 59 then
-	_G.FPS_farm = 5
+	_G.FPS_farm = 4
 end
 if _G.Super_S == true then
 	
