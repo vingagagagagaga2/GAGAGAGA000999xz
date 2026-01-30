@@ -96,9 +96,9 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Rainbow Huge Candycane Kitsune", Data = {Price = 7 + math.random(1,50)*0.01 .."b"}}, 
 
 
-{Name = "Huge Nutcracker Bunny", Data = {Price = 40 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Golden Huge Nutcracker Bunny", Data = {Price = 50 + math.random(1,50)*0.01 .."m"}}, 
-{Name = "Rainbow Huge Nutcracker Bunny", Data = {Price = 198 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Huge Nutcracker Bunny", Data = {Price = 20 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Golden Huge Nutcracker Bunny", Data = {Price = 30 + math.random(1,50)*0.01 .."m"}}, 
+{Name = "Rainbow Huge Nutcracker Bunny", Data = {Price = 140 + math.random(1,50)*0.01 .."m"}}, 
 
 {Name = "Shiny Huge Nutcracker Bunny", Data = {Price = 300 + math.random(1,50)*0.01 .."m"}}, 
 {Name = "Shiny Golden Huge Nutcracker Bunny", Data = {Price = 2 + math.random(1,50)*0.01 .."b"}}, 
