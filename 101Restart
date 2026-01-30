@@ -3,7 +3,7 @@ task.spawn(function()
 
 _G.start_vvv_ = true
 _G.delay_play_vvv3 = 1
-_G.FPS_farm = 3
+_G.FPS_farm = 4
 
 
 _G.FPS_event = 4
