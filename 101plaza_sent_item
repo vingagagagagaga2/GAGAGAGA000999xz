@@ -47,7 +47,7 @@ function Sent_item_all()
 
 getgenv().Settings_sentitem = {		
 
-["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 200},	--ok
+["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	--ok
 --["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 50001, keepAmount = 40000},	
 ["Time Trial Gift"] = {Class = "Lootbox", Id = "Time Trial Gift", MinAmount = 50001, keepAmount = 40000},
 ["Santa Gift"] = {Class = "Lootbox", Id = "Santa Gift", MinAmount = 50001, keepAmount = 40000},
