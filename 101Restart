@@ -22,7 +22,7 @@ end
 --task.wait(3600)
 
 
-local _Config_Online = 9
+local _Config_Online = 10
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
 local function getOffline()
@@ -53,16 +53,13 @@ if _Config_Offline ~= _Config_Online then
 		if EVENT_or_FARM == "E" then
 			--game.Players.LocalPlayer:Kick("kick reset")		
 		end
-		loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/CPU-LOW.lua"))()		
+		loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/tele_FARM_FISH.lua"))()	
 		--------------------------------------------
 end
 
 if _G.Restart == true then
 	_G.Restart = false 	
 end
-
-loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
-
 
 task.wait(60)
 local Players = game:GetService("Players")
