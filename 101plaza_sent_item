@@ -148,7 +148,7 @@ for key, config in pairs(getgenv().Settings_sentitem) do
 	local class = config.Class
 	local id = config.Id
 	local minAmount = parseNumber(config.MinAmount)
-	local keepAmount = config.KeepAmount and parseNumber(config.KeepAmount) or 0
+	local keepAmount = config.keepAmount and parseNumber(config.keepAmount) or 0
 	local allVariants = config.AllVariants or false
 	wait(2)
 	if class == "Currency" then
