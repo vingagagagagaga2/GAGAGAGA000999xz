@@ -1,5 +1,12 @@
 PAUSE_or_SEND = "s"
 
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local username = player.Name
+if username == "nalsur71230" then
+	PAUSE_or_SEND = "p"
+end
+
 local _Config_Online = 3
 
 local FILE_NAME = "OFFLINE.txt"
