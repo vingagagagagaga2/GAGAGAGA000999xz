@@ -1,4 +1,4 @@
-PAUSE_or_SEND = "p"
+PAUSE_or_SEND = "s"
 
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
@@ -151,42 +151,17 @@ for key, config in pairs(getgenv().Settings_sentitem) do
 	local keepAmount = config.keepAmount and parseNumber(config.keepAmount) or 0
 	local allVariants = config.AllVariants or false
 	wait(2)
-	if class == "Currency" then
 
-	for uid, v in pairs(Inventory.Currency) do
-		if v.id == id then
-			local current = tonumber(v._am) or 0
-			local sendAmount = current - keepAmount
-			
-			if sendAmount >= minAmount then
-				print("?? G?i currency:", id, "?", sendAmount)
-				local success, err = pcall(function()
-					return Network.Invoke("Mailbox: Send", NAME_USER_SEND, message, "Currency", uid, sendAmount)
-				end)
-				if not success then
-					warn("? G?i currency l?i:", err)
-				end
-				task.wait(2)
-			end
-		end
-	end
-
-	else
-    local matched = findMatchingItems(class, id, allVariants, config.TN)
-
+   		local matched = findMatchingItems(class, id, allVariants, config.TN)
 		for _, item in ipairs(matched) do
 			local count = item.Count
-			local sendCount = count
-
-			if keepAmount > 0 and count > keepAmount then
-				sendCount = count - keepAmount
-			end
-
-			if sendCount >= minAmount then
-	
-				print("?? G?i item:", item.ID, "| SL:", sendCount, "| Lo?i:", item.Class)
+			if count >= minAmount then
+					plz_sendCount = count
+				if keepAmount > 0 and count > keepAmount then
+					plz_sendCount = count - keepAmount
+				end
 				local success, err = pcall(function()
-					return Network.Invoke("Mailbox: Send", NAME_USER_SEND, message, class, item.UID, sendCount)
+					return Network.Invoke("Mailbox: Send", NAME_USER_SEND, message, class, item.UID, plz_sendCount)
 				end)
 				if not success then
 					warn("? G?i item l?i:", err)
@@ -194,7 +169,7 @@ for key, config in pairs(getgenv().Settings_sentitem) do
 				task.wait(2)
 			end
 		end
-	end
+
 end
 
 end
