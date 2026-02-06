@@ -46,10 +46,6 @@ end
 EVENT_or_FARM = "F" 
 _G.Super_S = true
 
-if _G.RunsLeft_TIMEtrial > 0 and _G.start_vvv_ then 
-EVENT_or_FARM = "F" 
-end
-
 ----------------
 
 if EVENT_or_FARM == "E"then
