@@ -1,4 +1,4 @@
-repeat task.wait() until game:IsLoaded()
+--repeat task.wait() until game:IsLoaded()
 --local LocalPlayer = game:GetService('Players').LocalPlayer
 --repeat task.wait() until not LocalPlayer.PlayerGui:FindFirstChild('__INTRO')
 
@@ -6,7 +6,6 @@ repeat task.wait() until game:IsLoaded()
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local username = player.Name
-local USER_VERY_BOT = {"Russell71796","bhosievvanister","MichaelBobbyj767","549Treyton1713","wannergbatokaiiz","oliychinos6","BaconNeonDancer92","BlastNinja22","JulianEpic76","XxGalaxyEchoTigerxX","N0raChas3Byt3","cancmaloyv","chromasenior63","StarGh0stLi0n","EpicStealthEagle2024","8608Shafer9772","MIA_Wraith60","XxHawkRiftxX200537","BrooklynGamerZero","FireFr0stTiger2007","SaberGhostSky","XxMasonRocketFirexX2","Hero_Cookie2010","Cart3r_Ac328","Brooklynn_Claw74","NoahRavenGolden2008","EzraBearGlitch77","StarryFuryStealth202","baocho1131","vinvwmt77898","HenryBeastTiger90","Gam3rSt3alth43","VictoriaVort3xStar","ProChillWolf95","T0xicOrbit2012","ZeroNinjaEagle26","BlockPandaKnight2023","Flam3GigaPrism","S3bastianDanc3r18","LoganBuilderAquaYT","KayleeGoldenHawk50","hainelygiao21323","GabrielUltraDuck2019","KayleeFireChill2016","Fusi0nCraftC00kie201","GraceBaconWraith","LuckySab3r13","MasonFlick37","P0w3r_Gam3r2005","StarryBuilderStar","ichin92x","XxGalaxyEaglexX52","Prism_Playz82","SkaterMagicPrism2021","OmegaDrift201620","CrazeWolfNova","Samuel_BANE200372","XxLayla_LEGENDXX61","XxVoidVortexMaxxX47","AsherFireArrow2023","Bac0nAquaPuls320","AuroraOmegaOrbit2023","XxNoraMin3rL3g3ndxX2","XxEthanDriftGold3nxX","Sonic_Saber54","Cha0sRider2016","idesiei53no11","StormySkater89","XxAmeliaBearMinerxX","EpicSparklyLava45","Liam_Flame201164","FusionFlameFox2010","SophiaTigerNinja","CyberneticOperator49","Her0PulseAlpha","MysticLionLava2015","XxLaylaHyp3rxX2012","ZAYDEN_Fr0st92","LightCircuitHawk","Hero_Duck56","Om3gaLionDrift88","1951Booth3115","EPIC_Starry2006","Li0nBl0ckNe0n","GhostInfernoLion71","521Ahmad1685","kuvyndn117","StarryPlayzPanda13","RiftRogue81","Ne0nPrimal17","XxWill0w_HYPERXX26","CrystalSkyCode94","Chlo3_LIGHT2013","EliMasterGhost2004YT","JACKN0VAFURY_YT","Lvietnqu1254asdv","AddisonOm3gaGam3r","JaxonCod3Fir3","PrimalWolfEcho17","Z3roDriftLight"}
 local USER_SUPER_drop = {"detmerskanbahlaaq","8815Falk9979","881Caden882","hadriamullavey70","LegendFusionNova","MinerHaze74","ProVoid41","IsabellaArrowFlash","Ninja_Knight82","MoonNeonLion2023","FlameEch0Hawk","Tygirlllyr1370","Henry89084","teomond345320","laboture121","Ruiz202457","shimartje525","commtigge246","dyagalsea883","redman721212","britconter8462","pisekhotch788","79Kiera80","80Jovany81","11Davion125","Tyerlasnullum30","racbracfe25","10Rebekah11","tamuleviazulayv","sollarleats","wannergbatokaiiz","Betts41829","Lilly457365","Rice84348","Weiland44899","Reeder67056","killedsanthi85","hegemangaltieri81","kuvindn13","renovandenei54","Yuri207x","lundellgeorgeano","quochuyfarm2","kuvyndn","kuvyndn115","quochuyfarm1","Thienktdeptrai09","2390Muir3554","2391Ellsworth3555","10dayhetga3","minhlhuyldiet8","mpkute2201","1787Vickery2951","878Tina879","549Treyton1713","1835Haskins2999","1837Gallegos3001","550Kennedy1714","Hall210231","Caraballo15271","Ruffin54837","Nance52630","kians54232","Briar10664","Blake10676","Nathaniel10681","Emilio111546","Charles11184","Bockman96259","Garfinkel85778","Plourde49152","Corbett17154","1880Fritz3044","1851Moon3015","8402Whitehead9566","8403Cooney9567","2389Ayers3553","1836Edmonds3000","1841Kearney3005","Aaron10657","Russell71796","Denzel11179","1840Harper3004","rank8z100","kthatch101","2386Conte3550","8406Donohue9570","Toups51814","8593Gaskins9757","10zwemerbtam10","1785Dihg","lavinie91258","affiegutterin9","34Jaret35","bosonvoormah","16Giancarlo17","38Johan39","48Giavanna49","8394Corbett9558","1871Luther3035","49Dayton50","854Elliott855","pafnucymargit21","soojung48573","17Leland18","bhosievvanister","feodslogeshy","mcconchifredjeyo","bradodette49","ghaldoun9247","ecclweltst","fadile66096","11eijtenisiktam11","dzLCBpCO34","OlsenMiffyf7","MichaelBobbyj767","8407Castellanos9571","XxSaber_Ech0xX2006","burchard6297","whelmssteviac","ulkeboraxb","1863Echols3027","dQ9PQsBg54","jrpB44FT38","YTAzK1dX05","7vmW8gRw14","tunostri486","eyassamba55"}
 
 Start_ford = 1
@@ -39,13 +38,12 @@ if checkUser(USER_SUPER_drop) then
 	EVENT_or_FARM = "F"
 	_G.Super_S = true
 end
---if checkUser(USER_VERY_BOT)  then end
------------------------
 
+-----------------------
 local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
 local rank = Save.Get().Rank
 if rank < 30 then
-EVENT_or_FARM = "F" 
+	EVENT_or_FARM = "F" 
 end
 ----------------
 
