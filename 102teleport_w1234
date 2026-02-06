@@ -30,8 +30,8 @@ if not MAP_w2_true then
 		local TeleportService = game:GetService("TeleportService")
 		TeleportService:Teleport(8737899170, LocalPlayer)
 		wait(10)
+		return
 	end
-    return
 end
 
 
