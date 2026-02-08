@@ -1,4 +1,4 @@
-PAUSE_or_SEND = "p"
+PAUSE_or_SEND = "s"
 
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
@@ -195,7 +195,7 @@ getgenv().Settings_sentPET = {
 --["Golden Huge Shark Cat"] 	= {Soluong_Yeu_cau = 1},
 --["Golden Huge Specter Owl"] 	= {Soluong_Yeu_cau = 1},
 
-["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 2},
+["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 10},
 
 
 ["Elf Golem"] = {Soluong_Yeu_cau = 1},
