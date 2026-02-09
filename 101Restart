@@ -1,6 +1,6 @@
 task.spawn(function()
 
-_G.start_vvv_ = false
+_G.start_vvv_ = true
 _G.delay_play_vvv3 = 1
 _G.FPS_farm = 4
 
@@ -22,7 +22,7 @@ end
 --task.wait(3600)
 
 
-local _Config_Online = 16
+local _Config_Online = 17
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
 local function getOffline()
