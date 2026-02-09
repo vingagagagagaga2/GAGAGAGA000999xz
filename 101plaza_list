@@ -79,6 +79,9 @@ getgenv().Settings_autoplaza = {
 
 
 --------------------------------------------------------------------------------------
+
+{Name = "Shiny Rainbow Huge Telescope Owl ", Data = {Price = "3.5b"}},
+
 {Name = "Shiny Rainbow All Huges", Data = {Price = "15%", Min_sell = "2b", Max_sell = "10b"}},
 {Name = "Shiny Golden All Huges", Data = {Price = "15%", Min_sell = "200m", Max_sell = "1b"}},
 
