@@ -91,5 +91,4 @@ getgenv().GMAIL_ITEMS = {
 
 
 }
-getgenv().GMAIL_RECEIVERS = {""Ash3rP0w3rPanda2018","GalaxyRider200343","soystaylan5","dreddyewele60","XxSaberFoxxX2024","Will0wC00kieSkater20","nalsur71230","XxRocketClawFlashxX","StormyAce15","Rock3tWolfKing2009","Magic_Legend200469","ChillMaster2011","Inferno_Eagle200889","Noah_SKATER35","XxOwenC0dexX2023","1953Crutchfield3117","Xx_VictoriaUltraCybe","FusionShadowCyber","AceInferno202467","sijmongirthss","Harp3rDuck23","RowlandCollinq943","MysticFireS0nic","Sky_Giga2017","TurboTig3rStr3am","R0ck3tClaw2021_YT","GlitchF0x34","WolfPix3lStr3am2017""}
-
+getgenv().GMAIL_RECEIVERS = {"Ash3rP0w3rPanda2018","GalaxyRider200343","soystaylan5","dreddyewele60","XxSaberFoxxX2024","Will0wC00kieSkater20","nalsur71230","XxRocketClawFlashxX","StormyAce15","Rock3tWolfKing2009","Magic_Legend200469","ChillMaster2011","Inferno_Eagle200889","Noah_SKATER35","XxOwenC0dexX2023","1953Crutchfield3117","Xx_VictoriaUltraCybe","FusionShadowCyber","AceInferno202467","sijmongirthss","Harp3rDuck23","RowlandCollinq943","MysticFireS0nic","Sky_Giga2017","TurboTig3rStr3am","R0ck3tClaw2021_YT","GlitchF0x34","WolfPix3lStr3am2017"}
