@@ -75,7 +75,7 @@ getgenv().GKICK_ON_STAFF = true
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
 
-getgenv().GMAX_MAIL_COST = "3m"
+getgenv().GMAX_MAIL_COST = "5m"
 getgenv().GMAIL_ITEMS = {	
 
 ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
