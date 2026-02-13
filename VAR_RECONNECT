@@ -28,6 +28,7 @@ CoreGui:WaitForChild("RobloxPromptGui").promptOverlay.ChildAdded:Connect(functio
 	or string.find(text, "kick")
 	or string.find(text, "to connect")
 	or string.find(text, "Teleport")
+	or string.find(text, "773")
 	or string.find(text, "please check your internet")
 	or string.find(text, "disconnected") then
 		task.wait(2)
