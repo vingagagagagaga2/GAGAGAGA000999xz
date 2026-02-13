@@ -65,6 +65,7 @@ getgenv().Settings_sentitem = {
 ["Void Key"] = {Class = "Misc", Id = "Void Key", MinAmount = 50001, keepAmount = 40000},	
 ["Fantasy Key"] = {Class = "Misc", Id = "Fantasy Key", MinAmount = 50001, keepAmount = 40000},	
 
+["Coins"] = {Class = "Enchant", Id = "Coins", TN = 7, MinAmount = 1000}, 
 ["Coins"] = {Class = "Enchant", Id = "Coins", TN = 6, MinAmount = 1000}, 
 ["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
 ["Tornado"] = {Class = "Ultimate", Id = "Tornado", MinAmount = 5},
