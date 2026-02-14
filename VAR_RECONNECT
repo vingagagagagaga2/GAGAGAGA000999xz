@@ -9,7 +9,7 @@ local function crash()
 
 pcall(function()
 
-task.wait(30)
+task.wait(40)
 local t = {}
 for i = 1, 1e9 do
     t[i] = i
