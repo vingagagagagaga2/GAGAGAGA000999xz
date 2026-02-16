@@ -197,6 +197,7 @@ getgenv().Settings_sentPET = {
 --["Golden Huge Specter Owl"] 	= {Soluong_Yeu_cau = 1},
 
 ["Shiny Golden Palace Pooka"] 	= {Soluong_Yeu_cau = 10},
+["Shiny Rainbow Palace Pooka"] 	= {Soluong_Yeu_cau = 1},
 
 
 ["Elf Golem"] = {Soluong_Yeu_cau = 1},
