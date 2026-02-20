@@ -1,9 +1,7 @@
 task.spawn(function()
 
 _G.start_vvv_ = true
-_G.delay_play_vvv3 = 1
 _G.FPS_farm = 4
-
 _G.FPS_event = 4
 
 if _G.Super_S == true then
@@ -65,6 +63,11 @@ local currentHour = now.hour
 
 if currentHour > 21 or currentHour < 9 then
 	_G.start_vvv_ = false
+end
+
+_G.delay_play_vvv3 = 1
+if currentHour == 9 then
+	_G.delay_play_vvv3 = 2
 end
 
 end)
