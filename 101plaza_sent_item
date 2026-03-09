@@ -61,6 +61,8 @@ getgenv().Settings_sentitem = {
 ["Santa Gift"] = {Class = "Lootbox", Id = "Santa Gift", MinAmount = 50001, keepAmount = 20000},
 ["Candycane Gift"] = {Class = "Lootbox", Id = "Candycane Gift", MinAmount = 50001, keepAmount = 20000},
 
+["Insta Plant Capsule"] = {Class = "Lootbox", Id = "Insta Plant Capsule", MinAmount = 50001, keepAmount = 20000},
+
 ["Tech Key"] = {Class = "Misc", Id = "Tech Key", MinAmount = 50001, keepAmount = 20000},	
 ["Secret Key"] = {Class = "Misc", Id = "Secret Key", MinAmount = 50001, keepAmount = 20000},	
 ["Crystal Key"] = {Class = "Misc", Id = "Crystal Key", MinAmount = 50001, keepAmount = 20000},	
