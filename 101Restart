@@ -17,7 +17,8 @@ end
 
 --task.wait(3600)
 
-local _Config_Online = 15
+local _Config_Online = 16
+
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
 local function getOffline()
