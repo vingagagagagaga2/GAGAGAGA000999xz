@@ -1,4 +1,4 @@
-PAUSE_or_SEND = "p"
+PAUSE_or_SEND = "s"
 NAME_USER_SEND = "boltrodtoil94"
 
 local Players = game:GetService("Players")
