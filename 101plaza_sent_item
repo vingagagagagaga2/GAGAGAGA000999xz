@@ -1,4 +1,5 @@
 PAUSE_or_SEND = "p"
+NAME_USER_SEND = ""
 
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
@@ -47,7 +48,7 @@ if PAUSE_or_SEND == "p" then
 	return
 end
 
-NAME_USER_SEND = "veriotiai779"
+
 
 
 function Sent_item_all()
