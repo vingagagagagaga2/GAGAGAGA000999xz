@@ -82,10 +82,9 @@ getgenv().GMAIL_ITEMS = {
 ["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
 ["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
 ["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},	
---["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "50m", MinAmount = "250m"},
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "50m", MinAmount = "250m"},
 ["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 5},
 ["Hype Egg 2"] = {Class = "Lootbox", Id= "Hype Egg 2", MinAmount = 1},
-
 ["Lucky Eggs"] = {Class = "Enchant", Tier = 9 ,Id = "Lucky Eggs", MinAmount = 2, KeepAmount = 1},
 
 --["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 1000, KeepAmount = 500},
@@ -93,4 +92,4 @@ getgenv().GMAIL_ITEMS = {
 
 
 }
-getgenv().GMAIL_RECEIVERS = {""}
+
