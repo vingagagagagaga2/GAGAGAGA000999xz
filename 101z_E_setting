@@ -1,1 +1,73 @@
+_G.FPS_farm = 4
+spawn(function()
+    while true do
+        setfpscap(_G.FPS_farm)
+        wait(10)
+    end
+end)
 
+task.spawn(function()
+task.wait(25*3600)
+game.Players.LocalPlayer:Kick("kick 24h")
+end)
+
+getgenv().GDO_LUCKY_WORLD_EVENT = true
+getgenv().GMAKE_HORSESHOE_GIFTS = true
+getgenv().GLIMIT_HORSESHOE_GIFTS = 99999 -- choose yourself, don't set it lower than your MinAmount in your Horseshoe Gift mailrule!
+getgenv().GDO_BOSSES = {1,2}
+getgenv().GHEROIC_BOSSES  = {1,2}
+getgenv().GSKIP_RAID_EGG = true
+getgenv().GMINUTE_HATCH_RAID_EGG = false
+getgenv().GAUTO_UPGRADE_PETS = true
+getgenv().GDISABLE_MINUTE_HATCH = false
+getgenv().GEVENT_FPS  = 5
+getgenv().GUSE_BOOSTS = true
+getgenv().GRAID_TIMEOUT_MINUTES = 15
+getgenv().GRAID_MAX_BREAKABLE_HEALTH = "9999999999999999m"
+getgenv().GAUTO_RAID = true
+getgenv().GHATCH_LOBBY = true
+getgenv().GUSE_LEPRECHAUN_KEYS = true
+getgenv().GMAX_RAID_LEVEL = 99999999
+getgenv().GMIN_MULTIPLIER = 100 -- which raid eggs to hatch
+getgenv().GRESET_UPGRADES = false -- only do true when you actually need a reset
+getgenv().GEVENT_UPGRADES = {
+   "LuckyRaidDamage",
+   "LuckyRaidAttackSpeed",
+   "LuckyRaidPets",
+   --"LuckyRaidEggCost",
+   --"LuckyRaidMoreCurrency",
+   "LuckyRaidBetterLoot",
+	"LuckyRaidTitanicChest",
+	"LuckyRaidHugeChest",
+	"LuckyRaidXP",
+	"LuckyRaidPetSpeed",
+	"LuckyRaidKeyDrops",
+	"LuckyRaidBossHugeChances",
+	"LuckyRaidBossTitanicChances",
+}  -- can remove/comment the ones you don't want to upgrade
+getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift"}
+--getgenv().GHOP_ON_STAFF = true
+getgenv().GCLEAR_FAVORITE_PETS = true
+getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Tap Teamwork","Super Lightning","Happy Pets","Strong Pets","Treasure Hunter"}
+
+----------------------------------------------------------
+getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
+getgenv().GHUGE_COUNT = 50999
+
+getgenv().GMAX_MAIL_COST = "5m"
+getgenv().GMAIL_ITEMS = {	
+
+["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
+["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
+["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
+["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},	
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "50m", MinAmount = "250m"},
+["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 5},
+["Hype Egg 2"] = {Class = "Lootbox", Id= "Hype Egg 2", MinAmount = 1},
+["Lucky Eggs"] = {Class = "Enchant", Tier = 9 ,Id = "Lucky Eggs", MinAmount = 2, KeepAmount = 1},
+
+--["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 1000, KeepAmount = 500},
+--["Diamonds"] = {Class = "Potion", Tier = 9 ,Id = "Diamonds", MinAmount = 1000, KeepAmount = 500},
+
+
+}
