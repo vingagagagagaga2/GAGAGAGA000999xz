@@ -22,17 +22,6 @@ MAP_w2_true = check_map["Tech Spawn"]
 MAP_w3_true = check_map["Prison HQ"]
 MAP_w4_true = check_map["Fantasy Spawn"]
 
-if not MAP_w2_true then
-	if game.PlaceId == 95635359880599 or game.PlaceId == 119454325063278 then
-		local Players = game:GetService("Players")
-		local TeleportService = game:GetService("TeleportService")
-		TeleportService:Teleport(8737899170, LocalPlayer)
-		wait(10)
-		return
-	end
-end
-
-
 task.spawn(function()
 
 while true do
@@ -55,8 +44,9 @@ local TeleportMapping = {
 if game.PlaceId == 119454325063278 or game.PlaceId == 95635359880599 then
 
 task.wait(7)
-
-	if not MAP_w3_true then
+	if not MAP_w2_true then
+		teleportName = TeleportMapping[1]
+	elseif not MAP_w3_true then
 		teleportName = TeleportMapping[2]
 	elseif not MAP_w4_true then
 		teleportName = TeleportMapping[3]
