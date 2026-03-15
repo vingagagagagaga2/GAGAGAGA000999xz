@@ -62,8 +62,32 @@ getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift"}
 getgenv().GCLEAR_FAVORITE_PETS = true
 
 getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Tap Teamwork","Exotic Pet","Happy Pets","Mega Chest Breaker","Corruption"}
+----------------------------------------------------------
+getgenv().GUSE_SPINNY_WHEEL = true
+--getgenv().GAUTO_UPGRADE_PETS = true
+getgenv().GCOMBINE_KEYS = true
+getgenv().GMASTERY_TO_MAX = "Pets"
+getgenv().GCONSUME_CHARMS = true
+getgenv().GDAYCARE = true
+
+getgenv().GHATCH_SPEED_MS = 0
+getgenv().GMAX_EGG_SLOTS = 99
+getgenv().GMAX_EQUIP_SLOTS = 99
+getgenv().GHOLD_GIFTS = true
+getgenv().GHOLD_BUNDLES = false
+getgenv().GCONSUME_SEED_BAGS = true  -- mở túi seed
+getgenv().GOPEN_ITEMS_IN_BULK = true -- mở hộp quà sl lớn
+
+getgenv().GMAX_ZONE_UPGRADE_COST = 30000000
+getgenv().GUSE_ULTIMATES = {"UFO","Tsunami","Tornado","Lightning Storm","Ground Pound"}
+getgenv().GCOLLECT_FREE_ITEMS = true  -- nhận free item
+
+getgenv().GFRUITS = {"Watermelon","Candycane","Apple","Rainbow","Pineapple","Orange","Banana"}
+getgenv().GPOTIONS = {"Coins","Lucky","The Cocktail","Huge","Treasure Hunter","Walkspeed","Diamonds","Damage"}
+getgenv().GPOTIONS_MAX_TIER = 99
 
 ----------------------------------------------------------
+
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
 
