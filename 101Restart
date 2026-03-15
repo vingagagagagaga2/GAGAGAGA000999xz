@@ -66,93 +66,11 @@ end
 	if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and _G.start_vvv_ == true then
 		game.Players.LocalPlayer:Kick("kick pla")
 	end
-
-
+	if _G.start_vvv_ == false and EVENT_or_FARM == "F" then 
+		game.Players.LocalPlayer:Kick("kick F > E")
+	end
 --------
-task.spawn(function()
-	local ReplicatedStorage = game:GetService("ReplicatedStorage")
-	local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
-	local SaveModule = require(Client:WaitForChild("Save"))
-	local Network = ReplicatedStorage:WaitForChild("Network")
 
-	-- Danh sách upgrade cần xử lý
-	local UPGRADE_NAMES = {
-		"LuckyRaidTitanicChest",
-		"LuckyRaidBetterLoot",
-		"LuckyRaidXP",
-		"LuckyRaidKeyDrops",
-		"LuckyRaidDamage",
-		"LuckyRaidMoreCurrency",
-		"LuckyRaidBossHugeChances",
-		"LuckyRaidEggCost",
-		"LuckyRaidPetSpeed",
-		"LuckyRaidHugeChest",
-		"LuckyRaidAttackSpeed",
-		"LuckyRaidPets",
-		"LuckyRaidBossTitanicChances",
-	}
-
-	-- Đọc save
-	local function getSaveData()
-		return SaveModule.Get() or {}
-	end
-
-	-- Lấy bảng EventUpgrades
-	local function getEventUpgrades()
-		local saveData = getSaveData()
-		return saveData.EventUpgrades or {}
-	end
-
-	-- Lấy level của 1 upgrade
-	local function getUpgradeLevel(upgradeName)
-		local eventUpgrades = getEventUpgrades()
-		return tonumber(eventUpgrades[upgradeName]) or 0
-	end
-
-	-- In level toàn bộ upgrade
-	local function printAllUpgradeLevels()
-		for _, upgradeName in ipairs(UPGRADE_NAMES) do
-			local level = getUpgradeLevel(upgradeName)
-			warn(("%s = %d"):format(upgradeName, level))
-		end
-	end
-
-	-- Kiểm tra có bất kỳ upgrade nào đã >= 1 chưa
-	local function hasAnyUpgradeAtLeast1()
-		for _, upgradeName in ipairs(UPGRADE_NAMES) do
-			if getUpgradeLevel(upgradeName) >= 1 then
-				return true
-			end
-		end
-		return false
-	end
-
-	-- Mua 1 upgrade
-	local function purchaseUpgrade(upgradeName)
-		Network["EventUpgrades: Purchase"]:InvokeServer(upgradeName)
-		warn("Purchased: " .. upgradeName)
-	end
-
-	-- Mua đều mỗi upgrade 1 lần
-	local function purchaseEachUpgradeOnce()
-		for _, upgradeName in ipairs(UPGRADE_NAMES) do
-			purchaseUpgrade(upgradeName)
-			task.wait(0.2)
-		end
-	end
-
-	-- Debug: xem level hiện tại
-	printAllUpgradeLevels()
-
-	-- Logic chính:
-	-- Nếu KHÔNG có bất kỳ mục nào lv >= 1 thì nâng đều mỗi thứ 1 lần
-	if not hasAnyUpgradeAtLeast1() then
-		warn("Không có upgrade nào đạt lv1+, bắt đầu mua đều mỗi mục 1 lần...")
-		purchaseEachUpgradeOnce()
-	else
-		warn("Đã có ít nhất 1 upgrade đạt lv1+, bỏ qua không mua.")
-	end
-end)
 --------
 end)
 
