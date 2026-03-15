@@ -17,39 +17,51 @@ getgenv().GMAKE_HORSESHOE_GIFTS = true
 getgenv().GLIMIT_HORSESHOE_GIFTS = 99999 -- choose yourself, don't set it lower than your MinAmount in your Horseshoe Gift mailrule!
 getgenv().GDO_BOSSES = {1,2}
 getgenv().GHEROIC_BOSSES  = {1,2}
+
 getgenv().GSKIP_RAID_EGG = true
 getgenv().GMINUTE_HATCH_RAID_EGG = false
+
 getgenv().GAUTO_UPGRADE_PETS = true
 getgenv().GDISABLE_MINUTE_HATCH = false
+
 getgenv().GEVENT_FPS  = 5
 getgenv().GUSE_BOOSTS = true
+
 getgenv().GRAID_TIMEOUT_MINUTES = 15
 getgenv().GRAID_MAX_BREAKABLE_HEALTH = "9999999999999999m"
 getgenv().GAUTO_RAID = true
 getgenv().GHATCH_LOBBY = true
+
 getgenv().GUSE_LEPRECHAUN_KEYS = true
 getgenv().GMAX_RAID_LEVEL = 99999999
 getgenv().GMIN_MULTIPLIER = 100 -- which raid eggs to hatch
+
+
 getgenv().GRESET_UPGRADES = false -- only do true when you actually need a reset
+
+
 getgenv().GEVENT_UPGRADES = {
-   "LuckyRaidDamage",
-   "LuckyRaidAttackSpeed",
-   "LuckyRaidPets",
-   --"LuckyRaidEggCost",
-   --"LuckyRaidMoreCurrency",
-   "LuckyRaidBetterLoot",
-	"LuckyRaidTitanicChest",
-	"LuckyRaidHugeChest",
-	"LuckyRaidXP",
-	"LuckyRaidPetSpeed",
-	"LuckyRaidKeyDrops",
-	"LuckyRaidBossHugeChances",
-	"LuckyRaidBossTitanicChances",
-}  -- can remove/comment the ones you don't want to upgrade
+"LuckyRaidDamage",
+"LuckyRaidAttackSpeed",
+"LuckyRaidPets",
+--"LuckyRaidEggCost",
+--"LuckyRaidMoreCurrency",
+--"LuckyRaidBetterLoot",
+--"LuckyRaidTitanicChest",
+--"LuckyRaidHugeChest",
+"LuckyRaidXP",
+--"LuckyRaidPetSpeed",
+--"LuckyRaidKeyDrops",
+--"LuckyRaidBossHugeChances",
+--"LuckyRaidBossTitanicChances",
+} 
+
+
 getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift"}
 --getgenv().GHOP_ON_STAFF = true
 getgenv().GCLEAR_FAVORITE_PETS = true
-getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Tap Teamwork","Super Lightning","Happy Pets","Strong Pets","Treasure Hunter"}
+
+getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Tap Teamwork","Exotic Pet","Happy Pets","Mega Chest Breaker","Corruption"}
 
 ----------------------------------------------------------
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
