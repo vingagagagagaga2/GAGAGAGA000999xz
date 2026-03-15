@@ -44,10 +44,13 @@ end
 -----------------------
 
 ----------------
+if _G.RunsLeft_TIMEtrial > 0 and _G.start_vvv_ == true then
+	EVENT_or_FARM = "F" 
+else
+	EVENT_or_FARM = "E" 
+end
 
-EVENT_or_FARM = "F" 
-_G.Super_S = true
-
+	_G.Super_S = true
 ----------------
 
 if EVENT_or_FARM == "E"then
