@@ -37,19 +37,18 @@ getgenv().GMAX_RAID_LEVEL = 99999999
 getgenv().GMIN_MULTIPLIER = 100 -- which raid eggs to hatch
 
 
-getgenv().GRESET_UPGRADES = false -- only do true when you actually need a reset
-
+getgenv().GRESET_UPGRADES = false
 
 getgenv().GEVENT_UPGRADES = {
-"LuckyRaidDamage",
-"LuckyRaidAttackSpeed",
-"LuckyRaidPets",
+--"LuckyRaidDamage",
+--"LuckyRaidAttackSpeed",
+--"LuckyRaidPets",
 --"LuckyRaidEggCost",
 --"LuckyRaidMoreCurrency",
 --"LuckyRaidBetterLoot",
 --"LuckyRaidTitanicChest",
 --"LuckyRaidHugeChest",
-"LuckyRaidXP",
+--"LuckyRaidXP",
 --"LuckyRaidPetSpeed",
 --"LuckyRaidKeyDrops",
 --"LuckyRaidBossHugeChances",
