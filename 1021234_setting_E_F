@@ -45,7 +45,7 @@ end
 
 ----------------
 
-EVENT_or_FARM = "F" 
+EVENT_or_FARM = "E" 
 _G.Super_S = true
 
 ----------------
