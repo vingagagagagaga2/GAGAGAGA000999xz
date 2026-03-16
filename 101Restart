@@ -70,7 +70,15 @@ end
 		game.Players.LocalPlayer:Kick("kick F > E")
 	end
 --------
+task.spawn(function()
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
 
+local playerCount = #Players:GetPlayers()
+if playerCount > 1 and game.PlaceId == 140403681187145 then
+	Players.LocalPlayer:Kick("severvip")
+end
+end)
 --------
 end)
 
