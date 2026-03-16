@@ -1,5 +1,8 @@
 task.spawn(function()
 
+getgenv().GDO_BOSSES = {1,2,3}
+getgenv().GHEROIC_BOSSES  = {1,2,3}
+
 _G.start_vvv_ = true
 
 _G.FPS_farm = 4
