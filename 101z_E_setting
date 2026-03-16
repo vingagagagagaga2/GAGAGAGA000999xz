@@ -1,4 +1,4 @@
-_G.FPS_event = 7
+_G.FPS_event = 6
 
 spawn(function()
     while true do
