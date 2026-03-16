@@ -54,6 +54,8 @@ local currentHour = now.hour
 if currentHour > 21 or currentHour < 9 then
 	_G.start_vvv_ = false
 end
+_G.start_vvv_ = false
+
 _G.delay_play_vvv3 = 1
 if currentHour == 9 then
 	--_G.delay_play_vvv3 = 2
@@ -69,15 +71,7 @@ end
 		game.Players.LocalPlayer:Kick("kick F > E")
 	end
 --------
-task.spawn(function()
-local Players = game:GetService("Players")
-local player = Players.LocalPlayer
 
-local playerCount = #Players:GetPlayers()
-if playerCount > 1 and game.PlaceId == 140403681187145 then
-	Players.LocalPlayer:Kick("severvip")
-end
-end)
 --------
 end)
 
