@@ -1,16 +1,12 @@
 task.spawn(function()
 
-getgenv().GDO_BOSSES = {1,2,3}
-getgenv().GHEROIC_BOSSES  = {1,2,3}
-
 _G.start_vvv_ = true
-
 _G.FPS_farm = 4
 _G.FPS_event = 7
 
 --task.wait(3600)
 
-local _Config_Online = 19
+local _Config_Online = 20
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
