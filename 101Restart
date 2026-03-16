@@ -57,7 +57,7 @@ if currentHour > 21 or currentHour < 9 then
 end
 _G.delay_play_vvv3 = 1
 if currentHour == 9 then
-	_G.delay_play_vvv3 = 2
+	--_G.delay_play_vvv3 = 2
 end
 
 	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" then
