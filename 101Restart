@@ -3,7 +3,9 @@ task.spawn(function()
 _G.start_vvv_ = true
 _G.FPS_farm = 4
 _G.FPS_event = 7
-
+if name_vps == "NAMG6" or name_vps == "V8" or name_vps == "V4" then
+_G.FPS_event = 6
+end
 --task.wait(3600)
 
 local _Config_Online = 20
