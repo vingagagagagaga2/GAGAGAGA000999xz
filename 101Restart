@@ -2,7 +2,7 @@ task.spawn(function()
 _G.start_vvv_ = false
 
 _G.FPS_farm = 4
-_G.FPS_event = 6
+_G.FPS_event = 5
 
 --task.wait(3600)
 
