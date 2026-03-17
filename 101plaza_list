@@ -24,6 +24,8 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Titanic Lucki Chest Mimic", Data = {Price = 20 + math.random(1,10)*0.01 .."b"}},
 {Name = "Titanic Horseshoe Capybara", Data = {Price = 4.2 + math.random(1,10)*0.01 .."b"}},
 {Name = "Golden Titanic Horseshoe Capybara", Data = {Price = 4.7 + math.random(1,10)*0.01 .."b"}},
+{Name = "Rainbow Titanic Horseshoe Capybara", Data = {Price = 12 + math.random(1,10)*0.01 .."b"}},
+{Name = "Shiny Titanic Horseshoe Capybara", Data = {Price = 12 + math.random(1,10)*0.01 .."b"}},
 
 -------------------------------------------------------------------------------
 {Name = "Mega Lucky Gingerbread", Data = {Price = 50 + math.random(1,50)*0.1 .."m"}},
