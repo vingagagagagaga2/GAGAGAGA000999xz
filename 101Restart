@@ -6,7 +6,7 @@ _G.FPS_event = 5
 
 --task.wait(3600)
 
-local _Config_Online = 21
+local _Config_Online = 22
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
