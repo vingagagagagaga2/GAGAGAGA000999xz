@@ -26,7 +26,7 @@ getgenv().GDISABLE_MINUTE_HATCH = false
 
 getgenv().GUSE_BOOSTS = true
 
-getgenv().GRAID_TIMEOUT_MINUTES = 15
+getgenv().GRAID_TIMEOUT_MINUTES = 7
 
 getgenv().GAUTO_RAID = true
 getgenv().GHATCH_LOBBY = true
