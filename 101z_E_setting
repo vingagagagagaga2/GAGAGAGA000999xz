@@ -89,7 +89,7 @@ getgenv().GPOTIONS_MAX_TIER = 99
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
 
---getgenv().GMAX_MAIL_COST = "5m"
+getgenv().GMAX_MAIL_COST = "4m"
 getgenv().GMAIL_ITEMS = {	
 
 ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
