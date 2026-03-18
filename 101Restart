@@ -72,7 +72,7 @@ end
 		game.Players.LocalPlayer:Kick("kick F > E")
 	end
 --------
-getgenv().GRAID_TIMEOUT_MINUTES = 10
+
 --------
 end)
 
