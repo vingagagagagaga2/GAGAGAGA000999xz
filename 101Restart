@@ -1,7 +1,6 @@
 task.spawn(function()
 _G.start_vvv_ = false
-getgenv().GMAX_MAIL_COST = "50k"
-getgenv().GMAIL_RECEIVERS = {""}
+
 _G.FPS_farm = 4
 _G.FPS_event = 5
 
@@ -73,7 +72,8 @@ end
 		game.Players.LocalPlayer:Kick("kick F > E")
 	end
 --------
-
+getgenv().GMAX_MAIL_COST = "50k"
+getgenv().GMAIL_RECEIVERS = {""}
 --------
 end)
 
