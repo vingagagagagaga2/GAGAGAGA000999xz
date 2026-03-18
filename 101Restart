@@ -6,7 +6,7 @@ _G.FPS_event = 6
 
 --task.wait(3600)
 
-local _Config_Online = 23
+local _Config_Online = 24
 
 
 local FILE_NAME = "OFFLINE.txt"
@@ -40,7 +40,7 @@ if _Config_Offline ~= _Config_Online then
 			--game.Players.LocalPlayer:Kick("kick reset")		
 		end
 
-		--game.Players.LocalPlayer:Kick("kick reset")		
+		game.Players.LocalPlayer:Kick("kick reset")		
 		
 		--------------------------------------------
 end
