@@ -74,8 +74,7 @@ end
 		game.Players.LocalPlayer:Kick("kick F > E")
 	end
 --------
-getgenv().GMAX_MAIL_COST = "50k"
-getgenv().GMAIL_RECEIVERS = {""}
+
 --------
 end)
 
