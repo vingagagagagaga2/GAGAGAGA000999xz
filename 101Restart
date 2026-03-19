@@ -1,4 +1,8 @@
 task.spawn(function()
+
+------------------------+++
+getgenv().GHEROIC_BOSSES  = {1,2}
+------------------------+++
 _G.start_vvv_ = false
 
 _G.FPS_farm = 4
@@ -78,6 +82,7 @@ end
 		game.Players.LocalPlayer:Kick("kick F > E")
 	end
 --------
+
 getgenv().GMAIL_ITEMS = {	
 ["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "200m", MinAmount = "699m"},
 }
