@@ -4,6 +4,10 @@ _G.start_vvv_ = false
 _G.FPS_farm = 4
 _G.FPS_event = 6
 
+if name_vps == "NAMG6" then
+	_G.FPS_event = 5
+end
+
 --task.wait(3600)
 
 local _Config_Online = 24
