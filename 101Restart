@@ -75,7 +75,7 @@ end
 	end
 --------
 getgenv().GMAIL_ITEMS = {	
-["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "500m", MinAmount = "999m"},
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "300m", MinAmount = "799m"},
 }
 getgenv().GMAIL_RECEIVERS = {"MrsHazelDrift2020","TheRealLuckyFrost","KylieShadeWizard","TheRealzippyRipplegl","ItsMatth3wVort3x2005","TheRealRose_Magic","NexusBenjamin_Enigma","JacobOrbitz2010","BrooklynFuryLuminos","ItsHarryRift2019","NexusB0ulderembergus","vincedriftGrove2008Y","ItsCookieoak","MrsBenbl00m","StarryMagicFrost","N3xusthornP3bbl3","DYLAN_Z00m","ITSJACOB_gl33","NovaStormyRift","MrsLuke_Glitch","NexusKen_Shine2003","Arr0wGh0stCraz3","JackVortexDew","Claw_knoll","ChillMaster2011","1953Crutchfield3117","FusionShadowCyber","GlitchF0x34","WolfPix3lStr3am2017","1971Nowak3135"}
 --------
