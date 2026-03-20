@@ -8,7 +8,7 @@ _G.start_vvv_ = false
 _G.FPS_farm = 4
 _G.FPS_event = 5
 
-if name_vps == "NAMG6" then
+if name_vps == "L5" then
 	_G.FPS_event = 4
 end
 
