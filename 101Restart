@@ -14,7 +14,7 @@ end
 
 --task.wait(3600)
 
-local _Config_Online = 24
+local _Config_Online = 25
 
 
 local FILE_NAME = "OFFLINE.txt"
