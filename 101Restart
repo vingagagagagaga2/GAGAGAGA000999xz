@@ -9,7 +9,7 @@ _G.FPS_farm = 4
 _G.FPS_event = 5
 
 if name_vps == "L5" then
-	_G.FPS_event = 4
+
 end
 
 --task.wait(3600)
