@@ -85,7 +85,7 @@ end
 
 getgenv().GMAIL_ITEMS = {	
 ["Lucki Chest Mimic"] = {Class = "Pet", Id = "Lucki Chest Mimic", IsRainbow = true, IsShiny = true, MinAmount = 2, KeepAmount = 1},	
-["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "100m", MinAmount = "599m"},
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "59m", MinAmount = "600m"},
 }
 getgenv().GMAIL_RECEIVERS = {"MrsHazelDrift2020","TheRealLuckyFrost","KylieShadeWizard","TheRealzippyRipplegl","ItsMatth3wVort3x2005","TheRealRose_Magic","NexusBenjamin_Enigma","JacobOrbitz2010","BrooklynFuryLuminos","ItsHarryRift2019","NexusB0ulderembergus","vincedriftGrove2008Y","ItsCookieoak","MrsBenbl00m","StarryMagicFrost","N3xusthornP3bbl3","DYLAN_Z00m","ITSJACOB_gl33","NovaStormyRift","MrsLuke_Glitch","NexusKen_Shine2003","Arr0wGh0stCraz3","JackVortexDew","Claw_knoll","ChillMaster2011","1953Crutchfield3117","FusionShadowCyber","GlitchF0x34","WolfPix3lStr3am2017","1971Nowak3135"}
 --------
