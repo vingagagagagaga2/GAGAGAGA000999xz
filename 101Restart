@@ -3,7 +3,7 @@ task.spawn(function()
 ------------------------+++
 getgenv().GHEROIC_BOSSES  = {1,2,3}
 ------------------------+++
-_G.start_vvv_ = false
+_G.start_vvv_ = true
 
 _G.FPS_farm = 4
 _G.FPS_event = 5
@@ -63,7 +63,7 @@ local now = os.date("!*t", os.time(os.date("!*t")) + 7 * 3600)
 local currentHour = now.hour
 
 if currentHour > 21 or currentHour < 9 then
-	_G.start_vvv_ = false
+	--_G.start_vvv_ = false
 end
 
 
