@@ -6,10 +6,10 @@ getgenv().GHEROIC_BOSSES  = {1,2,3}
 _G.start_vvv_ = false
 
 _G.FPS_farm = 4
-_G.FPS_event = 5
+_G.FPS_event = 6
 
-if name_vps == "L5" then
-
+if name_vps == "TUNG605" then
+	_G.FPS_event = 4
 end
 
 --task.wait(3600)
