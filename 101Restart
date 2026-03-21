@@ -47,7 +47,7 @@ if _Config_Offline ~= _Config_Online then
 			--game.Players.LocalPlayer:Kick("kick reset")		
 		end
 
-		game.Players.LocalPlayer:Kick("kick reset")		
+		--game.Players.LocalPlayer:Kick("kick reset")		
 		
 		--------------------------------------------
 end
