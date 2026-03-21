@@ -47,7 +47,7 @@ getgenv().GEVENT_UPGRADES = {
 --"LuckyRaidBetterLoot",
 --"LuckyRaidTitanicChest",
 --"LuckyRaidHugeChest",
-"LuckyRaidXP",
+--"LuckyRaidXP",
 --"LuckyRaidPetSpeed",
 --"LuckyRaidKeyDrops",
 --"LuckyRaidBossHugeChances",
