@@ -32,7 +32,7 @@ getgenv().GAUTO_RAID = true
 getgenv().GHATCH_LOBBY = true
 
 getgenv().GUSE_LEPRECHAUN_KEYS = true
-getgenv().GMAX_RAID_LEVEL = 99999999
+getgenv().GMAX_RAID_LEVEL = 50000
 getgenv().GMIN_MULTIPLIER = 200 -- which raid eggs to hatch
 getgenv().GRAID_MAX_HATCH_MINUTES = 5
 
