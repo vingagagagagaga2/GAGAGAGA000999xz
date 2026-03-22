@@ -1,20 +1,6 @@
 task.spawn(function()
 ------------------------+++
-getgenv().GEVENT_UPGRADES = {
-"LuckyRaidDamage",
---"LuckyRaidAttackSpeed",
---"LuckyRaidPets",
---"LuckyRaidEggCost",
---"LuckyRaidMoreCurrency",
---"LuckyRaidBetterLoot",
---"LuckyRaidTitanicChest",
---"LuckyRaidHugeChest",
-"LuckyRaidXP",
---"LuckyRaidPetSpeed",
---"LuckyRaidKeyDrops",
---"LuckyRaidBossHugeChances",
---"LuckyRaidBossTitanicChances",
-} 
+
 ------------------------+++
 _G.start_vvv_ = true
 
@@ -27,7 +13,7 @@ end
 
 --task.wait(3600)
 
-local _Config_Online = 26
+local _Config_Online = 27
 
 
 local FILE_NAME = "OFFLINE.txt"
@@ -61,7 +47,7 @@ if _Config_Offline ~= _Config_Online then
 			--game.Players.LocalPlayer:Kick("kick reset")		
 		end
 
-		--game.Players.LocalPlayer:Kick("kick reset")		
+		game.Players.LocalPlayer:Kick("kick reset")		
 		
 		--------------------------------------------
 end
