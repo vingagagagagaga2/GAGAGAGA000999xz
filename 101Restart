@@ -14,7 +14,7 @@ end
 
 --task.wait(3600)
 
-local _Config_Online = 30
+local _Config_Online = 31
 
 
 local FILE_NAME = "OFFLINE.txt"
@@ -56,7 +56,7 @@ if _Config_Offline ~= _Config_Online then
 		return tonumber(saveData.Safe_S2RaidMaxDifficulty) or 0
 	end
 	if getRaidPoints() < 25000 then
-		--game.Players.LocalPlayer:Kick("kick reset")		
+		game.Players.LocalPlayer:Kick("kick reset")		
 	end
 		
 		--------------------------------------------
