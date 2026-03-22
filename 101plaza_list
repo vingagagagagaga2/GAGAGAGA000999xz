@@ -74,9 +74,9 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Rainbow Rose Pooka", Data = {Price = "1.5m"}},
 -------------------------------------------------------------------------------------- 
 
-{Name = "Huge Clover Deer", Data = {Price = 9.8 + math.random(1,50)*0.01 .."m"}},
-{Name = "Huge Clover Phoenix", Data = {Price = 10 + math.random(1,50)*0.01 .."m"}},
-{Name = "Huge Lucki Horse", Data = {Price = 11 + math.random(1,50)*0.01 .."m"}},
+{Name = "Huge Clover Deer", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}},
+{Name = "Huge Clover Phoenix", Data = {Price = 15  + math.random(1,50)*0.01 .."m"}},
+{Name = "Huge Lucki Horse", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}},
 
 {Name = "Golden Huge Clover Deer", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}},
 {Name = "Golden Huge Clover Phoenix", Data = {Price = 15 + math.random(1,50)*0.01 .."m"}},
