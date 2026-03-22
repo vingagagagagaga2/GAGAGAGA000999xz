@@ -1,6 +1,7 @@
 task.spawn(function()
 ------------------------+++
 getgenv().GHEROIC_BOSSES  = {1,2,3}
+getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Tap Teamwork","Super Lightning","Happy Pets","Mega Chest Breaker","Corruption"}
 ------------------------+++
 _G.start_vvv_ = false
 
