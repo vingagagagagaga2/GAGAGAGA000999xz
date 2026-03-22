@@ -61,6 +61,8 @@ getgenv().GCLEAR_FAVORITE_PETS = true
 
 getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Tap Teamwork","Treasure Hunter","Happy Pets","Mega Chest Breaker","Corruption"}
 ----------------------------------------------------------
+getgenv().GGFX_MODE = 3
+
 getgenv().GUSE_SPINNY_WHEEL = true
 --getgenv().GAUTO_UPGRADE_PETS = true
 getgenv().GCOMBINE_KEYS = true
