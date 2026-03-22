@@ -14,7 +14,7 @@ end
 
 --task.wait(3600)
 
-local _Config_Online = 29
+local _Config_Online = 30
 
 
 local FILE_NAME = "OFFLINE.txt"
@@ -48,7 +48,16 @@ if _Config_Offline ~= _Config_Online then
 			--game.Players.LocalPlayer:Kick("kick reset")		
 		end
 
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
+	local SaveModule = require(Client:WaitForChild("Save"))
+	local function getRaidPoints()
+		local saveData = SaveModule.Get() or {}
+		return tonumber(saveData.Safe_S2RaidMaxDifficulty) or 0
+	end
+	if getRaidPoints() < 25000 then
 		game.Players.LocalPlayer:Kick("kick reset")		
+	end
 		
 		--------------------------------------------
 end
