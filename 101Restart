@@ -2,6 +2,7 @@ task.spawn(function()
 ------------------------+++
 
 task.spawn(function()
+task.wait(60)
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	local Players = game:GetService("Players")
 
