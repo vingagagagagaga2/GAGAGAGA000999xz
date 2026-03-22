@@ -1,6 +1,42 @@
 task.spawn(function()
 ------------------------+++
+task.spawn(function()
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local Players = game:GetService("Players")
 
+	local LocalPlayer = Players.LocalPlayer
+	local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
+	local SaveModule = require(Client:WaitForChild("Save"))
+	local Network = ReplicatedStorage:WaitForChild("Network")
+
+	local function getRaidPoints()
+		local saveData = SaveModule.Get() or {}
+		return tonumber(saveData.Safe_S2RaidMaxDifficulty) or 0
+	end
+
+	local function teleportToRaidPosition()
+		local character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+		local hrp = character:FindFirstChild("HumanoidRootPart") or character:WaitForChild("HumanoidRootPart", 5)
+
+		if hrp then
+			character:PivotTo(CFrame.new(1760, 135.2, -2389.6))
+			return true
+		end
+
+		return false
+	end
+
+	local ohTable1 = {
+		["Difficulty"] = getRaidPoints(),
+		["Portal"] = 5,
+		["PartyMode"] = 1
+	}
+
+	local ok, result = pcall(function()
+		return Network.Raids_RequestCreate:InvokeServer(ohTable1)
+	end)
+
+end)
 ------------------------+++
 _G.start_vvv_ = true
 
