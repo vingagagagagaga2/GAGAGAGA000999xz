@@ -15,18 +15,6 @@ task.wait(60)
 		return tonumber(saveData.Safe_S2RaidMaxDifficulty) or 0
 	end
 
-	local function teleportToRaidPosition()
-		local character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
-		local hrp = character:FindFirstChild("HumanoidRootPart") or character:WaitForChild("HumanoidRootPart", 5)
-
-		if hrp then
-			character:PivotTo(CFrame.new(1760, 135.2, -2389.6))
-			return true
-		end
-
-		return false
-	end
-
 	local ohTable1 = {
 		["Difficulty"] = getRaidPoints(),
 		["Portal"] = 5,
