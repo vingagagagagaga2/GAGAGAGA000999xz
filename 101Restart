@@ -152,7 +152,7 @@ end
 		--game.Players.LocalPlayer:Kick("kick pla")
 	end
 	if _G.start_vvv_ == false and EVENT_or_FARM == "F" then 
-		--game.Players.LocalPlayer:Kick("kick F > E")
+		game.Players.LocalPlayer:Kick("kick F > E")
 	end
 --------
 
