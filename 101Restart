@@ -25,6 +25,7 @@ task.wait(90)
 		return Network.Raids_RequestCreate:InvokeServer(ohTable1)
 	end)
 
+task.wait(3)
 local ohNumber1 = 1
 game:GetService("ReplicatedStorage").Network.Raids_Join:InvokeServer(ohNumber1)
 
