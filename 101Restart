@@ -25,9 +25,52 @@ task.wait(90)
 		return Network.Raids_RequestCreate:InvokeServer(ohTable1)
 	end)
 
-task.wait(3)
-local ohNumber1 = 1
-game:GetService("ReplicatedStorage").Network.Raids_Join:InvokeServer(ohNumber1)
+task.wait(2)
+
+
+local function teleportToRaidPortal5Offset()
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+
+	local portal = workspace.__THINGS.__INSTANCE_CONTAINER.Active.LuckyEventWorld.INTERACT.RaidPortals:FindFirstChild("5")
+	if not portal then
+		warn("[Raid] Không tìm thấy portal 5")
+		return false
+	end
+
+	local character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+	local hrp = character:FindFirstChild("HumanoidRootPart") or character:WaitForChild("HumanoidRootPart", 5)
+	if not hrp then
+		warn("[Raid] Không tìm thấy HumanoidRootPart")
+		return false
+	end
+
+	local targetCFrame
+
+	if portal:IsA("BasePart") then
+		targetCFrame = portal.CFrame
+	elseif portal:IsA("Model") then
+		if portal.PrimaryPart then
+			targetCFrame = portal.PrimaryPart.CFrame
+		else
+			local anyPart = portal:FindFirstChildWhichIsA("BasePart", true)
+			if anyPart then
+				targetCFrame = anyPart.CFrame
+			end
+		end
+	end
+
+	if not targetCFrame then
+		warn("[Raid] Không lấy được CFrame của portal 5")
+		return false
+	end
+
+	character:PivotTo(targetCFrame + Vector3.new(4, 5, 0))
+	return true
+end
+
+teleportToRaidPortal5Offset()
+
 
 
 end)
