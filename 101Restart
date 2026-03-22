@@ -76,7 +76,7 @@ game:GetService("ReplicatedStorage").Network.Raids_Join:InvokeServer(ohNumber1)
 
 end)
 ------------------------+++
-_G.start_vvv_ = true
+_G.start_vvv_ = false
 
 _G.FPS_farm = 4
 _G.FPS_event = 5
