@@ -1,6 +1,20 @@
 task.spawn(function()
 ------------------------+++
-
+getgenv().GEVENT_UPGRADES = {
+"LuckyRaidDamage",
+--"LuckyRaidAttackSpeed",
+--"LuckyRaidPets",
+--"LuckyRaidEggCost",
+--"LuckyRaidMoreCurrency",
+--"LuckyRaidBetterLoot",
+--"LuckyRaidTitanicChest",
+--"LuckyRaidHugeChest",
+"LuckyRaidXP",
+--"LuckyRaidPetSpeed",
+--"LuckyRaidKeyDrops",
+--"LuckyRaidBossHugeChances",
+--"LuckyRaidBossTitanicChances",
+} 
 ------------------------+++
 _G.start_vvv_ = true
 
