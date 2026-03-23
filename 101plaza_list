@@ -30,7 +30,7 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Rainbow Titanic Irish Wolfhound", Data = {Price = 20 + math.random(1,10)*0.01 .."b"}},
 {Name = "Titanic Mucki", Data = {Price = 5 + math.random(1,10)*0.01 .."b"}},
-{Name = "Titanic Irish Wolfhound", Data = {Price = 5 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Irish Wolfhound", Data = {Price = 4.8 + math.random(1,10)*0.01 .."b"}},
 
 -------------------------------------------------------------------------------
 
