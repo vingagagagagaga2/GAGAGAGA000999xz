@@ -1,6 +1,6 @@
 task.spawn(function()
 ------------------------+++
-getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Tap Teamwork","Tap Power","Happy Pets","Mega Chest Breaker","Corruption"}
+
 ------------------------+++
 _G.start_vvv_ = false
 
@@ -13,8 +13,7 @@ end
 
 --task.wait(3600)
 
-local _Config_Online = 33
-
+local _Config_Online = 34
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
