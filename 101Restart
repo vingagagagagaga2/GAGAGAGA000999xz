@@ -1,6 +1,6 @@
 task.spawn(function()
 ------------------------+++
-
+getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Tap Teamwork","Tap Power","Happy Pets","Mega Chest Breaker","Corruption"}
 ------------------------+++
 _G.start_vvv_ = false
 
