@@ -81,7 +81,13 @@ getgenv().Settings_autoplaza = {
 {Name = "Golden Huge Leprechaun Fox", Data = {Price = 33 + math.random(1,50)*0.01 .."m"}},
 {Name = "Golden Huge Irish Badger", Data = {Price = 75 + math.random(1,50)*0.01 .."m"}},
 
+{Name = "Rainbow Huge Lucki Hydra", Data = {Price = 200 + math.random(1,50)*0.01 .."m"}},
+{Name = "Rainbow Huge Leprechaun Fox", Data = {Price = 200 + math.random(1,50)*0.01 .."m"}},
+{Name = "Rainbow Huge Irish Badger", Data = {Price = 300 + math.random(1,50)*0.01 .."m"}},
 
+{Name = "Shiny Huge Lucki Hydra", Data = {Price = 200 + math.random(1,50)*0.01 .."m"}},
+{Name = "Shiny Huge Leprechaun Fox", Data = {Price = 200 + math.random(1,50)*0.01 .."m"}},
+{Name = "Shiny Huge Irish Badger", Data = {Price = 300 + math.random(1,50)*0.01 .."m"}},
 
 
 {Name = "Huge Clover Deer", Data = {Price = 13 + math.random(1,50)*0.01 .."m"}},
