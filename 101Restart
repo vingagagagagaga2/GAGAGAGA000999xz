@@ -1,6 +1,6 @@
 task.spawn(function()
 ------------------------+++
-
+getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Lucki Chest Mimic","Lucki Golem"}
 ------------------------+++
 _G.start_vvv_ = false
 
