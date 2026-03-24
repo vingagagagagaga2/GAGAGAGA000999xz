@@ -86,7 +86,8 @@ getgenv().GCOLLECT_FREE_ITEMS = true  -- nhận free item
 getgenv().GFRUITS = {"Watermelon","Candycane","Apple","Rainbow","Pineapple","Orange","Banana"}
 getgenv().GPOTIONS = {"Coins","Lucky","The Cocktail","Huge","Treasure Hunter","Walkspeed","Diamonds","Damage"}
 getgenv().GPOTIONS_MAX_TIER = 99
-getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Lucki Chest Mimic"}
+
+getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Lucki Chest Mimic","Lucki Golem"}
 ----------------------------------------------------------
 
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
