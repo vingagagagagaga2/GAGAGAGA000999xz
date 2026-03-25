@@ -43,7 +43,7 @@ getgenv().GRESET_UPGRADES = true
 getgenv().GEVENT_UPGRADES = {
     { Id = "LuckyRaidDamage", MaxTier = 100 },
     { Id = "LuckyRaidAttackSpeed", MaxTier = 5 },
-    { Id = "LuckyRaidPets", MaxTier = 15 },
+    { Id = "LuckyRaidPets", MaxTier = 20 },
     { Id = "LuckyRaidEggCost", MaxTier = 0 },
     { Id = "LuckyRaidMoreCurrency", MaxTier = 0 },
     { Id = "LuckyRaidBetterLoot", MaxTier = 100 },
