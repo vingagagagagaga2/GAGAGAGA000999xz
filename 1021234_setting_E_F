@@ -50,6 +50,8 @@ else
 	EVENT_or_FARM = "E" 
 end
 
+EVENT_or_FARM = "F"
+_G.Super_S = false
 ----------------
 
 if EVENT_or_FARM == "E"then
