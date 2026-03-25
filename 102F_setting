@@ -45,7 +45,7 @@ end
 getgenv().GUSE_SPINNY_WHEEL = true
 --getgenv().GAUTO_UPGRADE_PETS = true
 getgenv().GCOMBINE_KEYS = true
-getgenv().GMASTERY_TO_MAX = "Pets"
+getgenv().GMASTERY_TO_MAX = "Enchants"
 getgenv().GCONSUME_CHARMS = true
 getgenv().GDAYCARE = true
 --------------------------
