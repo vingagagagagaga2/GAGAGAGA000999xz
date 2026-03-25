@@ -23,7 +23,7 @@ getgenv().GMAIL_ITEMS = {
 getgenv().GMAIL_RECEIVERS = {"Aiden_ZOOM201057","St0rm_Light201749YT","FlashCha0sPlayz"}
 
 ------------------------+++
-_G.start_vvv_ = false
+_G.start_vvv_ = true
 
 _G.FPS_farm = 4
 _G.FPS_event = 5
@@ -91,13 +91,13 @@ if currentHour == 9 then
 end
 
 	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" then
-		game.Players.LocalPlayer:Kick("kick fin")
+		--game.Players.LocalPlayer:Kick("kick fin")
 	end
 	if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and _G.start_vvv_ == true then
 		--game.Players.LocalPlayer:Kick("kick pla")
 	end
 	if _G.start_vvv_ == false and EVENT_or_FARM == "F" then 
-		game.Players.LocalPlayer:Kick("kick F > E")
+		--game.Players.LocalPlayer:Kick("kick F > E")
 	end
 --------
 
