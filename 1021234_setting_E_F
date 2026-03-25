@@ -33,7 +33,7 @@ local function checkUser(list)
 	end
 	return false
 end
-EVENT_or_FARM = "E"
+EVENT_or_FARM = "F"
 _G.Super_S = false
 
 if checkUser(USER_SUPER_drop) then
