@@ -9,7 +9,7 @@ getgenv().GMAIL_ITEMS = {
 
 ["Lucki Chest Mimic"] = {Class = "Pet", Id = "Lucki Chest Mimic", IsRainbow = true, IsShiny = true, MinAmount = 2, KeepAmount = 1},	
 
-["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "59m", MinAmount = "600m"},
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "59m", MinAmount = "100m"},
 ["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 5},
 ["Hype Egg 2"] = {Class = "Lootbox", Id= "Hype Egg 2", MinAmount = 1},
 ["Lucky Eggs"] = {Class = "Enchant", Tier = 9 ,Id = "Lucky Eggs", MinAmount = 2, KeepAmount = 1},
