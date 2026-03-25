@@ -20,7 +20,7 @@ getgenv().GMAIL_ITEMS = {
 
 }
 
-getgenv().GMAIL_RECEIVERS = {"J0shuaHazeC0met2018","Aiden_ZOOM201057","St0rm_Light201749YT","FlashCha0sPlayz","XxSilverLionxX202215"}
+getgenv().GMAIL_RECEIVERS = {"Aiden_ZOOM201057","St0rm_Light201749YT","FlashCha0sPlayz"}
 
 ------------------------+++
 _G.start_vvv_ = false
