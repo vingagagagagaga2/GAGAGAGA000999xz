@@ -41,7 +41,7 @@ getgenv().GRAID_MAX_HATCH_MINUTES = 5
 getgenv().GRESET_UPGRADES = false
 
 
-getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift","Leprechaun Kitsune"}
+getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift"}
 --getgenv().GHOP_ON_STAFF = true
 getgenv().GCLEAR_FAVORITE_PETS = true
 
@@ -72,7 +72,7 @@ getgenv().GFRUITS = {"Watermelon","Candycane","Apple","Rainbow","Pineapple","Ora
 getgenv().GPOTIONS = {"Coins","Lucky","The Cocktail","Huge","Treasure Hunter","Walkspeed","Diamonds","Damage"}
 getgenv().GPOTIONS_MAX_TIER = 99
 
-getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Lucki Chest Mimic","Lucki Golem"}
+getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Lucki Chest Mimic","Lucki Golem","Leprechaun Kitsune"}
 ----------------------------------------------------------
 
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
