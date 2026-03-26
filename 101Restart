@@ -1,6 +1,6 @@
 task.spawn(function()
 ------------------------+++
-getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift","Leprechaun Kitsune"}
+getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Lucki Chest Mimic","Lucki Golem","Leprechaun Kitsune"}
 getgenv().GHEROIC_BOSSES  = {1,2}
 getgenv().GMYTHIC_BOSSES  = {1,2}
 getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Tap Teamwork","Super Lightning","Happy Pets","Mega Chest Breaker","Corruption"}
