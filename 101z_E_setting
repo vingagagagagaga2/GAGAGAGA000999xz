@@ -41,7 +41,7 @@ getgenv().GRAID_MAX_HATCH_MINUTES = 5
 getgenv().GRESET_UPGRADES = false
 
 
-getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift"}
+getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift","Leprechaun Kitsune"}
 --getgenv().GHOP_ON_STAFF = true
 getgenv().GCLEAR_FAVORITE_PETS = true
 
