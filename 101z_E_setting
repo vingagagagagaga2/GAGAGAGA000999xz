@@ -16,7 +16,7 @@ getgenv().GDO_LUCKY_WORLD_EVENT = true
 getgenv().GMAKE_HORSESHOE_GIFTS = true
 getgenv().GLIMIT_HORSESHOE_GIFTS = 99999 -- choose yourself, don't set it lower than your MinAmount in your Horseshoe Gift mailrule!
 getgenv().GDO_BOSSES = {1,2,3}
-getgenv().GHEROIC_BOSSES  = {1,2,3}
+getgenv().GHEROIC_BOSSES  = {1,2}
 getgenv().GMYTHIC_BOSSES  = {1,2}
 
 
