@@ -27,10 +27,10 @@ else
 	EVENT_or_FARM = "E" 
 end
 
-EVENT_or_FARM = "F"
+EVENT_or_FARM = "E"
 
-if name_vps == "V0" then
-	EVENT_or_FARM = "E" 
+if name_vps == "NAMG1" then
+	EVENT_or_FARM = "F" 
 end
 
 
