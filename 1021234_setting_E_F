@@ -29,6 +29,11 @@ end
 
 EVENT_or_FARM = "F"
 
+if name_vps == "V0" then
+	EVENT_or_FARM = "E" 
+end
+
+
 ----------------
 
 if EVENT_or_FARM == "E"then
