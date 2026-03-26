@@ -40,22 +40,6 @@ getgenv().GRAID_MAX_HATCH_MINUTES = 5
 
 getgenv().GRESET_UPGRADES = true
 
-getgenv().GEVENT_UPGRADES = {
-    { Id = "LuckyRaidDamage", MaxTier = 100 },
-    { Id = "LuckyRaidAttackSpeed", MaxTier = 5 },
-    { Id = "LuckyRaidPets", MaxTier = 20 },
-    { Id = "LuckyRaidEggCost", MaxTier = 0 },
-    { Id = "LuckyRaidMoreCurrency", MaxTier = 0 },
-    { Id = "LuckyRaidBetterLoot", MaxTier = 100 },
-    { Id = "LuckyRaidTitanicChest", MaxTier = 100 },
-    { Id = "LuckyRaidHugeChest", MaxTier = 5 },
-    { Id = "LuckyRaidXP", MaxTier = 3 },
-    { Id = "LuckyRaidPetSpeed", MaxTier =3 },
-    { Id = "LuckyRaidKeyDrops", MaxTier = 0 },
-    { Id = "LuckyRaidBossHugeChances", MaxTier =3 },
-    { Id = "LuckyRaidBossTitanicChances", MaxTier = 100 },
-}
-
 
 getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift"}
 --getgenv().GHOP_ON_STAFF = true
