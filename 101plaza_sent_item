@@ -216,9 +216,6 @@ getgenv().Settings_sentPET = {
 }
 
 
-ds_nguoi_nhan_pet = {"veriotiai779"}
-
-
 -- Hàm ki?m tra tên có ch?a t? khóa
 function check_name_sent_pet(itemName)
     local SH_find = false
@@ -367,7 +364,7 @@ local function sendExcessPets()
 
         if totalCount >= requiredAmount then
             
-            local randomRecipient = ds_nguoi_nhan_pet[math.random(1, #ds_nguoi_nhan_pet)]
+            local randomRecipient = NAME_USER_SEND
             local message = string.format("Happy birthday %s! You received an excess pet: %s", randomRecipient, itemName)
 
             -- L?p qua và g?i pet
