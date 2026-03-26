@@ -1,5 +1,7 @@
 task.spawn(function()
 ------------------------+++
+getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Tap Teamwork","Super Lightning","Happy Pets","Mega Chest Breaker","Corruption"}
+
 local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
 local rank = Save.Get().Rank
 
