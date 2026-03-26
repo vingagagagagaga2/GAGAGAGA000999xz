@@ -38,7 +38,7 @@ getgenv().GMAX_RAID_LEVEL = 25000
 getgenv().GMIN_MULTIPLIER = 200 -- which raid eggs to hatch
 getgenv().GRAID_MAX_HATCH_MINUTES = 5
 
-getgenv().GRESET_UPGRADES = true
+getgenv().GRESET_UPGRADES = false
 
 
 getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift"}
