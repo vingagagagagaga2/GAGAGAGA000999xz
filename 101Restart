@@ -1,6 +1,11 @@
 task.spawn(function()
 ------------------------+++
+local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local rank = Save.Get().Rank
 
+if EVENT_or_FARM == "F" and rank > 10 then
+	game.Players.LocalPlayer:Kick("kick reset")
+end
 ------------------------+++
 _G.start_vvv_ = true
 
