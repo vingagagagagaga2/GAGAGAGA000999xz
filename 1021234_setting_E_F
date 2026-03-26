@@ -27,11 +27,7 @@ else
 	EVENT_or_FARM = "E" 
 end
 
-EVENT_or_FARM = "F"
-
-if name_vps == "NAMG1" then
-	EVENT_or_FARM = "F" 
-end
+EVENT_or_FARM = "E"
 
 
 ----------------
