@@ -1,12 +1,6 @@
 task.spawn(function()
 ------------------------+++
 
-if EVENT_or_FARM == "F" and rank > 10 then
-	if name_vps == "NAMG1" then
-	else
-		game.Players.LocalPlayer:Kick("kick reset")
-	end
-end
 ------------------------+++
 _G.start_vvv_ = true
 
