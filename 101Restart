@@ -71,16 +71,16 @@ if currentHour > 21 or currentHour < 7 then
 end
 
 
-_G.delay_play_vvv3 = 100
+_G.delay_play_vvv3 = 1
 if currentHour > 6 and currentHour < 9 then
 	_G.delay_play_vvv3 = 2
 end
 
 	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" then
-		--game.Players.LocalPlayer:Kick("kick fin")
+		game.Players.LocalPlayer:Kick("kick fin")
 	end
 	if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and _G.start_vvv_ == true then
-		--game.Players.LocalPlayer:Kick("kick pla")
+		game.Players.LocalPlayer:Kick("kick pla")
 	end
 	if _G.start_vvv_ == false and EVENT_or_FARM == "F" then 
 		--game.Players.LocalPlayer:Kick("kick F > E")
