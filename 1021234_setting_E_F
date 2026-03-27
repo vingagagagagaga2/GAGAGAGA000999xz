@@ -29,7 +29,7 @@ end
 
 if name_vps == "D1" then
 	EVENT_or_FARM = "E"
-en
+end
 ----------------
 
 if EVENT_or_FARM == "E"then
