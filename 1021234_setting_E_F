@@ -27,7 +27,7 @@ else
 	EVENT_or_FARM = "E" 
 end
 
-
+	EVENT_or_FARM = "E" 
 ----------------
 
 if EVENT_or_FARM == "E"then
