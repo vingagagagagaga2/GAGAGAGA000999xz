@@ -20,7 +20,7 @@ end
 
 --task.wait(3600)
 
-local _Config_Online = 40
+local _Config_Online = 41
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -50,9 +50,9 @@ if _Config_Offline ~= _Config_Online then
 		end
 		--------------------------------------------
 		if EVENT_or_FARM == "E" then
-			--game.Players.LocalPlayer:Kick("kick reset")		
+			game.Players.LocalPlayer:Kick("kick reset")		
 		end
-		game.Players.LocalPlayer:Kick("kick reset")
+		--game.Players.LocalPlayer:Kick("kick reset")
 
 		--------------------------------------------
 end
@@ -66,7 +66,7 @@ local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or 
 local now = os.date("!*t", os.time(os.date("!*t")) + 7 * 3600)
 local currentHour = now.hour
 
-if currentHour > 21 or currentHour < 9 then
+if currentHour > 21 or currentHour < 7 then
 	_G.start_vvv_ = false
 end
 
