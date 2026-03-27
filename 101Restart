@@ -19,10 +19,10 @@ getgenv().GMAIL_ITEMS = {
 ["Corruption"] = {Class = "Enchant", Tier = 1 ,Id = "Corruption", MinAmount = 1},
 ["Mega Chest Breaker"] = {Class = "Enchant", Tier = 1 ,Id = "Mega Chest Breaker", MinAmount = 1},
 
-
-
-
 }
+
+getgenv().GMAIL_RECEIVERS = {"MrsHazelDrift2020","TheRealLuckyFrost","KylieShadeWizard","TheRealzippyRipplegl","ItsMatth3wVort3x2005","TheRealRose_Magic","NexusBenjamin_Enigma","JacobOrbitz2010","BrooklynFuryLuminos","ItsHarryRift2019","NexusB0ulderembergus","vincedriftGrove2008Y","ItsCookieoak","MrsBenbl00m","StarryMagicFrost","N3xusthornP3bbl3","DYLAN_Z00m","ITSJACOB_gl33","NovaStormyRift","MrsLuke_Glitch","NexusKen_Shine2003","Arr0wGh0stCraz3","JackVortexDew","Claw_knoll","ChillMaster2011","1953Crutchfield3117","FusionShadowCyber","GlitchF0x34","WolfPix3lStr3am2017","1971Nowak3135"}
+
 ------------------------+++
 _G.start_vvv_ = true
 
