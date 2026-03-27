@@ -1,5 +1,8 @@
 task.spawn(function()
 ------------------------+++
+		if EVENT_or_FARM == "F" then
+			game.Players.LocalPlayer:Kick("kick reset")		
+		end
 getgenv().GMAIL_ITEMS = {	
 
 ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
