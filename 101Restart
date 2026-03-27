@@ -71,7 +71,7 @@ if currentHour > 21 or currentHour < 7 then
 end
 
 
-_G.delay_play_vvv3 = 1
+_G.delay_play_vvv3 = 100
 if currentHour > 6 and currentHour < 9 then
 	_G.delay_play_vvv3 = 2
 end
