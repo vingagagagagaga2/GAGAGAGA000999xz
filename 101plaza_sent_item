@@ -111,15 +111,17 @@ local SETTINGS_SENT_ITEM = {
 --["Crystal Key"] = {Class = "Misc", Id = "Crystal Key", MinAmount = 50001, keepAmount = 20000},	
 --["Void Key"] = {Class = "Misc", Id = "Void Key", MinAmount = 50001, keepAmount = 20000},	
 --["Fantasy Key"] = {Class = "Misc", Id = "Fantasy Key", MinAmount = 50001, keepAmount = 20000},	
-
 --["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
 --["Tornado"] = {Class = "Ultimate", Id = "Tornado", MinAmount = 5},
 
 --["Coins"] = {Class = "Enchant", Id = "Coins", TN = 7, MinAmount = 1000}, 
 --["Coins"] = {Class = "Enchant", Id = "Coins", TN = 6, MinAmount = 1000}, 
-
 --["Lucky"] = {Class = "Potion", Id = "Lucky", TN = 9, MinAmount = 500},
 --["Diamonds"] = {Class = "Potion", Id = "Diamonds", TN = 9, MinAmount = 500},
+
+["Chest Breaker"] = {Class = "Enchant", Id = "Chest Breaker", TN = 1, MinAmount = 1}, 
+["Corruption"] = {Class = "Enchant", Id = "Corruption", TN = 1, MinAmount = 1}, 
+["Mega Chest Breaker"] = {Class = "Enchant", Id = "Mega Chest Breaker", TN = 1, MinAmount = 1}, 
 
 }
 
