@@ -1,6 +1,6 @@
 task.spawn(function()
 ------------------------+++
-
+getgenv().GHEROIC_BOSSES  = {1,2,3}
 
 local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
 local rank = Save.Get().Rank
