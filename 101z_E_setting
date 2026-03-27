@@ -96,7 +96,8 @@ getgenv().GMAIL_ITEMS = {
 ["Lucky Eggs"] = {Class = "Enchant", Tier = 9 ,Id = "Lucky Eggs", MinAmount = 2, KeepAmount = 1},
 
 ["Chest Breaker"] = {Class = "Enchant", Tier = 1 ,Id = "Corruption", MinAmount = 2, KeepAmount = 1},
-
+["Corruption"] = {Class = "Enchant", Tier = 1 ,Id = "Corruption", MinAmount = 1},
+["Mega Chest Breaker"] = {Class = "Enchant", Tier = 1 ,Id = "Mega Chest Breaker", MinAmount = 1},
 
 --["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 1000, KeepAmount = 500},
 --["Diamonds"] = {Class = "Potion", Tier = 9 ,Id = "Diamonds", MinAmount = 1000, KeepAmount = 500},
