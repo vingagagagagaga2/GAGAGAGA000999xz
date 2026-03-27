@@ -27,7 +27,7 @@ else
 	EVENT_or_FARM = "E" 
 end
 
-if name_vps == "D1" then
+if name_vps == "D1" or name_vps == "L5" then
 	EVENT_or_FARM = "E"
 end
 ----------------
