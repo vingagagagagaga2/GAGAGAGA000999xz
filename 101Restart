@@ -13,7 +13,7 @@ end
 
 --task.wait(3600)
 
-local _Config_Online = 43
+local _Config_Online = 44
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
