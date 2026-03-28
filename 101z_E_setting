@@ -78,7 +78,7 @@ getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Lucki Chest Mimic","Lucki Golem","L
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
 
-getgenv().GMAX_MAIL_COST = "4m"
+--getgenv().GMAX_MAIL_COST = "4m"
 
 getgenv().GMAIL_ITEMS = {	
 
