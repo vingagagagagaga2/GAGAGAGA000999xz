@@ -45,7 +45,7 @@ getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift"}
 --getgenv().GHOP_ON_STAFF = true
 getgenv().GCLEAR_FAVORITE_PETS = true
 
-getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Tap Teamwork","Tap Power","Happy Pets","Tap Power","Walkspeed"}
+getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Super Lightning","Tap Power","Happy Pets","Tap Power","Walkspeed"}
 ----------------------------------------------------------
 getgenv().GGFX_MODE = 1
 
