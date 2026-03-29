@@ -97,7 +97,7 @@ end
 
 local SETTINGS_SENT_ITEM = {
 
-["Diamonds"] = {Class = "Currency", Id = "Diamonds", MinAmount = 65000000000},	--ok
+["Diamonds"] = {Class = "Currency", Id = "Diamonds", MinAmount = 71000000000},	--ok
 
 
 --["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	--ok
