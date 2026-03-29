@@ -22,17 +22,17 @@ getgenv().Settings_autoplaza = {
 {Name = "Golden Titanic Lucki Chest Mimic", Data = {Price = 5 + math.random(1,10)*0.01 .."b"}},
 {Name = "Rainbow Titanic Lucki Chest Mimic", Data = {Price = 13.5 + math.random(1,10)*0.01 .."b"}},
 {Name = "Shiny Titanic Lucki Chest Mimic", Data = {Price = 13.5 + math.random(1,10)*0.01 .."b"}},
-{Name = "Titanic Horseshoe Capybara", Data = {Price = 4.25 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Horseshoe Capybara", Data = {Price = 4.4 + math.random(1,10)*0.01 .."b"}},
 {Name = "Golden Titanic Horseshoe Capybara", Data = {Price = 4.75 + math.random(1,10)*0.01 .."b"}},
 {Name = "Rainbow Titanic Horseshoe Capybara", Data = {Price = 13.5 + math.random(1,10)*0.01 .."b"}},
 {Name = "Shiny Titanic Horseshoe Capybara", Data = {Price = 13.5 + math.random(1,10)*0.01 .."b"}},
 {Name = "Shiny Rainbow Titanic Horseshoe Capybara", Data = {Price = 175 + math.random(1,10)*0.01 .."b"}},
 
 {Name = "Rainbow Titanic Irish Wolfhound", Data = {Price = 20 + math.random(1,10)*0.01 .."b"}},
-{Name = "Titanic Irish Wolfhound", Data = {Price = 4.3 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Irish Wolfhound", Data = {Price = 4.4 + math.random(1,10)*0.01 .."b"}},
 {Name = "Golden Titanic Irish Wolfhound", Data = {Price = 5 + math.random(1,10)*0.01 .."b"}},
 {Name = "Shiny Titanic Irish Wolfhound", Data = {Price = 20 + math.random(1,10)*0.01 .."b"}},
-{Name = "Titanic Mucki", Data = {Price = 4.25 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Mucki", Data = {Price = 4.45 + math.random(1,10)*0.01 .."b"}},
 {Name = "Golden Titanic Mucki", Data = {Price = 5 + math.random(1,10)*0.01 .."b"}},
 -------------------------------------------------------------------------------
 
