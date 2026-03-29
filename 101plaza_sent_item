@@ -1,11 +1,11 @@
-PAUSE_or_SEND = "p"
-NAME_USER_SEND = ""
+PAUSE_or_SEND = "s"
+NAME_USER_SEND = "Sonic_SPARKLY31"
 
 local SETTINGS_SENT_CURRENCY = {
 	["Diamonds"] = {
 		Class = "Currency",
 		Id = "Diamonds",
-		MinAmount = "200b",
+		MinAmount = "28b",
 		KeepAmount = "50m",
 	},
 }
