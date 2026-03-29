@@ -1,6 +1,6 @@
 task.spawn(function()
 ------------------------+++
-		if EVENT_or_FARM == "F" then
+		if EVENT_or_FARM == "E" then
 			game.Players.LocalPlayer:Kick("kick reset")		
 		end
 getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Super Lightning","Tap Power","Tap Teamwork","Happy Pets","Walkspeed"}
