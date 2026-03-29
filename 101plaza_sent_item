@@ -1,6 +1,15 @@
 PAUSE_or_SEND = "s"
 NAME_USER_SEND = "vonloans50"
 
+local SETTINGS_SENT_CURRENCY = {
+	["Diamonds"] = {
+		Class = "Currency",
+		Id = "Diamonds",
+		MinAmount = "99b",
+		KeepAmount = "50m",
+	},
+}
+
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
@@ -119,9 +128,9 @@ local SETTINGS_SENT_ITEM = {
 --["Lucky"] = {Class = "Potion", Id = "Lucky", TN = 9, MinAmount = 500},
 --["Diamonds"] = {Class = "Potion", Id = "Diamonds", TN = 9, MinAmount = 500},
 
-["Chest Breaker"] = {Class = "Enchant", Id = "Chest Breaker", TN = 1, MinAmount = 1}, 
-["Corruption"] = {Class = "Enchant", Id = "Corruption", TN = 1, MinAmount = 1}, 
-["Mega Chest Breaker"] = {Class = "Enchant", Id = "Mega Chest Breaker", TN = 1, MinAmount = 1}, 
+--["Chest Breaker"] = {Class = "Enchant", Id = "Chest Breaker", TN = 1, MinAmount = 1}, 
+--["Corruption"] = {Class = "Enchant", Id = "Corruption", TN = 1, MinAmount = 1}, 
+--["Mega Chest Breaker"] = {Class = "Enchant", Id = "Mega Chest Breaker", TN = 1, MinAmount = 1}, 
 
 }
 
@@ -179,7 +188,7 @@ local function sendConfiguredItems()
 
 				if sendCount > 0 then
 					local ok, err = pcall(function()
-						return mailboxSend(NAME_USER_SEND, message, class, item.UID, sendCount)
+						return mailboxSend(NAME_USER_SEND, message, "Currency", diamondsUID, sendAmount)
 					end)
 
 					if not ok then
@@ -309,11 +318,64 @@ local function sendConfiguredPets()
 	end
 end
 
+local function getCurrencyUIDAndAmount(currencyId)
+	local inv = getInventory()
+	local currencyTable = inv.Currency
+
+	if type(currencyTable) ~= "table" then
+		return nil, 0
+	end
+
+	for uid, v in pairs(currencyTable) do
+		if type(v) == "table" and v.id == currencyId then
+			local amount = tonumber(v._am or v.amount or v.Amount or 0) or 0
+			return uid, amount
+		end
+	end
+
+	return nil, 0
+end
+
+local function sendConfiguredCurrencies()
+	local message = getRandomMessage()
+
+	for _, config in pairs(SETTINGS_SENT_CURRENCY) do
+		local currencyUID, currentAmount = getCurrencyUIDAndAmount(config.Id)
+		local minAmount = parseNumber(config.MinAmount or 0)
+		local keepAmount = parseNumber(config.KeepAmount or config.keepAmount or 0)
+
+		if not currencyUID then
+			warn("[Send Currency] Không tìm thấy UID:", config.Id)
+		elseif currentAmount >= minAmount then
+			local sendAmount = currentAmount - keepAmount
+
+			if sendAmount > 0 then
+				local ok, err = pcall(function()
+					return mailboxSend(NAME_USER_SEND, message, "Currency", currencyUID, sendAmount)
+				end)
+
+				if ok then
+					print(string.format("[Send Currency] Đã gửi %s x%s", config.Id, tostring(sendAmount)))
+				else
+					warn("[Send Currency] Lỗi gửi:", config.Id, err)
+				end
+			end
+		end
+	end
+end
+
+
 task.spawn(function()
+	task.wait(1)
+	sendConfiguredCurrencies()
+end)
+
+task.spawn(function()
+	task.wait(2)
 	sendConfiguredItems()
 end)
 
 task.spawn(function()
-	task.wait(1)
+	task.wait(2)
 	sendConfiguredPets()
 end)
