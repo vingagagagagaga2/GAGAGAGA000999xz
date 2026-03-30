@@ -336,6 +336,8 @@ local function getRaidPoints()
 	local saveData = SaveModule.Get() or {}
 	return tonumber(saveData.Safe_S2RaidMaxDifficulty) or 0
 end
+if getRaidPoints() < 40000 then
+	_G.FPS_event = 3
 if getRaidPoints() < 50000 then
 	_G.FPS_event = 4
 end
