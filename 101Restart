@@ -5,6 +5,39 @@ task.spawn(function()
 		end
 
 task.spawn(function()
+    local RS = game:GetService("ReplicatedStorage")
+    local Save = require(RS.Library.Client.Save).Get()
+    local W = RS.Network["Box: Withdraw All"]
+
+    local huge = 0
+    for _, p in pairs(Save.Inventory.Pet or {}) do
+        if p.id and string.find(p.id, "Huge") then
+            huge += (p._am or 1)
+        end
+    end
+
+    if huge >= 47 then
+        warn("Huge >= 47, bỏ qua")
+        return
+    end
+
+    for uid, data in pairs(Save.Inventory.Box or {}) do
+        local ct = data.id == "Small" and data._uq and data._uq.ct
+        if type(ct) == "table" then
+            for _, group in pairs(ct) do
+                if type(group) == "table" and next(group) then
+                    print("Withdraw:", uid)
+                    pcall(function() W:InvokeServer(uid) end)
+                    task.wait(1)
+                    break
+                end
+            end
+        end
+    end
+end)
+
+
+task.spawn(function()
     task.wait(1)
 	number_huge_keep_boxxx = 47
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
