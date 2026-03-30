@@ -5,6 +5,135 @@ task.spawn(function()
 		end
 
 task.spawn(function()
+    task.wait(1)
+	number_huge_keep_boxxx = 5
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
+    local SaveModule = require(ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client"):WaitForChild("Save"))
+    local SaveData = SaveModule.Get()
+
+    local BoxTransaction = ReplicatedStorage:WaitForChild("Network"):WaitForChild("Box: Transaction")
+
+    -- 📦 Tìm box Small
+    local boxUID = nil
+    for uid, data in pairs(SaveData.Inventory["Box"] or {}) do
+        if data.id == "Small" then
+            boxUID = uid
+            break
+        end
+    end
+
+    if not boxUID then
+        warn("❌ Không tìm thấy Box loại 'Small'")
+        return
+    end
+
+    -- 🐾 Lấy toàn bộ Huge
+    local pets = {}
+    local totalHuge = 0
+
+    for uid, obj in pairs(SaveData.Inventory.Pet or {}) do
+        if obj.id and string.find(obj.id, "Huge") then
+            local xp = (obj._uq and obj._uq.xp) or 0
+            local amount = obj._am or 1
+
+            table.insert(pets, {
+                uid = uid,
+                id = obj.id,
+                xp = xp,
+                amount = amount
+            })
+
+            totalHuge += amount
+        end
+    end
+
+    print("🐾 Tổng số Huge hiện có:", totalHuge)
+
+    if totalHuge <= number_huge_keep_boxxx then
+        print("✅ Không cần cất box, số Huge <= 40")
+        return
+    end
+
+    -- Sort từ xp thấp -> cao để cất mấy con thấp nhất trước
+    table.sort(pets, function(a, b)
+        return a.xp < b.xp
+    end)
+
+    local needToStore = totalHuge - number_huge_keep_boxxx
+    print("📦 Cần cất vào box:", needToStore, "Huge")
+
+    -- Tạo payload gửi box
+    local sendList = {
+        Pet = {}
+    }
+
+    local storedCount = 0
+
+    for _, pet in ipairs(pets) do
+        if storedCount >= needToStore then
+            break
+        end
+
+        local canStore = math.min(pet.amount, needToStore - storedCount)
+
+        -- Với pet thường mỗi uid là 1 con, nhưng vẫn để hỗ trợ _am nếu có
+        sendList.Pet[pet.uid] = canStore
+        storedCount += canStore
+
+        print(string.format("📥 Chuẩn bị cất: %s | xp=%s | amount=%s", pet.id, tostring(pet.xp), tostring(canStore)))
+    end
+
+    if storedCount <= 0 then
+        warn("❌ Không có Huge nào để cất")
+        return
+    end
+
+    -- Chia batch tối đa 99 loại item / lần
+    local function splitPetPayload(petPayload, maxPerBatch)
+        local batches = {}
+        local currentBatch = { Pet = {} }
+        local itemCount = 0
+
+        for uid, amount in pairs(petPayload.Pet or {}) do
+            currentBatch.Pet[uid] = amount
+            itemCount += 1
+
+            if itemCount >= maxPerBatch then
+                table.insert(batches, currentBatch)
+                currentBatch = { Pet = {} }
+                itemCount = 0
+            end
+        end
+
+        if next(currentBatch.Pet) then
+            table.insert(batches, currentBatch)
+        end
+
+        return batches
+    end
+
+    local batches = splitPetPayload(sendList, 99)
+
+    for i, payload in ipairs(batches) do
+        local success, result = pcall(function()
+            return BoxTransaction:InvokeServer(boxUID, payload, {})
+        end)
+
+        if success then
+            local batchCount = 0
+            for _, amount in pairs(payload.Pet or {}) do
+                batchCount += amount
+            end
+            print("✅ Đã cất đợt " .. i .. " vào box | Số Huge: " .. batchCount)
+        else
+            warn("❌ Lỗi khi cất đợt " .. i .. ": " .. tostring(result))
+        end
+
+        task.wait(1.5)
+    end
+end)
+
+task.spawn(function()
 wait(3)
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
