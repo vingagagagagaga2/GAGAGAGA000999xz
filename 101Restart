@@ -36,7 +36,7 @@ task.spawn(function()
     end
 end)
 
-
+task.wait(3)
 task.spawn(function()
     task.wait(1)
 	number_huge_keep_boxxx = 48
