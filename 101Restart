@@ -338,7 +338,7 @@ local function getRaidPoints()
 end
 if getRaidPoints() < 40000 then
 	_G.FPS_event = 3
-if getRaidPoints() < 50000 then
+elseif getRaidPoints() < 50000 then
 	_G.FPS_event = 4
 end
 
