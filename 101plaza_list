@@ -87,23 +87,6 @@ getgenv().Settings_autoplaza = {
 {Name = "Golden Huge Leprechaun Fox", Data = {Price = "2%"}},
 {Name = "Golden Huge Irish Badger", Data = {Price = "2%"}},
 
-{Name = "Rainbow Huge Lucki Hydra", Data = {Price = "2%"}},
-{Name = "Rainbow Huge Leprechaun Fox", Data = {Price = "2%"}},
-{Name = "Rainbow Huge Irish Badger", Data = {Price = "2%"}},
-
-{Name = "Shiny Huge Lucki Hydra", Data = {Price = "2%"}},
-{Name = "Shiny Huge Leprechaun Fox", Data = {Price = "2%"}},
-{Name = "Shiny Huge Irish Badger", Data = {Price = "2%"}},
-
-{Name = "Shiny Golden Huge Lucki Hydra", Data = {Price = "2%"}},
-{Name = "Shiny Golden Huge Leprechaun Fox", Data = {Price = "2%"}},
-{Name = "Shiny Golden Huge Irish Badger", Data = {Price = "2%"}},
-
-{Name = "Shiny Rainbow Huge Lucki Hydra", Data = {Price = "2%"}},
-{Name = "Shiny Rainbow Huge Leprechaun Fox", Data = {Price = "2%"}},
-{Name = "Shiny Rainbow Huge Irish Badger", Data = {Price = "2%"}},
-
-
 {Name = "Huge Clover Deer", Data = {Price = "2%"}},
 {Name = "Huge Clover Phoenix", Data = {Price = "2%"}},
 {Name = "Huge Lucki Horse", Data = {Price = "2%"}},
