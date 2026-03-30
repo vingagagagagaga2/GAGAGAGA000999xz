@@ -3,7 +3,160 @@ task.spawn(function()
 		if EVENT_or_FARM == "F" then
 			game.Players.LocalPlayer:Kick("kick reset")		
 		end
-getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Super Lightning","Tap Power","Tap Teamwork","Happy Pets","Walkspeed"}
+
+task.spawn(function()
+wait(3)
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
+local SaveData = require(Client.Save).Get()
+
+local excludeKeywords = {
+    "Huge",
+    "Titanic",
+    "Palace Pooka",
+    "Rose Pooka",
+	"Blooming Axolotl",
+	"Lucki Golem",
+	"Lucki Chest Mimic",
+}
+
+-- Kiểm tra nếu tên pet chứa từ bị loại trừ
+local function isExcluded(petName)
+    for _, keyword in ipairs(excludeKeywords) do
+        if string.find(petName, keyword) then
+            return true
+        end
+    end
+    return false
+end
+
+local filteredPets = {}
+
+for uid, pet in pairs(SaveData.Inventory.Pet or {}) do
+    if pet.id and not isExcluded(pet.id) then
+        table.insert(filteredPets, {
+            UID = uid,
+            Name = pet.id,
+            Amount = pet._am or 1
+        })
+    end
+end
+
+-- In ra kết quả
+for _, info in ipairs(filteredPets) do
+    print("✅ UID:", info.UID, "| Pet:", info.Name, "| Số lượng:", info.Amount)
+end
+
+
+local Pets_RequestDelete = ReplicatedStorage.Network:WaitForChild("Pets_RequestDelete")
+
+-- Chia thành từng lô tối đa 50 loại pet một lần xoá
+local batch = {}
+for i, info in ipairs(filteredPets) do
+    batch[info.UID] = info.Amount
+
+    if table.getn(batch) == 50 or i == #filteredPets then
+        Pets_RequestDelete:InvokeServer(batch)
+        print("🗑️ Đã gửi yêu cầu xoá lô pet...")
+        task.wait(10)
+        batch = {} -- reset lô tiếp theo
+    end
+end
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local SaveData = require(ReplicatedStorage.Library.Client.Save).Get()
+local BoxTransaction = ReplicatedStorage.Network["Box: Transaction"]
+
+-- 📦 Lấy UID của Box loại "Small"
+local boxUID = nil
+for uid, data in pairs(SaveData.Inventory["Box"] or {}) do
+    if data.id == "Small" then
+        boxUID = uid
+        break
+    end
+end
+
+if not boxUID then
+    warn("❌ Không tìm thấy Box loại 'Small'")
+    return
+end
+
+-- 🧊 Thu thập item từ 3 loại category
+local allowedToolName = "Solar Pickaxe"
+local categoriesToCheck = { "Tower", "Card", "Tool" }
+local sendList = {}  -- Cấu trúc: sendList[category][uid] = amount
+local totalItems = 0
+
+for _, category in ipairs(categoriesToCheck) do
+    local inventoryGroup = SaveData.Inventory[category]
+    if inventoryGroup then
+        for uid, data in pairs(inventoryGroup) do
+            local name = data.id or ""
+            local amount = data._am or 1
+
+            -- 🎯 Chỉ cho phép "Solar Pickaxe" với Tool
+            if category == "Tool" and name ~= allowedToolName then
+                continue
+            end
+
+            -- ✅ Thêm vào danh sách gửi
+            sendList[category] = sendList[category] or {}
+            sendList[category][uid] = amount
+            totalItems += 1
+        end
+    end
+end
+
+print("📦 Tổng số loại item cần gửi:", totalItems)
+
+-- 🧳 Tách thành nhiều đợt (tối đa 99 item/đợt)
+local function splitSendList(originalList, maxPerBatch)
+    local batches = {}
+    local currentBatch = {}
+    local itemCount = 0
+
+    for category, group in pairs(originalList) do
+        for uid, amount in pairs(group) do
+            if not currentBatch[category] then currentBatch[category] = {} end
+            currentBatch[category][uid] = amount
+            itemCount += 1
+
+            if itemCount >= maxPerBatch then
+                table.insert(batches, currentBatch)
+                currentBatch = {}
+                itemCount = 0
+            end
+        end
+    end
+
+    if itemCount > 0 then
+        table.insert(batches, currentBatch)
+    end
+
+    return batches
+end
+
+-- 🚀 Gửi từng đợt
+local batches = splitSendList(sendList, 99)
+
+for i, payload in ipairs(batches) do
+    local success, result = pcall(function()
+        return BoxTransaction:InvokeServer(boxUID, payload, {})
+    end)
+
+    if success then
+        print("✅ Đã gửi đợt " .. i .. " vào box. Số loại:", table.getn(payload))
+    else
+        warn("❌ Lỗi khi gửi đợt " .. i .. ": ", result)
+    end
+    task.wait(1.5)
+end
+
+
+end)
+
+
+
 ------------------------+++
 _G.start_vvv_ = true
 
