@@ -79,34 +79,34 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Rainbow Rose Pooka", Data = {Price = "1.5m"}},
 -------------------------------------------------------------------------------------- 
 
-{Name = "Huge Lucki Hydra", Data = {Price = "+2%"}},
-{Name = "Huge Leprechaun Fox", Data = {Price = "+2%"}},
-{Name = "Huge Irish Badger", Data = {Price = "+2%"}},
+{Name = "Huge Lucki Hydra", Data = {Price = "2%"}},
+{Name = "Huge Leprechaun Fox", Data = {Price = "2%"}},
+{Name = "Huge Irish Badger", Data = {Price = "2%"}},
 
-{Name = "Golden Huge Lucki Hydra", Data = {Price = "+2%"}},
-{Name = "Golden Huge Leprechaun Fox", Data = {Price = "+2%"}},
-{Name = "Golden Huge Irish Badger", Data = {Price = "+2%"}},
+{Name = "Golden Huge Lucki Hydra", Data = {Price = "2%"}},
+{Name = "Golden Huge Leprechaun Fox", Data = {Price = "2%"}},
+{Name = "Golden Huge Irish Badger", Data = {Price = "2%"}},
 
-{Name = "Rainbow Huge Lucki Hydra", Data = {Price = "+2%"}},
-{Name = "Rainbow Huge Leprechaun Fox", Data = {Price = "+2%"}},
-{Name = "Rainbow Huge Irish Badger", Data = {Price = "+2%"}},
+{Name = "Rainbow Huge Lucki Hydra", Data = {Price = "2%"}},
+{Name = "Rainbow Huge Leprechaun Fox", Data = {Price = "2%"}},
+{Name = "Rainbow Huge Irish Badger", Data = {Price = "2%"}},
 
-{Name = "Shiny Huge Lucki Hydra", Data = {Price = "+2%"}},
-{Name = "Shiny Huge Leprechaun Fox", Data = {Price = "+2%"}},
-{Name = "Shiny Huge Irish Badger", Data = {Price = "+2%"}},
+{Name = "Shiny Huge Lucki Hydra", Data = {Price = "2%"}},
+{Name = "Shiny Huge Leprechaun Fox", Data = {Price = "2%"}},
+{Name = "Shiny Huge Irish Badger", Data = {Price = "2%"}},
 
-{Name = "Shiny Golden Huge Lucki Hydra", Data = {Price = "+2%"}},
-{Name = "Shiny Golden Huge Leprechaun Fox", Data = {Price = "+2%"}},
-{Name = "Shiny Golden Huge Irish Badger", Data = {Price = "+2%"}},
+{Name = "Shiny Golden Huge Lucki Hydra", Data = {Price = "2%"}},
+{Name = "Shiny Golden Huge Leprechaun Fox", Data = {Price = "2%"}},
+{Name = "Shiny Golden Huge Irish Badger", Data = {Price = "2%"}},
 
-{Name = "Shiny Rainbow Huge Lucki Hydra", Data = {Price = "+2%"}},
-{Name = "Shiny Rainbow Huge Leprechaun Fox", Data = {Price = "+2%"}},
-{Name = "Shiny Rainbow Huge Irish Badger", Data = {Price = "+2%"}},
+{Name = "Shiny Rainbow Huge Lucki Hydra", Data = {Price = "2%"}},
+{Name = "Shiny Rainbow Huge Leprechaun Fox", Data = {Price = "2%"}},
+{Name = "Shiny Rainbow Huge Irish Badger", Data = {Price = "2%"}},
 
 
-{Name = "Huge Clover Deer", Data = {Price = "+2%"}},
-{Name = "Huge Clover Phoenix", Data = {Price = "+2%"}},
-{Name = "Huge Lucki Horse", Data = {Price = "+2%"}},
+{Name = "Huge Clover Deer", Data = {Price = "2%"}},
+{Name = "Huge Clover Phoenix", Data = {Price = "2%"}},
+{Name = "Huge Lucki Horse", Data = {Price = "2%"}},
 
 {Name = "Golden Huge Clover Deer", Data = {Price = 20 + math.random(1,50)*0.01 .."m"}},
 {Name = "Golden Huge Clover Phoenix", Data = {Price = 20 + math.random(1,50)*0.01 .."m"}},
