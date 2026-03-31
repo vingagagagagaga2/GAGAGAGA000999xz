@@ -6,7 +6,7 @@ task.spawn(function()
 
 
 task.spawn(function()
-    task.wait(1)
+    task.wait(301)
 	number_huge_keep_boxxx = 47
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local SaveModule = require(ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client"):WaitForChild("Save"))
