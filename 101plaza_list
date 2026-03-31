@@ -78,6 +78,12 @@ getgenv().Settings_autoplaza = {
 {Name = "Rainbow Palace Pooka", Data = {Price = "1.1m"}},
 
 {Name = "Shiny Rainbow Rose Pooka", Data = {Price = "1.5m"}},
+
+{Name = "Enchant Chest Breaker TN1", Data = {Price = "400m"}},
+{Name = "Shiny Golden Lucki Golem", Data = {Price = "800m"}},
+{Name = "Rainbow Lucki Golem", Data = {Price = "1.2b"}},
+{Name = "Golden Lucki Golem", Data = {Price = "240m"}},
+{Name = "Lucki Golem", Data = {Price = "30m"}},
 -------------------------------------------------------------------------------------- 
 
 {Name = "Huge Lucki Hydra", Data = {Price = "2%"}},
