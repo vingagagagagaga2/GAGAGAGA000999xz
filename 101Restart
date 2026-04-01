@@ -11,7 +11,7 @@ task.spawn(function()
 ------------------------+++
 _G.start_vvv_ = true
 
-_G.FPS_farm = 2
+_G.FPS_farm = 4
 _G.FPS_event = 5
 
 if name_vps == "x" then
