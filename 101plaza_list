@@ -81,7 +81,7 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Enchant Chest Breaker TN1", Data = {Price = "400m"}},
 {Name = "Shiny Golden Lucki Golem", Data = {Price = "800m"}},
-{Name = "Rainbow Lucki Golem", Data = {Price = "600m"}},
+{Name = "Rainbow Lucki Golem", Data = {Price = "500m"}},
 {Name = "Golden Lucki Golem", Data = {Price = "240m"}},
 {Name = "Lucki Golem", Data = {Price = "30m"}},
 -------------------------------------------------------------------------------------- 
