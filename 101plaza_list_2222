@@ -1,0 +1,25 @@
+getgenv().Settings_autoplaza = {
+["Items"] = {
+
+--------------------------------------
+{Name = "Titanic Irish Wolfhound", Data = {Price = 4.85 + math.random(1,10)*0.01 .."b"}},
+{Name = "Golden Titanic Irish Wolfhound", Data = {Price = 5.15 + math.random(1,10)*0.01 .."b"}},
+-------------------------------------------------------------------------------
+
+
+},
+	
+	
+	
+["xoa_Map"] = true,
+["send_gem"] = {
+        Play_mail = false,
+        User_name_mail = "",
+        gem_mail = "999b",
+	time_swap_plaza = 3*60,
+		
+}
+
+
+
+}
