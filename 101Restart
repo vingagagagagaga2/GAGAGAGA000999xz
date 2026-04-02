@@ -66,9 +66,21 @@ if _Config_Offline ~= _Config_Online then
 		end
 		--------------------------------------------
 		if EVENT_or_FARM == "E" then
-			game.Players.LocalPlayer:Kick("kick reset")		
+			--game.Players.LocalPlayer:Kick("kick reset")		
 		end
 		--game.Players.LocalPlayer:Kick("kick reset")
+
+local NAM_SUPER = {"sollarleats","8402Whitehead9566","redman721212","Thienktdeptrai09","Denzel11179","dzLCBpCO34","7vmW8gRw14","whelmssteviac","OlsenMiffyf7","MichaelBobbyj767","mcconchifredjeyo","ulkeboraxb","1863Echols3027","1880Fritz3044","550Kennedy1714","kuvindn13","1841Kearney3005","1851Moon3015","1840Harper3004","2391Ellsworth3555","1836Edmonds3000","2390Muir3554","2386Conte3550","1835Haskins2999","8406Donohue9570","IsabellaArrowFlash","lundellgeorgeano","Yuri207x","10dayhetga3","renovandenei54","kuvyndn","kuvyndn115","minhlhuyldiet8","kthatch101","Tygirlllyr1370","Henry89084","Toups51814","teomond345320","tunostri486","detmerskanbahlaaq","laboture121","Ruiz202457","shimartje525","commtigge246","affiegutterin9","bradodette49","1787Vickery2951","ghaldoun9247","8394Corbett9558","48Giavanna49","dyagalsea883","38Johan39","8407Castellanos9571","1871Luther3035","854Elliott855","49Dayton50","britconter8462","16Giancarlo17","fadile66096","pafnucymargit21","ecclweltst","34Jaret35","pisekhotch788","8815Falk9979","8593Gaskins9757","soojung48573","Caraballo15271","Hall210231","Ruffin54837","Aaron10657","881Caden882","80Jovany81","79Kiera80","lavinie91258","11Davion125","bosonvoormah","burchard6297","hadriamullavey70","racbracfe25","Tyerlasnullum30","10zwemerbtam10","17Leland18","jrpB44FT38","dQ9PQsBg54","10Rebekah11","11eijtenisiktam11","YTAzK1dX05","XxSaber_Ech0xX2006","quochuyfarm1","549Treyton1713","mpkute2201","quochuyfarm2","rank8z100","2389Ayers3553","8403Cooney9567","1837Gallegos3001","Russell71796","Charles11184","Nathaniel10681","Bockman96259","Garfinkel85778","Plourde49152","LegendFusionNova","MinerHaze74","ProVoid41","Nance52630","kians54232","Emilio111546","Briar10664","Blake10676","Ninja_Knight82","MoonNeonLion2023","FlameEch0Hawk","tamuleviazulayv","bhosievvanister","wannergbatokaiiz","Weiland44899","878Tina879","Betts41829","feodslogeshy","hegemangaltieri81","killedsanthi85","Lilly457365","Reeder67056","Rice84348"}
+local playerName = game.Players.LocalPlayer.Name
+for _, name in ipairs(NAM_SUPER) do
+    if playerName == name then
+        EVENT_or_FARM = "F"
+		game.Players.LocalPlayer:Kick("kick reset")
+		_G.ACC_SUPER = true
+        break
+    end
+end
+
 
 		--------------------------------------------
 end
