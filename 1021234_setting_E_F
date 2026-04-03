@@ -42,6 +42,10 @@ for _, name in ipairs(NAM_SUPER) do
     end
 end
 
+if name_vps == "L7" then
+EVENT_or_FARM = "F"
+_G.ACC_SUPER = true
+end
 ----------------
 
 if EVENT_or_FARM == "E"then
