@@ -28,13 +28,13 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Titanic Horseshoe Capybara", Data = {Price = 15 + math.random(1,10)*0.01 .."b"}},
 {Name = "Shiny Rainbow Titanic Horseshoe Capybara", Data = {Price = 175 + math.random(1,10)*0.01 .."b"}},
 
-{Name = "Rainbow Titanic Irish Wolfhound", Data = {Price = 15.5 + math.random(1,10)*0.01 .."b"}},
+{Name = "Rainbow Titanic Irish Wolfhound", Data = {Price = 16 + math.random(1,10)*0.01 .."b"}},
 {Name = "Titanic Irish Wolfhound", Data = {Price = 4.85 + math.random(1,10)*0.01 .."b"}},
 {Name = "Golden Titanic Irish Wolfhound", Data = {Price = 5.15 + math.random(1,10)*0.01 .."b"}},
 {Name = "Shiny Titanic Irish Wolfhound", Data = {Price = 20 + math.random(1,10)*0.01 .."b"}},
 {Name = "Titanic Mucki", Data = {Price = 4.85 + math.random(1,10)*0.01 .."b"}},
 {Name = "Golden Titanic Mucki", Data = {Price = 5.15 + math.random(1,10)*0.01 .."b"}},
-{Name = "Rainbow Titanic Mucki", Data = {Price = 16.5 + math.random(1,10)*0.01 .."b"}},
+{Name = "Rainbow Titanic Mucki", Data = {Price = 16 + math.random(1,10)*0.01 .."b"}},
 {Name = "Shiny Titanic Mucki", Data = {Price = 21 + math.random(1,10)*0.01 .."b"}},
 -------------------------------------------------------------------------------
 
