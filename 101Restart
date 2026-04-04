@@ -1,7 +1,5 @@
 task.spawn(function()
-if game.PlaceId == 15502339080 then
-	return
-end
+
 ------------------------+++
 		
 
