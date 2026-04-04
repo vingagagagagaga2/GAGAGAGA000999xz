@@ -106,10 +106,9 @@ end
 
 local SETTINGS_SENT_ITEM = {
 
-["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 100},	--ok
+["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 100},	
 ["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 100},	
-
---["Time Trial Gift"] = {Class = "Lootbox", Id = "Time Trial Gift", MinAmount = 50001, keepAmount = 20000},
+["Time Trial Gift"] = {Class = "Lootbox", Id = "Time Trial Gift", MinAmount = 50},	
 --["Santa Gift"] = {Class = "Lootbox", Id = "Santa Gift", MinAmount = 50001, keepAmount = 20000},
 --["Candycane Gift"] = {Class = "Lootbox", Id = "Candycane Gift", MinAmount = 50001, keepAmount = 20000},
 
@@ -369,9 +368,8 @@ task.spawn(function()
 	task.wait(1)
 	sendConfiguredCurrencies()
 end)
-
+	task.wait(2)
 task.spawn(function()
-
 	sendConfiguredItems()
 end)
 	task.wait(2)
