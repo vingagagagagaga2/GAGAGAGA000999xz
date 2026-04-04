@@ -1,3 +1,6 @@
+if game.PlaceId == 15502339080 then
+	return
+end
 
 Start_ford = 1
 task.spawn(function()
