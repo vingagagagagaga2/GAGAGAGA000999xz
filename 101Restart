@@ -96,7 +96,7 @@ local now = os.date("!*t", os.time(os.date("!*t")) + 7 * 3600)
 local currentHour = now.hour
 
 if currentHour > 21 or currentHour < 7 then
-	_G.start_vvv_ = false
+	_G.start_vvv_ = true
 end
 
 
