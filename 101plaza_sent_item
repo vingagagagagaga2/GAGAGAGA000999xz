@@ -187,7 +187,7 @@ local function sendConfiguredItems()
 
 				if sendCount > 0 then
 					local ok, err = pcall(function()
-						return mailboxSend(NAME_USER_SEND, message, "Currency", diamondsUID, sendAmount)
+						return mailboxSend(NAME_USER_SEND, message, class, item.UID, sendCount)
 					end)
 
 					if not ok then
