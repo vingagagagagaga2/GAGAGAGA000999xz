@@ -47,14 +47,7 @@ local function getRaidPoints()
 	local saveData = SaveModule.Get() or {}
 	return tonumber(saveData.Safe_S2RaidMaxDifficulty) or 0
 end
-if getRaidPoints() < 44000 then
-	_G.FPS_event = 3
-getgenv().GMAIL_ITEMS = {	
-["Lucki Golem"] = {Class = "Pet" ,Id = "Lucki Golem", IsRainbow = true , MinAmount = 1},	
-}
-getgenv().GMAIL_RECEIVERS = {"560Angel1724"}
-
-elseif getRaidPoints() < 50000 then
+if getRaidPoints() < 50000 then
 	_G.FPS_event = 4
 end
 
