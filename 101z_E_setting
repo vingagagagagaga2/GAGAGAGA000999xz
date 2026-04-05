@@ -39,7 +39,7 @@ getgenv().GMIN_MULTIPLIER = 200 -- which raid eggs to hatch
 getgenv().GRAID_MAX_HATCH_MINUTES = 5
 
 getgenv().GRESET_UPGRADES = false
-
+getgenv().GRAID_COOLDOWN_RANGE_SECONDS = {28, 33}
 
 getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift"}
 --getgenv().GHOP_ON_STAFF = true
