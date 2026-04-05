@@ -86,7 +86,7 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Shiny Rainbow Rose Pooka", Data = {Price = "1.5m"}},
 
-{Name = "Rainbow Lucki Golem", Data = {Price = 700 + math.random(1,50) .."m"}},
+{Name = "Rainbow Lucki Golem", Data = {Price = 300 + math.random(1,50) .."m"}},
 
 
 {Name = "Enchant Chest Breaker TN1", Data = {Price = "400m"}},
