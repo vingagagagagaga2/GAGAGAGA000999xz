@@ -40,6 +40,8 @@ getgenv().Settings_autoplaza = {
 
 --------------------------------------------------------------------------------------
 
+{Name = "Enchant Mega Chest Breaker TN1", Data = {Price = 11000 + math.random(1,100) .."m"}},
+{Name = "Enchant Corruption TN1", Data = {Price = 2800 + math.random(1,100) .."m"}},
 {Name = "2026 New Years Gift", Data = {Price = "350m"}},
 
 {Name = "Time Trial Gift", Data = {Price = 200 + math.random(1,100) .."k"}},
