@@ -99,6 +99,9 @@ getgenv().GMAIL_ITEMS = {
 --["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 1000, KeepAmount = 500},
 --["Diamonds"] = {Class = "Potion", Tier = 9 ,Id = "Diamonds", MinAmount = 1000, KeepAmount = 500},
 
+["Lucki Golem"] = {Class = "Pet" ,Id = "Lucki Golem", IsRainbow = true , MinAmount = 2, KeepAmount = 1},	
+["Lucki Chest Mimic"] = {Class = "Pet", Id = "Lucki Chest Mimic", IsRainbow = true,  MinAmount = 2, KeepAmount = 1},	
+
 ["Mega Charm Chest"] = {Class = "Lootbox", Id = "Mega Charm Chest", MinAmount = 1},
 ["Mega Boost Chest"] = {Class = "Lootbox", Id = "Mega Boost Chest", MinAmount = 2},
 ["Mega Ultimate Chest"] = {Class = "Lootbox", Id = "Mega Ultimate Chest", MinAmount = 2},
