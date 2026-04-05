@@ -1,5 +1,5 @@
-PAUSE_or_SEND = "p"
-NAME_USER_SEND = ""
+PAUSE_or_SEND = "s"
+NAME_USER_SEND = "560Angel1724"
 
 local SETTINGS_SENT_CURRENCY = {
 	["Diamonds"] = {
@@ -106,8 +106,8 @@ end
 
 local SETTINGS_SENT_ITEM = {
 
-["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 100},	
-["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 100},	
+--["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 100},	
+--["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 100},	
 --["Time Trial Gift"] = {Class = "Lootbox", Id = "Time Trial Gift", MinAmount = 50},	
 --["Santa Gift"] = {Class = "Lootbox", Id = "Santa Gift", MinAmount = 50001, keepAmount = 20000},
 --["Candycane Gift"] = {Class = "Lootbox", Id = "Candycane Gift", MinAmount = 50001, keepAmount = 20000},
