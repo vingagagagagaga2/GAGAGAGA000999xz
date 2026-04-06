@@ -73,7 +73,7 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Hacker Key", Data = {Price = "90k"}},
 
-	{Name = "Mega Charm Chest", Data = {Price = "80m"}},
+	{Name = "Mega Charm Chest", Data = {Price = "100m"}},
  	{Name = "Mega Boost Chest", Data = {Price = "40m"}},
  	{Name = "Mega Ultimate Chest", Data = {Price = "20m"}},
  	{Name = "Mega Enchant Chest", Data = {Price = "3m"}},
