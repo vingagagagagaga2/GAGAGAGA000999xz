@@ -18,7 +18,7 @@ local function getRaidPoints()
 	local saveData = SaveModule.Get() or {}
 	return tonumber(saveData.Safe_S2RaidMaxDifficulty) or 0
 end
-if getRaidPoints() < 50000 then
+if getRaidPoints() < 45000 and EVENT_or_FARM == "E" then
 	_G.FPS_event = 4
 end
 
