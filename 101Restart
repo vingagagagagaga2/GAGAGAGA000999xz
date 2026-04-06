@@ -10,8 +10,7 @@ if _G.ACC_SUPER == true then
 else
 	_G.FPS_farm = 3
 end
-
-_G.FPS_event = 5
+_G.FPS_event = 4
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
