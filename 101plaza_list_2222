@@ -2,11 +2,11 @@ getgenv().Settings_autoplaza = {
 ["Items"] = {
 
 --------------------------------------
-{Name = "Titanic Irish Wolfhound", Data = {Price = 4.95 + math.random(1,10)*0.01 .."b"}},
-{Name = "Golden Titanic Irish Wolfhound", Data = {Price = 5.3 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Irish Wolfhound", Data = {Price = 5 + math.random(1,10)*0.01 .."b"}},
+{Name = "Golden Titanic Irish Wolfhound", Data = {Price = 6 + math.random(1,10)*0.01 .."b"}},
 
 {Name = "Titanic Mucki", Data = {Price = 5 + math.random(1,10)*0.01 .."b"}},
-{Name = "Golden Titanic Mucki", Data = {Price = 5.5 + math.random(1,10)*0.01 .."b"}},
+{Name = "Golden Titanic Mucki", Data = {Price = 6 + math.random(1,10)*0.01 .."b"}},
 
 {Name = "Golden Titanic Starlight Pony", Data = {Price = 6.25 + math.random(1,10)*0.01 .."b"}}, 
 {Name = "Titanic Starlight Pony", Data = {Price = 5.6 + math.random(1,10)*0.01 .."b"}}, 
