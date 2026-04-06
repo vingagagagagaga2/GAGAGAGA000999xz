@@ -55,10 +55,7 @@ for _, name in ipairs(NAM_SUPER) do
     end
 end
 
-if name_vps == "xxx" then
-EVENT_or_FARM = "F"
-_G.ACC_SUPER = true
-end
+
 ----------------
 
 if EVENT_or_FARM == "E"then
