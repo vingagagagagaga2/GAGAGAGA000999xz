@@ -94,7 +94,6 @@ getgenv().GMAIL_ITEMS = {
 ["Mega Ultimate Chest"] = {Class = "Lootbox", Id = "Mega Ultimate Chest", MinAmount = 2},
 ["Mega Enchant Chest"] = {Class = "Lootbox", Id = "Mega Enchant Chest", MinAmount = 5},
 ["Mega Potion Chest"] = {Class = "Lootbox", Id = "Mega Potion Chest", MinAmount = 5},
-["Lucki Golem"] = {Class = "Pet" ,Id = "Lucki Golem", IsRainbow = true , MinAmount = 1},	
 
 }
 
