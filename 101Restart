@@ -81,7 +81,7 @@ end
 
 _G.delay_play_vvv3 = 1
 if currentHour > 6 and currentHour < 9 then
-	_G.delay_play_vvv3 = 2
+	_G.delay_play_vvv3 = 1
 end
 
 	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and _G.ACC_SUPER == false and getRaidPoints() > 44999 then
