@@ -74,14 +74,14 @@ local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or 
 local now = os.date("!*t", os.time(os.date("!*t")) + 7 * 3600)
 local currentHour = now.hour
 
-if currentHour > 21 or currentHour < 3 then
+if currentHour > 21 or currentHour < 7 then
 	_G.start_vvv_ = false
 end
 
 
 _G.delay_play_vvv3 = 1
 if currentHour > 6 and currentHour < 9 then
-	_G.delay_play_vvv3 = 1
+	_G.delay_play_vvv3 = 2
 end
 
 	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and _G.ACC_SUPER == false and getRaidPoints() > 44999 then
