@@ -1,4 +1,4 @@
-PAUSE_or_SEND = "s"
+PAUSE_or_SEND = "p"
 NAME_USER_SEND = "560Angel1724"
 
 local SETTINGS_SENT_CURRENCY = {
@@ -370,7 +370,7 @@ task.spawn(function()
 end)
 	task.wait(2)
 task.spawn(function()
-	sendConfiguredItems()
+	--sendConfiguredItems()
 end)
 	task.wait(2)
 task.spawn(function()
