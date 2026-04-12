@@ -82,7 +82,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Golden Lucki Golem", Data = {Price = "240m"}},
 {Name = "Lucki Golem", Data = {Price = "30m"}},
 -------------------------------------------------------------------------------------- 
-
+{Name = "Huge Lucki Chest Mimic", Data = {Price = "400m"}},
 
 --------------------------------------------------------------------------------------
 
