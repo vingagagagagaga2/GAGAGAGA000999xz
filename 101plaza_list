@@ -28,11 +28,11 @@ getgenv().Settings_autoplaza = {
 
 --------------------------------------------------------------------------------------
 
-{Name = "Enchant Mega Chest Breaker TN1", Data = {Price = 11000 + math.random(1,100) .."m"}},
-{Name = "Enchant Corruption TN1", Data = {Price = 2800 + math.random(1,100) .."m"}},
+{Name = "Enchant Mega Chest Breaker TN1", Data = {Price = 12000 + math.random(1,100) .."m"}},
+{Name = "Enchant Corruption TN1", Data = {Price = 3300 + math.random(1,100) .."m"}},
 {Name = "2026 New Years Gift", Data = {Price = "350m"}},
 
-{Name = "Time Trial Gift", Data = {Price = 200 + math.random(1,100) .."k"}},
+{Name = "Time Trial Gift", Data = {Price = 250 + math.random(1,50) .."k"}},
 {Name = "Deep Sea Treasure Chest", Data = {Price = "7m"}},		
 
 {Name = "Hype Egg", Data = {Price = "14m"}},
@@ -41,8 +41,8 @@ getgenv().Settings_autoplaza = {
 
 --{Name = "Rainbow Swirl PetSecret", Data = {Price = "9b"}},
 
-{Name = "Insta-Plant Capsule", Data = {Price = 18 + math.random(1,2) .."k"}},
-{Name = "XPPotion Mastery", Data = {Price = 850 + math.random(1,100) .."k"}},
+{Name = "Insta-Plant Capsule", Data = {Price = 20 + math.random(1,2) .."k"}},
+{Name = "XPPotion Mastery", Data = {Price = 999 + math.random(1,10) .."k"}},
 
 {Name = "Royalty TN1", Data = {Price = "+2%"}},
 {Name = "Overload TN1", Data = {Price = "+2%"}},
@@ -69,13 +69,11 @@ getgenv().Settings_autoplaza = {
 
 
 {Name = "Shiny Palace Pooka", Data = {Price = "20m"}},
-{Name = "Shiny Rainbow Palace Pooka", Data = {Price = "100m"}},
-{Name = "Rainbow Palace Pooka", Data = {Price = "1.1m"}},
-
+{Name = "Shiny Rainbow Palace Pooka", Data = {Price = "150m"}},
+{Name = "Rainbow Palace Pooka", Data = {Price = "1.4m"}},
 {Name = "Shiny Rainbow Rose Pooka", Data = {Price = "1.5m"}},
 
-{Name = "Rainbow Lucki Golem", Data = {Price = 100 + math.random(1,50) .."m"}},
-
+{Name = "Rainbow Lucki Golem", Data = {Price = 300 + math.random(1,50) .."m"}},
 
 {Name = "Enchant Chest Breaker TN1", Data = {Price = "400m"}},
 {Name = "Shiny Golden Lucki Golem", Data = {Price = "800m"}},
@@ -94,8 +92,6 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Shiny Rainbow All Huges", Data = {Price = "5%", Min_sell = "2b", Max_sell = "10b"}},
 {Name = "Shiny Golden All Huges", Data = {Price = "5%", Min_sell = "300m", Max_sell = "1b"}},
-
-
 
 {Name = "Rainbow All Huges", 	Data = {Price = "3%", Min_sell = 99 + math.random(1,50)*0.01 .."m", Max_sell = "500m",sold_by_convention = true }}, 
 {Name = "Shiny All Huges", Data = {Price = "3%", Min_sell = "99m", Max_sell = "500m" ,sold_by_convention = true}},
