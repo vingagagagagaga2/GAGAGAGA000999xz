@@ -29,15 +29,8 @@ else
 	EVENT_or_FARM = "E" 
 end
 
-local blocked = {
-    TUNG608 = true,
-    TUNG714 = true,
-    TUNG205 = true,
-    TUNG201 = true,
-}
-
-if not blocked[name_vps] then
-    EVENT_or_FARM = "F"
+if name_vps ~= "TUNG608" and name_vps ~= "TUNG714" and name_vps ~= "TUNG205" and name_vps ~= "TUNG201" then
+	EVENT_or_FARM = "F" 
 end
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
