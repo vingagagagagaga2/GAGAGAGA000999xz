@@ -1,5 +1,5 @@
-PAUSE_or_SEND = "s"
-NAME_USER_SEND = "IsaacSlimeBacon2023"
+PAUSE_or_SEND = "p"
+NAME_USER_SEND = ""
 
 local SETTINGS_SENT_CURRENCY = {
 	["Diamonds"] = {
