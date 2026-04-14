@@ -12,20 +12,7 @@ else
 end
 _G.FPS_event = 4
 
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
-local SaveModule = require(Client:WaitForChild("Save"))
-local function getRaidPoints()
-	local saveData = SaveModule.Get() or {}
-	return tonumber(saveData.Safe_S2RaidMaxDifficulty) or 0
-end
-if getRaidPoints() < 45000 and EVENT_or_FARM == "E" then
-	 --game.Players.LocalPlayer:Kick("kick reset")
-end
 
-
-
---task.wait(3600)
 
 local _Config_Online = 47
 
@@ -57,7 +44,7 @@ if _Config_Offline ~= _Config_Online then
 		end
 		--------------------------------------------
 		if EVENT_or_FARM == "E" then
-			game.Players.LocalPlayer:Kick("kick reset")		
+			--game.Players.LocalPlayer:Kick("kick reset")		
 		end
 		--game.Players.LocalPlayer:Kick("kick reset")
 
@@ -85,10 +72,10 @@ if currentHour > 6 and currentHour < 9 then
 end
 
 	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and V_FAIL_E == true then
-		game.Players.LocalPlayer:Kick("kick fin")
+		--game.Players.LocalPlayer:Kick("kick fin")
 	end
 	if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and _G.start_vvv_ == true then
-		game.Players.LocalPlayer:Kick("kick pla")
+		--game.Players.LocalPlayer:Kick("kick pla")
 	end
 	if _G.start_vvv_ == false and EVENT_or_FARM == "F" then 
 		--game.Players.LocalPlayer:Kick("kick F > E")
