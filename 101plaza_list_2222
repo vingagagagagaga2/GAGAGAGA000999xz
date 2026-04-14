@@ -38,7 +38,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Golden Huge Clover Phoenix", Data = {Price = "2%", Min_sell = 17 + math.random(1,10)*0.01 .."m", Max_sell = "30m",sold_by_convention = true }}, 
 {Name = "Golden Huge Lucki Horse", Data = {Price = "2%", Min_sell = 17 + math.random(1,10)*0.01 .."m", Max_sell = "30m",sold_by_convention = true }}, 
 
-{Name = "All Huges", 			Data = {Price = "2%", Min_sell = 15 + math.random(1,10)*0.01 .."m", Max_sell = "80m",keep_Huge_XP_high = true }}, 
+{Name = "All Huges", 			Data = {Price = "2%", Min_sell = 15 + math.random(1,10)*0.01 .."m", Max_sell = "20m",keep_Huge_XP_high = true }}, 
 
 },
 	
