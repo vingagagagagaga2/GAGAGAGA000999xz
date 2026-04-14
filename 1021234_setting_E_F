@@ -29,8 +29,11 @@ else
 	EVENT_or_FARM = "E" 
 end
 
+V_FAIL_E = false
 if name_vps ~= "TUNG608" and name_vps ~= "TUNG714" and name_vps ~= "TUNG205" and name_vps ~= "TUNG201" then
 	EVENT_or_FARM = "F" 
+else
+	V_FAIL_E = true
 end
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
