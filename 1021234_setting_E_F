@@ -29,12 +29,7 @@ else
 	EVENT_or_FARM = "E" 
 end
 
-V_FAIL_E = false
-if name_vps ~= "TUNG608" and name_vps ~= "TUNG714" and name_vps ~= "TUNG201" then
-	EVENT_or_FARM = "F" 
-else
-	V_FAIL_E = true
-end
+EVENT_or_FARM = "F" 
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
