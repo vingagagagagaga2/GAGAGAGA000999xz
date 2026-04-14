@@ -17,6 +17,7 @@ getgenv().Settings_autoplaza = {
  	{Name = "Mega Enchant Chest", Data = {Price = "3m"}},
  	{Name = "Mega Potion Chest", Data = {Price = "20m"}},
 
+{Name = "Huge Lucki Hydra", Data = {Price = "15m"}},
 
 -------------------------------------------------------------------------------
 {Name = "Huge Lucki Chest Mimic", Data = {Price = "400m"}},
