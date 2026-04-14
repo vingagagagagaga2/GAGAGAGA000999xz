@@ -20,7 +20,7 @@ local function getRaidPoints()
 	return tonumber(saveData.Safe_S2RaidMaxDifficulty) or 0
 end
 if getRaidPoints() < 45000 and EVENT_or_FARM == "E" then
-	 game.Players.LocalPlayer:Kick("kick reset")
+	 --game.Players.LocalPlayer:Kick("kick reset")
 end
 
 
