@@ -27,6 +27,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Titanic Mucki", Data = {Price = 20 + math.random(1,10)*0.01 .."b"}},
 -------------------------------------------------------------------------------
 
+{Name = "Huge Lucki Hydra", Data = {Price = "15m"}},
 --------------------------------------------------------------------------------------
 
 {Name = "Enchant Mega Chest Breaker TN1", Data = {Price = 12000 + math.random(1,100) .."m"}},
