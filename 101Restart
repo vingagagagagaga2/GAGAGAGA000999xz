@@ -14,7 +14,7 @@ _G.FPS_event = 4
 
 
 
-local _Config_Online = 47
+local _Config_Online = 48
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -46,7 +46,7 @@ if _Config_Offline ~= _Config_Online then
 		if EVENT_or_FARM == "E" then
 			--game.Players.LocalPlayer:Kick("kick reset")		
 		end
-		--game.Players.LocalPlayer:Kick("kick reset")
+		game.Players.LocalPlayer:Kick("kick reset")
 
 		--------------------------------------------
 end
