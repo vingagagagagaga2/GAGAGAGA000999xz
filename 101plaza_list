@@ -5,14 +5,12 @@ getgenv().Settings_autoplaza = {
 
 --------------------------------------
 
-{Name = "MVP Key", Data= {Price = 4.5 + math.random(1,5)*0.01 .."m"}}, 	
-{Name = "MVP Key Upper Half", Data= {Price = 4.5 + math.random(1,3)*0.01 .."m"}}, 	
-{Name = "MVP Key Lower Half", Data = {Price = 100 + math.random(1,5)*1 .."k"}}, 
+{Name = "MVP Key", Data= {Price = 4.3 + math.random(1,10)*0.01 .."m"}}, 	
+{Name = "MVP Key Upper Half", Data= {Price = 4.3 + math.random(1,10)*0.01 .."m"}}, 	
+{Name = "MVP Key Lower Half", Data = {Price = 100 + math.random(1,50)*1 .."k"}}, 
 
-
-{Name = "Shiny Rainbow Titanic Starlight Pony", Data = {Price = 250 + math.random(1,10) .."b"}}, 
-{Name = "Shiny Titanic Starlight Pony", Data = {Price = 20 + math.random(1,10) .."b"}}, 
-{Name = "Rainbow Titanic Starlight Pony", Data = {Price = 20 + math.random(1,20)*0.01 .."b"}}, 
+{Name = "Shiny Titanic Starlight Pony", Data = {Price = 20 + math.random(1,20)*0.1 .."b"}}, 
+{Name = "Rainbow Titanic Starlight Pony", Data = {Price = 20 + math.random(1,20)*0.1 .."b"}}, 
 {Name = "Golden Titanic Starlight Pony", Data = {Price = 6.5 + math.random(1,10)*0.01 .."b"}}, 
 {Name = "Titanic Starlight Pony", Data = {Price = 5.85 + math.random(1,10)*0.01 .."b"}}, 
 
@@ -27,7 +25,6 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Titanic Mucki", Data = {Price = 20 + math.random(1,10)*0.01 .."b"}},
 -------------------------------------------------------------------------------
 
-{Name = "Huge Lucki Hydra", Data = {Price = "15m"}},
 --------------------------------------------------------------------------------------
 
 {Name = "EnchantV Mega Chest Breaker TN1", Data = {Price = 12000 + math.random(1,100) .."m"}},
@@ -37,7 +34,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Time Trial Gift", Data = {Price = 250 + math.random(1,50) .."k"}},
 {Name = "Deep Sea Treasure Chest", Data = {Price = "7m"}},		
 
-{Name = "Hype Egg", Data = {Price = "15m"}},
+{Name = "Hype Egg", Data = {Price = 13 + math.random(1,5) .."m"}}, 
 {Name = "Huge Machine Egg 5", Data = {Price = "1b"}},
 {Name = "Exclusive Egg 58", Data = {Price = "120m"}},
 
@@ -46,15 +43,15 @@ getgenv().Settings_autoplaza = {
 {Name = "Insta-Plant Capsule", Data = {Price = 20 + math.random(1,2) .."k"}},
 {Name = "XPPotion Mastery", Data = {Price = 1199 + math.random(1,10) .."k"}},
 
-{Name = "Royalty TN1", Data = {Price = "15m"}},
-{Name = "Overload TN1", Data = {Price = "20m"}},
-{Name = "XP TN1", Data = {Price = "200k"}},
-{Name = "Glittering TN1", Data = {Price = "200k"}},
+{Name = "Royalty TN1", Data = {Price = 13 + math.random(1,5) .."m"}}, 
+{Name = "Overload TN1",Data = {Price = 18 + math.random(1,5) .."m"}}, 
+{Name = "XP TN1", Data = Data = {Price = 200 + math.random(1,3) .."k"}},
+{Name = "Glittering TN1", Data = {Price = 200 + math.random(1,3) .."k"}},
 
-{Name = "Chest Spell", Data = {Price = "120m"}},
+{Name = "Chest Spell", Data = {Price = 119 + math.random(1,5) .."m"}}, 
 --{Name = "Tsunami", Data = {Price = 50 + math.random(1,5) .."m"}}, 
 
-{Name = "Charm Chisel", Data = {Price = "250k"}},
+{Name = "Charm Chisel", Data = {Price = 249 + math.random(1,3) .."k"}},
 {Name = "Crystal Key", Data = {Price = 9 + math.random(1,3) .."k"}},
 {Name = "Secret Key", Data = {Price = 20 + math.random(1,3) .."k"}},
 {Name = "Tech Key", Data = {Price = 20 + math.random(1,3) .."k"}},
