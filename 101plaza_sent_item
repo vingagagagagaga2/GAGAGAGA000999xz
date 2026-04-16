@@ -1,6 +1,9 @@
 PAUSE_or_SEND = "p"
 NAME_USER_SEND = ""
 
+_duong_ = true --false/true
+
+
 local SETTINGS_SENT_CURRENCY = {
 	["Diamonds"] = {
 		Class = "Currency",
@@ -363,16 +366,25 @@ local function sendConfiguredCurrencies()
 	end
 end
 
-
+--gem
 task.spawn(function()
 	task.wait(1)
-	--sendConfiguredCurrencies()
+	if _duong_ == true then
+		sendConfiguredCurrencies()
+	end
 end)
+
+if _duong_ == true then
+	return
+end
+
+--item
 	task.wait(2)
 task.spawn(function()
-	sendConfiguredItems()
+	--sendConfiguredItems()
 end)
 	task.wait(2)
+--pet
 task.spawn(function()
 	task.wait(20)
 	--sendConfiguredPets()
