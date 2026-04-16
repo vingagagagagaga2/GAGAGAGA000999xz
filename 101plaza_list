@@ -63,19 +63,19 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Hacker Key", Data = {Price = "90k"}},
 
-	{Name = "Mega Charm Chest", Data = {Price = "100m"}},
- 	{Name = "Mega Boost Chest", Data = {Price = "40m"}},
- 	{Name = "Mega Ultimate Chest", Data = {Price = "20m"}},
- 	{Name = "Mega Enchant Chest", Data = {Price = "5m"}},
- 	{Name = "Mega Potion Chest", Data = {Price = "20m"}},
+	{Name = "Mega Charm Chest", Data = {Price = 100 + math.random(1,5) .."m"}}, 
+ 	{Name = "Mega Boost Chest", Data = {Price = 40 + math.random(1,5) .."m"}}, 
+ 	{Name = "Mega Ultimate Chest", Data = {Price = 20 + math.random(1,5) .."m"}}, 
+ 	{Name = "Mega Enchant Chest", Data = {Price = 5 + math.random(1,5) .."m"}}, 
+ 	{Name = "Mega Potion Chest", Data = {Price = 15 + math.random(1,5) .."m"}}, 
 
 
-{Name = "Shiny Palace Pooka", Data = {Price = "20m"}},
-{Name = "Shiny Rainbow Palace Pooka", Data = {Price = "150m"}},
+{Name = "Shiny Palace Pooka", Data = Data = {Price = 20 + math.random(1,5) .."m"}}, 
+{Name = "Shiny Rainbow Palace Pooka", Data = {Price = 150 + math.random(1,5) .."m"}}, 
 {Name = "Rainbow Palace Pooka", Data = {Price = "1.4m"}},
 {Name = "Shiny Rainbow Rose Pooka", Data = {Price = "1.5m"}},
 
-{Name = "Rainbow Lucki Golem", Data = {Price = 300 + math.random(1,50) .."m"}},
+{Name = "Rainbow Lucki Golem", Data = {Price = 100 + math.random(1,50) .."m"}},
 
 -------------------------------------------------------------------------------------- 
 {Name = "Huge Lucki Chest Mimic", Data = {Price = "400m"}},
@@ -94,8 +94,8 @@ getgenv().Settings_autoplaza = {
 {Name = "Rainbow All Huges", 	Data = {Price = "3%", Min_sell = 99 + math.random(1,50)*0.01 .."m", Max_sell = "500m",sold_by_convention = true }}, 
 {Name = "Shiny All Huges", Data = {Price = "3%", Min_sell = "99m", Max_sell = "500m" ,sold_by_convention = true}},
 
-{Name = "All Huges", 			Data = {Price = "+1%", Min_sell = 15 + math.random(1,10)*0.01 .."m", Max_sell = "80m",sold_by_convention = true }}, 
-{Name = "Golden All Huges", 	Data = {Price = "+1%", Min_sell = 18 + math.random(1,10)*0.01 .."m", Max_sell = "90m",sold_by_convention = true }}, 
+{Name = "All Huges", 			Data = {Price = "2%", Min_sell = 15 + math.random(1,10)*0.01 .."m", Max_sell = "80m",sold_by_convention = true }}, 
+{Name = "Golden All Huges", 	Data = {Price = "2%", Min_sell = 18 + math.random(1,10)*0.01 .."m", Max_sell = "90m",sold_by_convention = true }}, 
 
 --sold_by_convention = true
 
