@@ -107,7 +107,7 @@ getgenv().Settings_autoplaza = {
         Play_mail = false,
         User_name_mail = "",
         gem_mail = "999b",
-	time_swap_plaza = 3*60,
+	time_swap_plaza = 2*60,
 		
 }
 
