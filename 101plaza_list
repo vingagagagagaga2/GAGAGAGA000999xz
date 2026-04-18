@@ -6,7 +6,7 @@ getgenv().Settings_autoplaza = {
 --------------------------------------
 
 {Name = "MVP Key", Data= {Price = 4.3 + math.random(1,10)*0.01 .."m"}}, 	
-{Name = "MVP Key Upper Half", Data= {Price = 4.3 + math.random(1,10)*0.01 .."m"}}, 	
+{Name = "MVP Key Upper Half", Data= {Price = 5.2 + math.random(1,10)*0.01 .."m"}}, 	
 {Name = "MVP Key Lower Half", Data = {Price = 50 + math.random(1,50)*1 .."k"}}, 
 
 {Name = "Shiny Titanic Starlight Pony", Data = {Price = 20 + math.random(1,20)*0.1 .."b"}}, 
