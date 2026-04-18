@@ -45,7 +45,19 @@ task.wait(2)
 		teleportName = TeleportMapping[4]
 	end
     
-    
+if not MAP_w2_true then
+	local HttpService = game:GetService("HttpService")
+	local Players = game:GetService("Players")
+	local TeleportService = game:GetService("TeleportService")
+	local LocalPlayer = Players.LocalPlayer
+	
+	local function serverhopTo(placeId)
+		TeleportService:Teleport(placeId, LocalPlayer)
+	end
+	serverhopTo(8737899170)
+end
+
+
     if teleportName then
         for attempt = 1, 2 do
             local success, result = pcall(function()
