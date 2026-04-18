@@ -3,6 +3,7 @@ task.spawn(function()
 ------------------------+++
 
 
+getgenv().GMAIL_RECEIVERS = {"MrsHazelDrift2020","vincedriftGrove2008Y","TheRealLuckyFrost","TheRealRose_Magic","KylieShadeWizard","NexusBenjamin_Enigma","TheRealzippyRipplegl","BrooklynFuryLuminos","NexusB0ulderembergus","JacobOrbitz2010","ItsHarryRift2019","N3xusthornP3bbl3","MrsBenbl00m","StarryMagicFrost","ItsCookieoak","NovaStormyRift","ITSJACOB_gl33","NexusKen_Shine2003","Arr0wGh0stCraz3","MrsLuke_Glitch","JackVortexDew","ChillMaster2011","Claw_knoll","FusionShadowCyber"}
 
 ------------------------+++
 _G.start_vvv_ = true
