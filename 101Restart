@@ -1,16 +1,9 @@
 task.spawn(function()
 
 ------------------------+++
-		
-list_12accitem = {"MrsHazelDrift2020","vincedriftGrove2008Y","TheRealLuckyFrost","TheRealRose_Magic","KylieShadeWizard","NexusBenjamin_Enigma","TheRealzippyRipplegl","BrooklynFuryLuminos","NexusB0ulderembergus","JacobOrbitz2010","ItsHarryRift2019","N3xusthornP3bbl3","MrsBenbl00m","StarryMagicFrost","ItsCookieoak"}
-_G.NAME_USER_SEND = list_12accitem[math.random(1, #list_12accitem)]
 
-list_24acc = {"MrsHazelDrift2020","vincedriftGrove2008Y","TheRealLuckyFrost","TheRealRose_Magic","KylieShadeWizard","NexusBenjamin_Enigma","TheRealzippyRipplegl","BrooklynFuryLuminos","NexusB0ulderembergus","JacobOrbitz2010","ItsHarryRift2019","N3xusthornP3bbl3","MrsBenbl00m","StarryMagicFrost","ItsCookieoak","NovaStormyRift","ITSJACOB_gl33","NexusKen_Shine2003","Arr0wGh0stCraz3"}
-_G.send_hg_more50 =  list_24acc[math.random(1, #list_24acc)]
 
-list_6acc = {"MrsLuke_Glitch","JackVortexDew","ChillMaster2011","Claw_knoll","FusionShadowCyber"}
-_G.send_hg_rb_shiny = list_6acc[math.random(1, #list_6acc)]
-_G.send_pet_dame= list_6acc[math.random(1, #list_6acc)]
+
 ------------------------+++
 _G.start_vvv_ = true
 if _G.ACC_SUPER == true or name_vps == "PM39" then
