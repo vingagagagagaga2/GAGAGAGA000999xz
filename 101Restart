@@ -1,8 +1,9 @@
 task.spawn(function()
 
 ------------------------+++
-
-
+if _G.ACC_SUPER == true and EVENT_or_FARM == "F" then
+	game.Players.LocalPlayer:Kick("kick reset")
+end
 ------------------------+++
 _G.start_vvv_ = true
 if _G.ACC_SUPER == true then
@@ -47,9 +48,7 @@ if _Config_Offline ~= _Config_Online then
 			--game.Players.LocalPlayer:Kick("kick reset")		
 		end
 		--game.Players.LocalPlayer:Kick("kick reset")
-		if _G.RunsLeft_TIMEtrial > 0 then
-			game.Players.LocalPlayer:Kick("kick reset")
-		end
+
 		--------------------------------------------
 end
 
