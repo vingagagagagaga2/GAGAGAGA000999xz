@@ -54,10 +54,6 @@ for _, name in ipairs(NAM_SUPER) do
         break
     end
 end
-if name_vps == "PM80" or name_vps == "PM46" or name_vps == "PM52" then
-	EVENT_or_FARM = "E" 
-end
-
 ----------------
 
 if EVENT_or_FARM == "E"then
