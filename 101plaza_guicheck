@@ -1,17 +1,17 @@
 
 itemsToTrack_plaza = {
 	
-	{ id = "Santa Gift", 			guiName = "Item11", row = 1, col = 0, color = Color3.fromRGB(0, 255, 255) },			--xanh
+	{ id = "", 			guiName = "Item11", row = 1, col = 0, color = Color3.fromRGB(0, 255, 255) },			--xanh
 	{ id = "Huge", 					guiName = "Item12", row = 1, col = 1, color = Color3.fromRGB(192,192,192) }, 		--xám
 	{ id = "MVP Key",				guiName = "Item13", row = 1, col = 2, color = Color3.fromRGB(0, 255, 0) }, 		--xanh lá cây
 	{ id = "MVP Key Upper Half", 	guiName = "Item14", row = 1, col = 3, color = Color3.fromRGB(255, 255, 255) },				--trang
 	{ id = "MVP Key Lower Half", 	guiName = "Item14", row = 1, col = 4, color = Color3.fromRGB(192,192,192) }, 		--xám
 
 
-	{ id = "Candycane Gift", 		guiName = "Item21", row = 0, col = 0, color = Color3.fromRGB(255, 165, 0) },		-- cam
-	{ id = "Mastery", 	guiName = "Item22", row = 0, col = 1, color = Color3.fromRGB(255, 255, 255) },				--trang
-	{ id = "Huge Frostbyte Snowman", 			guiName = "Item23", row = 0, col = 2, color = Color3.fromRGB(255, 0, 0) },				--đỏ
-	{ id = "Lucki Chest Mimic", 	guiName = "Item24", row = 0, col = 3, color = Color3.fromRGB(255, 165, 0) },		-- cam
-	{ id = "Lucki Golem", 			guiName = "Item25", row = 0, col = 4, color = Color3.fromRGB(0, 255, 0) },		--xanh lá cây
+	{ id = "", 		guiName = "Item21", row = 0, col = 0, color = Color3.fromRGB(255, 165, 0) },		-- cam
+	{ id = "Spring Red Tulip Token", 	guiName = "Item22", row = 0, col = 1, color = Color3.fromRGB(255, 255, 255) },				--trang
+	{ id = "Spring Pink Rose Token", 			guiName = "Item23", row = 0, col = 2, color = Color3.fromRGB(255, 0, 0) },				--đỏ
+	{ id = "Spring Yellow Sunflower Token", 	guiName = "Item24", row = 0, col = 3, color = Color3.fromRGB(255, 165, 0) },		-- cam
+	{ id = "Spring Bluebell Token", 			guiName = "Item25", row = 0, col = 4, color = Color3.fromRGB(0, 255, 0) },		--xanh lá cây
 
 }
