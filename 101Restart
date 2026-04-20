@@ -13,9 +13,6 @@ else
 end
 _G.FPS_event = 4
 
-if name_vps == "PM46" or name_vps == "PM80" then 
-	_G.FPS_event = 3
-end
 
 local _Config_Online = 49
 
