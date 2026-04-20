@@ -11,7 +11,7 @@ if _G.ACC_SUPER == true then
 else
 	_G.FPS_farm = 3
 end
-_G.FPS_event = 5
+_G.FPS_event = 4
 
 if name_vps == "PM46" or name_vps == "PM80" then 
 	_G.FPS_event = 3
