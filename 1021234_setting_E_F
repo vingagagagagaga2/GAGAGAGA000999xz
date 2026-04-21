@@ -29,7 +29,7 @@ else
 	EVENT_or_FARM = "E" 
 end
 
-EVENT_or_FARM = "F" 
+--EVENT_or_FARM = "F" 
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
