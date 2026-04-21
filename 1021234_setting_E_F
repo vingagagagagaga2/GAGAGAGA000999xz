@@ -39,7 +39,7 @@ local function getRaidPoints()
 	return tonumber(saveData.Safe_S2RaidMaxDifficulty) or 0
 end
 if getRaidPoints() < 45000 then
-	--EVENT_or_FARM = "F" 
+	EVENT_or_FARM = "F" 
 end
 
 
