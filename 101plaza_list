@@ -30,11 +30,6 @@ getgenv().Settings_autoplaza = {
 
 -------------------------------------------------------------------------------
 
-{Name = "Spring Yellow Sunflower Token", Data = {Price = "2k"}},
-{Name = "Spring Red Tulip Token", 		 Data = {Price = "2k"}},
-{Name = "Spring Pink Rose Token",		 Data = {Price = "2k"}},
-{Name = "Spring Bluebell Token",		 Data = {Price = "2k"}},
-
 
 
 --------------------------------------------------------------------------------------
