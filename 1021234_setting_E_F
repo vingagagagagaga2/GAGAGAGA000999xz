@@ -57,6 +57,7 @@ end
 ----------------
     if name_vps == "V8" and name_vps == "V9" then        
         EVENT_or_FARM = "F"
+		_G.ACC_SUPER = true
     end
 if EVENT_or_FARM == "E"then
 	vinGWEBHOOK_LINK = dis_event
