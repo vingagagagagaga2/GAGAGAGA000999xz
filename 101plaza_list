@@ -30,6 +30,11 @@ getgenv().Settings_autoplaza = {
 
 -------------------------------------------------------------------------------
 
+{Name = "Huge Mushroom Snail", Data = {Price = 60 + math.random(1,5) .."m"}}, 
+{Name = "Huge Sunflower Calf ", Data = {Price = 40 + math.random(1,5) .."m"}}, 
+{Name = "Huge Spring Dino ", Data = {Price = 30 + math.random(1,5) .."m"}}, 
+{Name = "Huge Spring Dragon ", Data = {Price = 70 + math.random(1,5) .."m"}}, 
+{Name = "Huge Spring Onion ", Data = {Price = 30 + math.random(1,5) .."m"}}, 
 
 
 --------------------------------------------------------------------------------------
