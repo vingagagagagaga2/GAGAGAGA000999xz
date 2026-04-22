@@ -55,7 +55,7 @@ for _, name in ipairs(NAM_SUPER) do
     end
 end
 ----------------
-    if name_vps == "V8" and name_vps == "V9" then        
+    if name_vps == "V8" or name_vps == "V9" then        
         EVENT_or_FARM = "F"
 		_G.ACC_SUPER = true
     end
