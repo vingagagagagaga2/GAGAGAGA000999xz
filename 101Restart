@@ -82,7 +82,10 @@ end
 		--game.Players.LocalPlayer:Kick("kick F > E")
 	end
 --------
-
+if EVENT_or_FARM == "E" then
+getgenv().GHATCH_ENCHANTS = {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Huge Hunter","Super Shiny Hunter","Shiny Hunter"}
+getgenv().GENCHANTS = {"Treasure Hunter","Super Lightning","Explosive","Blast","Large Taps","Large Taps"}
+end
 --------
 task.wait(60)
 	if game.PlaceId == 119454325063278 or game.PlaceId == 95635359880599 then
