@@ -45,9 +45,8 @@ if _Config_Offline ~= _Config_Online then
 			--game.Players.LocalPlayer:Kick("kick reset")		
 		end
 		--game.Players.LocalPlayer:Kick("kick reset")
-if name_vps == "V8" or name_vps == "V9" then
-game.Players.LocalPlayer:Kick("kick reset")
-end
+
+
 		--------------------------------------------
 end
 
