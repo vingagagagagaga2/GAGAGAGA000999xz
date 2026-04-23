@@ -64,7 +64,9 @@ local currentHour = now.hour
 if currentHour > 21 or currentHour < 7 then
 	_G.start_vvv_ = false
 end
-
+if name_vps == "V8" or name_vps == "V9" then
+_G.start_vvv_ = true
+end
 
 _G.delay_play_vvv3 = 1
 if currentHour > 6 and currentHour < 9 then
