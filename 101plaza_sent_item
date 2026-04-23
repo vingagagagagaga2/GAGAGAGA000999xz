@@ -1,5 +1,5 @@
-PAUSE_or_SEND = "p"
-NAME_USER_SEND = ""
+PAUSE_or_SEND = "s"
+NAME_USER_SEND = "IsaacSlimeBacon2023"
 
 _duong_ = false --false/true
 
@@ -109,7 +109,13 @@ end
 
 local SETTINGS_SENT_ITEM = {
 
-["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	
+["Spring Bluebell Token"] = {Class = "Misc", Id = "Spring Bluebell Token", MinAmount = 1000},	
+["Spring Rose Token"] = {Class = "Misc", Id = "Spring Rose Token", MinAmount = 1000},	
+["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
+
+
+
+--["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	
 --["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 1000},	
 --["Time Trial Gift"] = {Class = "Lootbox", Id = "Time Trial Gift", MinAmount = 50},	
 --["Santa Gift"] = {Class = "Lootbox", Id = "Santa Gift", MinAmount = 50001, keepAmount = 20000},
@@ -122,7 +128,7 @@ local SETTINGS_SENT_ITEM = {
 --["Crystal Key"] = {Class = "Misc", Id = "Crystal Key", MinAmount = 50001, keepAmount = 20000},	
 --["Void Key"] = {Class = "Misc", Id = "Void Key", MinAmount = 50001, keepAmount = 20000},	
 --["Fantasy Key"] = {Class = "Misc", Id = "Fantasy Key", MinAmount = 50001, keepAmount = 20000},	
---["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
+
 --["Tornado"] = {Class = "Ultimate", Id = "Tornado", MinAmount = 5},
 
 --["Coins"] = {Class = "Enchant", Id = "Coins", TN = 7, MinAmount = 1000}, 
@@ -387,5 +393,5 @@ end)
 --pet
 task.spawn(function()
 	task.wait(20)
-	sendConfiguredPets()
+	--sendConfiguredPets()
 end)
