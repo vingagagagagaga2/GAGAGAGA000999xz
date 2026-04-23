@@ -83,7 +83,7 @@ end
 	end
 --------
 if EVENT_or_FARM == "E" then
-getgenv().GHATCH_ENCHANTS = {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Huge Hunter","Super Shiny Hunter","Shiny Hunter"}
+getgenv().GHATCH_ENCHANTS = {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Huge Hunter","Lucky Eggs","Shiny Hunter"}
 getgenv().GENCHANTS = {"Treasure Hunter","Super Lightning","Explosive","Large Taps","Large Taps","Large Taps"}
 getgenv().GEVENT_UPGRADES = {
     { Id = "Luck", MaxTier = 10 },
