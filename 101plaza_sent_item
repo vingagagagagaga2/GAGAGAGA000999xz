@@ -1,5 +1,5 @@
-PAUSE_or_SEND = "p"
-NAME_USER_SEND = ""
+PAUSE_or_SEND = "s"
+NAME_USER_SEND = "IsaacSlimeBacon2023"
 
 _duong_ = false --false/true
 
@@ -109,8 +109,10 @@ end
 
 local SETTINGS_SENT_ITEM = {
 
-["Spring Bluebell Token"] = {Class = "Misc", Id = "Spring Bluebell Token", MinAmount = 1000},	
-["Spring Rose Token"] = {Class = "Misc", Id = "Spring Rose Token", MinAmount = 1000},	
+["Spring Pink Rose Token"] = {Class = "Misc", Id = "Spring Pink Rose Token", MinAmount = 1000},	
+["Spring Yellow Sunflower Token"] = {Class = "Misc", Id = "Spring Yellow Sunflower Token", MinAmount = 1000},	
+["Spring Red Tulip Token"] = {Class = "Misc", Id = "Spring Red Tulip Token", MinAmount = 1000},	
+
 ["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
 
 
@@ -393,5 +395,5 @@ end)
 --pet
 task.spawn(function()
 	task.wait(20)
-	sendConfiguredPets()
+	--sendConfiguredPets()
 end)
