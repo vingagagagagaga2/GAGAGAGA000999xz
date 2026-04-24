@@ -86,7 +86,7 @@ if EVENT_or_FARM == "E" then
 getgenv().GHATCH_ENCHANTS = {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Huge Hunter","Lucky Eggs","Shiny Hunter"}
 getgenv().GENCHANTS = {"Treasure Hunter","Super Lightning","Explosive","Large Taps","Large Taps","Large Taps"}
 getgenv().GEVENT_UPGRADES = {
-    { Id = "CooldownAndAmount", MaxTier = 13 },
+    { Id = "CooldownAndAmount", MaxTier = 12 },
     { Id = "HatchSpeed", MaxTier = 5 },
     { Id = "Luck", MaxTier = 10 },
     { Id = "ShinyLuck", MaxTier = 5 },
