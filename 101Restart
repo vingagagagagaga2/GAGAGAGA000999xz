@@ -88,7 +88,7 @@ getgenv().GENCHANTS = {"Treasure Hunter","Super Lightning","Explosive","Large Ta
 getgenv().GEVENT_UPGRADES = {
     { Id = "CooldownAndAmount", MaxTier = 12 },
     { Id = "HatchSpeed", MaxTier = 5 },
-    { Id = "Luck", MaxTier = 10 },
+    { Id = "Luck", MaxTier = 12 },
     { Id = "ShinyLuck", MaxTier = 5 },
 }
 
