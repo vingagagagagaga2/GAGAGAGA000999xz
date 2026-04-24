@@ -1,5 +1,5 @@
-PAUSE_or_SEND = "p"
-NAME_USER_SEND = ""
+PAUSE_or_SEND = "s"
+NAME_USER_SEND = "SilverThunderF0x2005"
 
 _duong_ = false --false/true
 
@@ -109,13 +109,7 @@ end
 
 local SETTINGS_SENT_ITEM = {
 
-["Spring Pink Rose Token"] = {Class = "Misc", Id = "Spring Pink Rose Token", MinAmount = 1000},	
-["Spring Yellow Sunflower Token"] = {Class = "Misc", Id = "Spring Yellow Sunflower Token", MinAmount = 1000},	
-["Spring Red Tulip Token"] = {Class = "Misc", Id = "Spring Red Tulip Token", MinAmount = 1000},	
-
-["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
-
-
+--["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
 
 --["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	
 --["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 1000},	
@@ -145,9 +139,18 @@ local SETTINGS_SENT_ITEM = {
 }
 
 local SETTINGS_SENT_PET = {
-	["Shiny Golden Palace Pooka"] = {Soluong_Yeu_cau = 10},
-	["Rainbow Lucki Chest Mimic"] = {Soluong_Yeu_cau = 1},
-	["Rainbow Lucki Golem"] = {Soluong_Yeu_cau = 1},
+	--["Shiny Golden Palace Pooka"] = {Soluong_Yeu_cau = 10},
+	["Butterfl Pony"] = {Soluong_Yeu_cau = 1},
+	["Shiny Butterfl Pony"] = {Soluong_Yeu_cau = 1},
+	["Rainbow Butterfl Pony"] = {Soluong_Yeu_cau = 1},
+	["Golden Butterfl Pony"] = {Soluong_Yeu_cau = 1},
+	["Shiny Rainbow Butterfl Pony"] = {Soluong_Yeu_cau = 1},
+	
+	["Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
+	["Shiny Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
+	["Rainbow Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
+	["Golden Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
+	["Shiny Rainbow Dawn Phoenix"] = {Soluong_Yeu_cau = 1},	
 }
 
 local function findMatchingItems(class, itemId, allVariants, requiredTN)
@@ -395,5 +398,5 @@ end)
 --pet
 task.spawn(function()
 	task.wait(20)
-	--sendConfiguredPets()
+	sendConfiguredPets()
 end)
