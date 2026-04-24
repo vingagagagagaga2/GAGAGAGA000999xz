@@ -91,8 +91,9 @@ getgenv().GEVENT_UPGRADES = {
     { Id = "Luck", MaxTier = 10 },
     { Id = "ShinyLuck", MaxTier = 5 },
 }
-getgenv().GMAIL_ITEMS = {
 getgenv().GMAX_MAIL_COST = "4m"
+
+getgenv().GMAIL_ITEMS = {
 ["Blossom Gift"] = {Class = "Lootbox", Id = "Blossom Gift", MinAmount = 10},
 
 ["Butterfl Ponys"] = {Class = "Pet" ,Id = "Butterfl Pony",IsShiny = true, MinAmount = 1},
@@ -117,5 +118,3 @@ task.wait(60)
 		game.Players.LocalPlayer:Kick("FIFA") 
 	end
 end)
-
-
