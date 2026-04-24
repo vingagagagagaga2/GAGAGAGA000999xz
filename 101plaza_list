@@ -24,12 +24,31 @@ getgenv().Settings_autoplaza = {
 
 -------------------------------------------------------------------------------
 
-{Name = "Huge Mushroom Snail", Data = {Price = 60 + math.random(1,5) .."m"}}, 
-{Name = "Huge Sunflower Calf ", Data = {Price = 40 + math.random(1,5) .."m"}}, 
-{Name = "Huge Spring Dino ", Data = {Price = 30 + math.random(1,5) .."m"}}, 
-{Name = "Huge Spring Dragon ", Data = {Price = 70 + math.random(1,5) .."m"}}, 
-{Name = "Huge Spring Onion ", Data = {Price = 30 + math.random(1,5) .."m"}}, 
+{Name = "Huge Dawn Phoenix",    Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Huge Butterfly Pony",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Huge Leafy Yeti",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Huge Withered Agony",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Huge Spring Onion",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Huge Spring Dragon",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Huge Spring Dino",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Huge Mushroom Snail",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Huge Sunflower Calf ", Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Huge Bunny Cat ",    Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Huge Bandana Shiba ",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Huge Diamond Chick ",   Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
 
+{Name = "Golden Huge Dawn Phoenix",    Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Golden Huge Butterfly Pony",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Golden Huge Leafy Yeti",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Golden Huge Withered Agony",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Golden Huge Spring Onion",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Golden Huge Spring Dragon",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Golden Huge Spring Dino",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Golden Huge Mushroom Snail",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Golden Huge Sunflower Calf ", Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Golden Huge Bunny Cat ",    Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Golden Huge Bandana Shiba ",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
+{Name = "Golden Huge Diamond Chick ",   Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
 
 --------------------------------------------------------------------------------------
 
@@ -37,6 +56,7 @@ getgenv().Settings_autoplaza = {
 {Name = "EnchantV Corruption TN1", Data = {Price = 3300 + math.random(1,100) .."m"}},
 {Name = "2026 New Years Gift", Data = {Price = "350m"}},
 
+{Name = "Blossom Gift", Data = {Price = 3000 + math.random(1,50) .."k"}},
 {Name = "Time Trial Gift", Data = {Price = 250 + math.random(1,50) .."k"}},
 {Name = "Deep Sea Treasure Chest", Data = {Price = "7m"}},		
 
