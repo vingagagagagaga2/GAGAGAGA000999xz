@@ -145,13 +145,13 @@ local SETTINGS_SENT_PET = {
 	["Shiny Butterfly Pony"] = {Soluong_Yeu_cau = 1},
 	["Rainbow Butterfly Pony"] = {Soluong_Yeu_cau = 1},
 	["Golden Butterfly Pony"] = {Soluong_Yeu_cau = 1},
-	["Shiny Rainbow Butterfly Pony"] = {Soluong_Yeu_cau = 1},
+	["Shiny Golden Butterfly Pony"] = {Soluong_Yeu_cau = 1},
 	
 	["Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
 	["Shiny Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
 	["Rainbow Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
 	["Golden Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
-	["Shiny Rainbow Dawn Phoenix"] = {Soluong_Yeu_cau = 1},	
+	["Shiny Golden Dawn Phoenix"] = {Soluong_Yeu_cau = 1},	
 }
 
 local function findMatchingItems(class, itemId, allVariants, requiredTN)
