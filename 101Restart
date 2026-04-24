@@ -91,6 +91,24 @@ getgenv().GEVENT_UPGRADES = {
     { Id = "Luck", MaxTier = 10 },
     { Id = "ShinyLuck", MaxTier = 5 },
 }
+getgenv().GMAIL_ITEMS = {
+getgenv().GMAX_MAIL_COST = "4m"
+["Blossom Gift"] = {Class = "Lootbox", Id = "Blossom Gift", MinAmount = 10},
+
+["Butterfl Ponys"] = {Class = "Pet" ,Id = "Butterfl Pony",IsShiny = true, MinAmount = 1},
+["Butterfl Pony"] = {Class = "Pet" ,Id = "Butterfl Pony", MinAmount = 20},
+["Butterfl PonyG"] = {Class = "Pet" ,Id = "Butterfl Pony", IsGold = true , MinAmount = 5},
+["Butterfl PonyRB"] = {Class = "Pet" ,Id = "Butterfl Pony", IsRainbow = true , MinAmount = 2, KeepAmount = 1},
+["Butterfl PonyIsShiny"] = {Class = "Pet", Id = "Butterfl Pony", IsRainbow = true, IsShiny = true,  MinAmount = 2, KeepAmount = 1},
+
+["Dawn Phoenixs"] = {Class = "Pet" ,Id = "Dawn Phoenix",IsShiny = true,  MinAmount = 1},
+["Dawn Phoenix"] = {Class = "Pet" ,Id = "Dawn Phoenix",  MinAmount = 10},
+["Dawn PhoenixG"] = {Class = "Pet" ,Id = "Dawn Phoenix", IsGold = true , MinAmount = 1},
+["Dawn PhoenixRB"] = {Class = "Pet" ,Id = "Dawn Phoenix", IsRainbow = true , MinAmount = 2, KeepAmount = 1},
+["Dawn PhoenixIsShiny"] = {Class = "Pet", Id = "Dawn Phoenix", IsRainbow = true, IsShiny = true,  MinAmount = 2, KeepAmount = 1},
+
+}
+
 
 end
 --------
