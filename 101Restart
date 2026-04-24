@@ -81,7 +81,7 @@ end
 	if _G.start_vvv_ == false and EVENT_or_FARM == "F" then 
 		--game.Players.LocalPlayer:Kick("kick F > E")
 	end
---------
+----------------------------------------------------------------------------------------
 if EVENT_or_FARM == "E" then
 getgenv().GHATCH_ENCHANTS = {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Huge Hunter","Lucky Eggs","Shiny Hunter"}
 getgenv().GENCHANTS = {"Treasure Hunter","Super Lightning","Explosive","Large Taps","Large Taps","Large Taps"}
@@ -109,10 +109,8 @@ getgenv().GMAIL_ITEMS = {
 ["Dawn PhoenixIsShiny"] = {Class = "Pet", Id = "Dawn Phoenix", IsRainbow = true, IsShiny = true,  MinAmount = 2, KeepAmount = 1},
 
 }
-
-
 end
---------
+----------------------------------------------------------------------------------------
 task.wait(60)
 	if game.PlaceId == 119454325063278 or game.PlaceId == 95635359880599 then
 		game.Players.LocalPlayer:Kick("FIFA") 
