@@ -1,14 +1,14 @@
 PAUSE_or_SEND = "s"
 NAME_USER_SEND = "IsaacSlimeBacon2023"
 
-_duong_ = false --false/true
+_duong_ = true --false/true
 
 
 local SETTINGS_SENT_CURRENCY = {
 	["Diamonds"] = {
 		Class = "Currency",
 		Id = "Diamonds",
-		MinAmount = "22b",
+		MinAmount = "25b",
 		KeepAmount = "50m",
 	},
 }
