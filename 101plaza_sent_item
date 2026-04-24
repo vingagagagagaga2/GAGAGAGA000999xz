@@ -140,11 +140,12 @@ local SETTINGS_SENT_ITEM = {
 
 local SETTINGS_SENT_PET = {
 	--["Shiny Golden Palace Pooka"] = {Soluong_Yeu_cau = 10},
-	["Butterfl Pony"] = {Soluong_Yeu_cau = 1},
-	["Shiny Butterfl Pony"] = {Soluong_Yeu_cau = 1},
-	["Rainbow Butterfl Pony"] = {Soluong_Yeu_cau = 1},
-	["Golden Butterfl Pony"] = {Soluong_Yeu_cau = 1},
-	["Shiny Rainbow Butterfl Pony"] = {Soluong_Yeu_cau = 1},
+
+	["Butterfly Pony"] = {Soluong_Yeu_cau = 1},
+	["Shiny Butterfly Pony"] = {Soluong_Yeu_cau = 1},
+	["Rainbow Butterfly Pony"] = {Soluong_Yeu_cau = 1},
+	["Golden Butterfly Pony"] = {Soluong_Yeu_cau = 1},
+	["Shiny Rainbow Butterfly Pony"] = {Soluong_Yeu_cau = 1},
 	
 	["Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
 	["Shiny Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
