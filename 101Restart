@@ -1,7 +1,10 @@
 task.spawn(function()
 
 ------------------------+++
-
+_G.NAME_USER_SEND = ""
+_G.send_hg_more50 = ""
+_G.send_hg_rb_shiny = ""
+_G.send_pet_dame= ""
 ------------------------+++
 _G.start_vvv_ = true
 if _G.ACC_SUPER == true then
