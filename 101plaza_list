@@ -14,10 +14,10 @@ getgenv().Settings_autoplaza = {
 {Name = "Golden Titanic Starlight Pony", Data = {Price = 6.25 + math.random(1,10)*0.01 .."b"}}, 
 {Name = "Titanic Starlight Pony", Data = {Price = 5.65 + math.random(1,10)*0.01 .."b"}}, 
 
-{Name = "Titanic Irish Badger", Data = {Price = 5.7 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Irish Badger", Data = {Price = 5.65 + math.random(1,10)*0.01 .."b"}},
 {Name = "Titanic Tiedye Corgi", Data = {Price = 5.25 + math.random(1,10)*0.01 .."b"}},
-{Name = "Titanic Withered Agony", Data = {Price = 7 + math.random(1,10)*0.01 .."b"}},
-{Name = "Golden Titanic Withered Agony", Data = {Price = 7.95 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Withered Agony", Data = {Price = 6.85 + math.random(1,10)*0.01 .."b"}},
+{Name = "Golden Titanic Withered Agony", Data = {Price = 7.5 + math.random(1,10)*0.01 .."b"}},
 {Name = "Rainbow Titanic Withered Agony", Data = {Price = 25 + math.random(1,10)*0.01 .."b"}},
 {Name = "Titanic Diamond Monkey", Data = {Price = 6 + math.random(1,10)*0.01 .."b"}},
 
