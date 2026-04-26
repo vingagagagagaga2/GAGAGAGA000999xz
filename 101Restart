@@ -83,40 +83,6 @@ end
 	end
 ----------------------------------------------------------------------------------------
 if EVENT_or_FARM == "E" then
-getgenv().GHATCH_ENCHANTS = {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Huge Hunter","Lucky Eggs","Shiny Hunter"}
-getgenv().GENCHANTS = {"Treasure Hunter","Super Lightning","Explosive","Large Taps","Large Taps","Large Taps"}
-getgenv().GEVENT_UPGRADES = {
-    { Id = "CooldownAndAmount", MaxTier = 12 },
-    { Id = "HatchSpeed", MaxTier = 5 },
-    { Id = "Luck", MaxTier = 12 },
-    { Id = "ShinyLuck", MaxTier = 5 },
-}
-
-getgenv().GMAX_MAIL_COST = "5m"
-getgenv().GMAIL_ITEMS = {
-
-["Harvest egg"] = {Class = "Egg", Id = "Exclusive Egg 57", MinAmount = 1},
-["Daycare egg 5"] = {Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1},
-["Blossom Gift"] = {Class = "Lootbox", Id = "Blossom Gift", MinAmount = 5},
-
-
-["Butterfly Ponys"] = {Class = "Pet" ,Id = "Butterfly Pony",IsShiny = true, MinAmount = 1},
-["Butterfly Pony"] = {Class = "Pet" ,Id = "Butterfly Pony", MinAmount = 20},
-["Butterfly PonyG"] = {Class = "Pet" ,Id = "Butterfly Pony", IsGold = true , MinAmount = 5},
-["Butterfly PonyRB"] = {Class = "Pet" ,Id = "Butterfly Pony", IsRainbow = true , MinAmount = 2, KeepAmount = 1},
-["Butterfly PonyIsShiny"] = {Class = "Pet", Id = "Butterfly Pony", IsRainbow = true, IsShiny = true,  MinAmount = 1},
-["Butterfly PonyIsShinyG"] = {Class = "Pet", Id = "Butterfly Pony", IsGold = true, IsShiny = true,  MinAmount = 1},
-
-["Dawn Phoenixs"] = {Class = "Pet" ,Id = "Dawn Phoenix",IsShiny = true,  MinAmount = 1},
-["Dawn Phoenix"] = {Class = "Pet" ,Id = "Dawn Phoenix",  MinAmount = 10},
-["Dawn PhoenixG"] = {Class = "Pet" ,Id = "Dawn Phoenix", IsGold = true , MinAmount = 1},
-["Dawn PhoenixRB"] = {Class = "Pet" ,Id = "Dawn Phoenix", IsRainbow = true , MinAmount = 2, KeepAmount = 1},
-["Dawn PhoenixIsShiny"] = {Class = "Pet", Id = "Dawn Phoenix", IsRainbow = true, IsShiny = true,  MinAmount = 1},
-["Dawn PhoenixIsShinyG"] = {Class = "Pet", Id = "Dawn Phoenix", IsGold = true, IsShiny = true,  MinAmount = 1},
-
-}
-getgenv().GMAIL_RECEIVERS = {"N3xusthornP3bbl3","MrsBenbl00m","StarryMagicFrost","ItsCookieoak","NovaStormyRift","ITSJACOB_gl33","NexusKen_Shine2003","Arr0wGh0stCraz3","MrsLuke_Glitch","JackVortexDew"}
-
 
 end
 ----------------------------------------------------------------------------------------
