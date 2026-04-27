@@ -1,6 +1,16 @@
 task.spawn(function()
 
 ------------------------+++
+
+getgenv().GEVENT_UPGRADES = {
+    { Id = "Luck", MaxTier = 10 },
+    { Id = "ShinyLuck", MaxTier = 5 },
+    { Id = "HatchSpeed", MaxTier = 5 },
+    { Id = "CooldownAndAmount", MaxTier = 10},
+    { Id = "HugeLuck", MaxTier = 20},
+    { Id = "TitanicLuck", MaxTier = 20},
+}
+
 getgenv().GEASTER_HATCH_EVENT_DO_BOSS_CHESTS = true
 getgenv().GMAIL_ITEMS = {
 
