@@ -2,6 +2,15 @@ task.spawn(function()
 
 ------------------------+++
 getgenv().GEASTER_HATCH_EVENT_DO_BOSS_CHESTS = true
+getgenv().GMAIL_ITEMS = {
+
+["Harvest egg"] = {Class = "Egg", Id = "Exclusive Egg 57", MinAmount = 1},
+["Daycare egg 5"] = {Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1},
+["Blossom Gift"] = {Class = "Lootbox", Id = "Blossom Gift", MinAmount = 5},
+["Magic Shard"] = {Class = "Misc", Id = "Magic Shard", Amount = 20},
+["Bucket O' Magic"] = {Class = "Misc", Id = "Bucket O' Magic", Amount = 20},
+
+}
 ------------------------+++
 _G.start_vvv_ = true
 if _G.ACC_SUPER == true then
