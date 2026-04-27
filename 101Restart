@@ -11,7 +11,8 @@ getgenv().GEVENT_UPGRADES = {
     { Id = "TitanicLuck", MaxTier = 20},
 }
 getgenv().GUSE_ULTIMATES = {"UFO","Tornado","Tsunami","Lightning Storm","Pet Surge"}
-
+getgenv().GHATCH_ENCHANTS = {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Huge Hunter","Lucky Eggs","Shiny Hunter"}
+getgenv().GENCHANTS = {"Magic Orb","Magic Orb","Magic Orb","Explosive","Tap Teamwork","Tap Teamwork","Magic Orb","Exotic Pet","Super Lightning"}
 
 getgenv().GEASTER_HATCH_EVENT_DO_BOSS_CHESTS = true
 getgenv().GMAIL_ITEMS = {
