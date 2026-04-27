@@ -108,8 +108,8 @@ local SaveModule = require(Client:WaitForChild("Save"))
 
 -- Cấu hình
 local COST_PER_CAST = 50       -- Chi phí mỗi lượt
-local MIN_TOTAL_TO_START = 500 -- Điều kiện để bắt đầu chạy
-local MAX_CASTS = 100          -- Giới hạn tối đa 100 lần
+local MIN_TOTAL_TO_START = 4500 -- Điều kiện để bắt đầu chạy
+local MAX_CASTS = 90          -- Giới hạn tối đa 100 lần
 local ITEMS = {
     ["Magic Shard"] = "Misc",
     ["Bucket O' Magic"] = "Misc"
