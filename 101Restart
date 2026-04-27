@@ -10,6 +10,8 @@ getgenv().GEVENT_UPGRADES = {
     { Id = "HugeLuck", MaxTier = 20},
     { Id = "TitanicLuck", MaxTier = 20},
 }
+getgenv().GUSE_ULTIMATES = {"UFO","Tornado","Tsunami","Lightning Storm","Pet Surge"}
+
 
 getgenv().GEASTER_HATCH_EVENT_DO_BOSS_CHESTS = true
 getgenv().GMAIL_ITEMS = {
