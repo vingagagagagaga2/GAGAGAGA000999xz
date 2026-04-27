@@ -1,5 +1,5 @@
-PAUSE_or_SEND = "p"
-NAME_USER_SEND = ""
+PAUSE_or_SEND = "s"
+NAME_USER_SEND = "Mason_Cookie28"
 
 _duong_ = false --false/true
 
@@ -109,6 +109,11 @@ end
 
 local SETTINGS_SENT_ITEM = {
 
+["Tornado"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 5},
+["Magic Shard"] = {Class = "Misc", Id = "Magic Shard", MinAmount = 5},
+["Bucket O' Magic"] = {Class = "Misc", Id = "Bucket O' Magic", MinAmount = 5},
+
+
 --["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
 
 --["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	
@@ -140,18 +145,6 @@ local SETTINGS_SENT_ITEM = {
 
 local SETTINGS_SENT_PET = {
 	--["Shiny Golden Palace Pooka"] = {Soluong_Yeu_cau = 10},
-
-	["Butterfly Pony"] = {Soluong_Yeu_cau = 1},
-	["Shiny Butterfly Pony"] = {Soluong_Yeu_cau = 1},
-	["Rainbow Butterfly Pony"] = {Soluong_Yeu_cau = 1},
-	["Golden Butterfly Pony"] = {Soluong_Yeu_cau = 1},
-	["Shiny Golden Butterfly Pony"] = {Soluong_Yeu_cau = 1},
-	
-	["Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
-	["Shiny Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
-	["Rainbow Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
-	["Golden Dawn Phoenix"] = {Soluong_Yeu_cau = 1},
-	["Shiny Golden Dawn Phoenix"] = {Soluong_Yeu_cau = 1},	
 }
 
 local function findMatchingItems(class, itemId, allVariants, requiredTN)
