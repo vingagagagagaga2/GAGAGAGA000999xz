@@ -20,7 +20,7 @@ getgenv().GMAIL_ITEMS = {
 ["Harvest egg"] = {Class = "Egg", Id = "Exclusive Egg 57", MinAmount = 1},
 ["Daycare egg 5"] = {Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1},
 ["Blossom Gift"] = {Class = "Lootbox", Id = "Blossom Gift", MinAmount = 20},
-["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 4,keepAmount = 3},
+["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 5,keepAmount = 4},
 
 }
 getgenv().GMAIL_RECEIVERS = {"MrsHazelDrift2020","vincedriftGrove2008Y","TheRealLuckyFrost","KylieShadeWizard","NexusBenjamin_Enigma","TheRealzippyRipplegl","BrooklynFuryLuminos","NexusB0ulderembergus","JacobOrbitz2010","ItsHarryRift2019","N3xusthornP3bbl3","MrsBenbl00m","StarryMagicFrost","ItsCookieoak","NovaStormyRift","ITSJACOB_gl33","NexusKen_Shine2003","Arr0wGh0stCraz3","MrsLuke_Glitch","JackVortexDew","ChillMaster2011","Claw_knoll","FusionShadowCyber","DYLAN_Z00m","1953Crutchfield3117","WolfPix3lStr3am2017","GlitchF0x34"}
