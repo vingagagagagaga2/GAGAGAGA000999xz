@@ -19,7 +19,7 @@ getgenv().GMAIL_ITEMS = {
 
 ["Harvest egg"] = {Class = "Egg", Id = "Exclusive Egg 57", MinAmount = 1},
 ["Daycare egg 5"] = {Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1},
-["Blossom Gift"] = {Class = "Lootbox", Id = "Blossom Gift", MinAmount = 5},
+["Blossom Gift"] = {Class = "Lootbox", Id = "Blossom Gift", MinAmount = 20},
 ["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 3,keepAmount = 2},
 
 }
