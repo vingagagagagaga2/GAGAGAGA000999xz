@@ -1,7 +1,7 @@
 task.spawn(function()
 
 ------------------------+++
-
+getgenv().GEASTER_HATCH_EVENT_DO_BOSS_CHESTS = true
 ------------------------+++
 _G.start_vvv_ = true
 if _G.ACC_SUPER == true then
