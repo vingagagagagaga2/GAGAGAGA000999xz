@@ -1,6 +1,14 @@
 task.spawn(function()
 
 ------------------------+++
+getgenv().GEVENT_UPGRADES = {
+    { Id = "Luck", MaxTier = 5 },
+    { Id = "ShinyLuck", MaxTier = 5 },
+    { Id = "HatchSpeed", MaxTier = 5 },
+    { Id = "CooldownAndAmount", MaxTier = 5},
+    { Id = "HugeLuck", MaxTier = 20},
+    { Id = "TitanicLuck", MaxTier = 20},
+}
 
 ------------------------+++
 _G.start_vvv_ = true
