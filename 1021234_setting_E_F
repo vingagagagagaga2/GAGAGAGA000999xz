@@ -47,8 +47,8 @@ local NAM_SUPER = {"sollarleats","8402Whitehead9566","redman721212","Thienktdept
 local playerName = game.Players.LocalPlayer.Name
 for _, name in ipairs(NAM_SUPER) do
     if playerName == name then
-        EVENT_or_FARM = "F"
-		_G.ACC_SUPER = true
+        --EVENT_or_FARM = "F"
+		--_G.ACC_SUPER = true
         break
     end
 end
@@ -57,6 +57,7 @@ end
         EVENT_or_FARM = "F"
 		_G.ACC_SUPER = true
     end
+
 if EVENT_or_FARM == "E"then
 	vinGWEBHOOK_LINK = dis_event
 else
