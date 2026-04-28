@@ -90,6 +90,9 @@ getgenv().GMAIL_ITEMS = {
 
 ["Exclusive Egg 60"] = {Class = "Egg", Id= "Exclusive Egg 60", MinAmount = 1},
 
+["Magic Shard"] = {Class = "Egg", Id= "Magic Shard", MinAmount = 20},
+["Bucket O' Magic"] = {Class = "Egg", Id= "Bucket O' Magic", MinAmount = 20},
+
 --["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 1000, KeepAmount = 500},
 --["Diamonds"] = {Class = "Potion", Tier = 9 ,Id = "Diamonds", MinAmount = 1000, KeepAmount = 500},
 ["Mega Charm Chest"] = {Class = "Lootbox", Id = "Mega Charm Chest", MinAmount = 1},
@@ -97,6 +100,7 @@ getgenv().GMAIL_ITEMS = {
 ["Mega Ultimate Chest"] = {Class = "Lootbox", Id = "Mega Ultimate Chest", MinAmount = 2},
 ["Mega Enchant Chest"] = {Class = "Lootbox", Id = "Mega Enchant Chest", MinAmount = 5},
 ["Mega Potion Chest"] = {Class = "Lootbox", Id = "Mega Potion Chest", MinAmount = 5},
+["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 5,keepAmount = 4},
 
 }
 
