@@ -2,10 +2,10 @@ task.spawn(function()
 
 ------------------------+++
 getgenv().GEVENT_UPGRADES = {
-    { Id = "Luck", MaxTier = 20 },
-    { Id = "ShinyLuck", MaxTier = 20 },
-    { Id = "HatchSpeed", MaxTier = 20 },
-    { Id = "CooldownAndAmount", MaxTier = 20},
+    { Id = "Luck", MaxTier = 10 },
+    { Id = "ShinyLuck", MaxTier = 5 },
+    { Id = "HatchSpeed", MaxTier = 5 },
+    { Id = "CooldownAndAmount", MaxTier = 12},
     { Id = "HugeLuck", MaxTier = 20},
     { Id = "TitanicLuck", MaxTier = 20},
 }
