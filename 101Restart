@@ -11,10 +11,6 @@ getgenv().GEVENT_UPGRADES = {
     { Id = "TitanicLuck", MaxTier = 2 },
 }
 
-getgenv().GMAIL_ITEMS = {
-["Large Taps"] = {Class = "Enchant", Id = "Large Taps", MinAmount = 100,keepAmount = 5},
-}
-getgenv().GMAIL_RECEIVERS = {"Mason_Cookie28"}
 
 ------------------------+++
 _G.start_vvv_ = true
