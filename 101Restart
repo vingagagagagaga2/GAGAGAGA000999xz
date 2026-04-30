@@ -167,7 +167,7 @@ end
 
 -- Thực thi
 RunMagicMachine()
-
+getgenv().GUSE_FLAGS = {"Magnet Flag"}
 end
 ----------------------------------------------------------------------------------------
 task.wait(60)
