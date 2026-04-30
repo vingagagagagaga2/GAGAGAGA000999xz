@@ -2,14 +2,6 @@ task.spawn(function()
 
 ------------------------+++
 
-getgenv().GEVENT_UPGRADES = {
-    { Id = "Luck", MaxTier = 20 },
-    { Id = "ShinyLuck", MaxTier = 5 },
-    { Id = "HatchSpeed", MaxTier = 5},
-    { Id = "CooldownAndAmount", MaxTier = 20},
-    { Id = "HugeLuck", MaxTier = 20 },
-    { Id = "TitanicLuck", MaxTier = 20 },
-}
 
 ------------------------+++
 _G.start_vvv_ = true
@@ -166,18 +158,6 @@ end
 
 -- Thực thi
 RunMagicMachine()
-
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Save = require(ReplicatedStorage.Library.Client.Save)
-local saveData = Save.Get()
-local upgrades = saveData and saveData.EventUpgrades or {}
-local Easter2026ActiveEgg = tonumber( saveData and saveData.Easter2026ActiveEgg or {} )
-
-if Easter2026ActiveEgg == 8 then
-	getgenv().GEASTER_HATCH_EVENT_TOKENS_TO_FARM_AFTER_ALL_UPGRADES = {"Spring Bluebell Token"}
-	getgenv().GEASTER_HATCH_EVENT_DO_BOSS_CHESTS = false
-    getgenv().GENCHANTS = {"Large Taps","Large Taps","Large Taps","Explosive","Super Lightning","Treasure Hunter","Treasure Hunter","Large Taps","Large Taps"}
-end
 
 end
 ----------------------------------------------------------------------------------------
