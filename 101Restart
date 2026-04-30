@@ -6,10 +6,15 @@ getgenv().GEVENT_UPGRADES = {
     { Id = "Luck", MaxTier = 10 },
     { Id = "ShinyLuck", MaxTier = 5 },
     { Id = "HatchSpeed", MaxTier = 5},
-    { Id = "CooldownAndAmount", MaxTier = 10},
+    { Id = "CooldownAndAmount", MaxTier = 10 , BuyMoreWhenHatching = true},
     { Id = "HugeLuck", MaxTier = 2 },
     { Id = "TitanicLuck", MaxTier = 2 },
 }
+
+getgenv().GMAIL_ITEMS = {
+["Large Taps"] = {Class = "Enchant", Id = "Large Taps", MinAmount = 100,keepAmount = 5},
+}
+getgenv().GMAIL_RECEIVERS = {"Mason_Cookie28"}
 
 ------------------------+++
 _G.start_vvv_ = true
