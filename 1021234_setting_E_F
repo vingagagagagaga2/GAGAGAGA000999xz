@@ -52,6 +52,9 @@ for _, name in ipairs(NAM_SUPER) do
         break
     end
 end
+if _G.POINT_TIMEtrial > 4999 then
+EVENT_or_FARM = "F"
+end
 ----------------
     if name_vps == "Vx8" or name_vps == "Vx9" then        
         EVENT_or_FARM = "F"
