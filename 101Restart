@@ -163,11 +163,11 @@ RunMagicMachine()
 getgenv().GUSE_FLAGS = {"Magnet Flag"}
 getgenv().GEVENT_UPGRADES = {
     { Id = "Luck", MaxTier = 10 , BuyMoreWhenHatching = true },
-    { Id = "ShinyLuck", MaxTier = 5 },
-    { Id = "HatchSpeed", MaxTier = 5},
+    { Id = "ShinyLuck", MaxTier = 5 , BuyMoreWhenHatching = true},
+    { Id = "HatchSpeed", MaxTier = 5 , BuyMoreWhenHatching = true},
     { Id = "CooldownAndAmount", MaxTier = 17},
-    { Id = "HugeLuck", MaxTier = 10 },
-    { Id = "TitanicLuck", MaxTier = 10 },
+    { Id = "HugeLuck", MaxTier = 10 , BuyMoreWhenHatching = true},
+    { Id = "TitanicLuck", MaxTier = 10 , BuyMoreWhenHatching = true},
 }
 end
 ----------------------------------------------------------------------------------------
