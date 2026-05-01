@@ -9,9 +9,9 @@ itemsToTrack_plaza = {
 
 
 	{ id = "Bucket O' Magic", 		guiName = "Item21", row = 0, col = 0, color = Color3.fromRGB(255, 165, 0) },		-- cam
-	{ id = "Spring Red Tulip Token", 	guiName = "Item22", row = 0, col = 1, color = Color3.fromRGB(255, 255, 255) },				--trang
-	{ id = "Spring Pink Rose Token", 			guiName = "Item23", row = 0, col = 2, color = Color3.fromRGB(255, 0, 0) },				--đỏ
-	{ id = "Spring Yellow Sunflower Token", 	guiName = "Item24", row = 0, col = 3, color = Color3.fromRGB(255, 165, 0) },		-- cam
-	{ id = "Spring Bluebell Token", 			guiName = "Item25", row = 0, col = 4, color = Color3.fromRGB(0, 255, 0) },		--xanh lá cây
+	{ id = "Magic Orb", 	guiName = "Item22", row = 0, col = 1, color = Color3.fromRGB(255, 255, 255) },				--trang
+	{ id = "Magic Orb", 			guiName = "Item23", row = 0, col = 2, color = Color3.fromRGB(255, 0, 0) },				--đỏ
+	{ id = "Magic Orb", 	guiName = "Item24", row = 0, col = 3, color = Color3.fromRGB(255, 165, 0) },		-- cam
+	{ id = "Magic Orb", 			guiName = "Item25", row = 0, col = 4, color = Color3.fromRGB(0, 255, 0) },		--xanh lá cây
 
 }
