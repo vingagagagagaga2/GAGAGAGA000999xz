@@ -165,7 +165,7 @@ getgenv().GEVENT_UPGRADES = {
     { Id = "Luck", MaxTier = 10 , BuyMoreWhenHatching = true },
     { Id = "ShinyLuck", MaxTier = 5 , BuyMoreWhenHatching = true},
     { Id = "HatchSpeed", MaxTier = 5 , BuyMoreWhenHatching = true},
-    { Id = "CooldownAndAmount", MaxTier = 15 , BuyMoreWhenHatching = false},
+    { Id = "CooldownAndAmount", MaxTier = 15 , BuyMoreWhenHatching = true},
     { Id = "HugeLuck", MaxTier = 10 , BuyMoreWhenHatching = true},
     { Id = "TitanicLuck", MaxTier = 10 , BuyMoreWhenHatching = true},
 }
