@@ -7,7 +7,7 @@ if EVENT_or_FARM == "E" then
 end
 
 ------------------------+++
-_G.start_vvv_ = false
+_G.start_vvv_ = true
 if _G.ACC_SUPER == true then
 	_G.FPS_farm = 5
 else
@@ -87,89 +87,6 @@ local rank = Save.Get().Rank
 ----------------------------------------------------------------------------------------
 if EVENT_or_FARM == "E" then
 
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
-local SaveModule = require(Client:WaitForChild("Save"))
-
--- Cấu hình
-local COST_PER_CAST = 50       -- Chi phí mỗi lượt
-local MIN_TOTAL_TO_START = 4500 -- Điều kiện để bắt đầu chạy
-local MAX_CASTS = 90          -- Giới hạn tối đa 100 lần
-local ITEMS = {
-    ["Magic Shard"] = "Misc",
-    ["Bucket O' Magic"] = "Misc"
-}
-
--- Hàm kiểm tra tổng số lượng vật phẩm hiện có
-local function GetInventoryStats()
-    local saveData = SaveModule.Get()
-    if not saveData or not saveData.Inventory then return 0 end
-    
-    local totalItems = 0
-    for itemName, className in pairs(ITEMS) do
-        local classInventory = saveData.Inventory[className]
-        if classInventory then
-            for _, obj in pairs(classInventory) do
-                if obj.id == itemName then
-                    totalItems = totalItems + (obj._am or 1)
-                end
-            end
-        end
-    end
-    return totalItems
-end
-
-local function RunMagicMachine()
-    local currentTotal = GetInventoryStats()
-    
-    -- Kiểm tra điều kiện 500 cái mới bắt đầu
-    if currentTotal < MIN_TOTAL_TO_START then
-        warn(string.format("❌ Chưa đủ điều kiện: Cần tổng 500 cái (Hiện có: %d)", currentTotal))
-        return
-    end
-
-    -- Tính toán số lượt có thể chạy (tối đa 100 hoặc theo số lượng đồ đang có)
-    local possibleCasts = math.floor(currentTotal / COST_PER_CAST)
-    local finalCasts = math.min(possibleCasts, MAX_CASTS)
-    
-    print(string.format("✨ Điều kiện thỏa mãn! Tổng đồ: %d. Sẽ chạy: %d lượt.", currentTotal, finalCasts))
-    
-    for i = 1, finalCasts do
-        -- Thực hiện lệnh Network
-        local success, err = pcall(function()
-            return ReplicatedStorage.Network.MagicMachine_Activate:InvokeServer("Magic Orb")
-        end)
-        
-        if success then
-            print(string.format("✅ Lượt %d/%d thành công", i, finalCasts))
-        else
-            warn(string.format("⚠️ Lượt %d thất bại: %s", i, tostring(err)))
-            break -- Dừng lại nếu gặp lỗi server để tránh mất đồ
-        end
-        
-        task.wait(0.5) -- Nghỉ 0.5 giây giữa các lần
-        
-        -- Kiểm tra lại túi đồ mỗi lượt để đảm bảo không bị lỗi âm đồ
-        if GetInventoryStats() < COST_PER_CAST then
-            print("🛑 Hết nguyên liệu, dừng script.")
-            break
-        end
-    end
-    
-    print("🏁 Quá trình kết thúc!")
-end
-
--- Thực thi
-RunMagicMachine()
-getgenv().GUSE_FLAGS = {"Magnet Flag"}
-getgenv().GEVENT_UPGRADES = {
-    { Id = "Luck", MaxTier = 10 , BuyMoreWhenHatching = true },
-    { Id = "ShinyLuck", MaxTier = 5 , BuyMoreWhenHatching = true},
-    { Id = "HatchSpeed", MaxTier = 5 , BuyMoreWhenHatching = true},
-    { Id = "CooldownAndAmount", MaxTier = 15 , BuyMoreWhenHatching = true},
-    { Id = "HugeLuck", MaxTier = 10 , BuyMoreWhenHatching = true},
-    { Id = "TitanicLuck", MaxTier = 10 , BuyMoreWhenHatching = true},
-}
 end
 ----------------------------------------------------------------------------------------
 task.wait(60)
