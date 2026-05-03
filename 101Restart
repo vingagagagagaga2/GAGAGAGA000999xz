@@ -14,7 +14,7 @@ local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
 local rank = Save.Get().Rank
 _G.start_vvv_ = false
 if rank > 19 then 
-	_G.start_vvv_ = true
+	_G.start_vvv_ = false
 end
 
 
