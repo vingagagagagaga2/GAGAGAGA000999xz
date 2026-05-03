@@ -9,7 +9,15 @@ end
 getgenv().GHATCH_CHARGED_EGGS = true
 getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata","Party Box","Mini Lucky Block"}
 ------------------------+++
-_G.start_vvv_ = true
+
+local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local rank = Save.Get().Rank
+_G.start_vvv_ = false
+if rank > 19 then 
+	_G.start_vvv_ = true
+end
+
+
 
 if _G.ACC_SUPER == true then
 	_G.FPS_farm = 5
