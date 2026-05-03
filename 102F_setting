@@ -11,7 +11,6 @@ task.wait(36*3600)
 game.Players.LocalPlayer:Kick("kick 24h")
 end)
 
-getgenv().GLOOTBOXES = {"Locked Hype Egg","Candycane Gift","Santa Gift"}
 
 --getgenv().GRANK_FIRST = true
 getgenv().GZONE_TO = 999
@@ -21,25 +20,7 @@ getgenv().GGFX_MODE = 1
 
 getgenv().GCLEAR_FAVORITE_PETS = true
 
-if game.PlaceId == 119454325063278 then 
-		getgenv().GDO_FARMING_WORLD = true
-    getgenv().GEVENT_UPGRADES = {
-            "FarmingHugeChance",
-            "FarmingTitanicChance",
-            "FarmingPixelRainbowLuck",
-            "FarmingGoldHatchChance",
-            "FarmingRainbowHatchChance",
-            "FarmingShinyHatchChance"
-        }
-		getgenv().GENCHANTS = {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Huge Hunter","Treasure Hunter","Diamonds"}        
-elseif game.PlaceId == 95635359880599 then
-		getgenv().GDO_FISHING_EVENT = true
-    getgenv().GUSE_BOOSTS = true
-		getgenv().GENCHANTS = {"Lucky Eggs","Lucky Eggs","Lucky Eggs","Huge Hunter","Treasure Hunter","Diamonds"}
-else
-    getgenv().GENCHANTS = {"Explosive","Criticals","Lucky Eggs","Diamonds","Treasure Hunter","Super Lightning","Diamonds","Huge Hunter","Tap Power"}
-end
-
+getgenv().GENCHANTS = {"Strong Pets","Criticals","Tap Power","Super Lightning","Lucky Eggs","Treasure Hunter","Lucky Eggs","Huge Hunter","Diamonds"}
 
 -----------------------
 getgenv().GUSE_SPINNY_WHEEL = true
@@ -76,7 +57,7 @@ getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
 
 getgenv().GCOMBINE_MACHINE_OUTPUT = "Titanic Fantasy Present"
-getgenv().GLOOTBOXES = {"Titanic Fantasy Present"}
+getgenv().GLOOTBOXES = {"Locked Hype Egg","Titanic Fantasy Present"}
 
 getgenv().GMAX_MAIL_COST = "5m"
 getgenv().GMAIL_ITEMS = {	
