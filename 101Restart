@@ -87,7 +87,7 @@ local rank = Save.Get().Rank
 
 
 	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and _G.ACC_SUPER == false and rank > 19 then
-		game.Players.LocalPlayer:Kick("kick fin")
+		--game.Players.LocalPlayer:Kick("kick fin")
 	end
 	if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and _G.start_vvv_ == true then
 		--task.wait(300) game.Players.LocalPlayer:Kick("kick pla")
