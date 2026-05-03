@@ -7,7 +7,8 @@ if EVENT_or_FARM == "E" then
 end
 
 ------------------------+++
-_G.start_vvv_ = true
+_G.start_vvv_ = false
+
 if _G.ACC_SUPER == true then
 	_G.FPS_farm = 5
 else
