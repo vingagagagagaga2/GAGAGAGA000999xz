@@ -28,31 +28,6 @@ getgenv().Settings_autoplaza = {
 
 -------------------------------------------------------------------------------
 
-{Name = "Huge Dawn Phoenix",    Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Huge Butterfly Pony",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Huge Leafy Yeti",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Huge Withered Agony",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Huge Spring Onion",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Huge Spring Dragon",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Huge Spring Dino",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Huge Mushroom Snail",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Huge Sunflower Calf ", Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Huge Bunny Cat ",    Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Huge Bandana Shiba ",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Huge Diamond Chick ",   Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-
-{Name = "Golden Huge Dawn Phoenix",    Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Golden Huge Butterfly Pony",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Golden Huge Leafy Yeti",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Golden Huge Withered Agony",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Golden Huge Spring Onion",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Golden Huge Spring Dragon",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Golden Huge Spring Dino",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Golden Huge Mushroom Snail",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Golden Huge Sunflower Calf ", Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Golden Huge Bunny Cat ",    Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Golden Huge Bandana Shiba ",  Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
-{Name = "Golden Huge Diamond Chick ",   Data = {Price = "5%", Min_sell = "15m", Max_sell = "500m"}}, 
 
 --------------------------------------------------------------------------------------
 
