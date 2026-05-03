@@ -6,6 +6,8 @@ if EVENT_or_FARM == "E" then
 	game.Players.LocalPlayer:Kick("kick reset")		
 end
 
+getgenv().GHATCH_CHARGED_EGGS = true
+getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata","Party Box","Mini Lucky Block"}
 ------------------------+++
 _G.start_vvv_ = true
 
