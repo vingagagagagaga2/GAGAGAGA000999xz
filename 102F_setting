@@ -75,6 +75,9 @@ getgenv().GKICK_ON_STAFF = true
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
 
+getgenv().GCOMBINE_MACHINE_OUTPUT = "Titanic Fantasy Present"
+getgenv().GLOOTBOXES = {"Titanic Fantasy Present"}
+
 getgenv().GMAX_MAIL_COST = "5m"
 getgenv().GMAIL_ITEMS = {	
 
