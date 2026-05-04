@@ -7,6 +7,10 @@ if EVENT_or_FARM == "E" then
 end
 
 getgenv().GMAIL_RECEIVERS = {""}
+_G.NAME_USER_SEND = "" 
+_G.send_hg_more50 = ""
+_G.send_hg_rb_shiny = ""
+_G.send_pet_dame = ""
 ------------------------+++
 
 local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
