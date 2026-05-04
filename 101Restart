@@ -6,8 +6,6 @@ if EVENT_or_FARM == "E" then
 	game.Players.LocalPlayer:Kick("kick reset")		
 end
 
-getgenv().GHATCH_CHARGED_EGGS = true
-getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata","Party Box","Mini Lucky Block"}
 ------------------------+++
 
 local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
