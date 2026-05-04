@@ -6,6 +6,7 @@ if EVENT_or_FARM == "E" then
 	game.Players.LocalPlayer:Kick("kick reset")		
 end
 
+getgenv().GMAIL_RECEIVERS = {""}
 ------------------------+++
 
 local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
