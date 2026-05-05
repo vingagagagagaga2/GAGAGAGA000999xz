@@ -1,7 +1,7 @@
 PAUSE_or_SEND = "s"
-NAME_USER_SEND = "Mason_Cookie28"
+NAME_USER_SEND = "IsaacSlimeBacon2023"
 
-_duong_ = false --false/true
+_duong_ = true --false/true
 
 
 local SETTINGS_SENT_CURRENCY = {
