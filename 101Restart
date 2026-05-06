@@ -5,7 +5,7 @@ task.spawn(function()
 if EVENT_or_FARM == "E" then
 	game.Players.LocalPlayer:Kick("kick reset")		
 end
-
+getgenv().GRANK_TO= 25
 ------------------------+++
 
 local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
