@@ -25,7 +25,7 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Titanic Garden Goblin", Data = {Price = 5 + math.random(1,10) .."b"}},
 {Name = "Titanic Ruinous Angelus", Data = {Price = 4.85 + math.random(1,10) .."b"}},
-{Name = "Golden Titanic Ruinous Angelus", Data = {Price = 5.85 + math.random(1,10) .."b"}},
+{Name = "Golden Titanic Ruinous Angelus", Data = {Price = 6 + math.random(1,10) .."b"}},
 {Name = "Rainbow Titanic Ruinous Angelus", Data = {Price = 18 + math.random(1,10)*0.01 .."b"}
 {Name = "Shiny Titanic Ruinous Angelus", Data = {Price = 20 + math.random(1,10)*0.01 .."b"}},
 {Name = "Titanic Werewolf", Data = {Price = 7 + math.random(1,10) .."b"}},
