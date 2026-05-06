@@ -5,6 +5,7 @@ task.spawn(function()
 if EVENT_or_FARM == "E" then
 	game.Players.LocalPlayer:Kick("kick reset")		
 end
+getgenv().GRANK_FIRST = true
 getgenv().GRANK_TO= 25
 ------------------------+++
 
