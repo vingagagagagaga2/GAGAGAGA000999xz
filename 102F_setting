@@ -49,7 +49,8 @@ getgenv().GUSE_ULTIMATES = {"UFO","Tsunami","Tornado","Lightning Storm","Ground 
 
 getgenv().GUSE_FLAGS = {"Fortune Flag","Diamonds Flag","Coins Flag"}
 
-getgenv().GHATCH_CHARGED_EGGS = true
+--getgenv().GHATCH_CHARGED_EGGS = true
+
 getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata","Party Box","Mini Lucky Block"}
 
 getgenv().GFRUITS = {"Watermelon","Candycane","Apple","Rainbow","Pineapple","Orange","Banana"}
