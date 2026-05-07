@@ -15,7 +15,7 @@ _G.start_vvv_ = false
 if rank > 24 then 
 	_G.start_vvv_ = true
 end
-
+getgenv().GHATCH_CHARGED_EGGS = false
 
 
 if _G.ACC_SUPER == true then
