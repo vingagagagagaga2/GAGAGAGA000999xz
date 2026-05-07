@@ -5,8 +5,6 @@ task.spawn(function()
 if EVENT_or_FARM == "E" then
 	game.Players.LocalPlayer:Kick("kick reset")		
 end
-getgenv().GRANK_FIRST = true
-getgenv().GRANK_TO= 25
 ------------------------+++
 
 local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
@@ -15,7 +13,6 @@ _G.start_vvv_ = false
 if rank > 24 then 
 	_G.start_vvv_ = true
 end
-getgenv().GHATCH_CHARGED_EGGS = false
 
 
 if _G.ACC_SUPER == true then
