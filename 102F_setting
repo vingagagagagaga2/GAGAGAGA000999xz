@@ -12,9 +12,9 @@ game.Players.LocalPlayer:Kick("kick 24h")
 end)
 
 
-getgenv().GRANK_FIRST = true
+--getgenv().GRANK_FIRST = true
 getgenv().GZONE_TO = 999
-getgenv().GRANK_TO= 25
+--getgenv().GRANK_TO= 25
 
 getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
 getgenv().GGFX_MODE = 1
