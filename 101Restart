@@ -78,10 +78,6 @@ if name_vps == "Vx8" or name_vps == "Vx9" then
 _G.start_vvv_ = true
 end
 
-local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
-local rank = Save.Get().Rank
-
-
 	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and _G.ACC_SUPER == false and rank > 19 then
 		--game.Players.LocalPlayer:Kick("kick fin")
 	end
@@ -92,79 +88,6 @@ local rank = Save.Get().Rank
 		--game.Players.LocalPlayer:Kick("kick F > E")
 	end
 ----------------------------------------------------------------------------------------
-if EVENT_or_FARM == "E" then
-
-end
-task.spawn(function() 
-
-local NamePet_ep = {
-    "Veil Horse",
-}
-
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local SaveData = require(ReplicatedStorage.Library.Client.Save).Get()
-local Manager = {}
-
-function Manager:GetPets(name_pet, PT_yeucau)
-    local SaveData = require(ReplicatedStorage.Library.Client.Save).Get()
-    local Huges = {}
-    for uid, v in pairs(SaveData.Inventory.Pet) do
-        if string.find(v.id, name_pet) then
-            if (PT_yeucau == nil and v.pt == nil) or (PT_yeucau ~= nil and v.pt == PT_yeucau) then
-                table.insert(Huges, {
-                    UID   = uid,
-                    SH    = v.sh,
-                    PT    = v.pt,
-                    Count = v._am or 1
-                })
-            end
-        end
-    end
-    return Huges
-end
-
-function Ghep_pet_len_gold_rainbow(danh_sach_ten_pet)
-    for _, ten_pet in ipairs(danh_sach_ten_pet) do
-        -- G?p Gold
-        local Pet_List1 = Manager:GetPets(ten_pet, nil)
-        for _, pet in ipairs(Pet_List1) do
-            while pet.Count >= 16 do
-                local success, err = pcall(function()
-                    game:GetService("ReplicatedStorage").Network.GoldMachine_Activate:InvokeServer(pet.UID, 2)
-                end)
-                if not success then
-                    warn("? L?i khi ép pet GOLD: " .. tostring(err))
-                    break
-                end
-                task.wait(3)
-                pet.Count = pet.Count - 16
-            end
-        end
-
-        -- G?p Rainbow
-        local Pet_List2 = Manager:GetPets(ten_pet, 1)
-        for _, pet in ipairs(Pet_List2) do
-            while pet.Count >= 16 do
-                local success, err = pcall(function()
-                    game:GetService("ReplicatedStorage").Network.RainbowMachine_Activate:InvokeServer(pet.UID, 2)
-                end)
-                if not success then
-                    warn("? L?i khi ép pet RAINBOW: " .. tostring(err))
-                    break
-                end
-                task.wait(3)
-                pet.Count = pet.Count - 16
-            end
-        end
-    end
-end
-
--- G?i hàm ép nhi?u pet
-Ghep_pet_len_gold_rainbow(NamePet_ep)
-
-
-
-end)
 
 ----------------------------------------------------------------------------------------
 task.wait(60)
