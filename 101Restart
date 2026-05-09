@@ -7,12 +7,9 @@ if EVENT_or_FARM == "E" then
 end
 ------------------------+++
 
-local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
-local rank = Save.Get().Rank
-_G.start_vvv_ = false
-if rank > 24 then 
+ 
 	_G.start_vvv_ = true
-end
+
 
 
 if _G.ACC_SUPER == true then
@@ -78,7 +75,7 @@ if name_vps == "Vx8" or name_vps == "Vx9" then
 _G.start_vvv_ = true
 end
 
-	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and _G.ACC_SUPER == false and rank > 19 then
+	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and _G.ACC_SUPER == false then
 		--game.Players.LocalPlayer:Kick("kick fin")
 	end
 	if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and _G.start_vvv_ == true then
