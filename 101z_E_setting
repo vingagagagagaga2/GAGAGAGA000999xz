@@ -1,112 +1,109 @@
-_G.FPS_event = 1
-
+_G.FPS_farm = 1
 spawn(function()
     while true do
-        setfpscap(_G.FPS_event)
+        setfpscap(_G.FPS_farm)
         wait(1)
     end
 end)
 
 task.spawn(function()
-task.wait(12*3600)
+task.wait(36*3600)
 game.Players.LocalPlayer:Kick("kick 24h")
 end)
 
-getgenv().GDO_LUCKY_WORLD_EVENT = true
-getgenv().GMAKE_HORSESHOE_GIFTS = true
-getgenv().GLIMIT_HORSESHOE_GIFTS = 99999 -- choose yourself, don't set it lower than your MinAmount in your Horseshoe Gift mailrule!
-getgenv().GDO_BOSSES = {1,2,3}
-getgenv().GHEROIC_BOSSES  = {1,2,3}
-getgenv().GMYTHIC_BOSSES  = {1,2,3}
 
+--getgenv().GRANK_FIRST = true
+getgenv().GZONE_TO = 999
+--getgenv().GRANK_TO= 25
 
-getgenv().GSKIP_RAID_EGG = true
-getgenv().GMINUTE_HATCH_RAID_EGG = false
-
-getgenv().GAUTO_UPGRADE_PETS = true
-getgenv().GDISABLE_MINUTE_HATCH = false
-
-getgenv().GUSE_BOOSTS = true
-
-getgenv().GRAID_TIMEOUT_MINUTES = 10
-
-getgenv().GAUTO_RAID = true
-getgenv().GHATCH_LOBBY = true
-
-getgenv().GUSE_LEPRECHAUN_KEYS = true
-getgenv().GMAX_RAID_LEVEL = 50000
-getgenv().GMIN_MULTIPLIER = 200 -- which raid eggs to hatch
-getgenv().GRAID_MAX_HATCH_MINUTES = 5
-
-getgenv().GRESET_UPGRADES = false
-getgenv().GRAID_COOLDOWN_RANGE_SECONDS = {28, 33}
-
-getgenv().GLOOTBOXES = {"Locked Hype Egg","Horseshoe Gift"}
---getgenv().GHOP_ON_STAFF = true
-getgenv().GCLEAR_FAVORITE_PETS = true
-
-getgenv().GENCHANTS = {"Chest Breaker","Criticals","Strong Pets","Tap Power","Super Lightning","Tap Power","Tap Teamwork","Happy Pets","Walkspeed"}
-----------------------------------------------------------
+getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
 getgenv().GGFX_MODE = 1
 
+getgenv().GCLEAR_FAVORITE_PETS = true
+
+getgenv().GENCHANTS = {"Strong Pets","Criticals","Tap Power","Super Lightning","Lucky Eggs","Treasure Hunter","Lucky Eggs","Huge Hunter","Diamonds"}
+-----------------------
+
+getgenv().GDO_RNG_INSTANCE = true
+getgenv().GENCHANTS = {"Super Shiny Hunter","Tap Power","Tap Power","Criticals","Strong Pets","Huge Hunter","Lucky Eggs","Lucky Eggs","Lucky Eggs","Treasure Hunter","Shiny Hunter","Lucky Eggs","Lucky Eggs"}
+getgenv().GEVENT_UPGRADES = {
+    { Id = "RNGEggLuck",   MaxTier = 10  }, 
+    { Id = "RNGHatchSpeed", MaxTier = 10  },
+    { Id = "RNGBonusLuck",  MaxTier = 8  },
+    { Id = "RNGHugeLuck",   MaxTier = 4  },
+}
+-----------------------
 getgenv().GUSE_SPINNY_WHEEL = true
 --getgenv().GAUTO_UPGRADE_PETS = true
 getgenv().GCOMBINE_KEYS = true
 getgenv().GMASTERY_TO_MAX = "Enchants"
 getgenv().GCONSUME_CHARMS = true
 getgenv().GDAYCARE = true
-
+--------------------------
 getgenv().GHATCH_SPEED_MS = 0
 getgenv().GMAX_EGG_SLOTS = 99
 getgenv().GMAX_EQUIP_SLOTS = 99
+
+
 getgenv().GHOLD_GIFTS = true
 getgenv().GHOLD_BUNDLES = false
 getgenv().GCONSUME_SEED_BAGS = true  -- mở túi seed
 getgenv().GOPEN_ITEMS_IN_BULK = true -- mở hộp quà sl lớn
-
 getgenv().GMAX_ZONE_UPGRADE_COST = 30000000
-getgenv().GUSE_ULTIMATES = {"UFO","Tsunami","Tornado","Lightning Storm","Ground Pound"}
+
 getgenv().GCOLLECT_FREE_ITEMS = true  -- nhận free item
+
+getgenv().GUSE_SPRINKLERS = true
+getgenv().GUSE_ULTIMATES = {"UFO","Tsunami","Tornado","Lightning Storm","Ground Pound"}
+
+getgenv().GUSE_FLAGS = {"Fortune Flag","Diamonds Flag","Coins Flag"}
+
+local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
+local rank = Save.Get().Rank
+_G.start_vvv_ = false
+if rank > 30 then 
+	getgenv().GHATCH_CHARGED_EGGS = true
+end
+
+getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata","Party Box","Mini Lucky Block"}
 
 getgenv().GFRUITS = {"Watermelon","Candycane","Apple","Rainbow","Pineapple","Orange","Banana"}
 getgenv().GPOTIONS = {"Coins","Lucky","The Cocktail","Huge","Treasure Hunter","Walkspeed","Diamonds","Damage"}
 getgenv().GPOTIONS_MAX_TIER = 99
 
-getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Lucki Chest Mimic","Lucki Golem","Leprechaun Kitsune"}
-----------------------------------------------------------
-
+getgenv().GKICK_ON_STAFF = true
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
 
---getgenv().GMAX_MAIL_COST = "4m"
+getgenv().GCOMBINE_MACHINE_OUTPUT = "Titanic Fantasy Present"
+getgenv().GLOOTBOXES = {"Locked Hype Egg","Titanic Fantasy Present"}
 
+getgenv().GMAX_MAIL_COST = "5m"
 getgenv().GMAIL_ITEMS = {	
 
 ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
 ["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
 ["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
 ["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},	
-
-["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "55m", MinAmount = "600m"},
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "50m", MinAmount = "250m"},
 ["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 5},
 ["Hype Egg 2"] = {Class = "Lootbox", Id= "Hype Egg 2", MinAmount = 1},
 ["Lucky Eggs"] = {Class = "Enchant", Tier = 9 ,Id = "Lucky Eggs", MinAmount = 2, KeepAmount = 1},
 
-["Chest Breaker"] = {Class = "Enchant", Tier = 1 ,Id = "Corruption", MinAmount = 2, KeepAmount = 1},
-["Corruption"] = {Class = "Enchant", Tier = 1 ,Id = "Corruption", MinAmount = 1},
-["Mega Chest Breaker"] = {Class = "Enchant", Tier = 1 ,Id = "Mega Chest Breaker", MinAmount = 1},
+["Tornado"] = {Class = "Ultimate", Id= "Tornado", MinAmount = 5, KeepAmount = 1},
+
+["Exclusive Egg 60"] = {Class = "Egg", Id= "Exclusive Egg 60", MinAmount = 1},
+
+--["Magic Shard"] = {Class = "Misc", Id= "Magic Shard", MinAmount = 20},
+--["Bucket O' Magic"] = {Class = "Misc", Id= "Bucket O' Magic", MinAmount = 20},
 
 --["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 1000, KeepAmount = 500},
 --["Diamonds"] = {Class = "Potion", Tier = 9 ,Id = "Diamonds", MinAmount = 1000, KeepAmount = 500},
-
-["Lucki Golem"] = {Class = "Pet" ,Id = "Lucki Golem", IsRainbow = true , MinAmount = 2, KeepAmount = 1},	
-["Lucki Chest Mimic"] = {Class = "Pet", Id = "Lucki Chest Mimic", IsRainbow = true,  MinAmount = 2, KeepAmount = 1},	
-
 ["Mega Charm Chest"] = {Class = "Lootbox", Id = "Mega Charm Chest", MinAmount = 1},
 ["Mega Boost Chest"] = {Class = "Lootbox", Id = "Mega Boost Chest", MinAmount = 2},
 ["Mega Ultimate Chest"] = {Class = "Lootbox", Id = "Mega Ultimate Chest", MinAmount = 2},
 ["Mega Enchant Chest"] = {Class = "Lootbox", Id = "Mega Enchant Chest", MinAmount = 5},
 ["Mega Potion Chest"] = {Class = "Lootbox", Id = "Mega Potion Chest", MinAmount = 5},
+["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 5,keepAmount = 4},
 
 }
-
