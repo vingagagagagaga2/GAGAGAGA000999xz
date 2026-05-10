@@ -24,7 +24,14 @@ getgenv().GCLEAR_FAVORITE_PETS = true
 getgenv().GENCHANTS = {"Strong Pets","Criticals","Tap Power","Super Lightning","Lucky Eggs","Treasure Hunter","Lucky Eggs","Huge Hunter","Diamonds"}
 -----------------------
 
-
+getgenv().GDO_RNG_INSTANCE = true
+getgenv().GENCHANTS = {"Super Shiny Hunter","Tap Power","Tap Power","Criticals","Strong Pets","Huge Hunter","Lucky Eggs","Lucky Eggs","Lucky Eggs","Treasure Hunter","Shiny Hunter","Lucky Eggs","Lucky Eggs"}
+getgenv().GEVENT_UPGRADES = {
+    { Id = "RNGEggLuck",   MaxTier = 10  }, 
+    { Id = "RNGHatchSpeed", MaxTier = 10  },
+    { Id = "RNGBonusLuck",  MaxTier = 8  },
+    { Id = "RNGHugeLuck",   MaxTier = 4  },
+}
 -----------------------
 getgenv().GUSE_SPINNY_WHEEL = true
 --getgenv().GAUTO_UPGRADE_PETS = true
