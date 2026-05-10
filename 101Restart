@@ -20,7 +20,7 @@ end
 _G.FPS_event = 5
 
 
-local _Config_Online = 8
+local _Config_Online = 9
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
