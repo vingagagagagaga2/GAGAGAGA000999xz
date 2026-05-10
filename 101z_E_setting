@@ -32,11 +32,14 @@ getgenv().GEVENT_UPGRADES = {
     { Id = "RNGBonusLuck",  MaxTier = 8  },
     { Id = "RNGHugeLuck",   MaxTier = 4  },
 }
+getgenv().GRNG_CRAFT_DICE = true
+getgenv().GRNG_SELL_PETS = true
+getgenv().GRNG_USE_MEGA1 = true
 -----------------------
 getgenv().GUSE_SPINNY_WHEEL = true
 --getgenv().GAUTO_UPGRADE_PETS = true
 getgenv().GCOMBINE_KEYS = true
-getgenv().GMASTERY_TO_MAX = "Enchants"
+getgenv().GMASTERY_TO_MAX = "Pets"
 getgenv().GCONSUME_CHARMS = true
 getgenv().GDAYCARE = true
 --------------------------
