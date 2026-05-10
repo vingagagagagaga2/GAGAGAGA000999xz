@@ -2,9 +2,7 @@ task.spawn(function()
 
 ------------------------+++
 
-if EVENT_or_FARM == "E" then
-	game.Players.LocalPlayer:Kick("kick reset")		
-end
+
 ------------------------+++
 
  
@@ -20,7 +18,7 @@ end
 _G.FPS_event = 5
 
 
-local _Config_Online = 8
+local _Config_Online = 9
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -49,10 +47,9 @@ if _Config_Offline ~= _Config_Online then
 			return
 		end
 		--------------------------------------------
-		if EVENT_or_FARM == "E" then
+		if EVENT_or_FARM == "F" then
 			game.Players.LocalPlayer:Kick("kick reset")		
 		end
-		game.Players.LocalPlayer:Kick("kick reset")
 
 
 		--------------------------------------------
