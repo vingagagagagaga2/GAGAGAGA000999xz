@@ -1,9 +1,7 @@
 task.spawn(function()
 
 ------------------------+++
-if EVENT_or_FARM == "F" then
-			game.Players.LocalPlayer:Kick("kick reset")		
-		end
+
 
 ------------------------+++
 
