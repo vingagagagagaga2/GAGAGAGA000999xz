@@ -2,9 +2,6 @@ task.spawn(function()
 
 ------------------------+++
 
-getgenv().GMAIL_ITEMS = {
-["Surge Wolf"] = {Class = "Pet", Id = "Surge Wolf", MinAmount = 3, KeepAmount = 1,  AllVariants = true},
-}
 
 ------------------------+++
 
@@ -83,7 +80,7 @@ end
 	end
 ----------------------------------------------------------------------------------------
 if EVENT_or_FARM == "E" then
-	getgenv().GENCHANTS = {"Magic Orb","Magic Orb","Magic Orb","Explosive","Tap Teamwork","Tap Teamwork","Lucky Eggs","Treasure Hunter","Lucky Eggs"}	
+	
 end
 
 ----------------------------------------------------------------------------------------
