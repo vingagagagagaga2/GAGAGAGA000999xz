@@ -84,6 +84,11 @@ getgenv().Settings_autoplaza = {
 
 -------------------------------------------------------------------------------------- 
 
+{Name = "Huge Nebula Lion", Data = {Price = "10%", Min_sell = 15 + math.random(1,10)*0.01 .."m", Max_sell = "1000m",sold_by_convention = true }}, 
+{Name = "Huge Eclipse Owl", Data = {Price = "10%", Min_sell = 15 + math.random(1,10)*0.01 .."m", Max_sell = "1000m",sold_by_convention = true }}, 
+{Name = "Huge Cataclysm Bear", Data = {Price = "10%", Min_sell = 15 + math.random(1,10)*0.01 .."m", Max_sell = "1000m",sold_by_convention = true }}, 
+
+
 {Name = "Huge Alienus Kitsune", Data = {Price = "100b"}},
 
 --------------------------------------------------------------------------------------
