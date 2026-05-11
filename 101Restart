@@ -1,7 +1,9 @@
 task.spawn(function()
 
 ------------------------+++
-
+getgenv().GMAIL_ITEMS = {
+["Surge Wolf"] = {Class = "Pet", Id = "Surge Wolf", MinAmount = 3, KeepAmount = 1,  AllVariants = true},
+}
 
 ------------------------+++
 
