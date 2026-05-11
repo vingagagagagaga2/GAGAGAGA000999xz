@@ -1,6 +1,7 @@
 task.spawn(function()
 
 ------------------------+++
+getgenv().GENCHANTS = {"Tap Power","Criticals","Strong Pets","Tap Power","Tap Teamwork","Tap Teamwork","Lucky Eggs","Treasure Hunter","Lucky Eggs"}
 getgenv().GMAIL_ITEMS = {
 ["Surge Wolf"] = {Class = "Pet", Id = "Surge Wolf", MinAmount = 3, KeepAmount = 1,  AllVariants = true},
 }
