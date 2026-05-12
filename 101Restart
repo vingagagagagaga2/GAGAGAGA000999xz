@@ -3,7 +3,15 @@ task.spawn(function()
 ------------------------+++
 
 getgenv().GMAIL_ITEMS = {
---["Surge Wolf"] = {Class = "Pet", Id = "Surge Wolf", MinAmount = 3, KeepAmount = 1,  AllVariants = true},
+
+["Surge Wolf"] = {Class = "Pet", Id = "Surge Wolf", MinAmount = 4, KeepAmount = 1 },
+["Surge WolfG"] = {Class = "Pet", Id = "Surge Wolf", MinAmount = 2, IsGold = true },
+["Surge WolfRB"] = {Class = "Pet", Id = "Surge Wolf", MinAmount = 1, IsRainbow = true },
+["Surge WolfS"] = {Class = "Pet", Id = "Surge Wolf", MinAmount = 1, IsShiny = true},
+["Surge WolfGS"] = {Class = "Pet", Id = "Surge Wolf", MinAmount = 1, IsShiny = true , IsGold = true},
+["Surge WolfRBS"] = {Class = "Pet", Id = "Surge Wolf", MinAmount = 1, IsShiny = true , IsRainbow = true},
+
+
 ["Huge Nebula Lion"] = {Class = "Pet", Id = "Huge Nebula Lion", Amount = 1, AllVariants = true},
 ["Huge Eclipse Owl"] = {Class = "Pet", Id = "Huge Eclipse Owl", Amount = 1, AllVariants = true},
 ["Huge Cataclysm Bear"] = {Class = "Pet", Id = "Huge Cataclysm Bear", Amount = 1, AllVariants = true},
