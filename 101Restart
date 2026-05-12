@@ -68,7 +68,7 @@ local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or 
 local now = os.date("!*t", os.time(os.date("!*t")) + 7 * 3600)
 local currentHour = now.hour
 
-if currentHour > 21 or currentHour < 7 then
+if currentHour > 21 or currentHour < 8 then
 	_G.start_vvv_ = false
 end
 
