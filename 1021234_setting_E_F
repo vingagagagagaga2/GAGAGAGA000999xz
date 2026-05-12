@@ -60,6 +60,15 @@ end
 		_G.ACC_SUPER = true
     end
 
+
+local now = os.date("!*t", os.time(os.date("!*t")) + 7 * 3600)
+local currentHour = now.hour
+
+if currentHour > 7 or currentHour < 23 then
+	EVENT_or_FARM = "F" 
+end
+
+
 if EVENT_or_FARM == "E"then
 	vinGWEBHOOK_LINK = dis_event
 else
