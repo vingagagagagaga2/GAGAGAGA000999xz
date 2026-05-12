@@ -74,6 +74,7 @@ local currentHour = now.hour
 if currentHour > 21 or currentHour < 7 then
 	_G.start_vvv_ = false
 end
+
 if name_vps == "Vx8" or name_vps == "Vx9" then
 _G.start_vvv_ = true
 end
