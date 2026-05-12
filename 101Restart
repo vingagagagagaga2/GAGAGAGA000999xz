@@ -4,6 +4,7 @@ task.spawn(function()
 
 getgenv().GMAIL_ITEMS = {
 }
+getgenv().GMAIL_RECEIVERS = {""}
 
 ------------------------+++
 
