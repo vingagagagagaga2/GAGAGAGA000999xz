@@ -81,9 +81,9 @@ getgenv().Settings_autoplaza = {
 
 
 --{Name = "Shiny Rainbow Rose Pooka", Data = {Price = "1.5m"}},
-{Name = "Surge Wolf", Data = {Price = "5%"}},
-{Name = "Golden Surge Wolf", Data = {Price = "5%"}},
-{Name = "Rainbow Surge Wolf", Data = {Price = "5%"}},
+{Name = "Surge Wolf", Data = {Price = "+5%"}},
+{Name = "Golden Surge Wolf", Data = {Price = "+5%"}},
+{Name = "Rainbow Surge Wolf", Data = {Price = "+5%"}},
 
 {Name = "Shiny Surge Wolf", Data = {Price = "5%", Min_sell = "100m", Max_sell = "1b"}},
 {Name = "Shiny Golden Surge Wolf", Data = {Price = "5%", Min_sell = "700m", Max_sell = "4b"}},
