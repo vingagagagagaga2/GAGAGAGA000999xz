@@ -1,4 +1,4 @@
-task.wait(30)
+
 _G.FPS_farm = 1
 spawn(function()
     while true do
