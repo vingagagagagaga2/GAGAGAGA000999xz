@@ -42,7 +42,7 @@ task.wait(2)
 	elseif not MAP_w4_true then
 		teleportName = TeleportMapping[3]
 	else
-		teleportName = TeleportMapping[2]
+		teleportName = TeleportMapping[4]
 	end
     
 if not MAP_w2_true then
