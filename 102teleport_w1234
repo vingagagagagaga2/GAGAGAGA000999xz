@@ -34,7 +34,7 @@ local TeleportMapping = {
 
 -- Nếu đang ở đúng map cần thoát
 if game.PlaceId == 119454325063278 or game.PlaceId == 95635359880599 then
-task.wait(7)
+task.wait(2)
 	if not MAP_w2_true then
 		teleportName = TeleportMapping[1]
 	elseif not MAP_w3_true then
@@ -42,7 +42,7 @@ task.wait(7)
 	elseif not MAP_w4_true then
 		teleportName = TeleportMapping[3]
 	else
-		teleportName = TeleportMapping[4]
+		teleportName = TeleportMapping[2]
 	end
     
 if not MAP_w2_true then
