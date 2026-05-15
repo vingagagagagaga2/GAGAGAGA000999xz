@@ -67,7 +67,7 @@ local currentHour = now.hour
 if currentHour > 6 or currentHour < 23 then
 	EVENT_or_FARM = "F" 
 end
-
+EVENT_or_FARM = "E" 
 
 if EVENT_or_FARM == "E"then
 	vinGWEBHOOK_LINK = dis_event
