@@ -17,7 +17,7 @@ end)
 getgenv().GZONE_TO = 999
 --getgenv().GRANK_TO= 25
 
-getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
+getgenv().GPROGRESS_MODE = "Hatch" -- Hatch  Hybrid
 getgenv().GGFX_MODE = 1
 
 getgenv().GCLEAR_FAVORITE_PETS = true
@@ -58,7 +58,7 @@ local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
 local rank = Save.Get().Rank
 _G.start_vvv_ = false
 if rank > 30 then 
-	getgenv().GHATCH_CHARGED_EGGS = true
+	--getgenv().GHATCH_CHARGED_EGGS = true
 end
 
 getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata","Party Box","Mini Lucky Block"}
