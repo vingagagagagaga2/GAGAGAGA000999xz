@@ -24,7 +24,9 @@ getgenv().GCLEAR_FAVORITE_PETS = true
 
 getgenv().GENCHANTS = {"Strong Pets","Criticals","Tap Power","Super Lightning","Lucky Eggs","Treasure Hunter","Lucky Eggs","Huge Hunter","Diamonds"}
 -----------------------
-
+getgenv().GTIME_TRIAL_ENCHANTS = {"Tap Power","Super Lightning","Lightning", "Fireworks","Criticals","Strong Pets","Tap Power","Criticals","Strong Pets"}
+getgenv().GDO_TIME_TRIAL = true
+getgenv().GTIME_TRIAL_HATCH_FIRST_SECONDS = 12
 
 -----------------------
 getgenv().GUSE_SPINNY_WHEEL = true
