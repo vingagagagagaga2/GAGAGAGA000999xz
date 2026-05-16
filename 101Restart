@@ -51,7 +51,7 @@ if _Config_Offline ~= _Config_Online then
 			return
 		end
 		--------------------------------------------
-		if EVENT_or_FARM == "F" then
+		if EVENT_or_FARM == "F" and _G.RunsLeft_TIMEtrial > 0 then
 			game.Players.LocalPlayer:Kick("kick reset")		
 		end
 
