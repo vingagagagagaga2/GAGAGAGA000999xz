@@ -1,7 +1,7 @@
 task.spawn(function()
 
 ------------------------+++
-
+_G.STATUS_disabble_SEND_ALL = true
 
 getgenv().GMAIL_ITEMS = {
 }
