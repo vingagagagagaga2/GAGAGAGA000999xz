@@ -1,8 +1,7 @@
 task.spawn(function()
 
 ------------------------+++
-getgenv().GTIME_TRIAL_ENCHANTS = {"Tap Power","Super Lightning","Lightning", "Fireworks","Criticals","Strong Pets","Tap Power","Criticals","Strong Pets"}
-getgenv().GDO_TIME_TRIAL = true
+
 
 getgenv().GMAIL_ITEMS = {
 }
