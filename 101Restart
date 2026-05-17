@@ -85,6 +85,7 @@ end
 	end
 ----------------------------------------------------------------------------------------
 if EVENT_or_FARM == "E" then
+	task.wait(60)
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local Players = game:GetService("Players")
 
