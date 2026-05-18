@@ -17,7 +17,7 @@ end)
 getgenv().GZONE_TO = 999
 --getgenv().GRANK_TO= 25
 
-getgenv().GPROGRESS_MODE = "Hatch" -- Hatch  Hybrid
+getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
 getgenv().GGFX_MODE = 1
 
 getgenv().GCLEAR_FAVORITE_PETS = true
