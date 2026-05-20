@@ -17,7 +17,7 @@ getgenv().GMAIL_RECEIVERS = {""}
 if _G.ACC_SUPER == true then
 	_G.FPS_farm = 5
 else
-	_G.FPS_farm = 3
+	_G.FPS_farm = 5
 end
 _G.FPS_event = 5
 _G.FPS_farm = 5
