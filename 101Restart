@@ -1,11 +1,8 @@
 task.spawn(function()
 
 ------------------------+++
-_G.STATUS_disabble_SEND_ALL = true
+_G.STATUS_disabble_SEND_ALL = false
 
-getgenv().GMAIL_ITEMS = {
-}
-getgenv().GMAIL_RECEIVERS = {""}
 
 ------------------------+++
 
