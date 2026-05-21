@@ -1,5 +1,5 @@
-PAUSE_or_SEND = "p"
-NAME_USER_SEND = ""
+PAUSE_or_SEND = "s"
+NAME_USER_SEND = "Mason_Cookie28"
 
 _duong_ = false --false/true
 
@@ -112,7 +112,6 @@ local SETTINGS_SENT_ITEM = {
 --["Tornado"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 5},
 --["Magic Shard"] = {Class = "Misc", Id = "Magic Shard", MinAmount = 5},
 --["Bucket O' Magic"] = {Class = "Misc", Id = "Bucket O' Magic", MinAmount = 5},
-
 --["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 1},
 
 ["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	
@@ -121,22 +120,17 @@ local SETTINGS_SENT_ITEM = {
 --["Time Trial Gift"] = {Class = "Lootbox", Id = "Time Trial Gift", MinAmount = 50},	
 --["Santa Gift"] = {Class = "Lootbox", Id = "Santa Gift", MinAmount = 50001, keepAmount = 20000},
 --["Candycane Gift"] = {Class = "Lootbox", Id = "Candycane Gift", MinAmount = 50001, keepAmount = 20000},
-
 --["Insta Plant Capsule"] = {Class = "Lootbox", Id = "Insta Plant Capsule", MinAmount = 50001, keepAmount = 20000},
-
 --["Tech Key"] = {Class = "Misc", Id = "Tech Key", MinAmount = 50001, keepAmount = 20000},	
 --["Secret Key"] = {Class = "Misc", Id = "Secret Key", MinAmount = 50001, keepAmount = 20000},	
 --["Crystal Key"] = {Class = "Misc", Id = "Crystal Key", MinAmount = 50001, keepAmount = 20000},	
 --["Void Key"] = {Class = "Misc", Id = "Void Key", MinAmount = 50001, keepAmount = 20000},	
 --["Fantasy Key"] = {Class = "Misc", Id = "Fantasy Key", MinAmount = 50001, keepAmount = 20000},	
-
 --["Tornado"] = {Class = "Ultimate", Id = "Tornado", MinAmount = 5},
-
 --["Coins"] = {Class = "Enchant", Id = "Coins", TN = 7, MinAmount = 1000}, 
 --["Coins"] = {Class = "Enchant", Id = "Coins", TN = 6, MinAmount = 1000}, 
 --["Lucky"] = {Class = "Potion", Id = "Lucky", TN = 9, MinAmount = 500},
 --["Diamonds"] = {Class = "Potion", Id = "Diamonds", TN = 9, MinAmount = 500},
-
 --["Chest Breaker"] = {Class = "Enchant", Id = "Chest Breaker", TN = 1, MinAmount = 1}, 
 --["Corruption"] = {Class = "Enchant", Id = "Corruption", TN = 1, MinAmount = 1}, 
 --["Mega Chest Breaker"] = {Class = "Enchant", Id = "Mega Chest Breaker", TN = 1, MinAmount = 1}, 
