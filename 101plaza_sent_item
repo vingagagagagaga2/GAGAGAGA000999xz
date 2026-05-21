@@ -19,7 +19,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local LocalPlayer = Players.LocalPlayer
 local username = LocalPlayer.Name
 
-local _Config_Online = 7
+local _Config_Online = 8
 local FILE_NAME = "OFFLINE.txt"
 
 if not writefile or not readfile then
