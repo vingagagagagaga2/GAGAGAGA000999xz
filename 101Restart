@@ -17,7 +17,6 @@ else
 	_G.FPS_farm = 4
 end
 _G.FPS_event = 5
-_G.FPS_farm = 5
 
 local _Config_Online = 12
 
