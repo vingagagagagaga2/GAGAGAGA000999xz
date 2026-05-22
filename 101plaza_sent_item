@@ -1,5 +1,5 @@
-PAUSE_or_SEND = "p"
-NAME_USER_SEND = ""
+PAUSE_or_SEND = "s"
+NAME_USER_SEND = "544Lukas1708"
 
 _duong_ = false --false/true
 
@@ -114,8 +114,8 @@ local SETTINGS_SENT_ITEM = {
 --["Bucket O' Magic"] = {Class = "Misc", Id = "Bucket O' Magic", MinAmount = 5},
 --["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 1},
 
-["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	
-["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 50000},	
+--["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	
+--["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 50000},	
 
 --["Time Trial Gift"] = {Class = "Lootbox", Id = "Time Trial Gift", MinAmount = 50},	
 --["Santa Gift"] = {Class = "Lootbox", Id = "Santa Gift", MinAmount = 50001, keepAmount = 20000},
@@ -138,7 +138,7 @@ local SETTINGS_SENT_ITEM = {
 }
 
 local SETTINGS_SENT_PET = {
-	["Surge Wolf"] = {Soluong_Yeu_cau = 10},
+	["Rainbow Wicked Kirin"] = {Soluong_Yeu_cau = 10},
 }
 
 local function findMatchingItems(class, itemId, allVariants, requiredTN)
