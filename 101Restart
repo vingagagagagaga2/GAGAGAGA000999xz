@@ -18,7 +18,16 @@ else
 end
 _G.FPS_event = 5
 
-local _Config_Online = 12
+	local HttpService = game:GetService("HttpService")
+	local Players = game:GetService("Players")
+	local TeleportService = game:GetService("TeleportService")
+	local LocalPlayer = Players.LocalPlayer
+	
+	local function serverhopTo(placeId)
+		TeleportService:Teleport(placeId, LocalPlayer)
+	end
+
+local _Config_Online = 13
 
 local FILE_NAME = "OFFLINE.txt"
 if not writefile or not readfile then    return	end
@@ -47,13 +56,11 @@ if _Config_Offline ~= _Config_Online then
 			return
 		end
 		--------------------------------------------
-		if EVENT_or_FARM == "F" and _G.RunsLeft_TIMEtrial > 0 then
-			game.Players.LocalPlayer:Kick("kick reset")		
-		end
-		if EVENT_or_FARM == "F" then
-			game.Players.LocalPlayer:Kick("kick reset")	
-		end
 
+		if EVENT_or_FARM == "F" then
+			--game.Players.LocalPlayer:Kick("kick reset")	
+		end
+		serverhopTo(140403681187145)
 		--------------------------------------------
 end
 
@@ -75,14 +82,7 @@ if name_vps == "Vx8" or name_vps == "Vx9" then
 	_G.start_vvv_ = true
 end
 
-	local HttpService = game:GetService("HttpService")
-	local Players = game:GetService("Players")
-	local TeleportService = game:GetService("TeleportService")
-	local LocalPlayer = Players.LocalPlayer
-	
-	local function serverhopTo(placeId)
-		TeleportService:Teleport(placeId, LocalPlayer)
-	end
+
 	
 
 	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and _G.ACC_SUPER == false then
