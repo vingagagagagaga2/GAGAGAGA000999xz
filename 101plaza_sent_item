@@ -59,7 +59,7 @@ if _G.Restart == true then
 	_G.Restart = false
 end
 
-if PAUSE_or_SEND == "p" then
+if PAUSE_or_SEND ~= "s" then
 	return
 end
 
