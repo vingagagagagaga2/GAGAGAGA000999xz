@@ -64,7 +64,11 @@ end
 local now = os.date("!*t", os.time(os.date("!*t")) + 7 * 3600)
 local currentHour = now.hour
 
-if currentHour > 6 or currentHour < 21 then
+	if currentHour > 6 or currentHour < 2 then
+		EVENT_or_FARM = "F" 
+	end
+
+if name_vps ~= "L1" then
 	EVENT_or_FARM = "F" 
 end
 
