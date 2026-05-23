@@ -1,4 +1,4 @@
-_G.FPS_farm = 1
+_G.FPS_farm = 3
 spawn(function()
     while true do
         setfpscap(_G.FPS_farm)
@@ -19,7 +19,7 @@ getgenv().GZONE_TO = 999
 getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
 getgenv().GGFX_MODE = 1
 
-getgenv().GCLEAR_FAVORITE_PETS = true
+
 
 getgenv().GENCHANTS = {"Strong Pets","Criticals","Tap Power","Super Lightning","Lucky Eggs","Treasure Hunter","Lucky Eggs","Huge Hunter","Diamonds"}
 -----------------------
@@ -32,6 +32,9 @@ getgenv().GCOMBINE_KEYS = true
 getgenv().GMASTERY_TO_MAX = "Pets"
 getgenv().GCONSUME_CHARMS = true
 getgenv().GDAYCARE = true
+getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Wicked Kirin"}
+getgenv().GAUTO_UPGRADE_PETS = true
+getgenv().GCLEAR_FAVORITE_PETS = true
 --------------------------
 getgenv().GHATCH_SPEED_MS = 0
 getgenv().GMAX_EGG_SLOTS = 99
