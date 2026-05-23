@@ -74,22 +74,22 @@ local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or 
 local now = os.date("!*t", os.time(os.date("!*t")) + 7 * 3600)
 local currentHour = now.hour
 
-if currentHour > 21 or currentHour < 7 then
+if currentHour > 21 or currentHour < 9 then
 	_G.start_vvv_ = false
 end
 
-if name_vps == "Vx8" or name_vps == "Vx9" then
+if name_vps == "PMa19" then
 	_G.start_vvv_ = true
 end
 
 
 	
 
-	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and _G.ACC_SUPER == false then
+	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and name_vps == "L1" then
 		--game.Players.LocalPlayer:Kick("kick fin")
-		--serverhopTo(140403681187145)
+		serverhopTo(140403681187145)
 	end
-	if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and _G.start_vvv_ == true and _G.ACC_SUPER == false then
+	if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and _G.start_vvv_ == true then
 		--game.Players.LocalPlayer:Kick("kick pla")
 		serverhopTo(140403681187145)
 	end
