@@ -46,7 +46,7 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Blossom Gift", Data = {Price = 3000 + math.random(1,50) .."k"}},
 {Name = "Time Trial Gift", Data = {Price = 250 + math.random(1,50) .."k"}},
-{Name = "Time Trial Gift 2", Data = {Price = 999 + math.random(1,50) .."k"}},
+{Name = "Time Trial Gift 2", Data = {Price = 1999 + math.random(1,50) .."k"}},
 
 {Name = "Deep Sea Treasure Chest", Data = {Price = "7m"}},		
 
