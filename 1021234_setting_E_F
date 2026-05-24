@@ -69,8 +69,10 @@ local currentHour = now.hour
 	end
 
 if name_vps ~= "L1" then
-	EVENT_or_FARM = "F" 
+	
 end
+
+EVENT_or_FARM = "F" 
 
 if EVENT_or_FARM == "E" then
 	vinGWEBHOOK_LINK = dis_event
