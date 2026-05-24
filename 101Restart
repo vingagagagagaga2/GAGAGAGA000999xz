@@ -85,7 +85,7 @@ end
 
 	
 
-	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and name_vps == "L1" then
+	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" then
 		--game.Players.LocalPlayer:Kick("kick fin")
 		--serverhopTo(140403681187145)
 	end
