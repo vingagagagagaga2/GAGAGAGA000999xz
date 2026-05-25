@@ -12,9 +12,9 @@ _G.STATUS_disabble_SEND_ALL = false
 
 
 if _G.ACC_SUPER == true then
-	_G.FPS_farm = 5
+	_G.FPS_farm = 3
 else
-	_G.FPS_farm = 4
+	_G.FPS_farm = 3
 end
 _G.FPS_event = 3
 
