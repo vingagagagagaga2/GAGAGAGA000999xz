@@ -63,7 +63,6 @@ if _Config_Offline ~= _Config_Online then
 			--game.Players.LocalPlayer:Kick("kick reset")	
 		end
 		--serverhopTo(140403681187145)
-		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
 		--------------------------------------------
 end
 
