@@ -80,7 +80,7 @@ getgenv().Settings_autoplaza = {
 
 --{Name = "Shiny Rainbow Rose Pooka", Data = {Price = "1.5m"}},
 
-{Name = "Rainbow Wicked Kirin", Data = {Price = "7m"}},
+{Name = "Rainbow Wicked Kirin", Data = {Price = "15m"}},
 {Name = "Shiny Wicked Kirin", Data = {Price = "150m"}},
 {Name = "Shiny Golden Wicked Kirin", Data = {Price = "200m"}},
 {Name = "Shiny Rainbow Wicked Kirin", Data = {Price = "500m"}},
