@@ -7,7 +7,7 @@ _G.STATUS_disabble_SEND_ALL = false
 ------------------------+++
 
  
-	_G.start_vvv_ = true
+	_G.start_vvv_ = false
 
 
 
