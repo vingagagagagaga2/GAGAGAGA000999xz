@@ -1,7 +1,7 @@
 _G.FPS_farm = 3
 spawn(function()
     while true do
-        --setfpscap(_G.FPS_farm)
+        setfpscap(_G.FPS_farm)
         task.wait(100)
     end
 end)
