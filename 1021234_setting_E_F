@@ -72,7 +72,7 @@ if name_vps ~= "L1" then
 	
 end
 
-EVENT_or_FARM = "F" 
+--EVENT_or_FARM = "F" 
 
 if EVENT_or_FARM == "E" then
 	vinGWEBHOOK_LINK = dis_event
