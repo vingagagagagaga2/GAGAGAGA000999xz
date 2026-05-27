@@ -97,7 +97,7 @@ end
 	end
 ----------------------------------------------------------------------------------------
 if EVENT_or_FARM == "E" then
-	game.Players.LocalPlayer:Kick("kick reset")	
+	--game.Players.LocalPlayer:Kick("kick reset")	
 end
 
 ----------------------------------------------------------------------------------------
