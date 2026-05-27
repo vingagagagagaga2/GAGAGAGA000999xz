@@ -100,6 +100,10 @@ end
 
 
 ----------------------------------------------------------------------------------------
+if _G.STATUS_disabble_SEND_ALL == true then
+	getgenv().GMAIL_RECEIVERS = {}
+	getgenv().GMAIL_ITEMS = {}
+end
 task.wait(60)
 	if game.PlaceId == 119454325063278 or game.PlaceId == 95635359880599 then
 		game.Players.LocalPlayer:Kick("FIFA") 
