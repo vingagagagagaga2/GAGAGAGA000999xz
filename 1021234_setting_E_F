@@ -68,8 +68,8 @@ local currentHour = now.hour
 		--EVENT_or_FARM = "F" 
 	end
 
-if name_vps ~= "L1" then
-	
+if name_vps == "PMa19" then
+	EVENT_or_FARM = "F" 
 end
 
 --EVENT_or_FARM = "F" 
