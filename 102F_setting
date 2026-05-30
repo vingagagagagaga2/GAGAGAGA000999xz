@@ -103,5 +103,7 @@ getgenv().GMAIL_ITEMS = {
 ["Mega Potion Chest"] = {Class = "Lootbox", Id = "Mega Potion Chest", MinAmount = 5},
 ["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 5,keepAmount = 4},
 ["Ghostly Pack"] = {Class = "Lootbox", Id = "Ghostly Pack", MinAmount = 1},
+
+["Exclusive Raffle Ticket"] = {Class = "Misc", Id = "Exclusive Raffle Ticket", MinAmount = 1},
 }
 
