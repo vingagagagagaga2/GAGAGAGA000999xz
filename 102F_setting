@@ -67,6 +67,8 @@ getgenv().GHUGE_COUNT = 50999
 getgenv().GCOMBINE_MACHINE_OUTPUT = "Titanic Fantasy Present"
 getgenv().GLOOTBOXES = {"Locked Hype Egg","Hype Egg","Hype Egg 2","Hype Egg 3","Titanic Fantasy Present"}
 
+getgenv().GDO_TIME_TRIAL = true
+getgenv().GTIME_TRIAL_HATCH_FIRST_SECONDS = 30
 
 getgenv().GMAX_MAIL_COST = "2m"
 getgenv().GMAIL_ITEMS = {	
