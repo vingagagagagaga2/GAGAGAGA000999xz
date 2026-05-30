@@ -3,7 +3,8 @@ task.spawn(function()
 ------------------------+++
 _G.STATUS_disabble_SEND_ALL = false
 getgenv().GMAIL_ITEMS = {
-["Criittal9"] = {Class = "Enchant", Tier = 9 ,Id = "Criticals", MinAmount = 5, KeepAmount = 1},
+["Criittal10"] = {Class = "Enchant", Tier = 10 ,Id = "Criticals", MinAmount = 2, KeepAmount = 1},
+["Criittal9"] = {Class = "Enchant", Tier = 9 ,Id = "Criticals", MinAmount = 5},
 ["Criittal8"] = {Class = "Enchant", Tier = 8 ,Id = "Criticals", MinAmount = 5},
 }
 
