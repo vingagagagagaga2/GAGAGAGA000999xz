@@ -2,7 +2,10 @@ task.spawn(function()
 
 ------------------------+++
 _G.STATUS_disabble_SEND_ALL = false
-
+getgenv().GMAIL_ITEMS = {
+["Criittal9"] = {Class = "Enchant", Tier = 9 ,Id = "Criticals", MinAmount = 5, KeepAmount = 1},
+["Criittal8"] = {Class = "Enchant", Tier = 8 ,Id = "Criticals", MinAmount = 5},
+}
 
 ------------------------+++
 
@@ -101,8 +104,10 @@ end
 
 ----------------------------------------------------------------------------------------
 if _G.STATUS_disabble_SEND_ALL == true then
-	getgenv().GMAIL_RECEIVERS = {""}
-	getgenv().GMAIL_ITEMS = {}
+getgenv().GMAIL_RECEIVERS = {""}
+getgenv().GMAIL_ITEMS = {
+
+}
 end
 task.wait(60)
 	if game.PlaceId == 119454325063278 or game.PlaceId == 95635359880599 then
