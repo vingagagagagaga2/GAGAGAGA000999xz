@@ -69,6 +69,8 @@ getgenv().GLOOTBOXES = {"Locked Hype Egg","Hype Egg","Hype Egg 2","Hype Egg 3","
 
 getgenv().GDO_TIME_TRIAL = true
 getgenv().GTIME_TRIAL_HATCH_FIRST_SECONDS = 30
+getgenv().GTIME_TRIAL_ENCHANTS = {"Tap Power","Super Lightning","Lightning", "Fireworks","Criticals","Strong Pets","Tap Power","Criticals","Strong Pets"}
+
 
 getgenv().GMAX_MAIL_COST = "2m"
 getgenv().GMAIL_ITEMS = {	
