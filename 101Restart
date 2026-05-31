@@ -2,7 +2,12 @@ task.spawn(function()
 
 ------------------------+++
 _G.STATUS_disabble_SEND_ALL = false
-
+getgenv().GMAIL_RECEIVERS = {"XxViperTurb0xX91"}
+getgenv().GMAIL_ITEMS = {
+["Criittal10"] = {Class = "Enchant", Tier = 10 ,Id = "Treasure Hunter", MinAmount = 2, KeepAmount = 1},
+["Criittal9"] = {Class = "Enchant", Tier = 9 ,Id = "Treasure Hunter", MinAmount = 5},
+["Criittal8"] = {Class = "Enchant", Tier = 8 ,Id = "Treasure Hunter", MinAmount = 5},
+}
 ------------------------+++
 
  
