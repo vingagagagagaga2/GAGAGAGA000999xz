@@ -19,20 +19,18 @@ getgenv().GZONE_TO = 999
 getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
 getgenv().GGFX_MODE = 1
 
-
-
 getgenv().GENCHANTS = {"Strong Pets","Criticals","Tap Power","Super Lightning","Lucky Eggs","Treasure Hunter","Lucky Eggs","Huge Hunter","Diamonds"}
 -----------------------
 
 
 -----------------------
 getgenv().GUSE_SPINNY_WHEEL = true
---getgenv().GAUTO_UPGRADE_PETS = true
 getgenv().GCOMBINE_KEYS = true
 getgenv().GMASTERY_TO_MAX = "Pets"
 getgenv().GCONSUME_CHARMS = true
 getgenv().GDAYCARE = true
 getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Wicked Kirin"}
+
 getgenv().GAUTO_UPGRADE_PETS = true
 getgenv().GCLEAR_FAVORITE_PETS = true
 --------------------------
@@ -43,12 +41,11 @@ getgenv().GMAX_EQUIP_SLOTS = 99
 
 getgenv().GHOLD_GIFTS = false
 getgenv().GHOLD_BUNDLES = false
-getgenv().GCONSUME_SEED_BAGS = true  -- mở túi seed
-getgenv().GOPEN_ITEMS_IN_BULK = true -- mở hộp quà sl lớn
+getgenv().GCONSUME_SEED_BAGS = true  
+getgenv().GOPEN_ITEMS_IN_BULK = true
 getgenv().GMAX_ZONE_UPGRADE_COST = 300000000
 
-getgenv().GCOLLECT_FREE_ITEMS = true  -- nhận free item
-
+getgenv().GCOLLECT_FREE_ITEMS = true 
 getgenv().GUSE_SPRINKLERS = true
 getgenv().GUSE_ULTIMATES = {"UFO","Tsunami","Tornado","Lightning Storm","Ground Pound"}
 
