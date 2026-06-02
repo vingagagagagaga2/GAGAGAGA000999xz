@@ -1,5 +1,5 @@
-PAUSE_or_SEND = "p"
-NAME_USER_SEND = "SilverThunderF0x2005"
+PAUSE_or_SEND = "s"
+NAME_USER_SEND = "Mason_Cookie28"
 
 _duong_ = false --false/true
 
@@ -109,16 +109,16 @@ end
 
 local SETTINGS_SENT_ITEM = {
 
-["Criittal10"] = {Class = "Enchant", TN = 10 ,Id = "Criticals", MinAmount = 1},
-["Criittal9"] = {Class = "Enchant", TN = 9 ,Id = "Criticals", MinAmount = 5},
-["Criittal8"] = {Class = "Enchant", TN = 8 ,Id = "Criticals", MinAmount = 5},
+--["Criittal10"] = {Class = "Enchant", TN = 10 ,Id = "Criticals", MinAmount = 1},
+--["Criittal9"] = {Class = "Enchant", TN = 9 ,Id = "Criticals", MinAmount = 5},
+--["Criittal8"] = {Class = "Enchant", TN = 8 ,Id = "Criticals", MinAmount = 5},
 
 --["Tornado"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 5},
 --["Magic Shard"] = {Class = "Misc", Id = "Magic Shard", MinAmount = 5},
 --["Bucket O' Magic"] = {Class = "Misc", Id = "Bucket O' Magic", MinAmount = 5},
 --["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 1},
 
---["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	
+["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	
 --["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 40000},	
 
 --["Time Trial Gift"] = {Class = "Lootbox", Id = "Time Trial Gift", MinAmount = 50},	
