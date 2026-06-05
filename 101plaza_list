@@ -10,13 +10,13 @@ getgenv().Settings_autoplaza = {
 {Name = "MVP Key Lower Half",	Data = {Price = 25 + math.random(1,25)*1 .."k"}}, 
 
 
-{Name = "Titanic Ruinous Angelus", Data = {Price = 4.85 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Ruinous Angelus", Data = {Price = 4.75 + math.random(1,10)*0.01 .."b"}},
 {Name = "Golden Titanic Ruinous Angelus", Data = {Price = 5.35 + math.random(1,10)*0.01 .."b"}},
 {Name = "Rainbow Titanic Ruinous Angelus", Data = {Price = 15 + math.random(1,10)*0.01 .."b"}},
 {Name = "Shiny Titanic Ruinous Angelus", Data = {Price = 17 + math.random(1,10)*0.01 .."b"}},
 
-{Name = "Titanic Werewolf", Data = {Price = 4.85 + math.random(1,10)*0.01 .."b"}},
-{Name = "Golden Titanic Werewolf", Data = {Price = 5.5 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Werewolf", Data = {Price = 4.75 + math.random(1,10)*0.01 .."b"}},
+{Name = "Golden Titanic Werewolf", Data = {Price = 5.35 + math.random(1,10)*0.01 .."b"}},
 {Name = "Rainbow Titanic Werewolf", Data = {Price = 16 + math.random(1,10)*0.01 .."b"}},
 {Name = "Shiny Titanic Werewolf", Data = {Price = 17 + math.random(1,10)*0.01 .."b"}},
 
