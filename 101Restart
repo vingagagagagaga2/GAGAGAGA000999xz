@@ -2,6 +2,7 @@ task.spawn(function()
 
 ------------------------+++
 _G.STATUS_disabble_SEND_ALL = false
+getgenv().GENCHANTS = {"Strong Pets","Criticals","Treasure Hunter","Diamonds","Diamonds","Treasure Hunter","Lucky Eggs","Huge Hunter","Diamonds"}
 
 ------------------------+++
 
