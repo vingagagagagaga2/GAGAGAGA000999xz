@@ -69,7 +69,7 @@ getgenv().GTIME_TRIAL_HATCH_FIRST_SECONDS = 30
 getgenv().GTIME_TRIAL_ENCHANTS = {"Tap Power","Super Lightning","Lightning", "Fireworks","Criticals","Strong Pets","Tap Power","Criticals","Strong Pets"}
 
 
-getgenv().GMAX_MAIL_COST = "2m"
+getgenv().GMAX_MAIL_COST = "4m"
 getgenv().GMAIL_ITEMS = {	
 
 ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
