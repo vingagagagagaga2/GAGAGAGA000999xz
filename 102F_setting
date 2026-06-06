@@ -87,6 +87,7 @@ getgenv().GMAIL_ITEMS = {
 ["Blossom Gift"] = {Class = "Lootbox", Id= "Blossom Gift", MinAmount = 3},
 
 ["Exclusive Egg 60"] = {Class = "Egg", Id= "Exclusive Egg 60", MinAmount = 1},
+["Titanic Fantasy Present"] = {Class = "Lootbox", Id = "Titanic Fantasy Present", MinAmount = 1},
 
 --["Magic Shard"] = {Class = "Misc", Id= "Magic Shard", MinAmount = 20},
 --["Bucket O' Magic"] = {Class = "Misc", Id= "Bucket O' Magic", MinAmount = 20},
