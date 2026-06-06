@@ -42,6 +42,7 @@ getgenv().Settings_autoplaza = {
 {Name = "2026 New Years Gift", Data = {Price = "350m"}},
 {Name = "Exclusive Raffle Ticket", Data = {Price = "50m"}},
 {Name = "Ghostly Pack", Data = {Price = "100m"}},
+{Name = "Titanic Fantasy Present", Data = {Price = 120 + math.random(1,30) .."m"}},
 
 {Name = "Blossom Gift", Data = {Price = 3000 + math.random(1,50) .."k"}},
 {Name = "Time Trial Gift", Data = {Price = 449 + math.random(1,50) .."k"}},
