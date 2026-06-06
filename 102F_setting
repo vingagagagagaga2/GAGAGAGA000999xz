@@ -62,7 +62,7 @@ getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
 
 getgenv().GCOMBINE_MACHINE_OUTPUT = "Titanic Fantasy Present"
-getgenv().GLOOTBOXES = {"Locked Hype Egg","Hype Egg","Hype Egg 2","Hype Egg 3","Titanic Fantasy Present"}
+getgenv().GLOOTBOXES = {"Locked Hype Egg","Locked Hype Egg 2","Locked Hype Egg 3","Hype Egg","Hype Egg 2","Hype Egg 3"}
 
 getgenv().GDO_TIME_TRIAL = true
 getgenv().GTIME_TRIAL_HATCH_FIRST_SECONDS = 30
