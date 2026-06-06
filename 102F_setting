@@ -69,7 +69,6 @@ getgenv().GTIME_TRIAL_HATCH_FIRST_SECONDS = 30
 getgenv().GTIME_TRIAL_ENCHANTS = {"Tap Power","Super Lightning","Lightning", "Fireworks","Criticals","Strong Pets","Tap Power","Criticals","Strong Pets"}
 
 
-getgenv().GMAX_MAIL_COST = "4m"
 getgenv().GMAIL_ITEMS = {	
 
 ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
@@ -79,10 +78,6 @@ getgenv().GMAIL_ITEMS = {
 
 ["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "50m", MinAmount = "150m"},
 ["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 5},
-
-["Lucky Eggs"] = {Class = "Enchant", Tier = 9 ,Id = "Lucky Eggs", MinAmount = 2, KeepAmount = 1},
-
-["Tornado"] = {Class = "Ultimate", Id= "Tornado", MinAmount = 5, KeepAmount = 1},
 
 ["Blossom Gift"] = {Class = "Lootbox", Id= "Blossom Gift", MinAmount = 3},
 
