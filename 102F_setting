@@ -61,8 +61,8 @@ getgenv().GKICK_ON_STAFF = true
 getgenv().GWEBHOOK_LINK = vinGWEBHOOK_LINK
 getgenv().GHUGE_COUNT = 50999
 
-getgenv().GCOMBINE_MACHINE_OUTPUT = "Titanic Fantasy Present"
-getgenv().GLOOTBOXES = {"Locked Hype Egg","Locked Hype Egg 2","Locked Hype Egg 3","Hype Egg","Hype Egg 2","Hype Egg 3"}
+--getgenv().GCOMBINE_MACHINE_OUTPUT = "Titanic Fantasy Present"
+getgenv().GLOOTBOXES = {"All"}
 
 getgenv().GDO_TIME_TRIAL = true
 getgenv().GTIME_TRIAL_HATCH_FIRST_SECONDS = 30
@@ -80,15 +80,8 @@ getgenv().GMAIL_ITEMS = {
 ["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 5},
 
 ["Blossom Gift"] = {Class = "Lootbox", Id= "Blossom Gift", MinAmount = 3},
-
 ["Exclusive Egg 60"] = {Class = "Egg", Id= "Exclusive Egg 60", MinAmount = 1},
 ["Titanic Fantasy Present"] = {Class = "Lootbox", Id = "Titanic Fantasy Present", MinAmount = 1},
-
---["Magic Shard"] = {Class = "Misc", Id= "Magic Shard", MinAmount = 20},
---["Bucket O' Magic"] = {Class = "Misc", Id= "Bucket O' Magic", MinAmount = 20},
-
---["LuckyPotion"] = {Class = "Potion", Tier = 9 ,Id = "Lucky", MinAmount = 1000, KeepAmount = 500},
---["Diamonds"] = {Class = "Potion", Tier = 9 ,Id = "Diamonds", MinAmount = 1000, KeepAmount = 500},
 ["Mega Charm Chest"] = {Class = "Lootbox", Id = "Mega Charm Chest", MinAmount = 1},
 ["Mega Boost Chest"] = {Class = "Lootbox", Id = "Mega Boost Chest", MinAmount = 2},
 ["Mega Ultimate Chest"] = {Class = "Lootbox", Id = "Mega Ultimate Chest", MinAmount = 2},
