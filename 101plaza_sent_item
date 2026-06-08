@@ -1,4 +1,4 @@
-PAUSE_or_SEND = "S"
+PAUSE_or_SEND = "s"
 NAME_USER_SEND = "EzraSaberStorm201889"
 
 _duong_ = true --false/true
