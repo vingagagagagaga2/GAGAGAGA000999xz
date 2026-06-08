@@ -3,7 +3,9 @@ task.spawn(function()
 ------------------------+++
 _G.STATUS_disabble_SEND_ALL = false
 getgenv().GEVENT_ITEMS_TO_USE = {}
-
+		if EVENT_or_FARM == "E" then
+			game.Players.LocalPlayer:Kick("kick reset")	
+		end
 ------------------------+++
 
  
