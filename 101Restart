@@ -81,7 +81,7 @@ if currentHour > 21 or currentHour < 20 then
 	--_G.start_vvv_ = false
 end
 
-if name_vps == "PMa19" then
+if name_vps == "V7" then
 	_G.start_vvv_ = true
 end
 
