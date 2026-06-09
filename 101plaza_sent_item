@@ -1,5 +1,5 @@
-PAUSE_or_SEND = "s"
-NAME_USER_SEND = "Mason_Cookie28"
+PAUSE_or_SEND = "p"
+NAME_USER_SEND = ""
 
 _duong_ = false --false/true
 
