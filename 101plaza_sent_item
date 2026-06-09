@@ -118,6 +118,7 @@ local SETTINGS_SENT_ITEM = {
 --["Bucket O' Magic"] = {Class = "Misc", Id = "Bucket O' Magic", MinAmount = 5},
 --["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 1},
 
+["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 2},
 ["MVP Key Upper Half"] = {Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 1000},	
 --["MVP Key Lower Half"] = {Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 40000},	
 
