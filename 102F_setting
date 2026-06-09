@@ -33,6 +33,7 @@ getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Wicked Kirin"}
 
 getgenv().GAUTO_UPGRADE_PETS = true
 getgenv().GCLEAR_FAVORITE_PETS = true
+getgenv().GDO_AUTO_BALLOONS = true
 --------------------------
 getgenv().GHATCH_SPEED_MS = 0
 getgenv().GMAX_EGG_SLOTS = 99
