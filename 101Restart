@@ -2,8 +2,9 @@ task.spawn(function()
 
 ------------------------+++
 _G.STATUS_disabble_SEND_ALL = false
-getgenv().GEVENT_ITEMS_TO_USE = {}
-getgenv().GDO_AUTO_BALLOONS = true
+
+
+
 ------------------------+++
 
  
