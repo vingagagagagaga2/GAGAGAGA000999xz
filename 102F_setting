@@ -8,7 +8,7 @@ end)
 
 task.spawn(function()
 task.wait(48*3600)
---game.Players.LocalPlayer:Kick("kick 24h")
+game.Players.LocalPlayer:Kick("kick 24h")
 end)
 
 
