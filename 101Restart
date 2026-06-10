@@ -17,7 +17,7 @@ else
 	_G.FPS_farm = 4
 end
 _G.FPS_event = 4
-setfpscap(_G.FPS_farm)
+--setfpscap(_G.FPS_farm)
 
 
 	local HttpService = game:GetService("HttpService")
