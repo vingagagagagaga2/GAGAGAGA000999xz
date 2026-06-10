@@ -8,7 +8,7 @@ Start_ford = 1
 task.spawn(function()
 	while true do
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/vingagagagagaga2/GAGAGAGA000999xz/refs/heads/main/101Restart"))()	
-		task.wait(3600)
+		task.wait(1800)
 	end
 end)
 
