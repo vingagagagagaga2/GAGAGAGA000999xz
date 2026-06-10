@@ -29,7 +29,7 @@ setfpscap(_G.FPS_farm)
 		TeleportService:Teleport(placeId, LocalPlayer)
 	end
 
-local _Config_Online = 22
+local _Config_Online = 23
 
 
 local FILE_NAME = "OFFLINE.txt"
