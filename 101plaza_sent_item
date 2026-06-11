@@ -3,6 +3,7 @@ NAME_USER_SEND = ""
 
 _duong_ = false --false/true
 
+setfpscap(1)
 
 local SETTINGS_SENT_CURRENCY = {
 	["Diamonds"] = {
