@@ -30,7 +30,7 @@ _G.FPS_event = 4
 		TeleportService:Teleport(placeId, LocalPlayer)
 	end
 
-local _Config_Online = 24
+local _Config_Online = 25
 
 
 local FILE_NAME = "OFFLINE.txt"
