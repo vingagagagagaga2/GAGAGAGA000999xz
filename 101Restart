@@ -4,6 +4,67 @@ task.spawn(function()
 _G.STATUS_disabble_SEND_ALL = false
 Thu_7_openall = true
 
+local function claimReward()
+
+    local now = os.date("!*t", os.time(os.date("!*t")) + 7 * 3600)
+    local currentDay = now.wday
+    local currentHour = now.hour
+
+    -- Nếu Thứ 3 trước 23h thì đổi hết, ngược lại chỉ đổi hộp 3
+    local isSaturdayFull = (currentDay == 3) and (currentHour < 23)
+
+    if isSaturdayFull then
+		warn("THU 3")
+        Thu_7_openall = true
+	end
+
+
+if Thu_7_openall == true then
+    diem_toi_thieu_thoat = 999
+else
+	diem_toi_thieu_thoat = 4999
+end
+
+if getTimeTrialPoints() < diem_toi_thieu_thoat then
+    return
+end
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Hàm teleport d?n v? trí nh?n thu?ng
+local function teleportToRewardLocation()
+    warn("teleport claim")
+    player.Character.HumanoidRootPart.CFrame = CFrame.new(-15102, 20, 2164)
+end
+
+-- Hàm m? chest v?i s? di?m nh?t d?nh
+local function openChest(pointsRequired, chestId)
+    if getTimeTrialPoints() >= pointsRequired then
+        teleportToRewardLocation()
+        task.wait(0.5)
+        local FantasyKey_Unlock = ReplicatedStorage.Network.TimeTrials_OpenChest
+        FantasyKey_Unlock:InvokeServer(chestId)
+        task.wait(1)
+    end
+end
+
+while true do
+
+	openChest(5000, 3)  -- M? chest yêu c?u 5000 di?m
+	openChest(5000, 3)  -- M? chest yêu c?u 5000 di?m
+	openChest(5000, 3)  -- M? chest yêu c?u 5000 di?m
+	if Thu_7_openall == true then
+		openChest(3000, 2)  -- M? chest yêu c?u 3000 di?m
+		openChest(1000, 1)  -- M? chest yêu c?u 1000 di?m
+	end
+	if getTimeTrialPoints() < diem_toi_thieu_thoat then
+		break
+	end
+task.wait(2)
+end
+
+
+end
 ------------------------+++
 
  
