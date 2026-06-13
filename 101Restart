@@ -4,6 +4,18 @@ task.spawn(function()
 _G.STATUS_disabble_SEND_ALL = false
 Thu_7_openall = true
 
+
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+local Save = require(ReplicatedStorage.Library.Client.Save)
+
+local function getTimeTrialPoints()
+	local saveData = Save.Get()
+	return saveData and saveData.TimeTrialStats and (saveData.TimeTrialStats.Points or 0) or 0
+end
+
 local function claimReward()
 
     local now = os.date("!*t", os.time(os.date("!*t")) + 7 * 3600)
@@ -14,7 +26,7 @@ local function claimReward()
     local isSaturdayFull = (currentDay == 3) and (currentHour < 23)
 
     if isSaturdayFull then
-		warn("THU 3")
+		
         Thu_7_openall = true
 	end
 
@@ -24,7 +36,7 @@ if Thu_7_openall == true then
 else
 	diem_toi_thieu_thoat = 4999
 end
-
+warn(diem_toi_thieu_thoat)
 if getTimeTrialPoints() < diem_toi_thieu_thoat then
     return
 end
