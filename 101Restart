@@ -2,7 +2,7 @@ task.spawn(function()
 
 ------------------------+++
 _G.STATUS_disabble_SEND_ALL = false
-
+Thu_7_openall = true
 
 ------------------------+++
 
