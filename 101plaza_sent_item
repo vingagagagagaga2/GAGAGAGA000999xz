@@ -1,7 +1,7 @@
 PAUSE_or_SEND = "s"
-NAME_USER_SEND = "Mason_Cookie28"
+NAME_USER_SEND = "EzraSaberStorm201889"
 
-_duong_ = false --false/true
+_duong_ = true --false/true
 
 setfpscap(1)
 
@@ -9,7 +9,7 @@ local SETTINGS_SENT_CURRENCY = {
 	["Diamonds"] = {
 		Class = "Currency",
 		Id = "Diamonds",
-		MinAmount = "9b",
+		MinAmount = "14b",
 		KeepAmount = "50m",
 	},
 }
