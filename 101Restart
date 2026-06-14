@@ -31,7 +31,7 @@ setfpscap(5)
 		TeleportService:Teleport(placeId, LocalPlayer)
 	end
 
-local _Config_Online = 27
+local _Config_Online = 28
 
 
 local FILE_NAME = "OFFLINE.txt"
@@ -61,11 +61,39 @@ if _Config_Offline ~= _Config_Online then
 			return
 		end
 		--------------------------------------------
-		_G.TAG_farmsync = false
+		--_G.TAG_farmsync = false
 		if EVENT_or_FARM == "F" then
 			--game.Players.LocalPlayer:Kick("kick reset")	
 		end
 		--serverhopTo(140403681187145)
+
+task.spawn(function()
+    task.wait(600) -- Chờ 1 phút đầu để dữ liệu game ổn định
+
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
+    local Players = game:GetService("Players")
+    local Save = require(ReplicatedStorage.Library.Client.Save)
+
+    local function getEggsHatched()
+        local data = Save.Get()
+        return tonumber(data and data.EggsHatched) or 0
+    end
+
+    while true do
+        local startEggs = getEggsHatched()
+
+        -- Chờ 10 phút (10 * 60 giây)
+        task.wait(3600)
+        local endEggs = getEggsHatched()
+        local hatchedIn10 = endEggs - startEggs
+
+        if hatchedIn10 < 100 then
+            Players.LocalPlayer:Kick(" <30 Hatch (5min Check)")
+            break
+        end
+    end
+end)
+
 		--------------------------------------------
 end
 
