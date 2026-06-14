@@ -68,7 +68,7 @@ local currentHour = now.hour
 	end
 
 if name_vps == "V7" then
-	EVENT_or_FARM = "F" 
+	--EVENT_or_FARM = "F" 
 end
 
 
