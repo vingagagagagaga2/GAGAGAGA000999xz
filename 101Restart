@@ -12,13 +12,6 @@ _G.STATUS_disabble_SEND_ALL = false
 _G.start_vvv_ = true
 
 
-
-if _G.ACC_SUPER == true then
-	_G.FPS_farm = 7
-else
-	_G.FPS_farm = 4
-end
-_G.FPS_event = 5
 setfpscap(4)
 
 
