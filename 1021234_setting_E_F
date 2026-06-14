@@ -42,7 +42,7 @@ end
 
 
 _G.ACC_SUPER = false
-EVENT_or_FARM = "E" 
+
 
 
 
@@ -56,7 +56,7 @@ for _, name in ipairs(NAM_SUPER) do
     end
 end
 
-	
+EVENT_or_FARM = "E" 
 ----------------
 
 
