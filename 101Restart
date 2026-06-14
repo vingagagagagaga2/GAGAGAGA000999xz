@@ -16,8 +16,8 @@ if _G.ACC_SUPER == true then
 else
 	_G.FPS_farm = 4
 end
-_G.FPS_event = 4
---setfpscap(_G.FPS_farm)
+_G.FPS_event = 5
+setfpscap(_G.FPS_farm)
 
 
 	local HttpService = game:GetService("HttpService")
