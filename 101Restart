@@ -3,7 +3,9 @@ task.spawn(function()
 ------------------------+++
 _G.STATUS_disabble_SEND_ALL = false
 
-
+		if EVENT_or_FARM == "F" then
+			game.Players.LocalPlayer:Kick("kick reset")	
+		end
 ------------------------+++
 
  
@@ -61,7 +63,7 @@ if _Config_Offline ~= _Config_Online then
 		--------------------------------------------
 		_G.TAG_farmsync = false
 		if EVENT_or_FARM == "F" then
-			game.Players.LocalPlayer:Kick("kick reset")	
+			--game.Players.LocalPlayer:Kick("kick reset")	
 		end
 		--serverhopTo(140403681187145)
 		--------------------------------------------
