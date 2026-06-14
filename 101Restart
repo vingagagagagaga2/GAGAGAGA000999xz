@@ -11,10 +11,6 @@ _G.STATUS_disabble_SEND_ALL = false
  
 _G.start_vvv_ = true
 
-
-setfpscap(4)
-
-
 	local HttpService = game:GetService("HttpService")
 	local Players = game:GetService("Players")
 	local TeleportService = game:GetService("TeleportService")
