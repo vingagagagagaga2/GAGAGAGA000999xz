@@ -61,11 +61,12 @@ end
     if teleportName then
         for attempt = 1, 2 do
             local success, result = pcall(function()
-                return ReplicatedStorage:WaitForChild("Network"):WaitForChild(teleportName):InvokeServer()
+                --return ReplicatedStorage:WaitForChild("Network"):WaitForChild(teleportName):InvokeServer()
+				return ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
             end) 
             wait(10)
 
-            if game.PlaceId == 140403681187145 then
+            if game.PlaceId == 140403681187145 or game.PlaceId == 8737899170 then
                 warn("✅ Đã teleport thành công!")
                 break
             end
