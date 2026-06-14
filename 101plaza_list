@@ -28,6 +28,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Golden Titanic Arcane Halo Cat", Data = {Price = 11 + math.random(1,10)*0.01 .."b"}},
 {Name = "Rainbow Titanic Arcane Halo Cat", Data = {Price = 35 + math.random(1,10)*0.01 .."b"}},
 
+{Name = "Titanic Partygoer Cat", Data = {Price = 9.5 + math.random(1,10)*0.01 .."b"}},
 
 
 
