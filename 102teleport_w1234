@@ -45,9 +45,7 @@ task.wait(3)
 		teleportName = TeleportMapping[4]
 	end
 --------------------------------------------------------
-if name_vps == "V7" then
-	teleportName = TeleportMapping[1]
-end
+
 ---------------------------------------------------------
 if not MAP_w2_true then
 	local HttpService = game:GetService("HttpService")
