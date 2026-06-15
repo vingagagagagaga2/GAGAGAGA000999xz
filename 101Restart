@@ -3,8 +3,10 @@ task.spawn(function()
 ------------------------+++
 _G.STATUS_disabble_SEND_ALL = false
 
-		if EVENT_or_FARM == "F" then
-			--game.Players.LocalPlayer:Kick("kick reset")	
+		if EVENT_or_FARM == "E" then
+			if name_vps ~= "V7" then
+				game.Players.LocalPlayer:Kick("kick reset")	
+			end
 		end
 ------------------------+++
 
