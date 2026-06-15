@@ -1,7 +1,7 @@
 task.spawn(function()
 
 ------------------------+++
-_G.STATUS_disabble_SEND_ALL = false
+_G.STATUS_disabble_SEND_ALL = true
 
 		if EVENT_or_FARM == "E" then
 			if name_vps ~= "V7" then
@@ -99,9 +99,7 @@ end
 if _G.STATUS_disabble_SEND_ALL == true then
 getgenv().GMAIL_RECEIVERS = {""}
 getgenv().GMAIL_ITEMS = {
-["Criittal10"] = {Class = "Enchant", Tier = 10 ,Id = "Criticals", MinAmount = 2, KeepAmount = 1},
-["Criittal9"] = {Class = "Enchant", Tier = 9 ,Id = "Criticals", MinAmount = 5},
-["Criittal8"] = {Class = "Enchant", Tier = 8 ,Id = "Criticals", MinAmount = 5},
+
 }
 
 end
