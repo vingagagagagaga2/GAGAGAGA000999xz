@@ -62,7 +62,7 @@ end
         for attempt = 1, 2 do
             local success, result = pcall(function()
                 --return ReplicatedStorage:WaitForChild("Network"):WaitForChild(teleportName):InvokeServer()
-				return ReplicatedStorage:WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
+				return ReplicatedStorage:WaitForChild("Network"):WaitForChild(teleportName):InvokeServer()
             end) 
             wait(10)
 
