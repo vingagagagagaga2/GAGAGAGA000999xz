@@ -20,7 +20,7 @@ _G.start_vvv_ = true
 		TeleportService:Teleport(placeId, LocalPlayer)
 	end
 
-local _Config_Online = 29
+local _Config_Online = 1
 
 
 local FILE_NAME = "OFFLINE.txt"
