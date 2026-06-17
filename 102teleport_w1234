@@ -47,15 +47,16 @@ task.wait(3)
 --------------------------------------------------------
 
 ---------------------------------------------------------
-if not MAP_w2_true then
-	local HttpService = game:GetService("HttpService")
-	local Players = game:GetService("Players")
-	local TeleportService = game:GetService("TeleportService")
-	local LocalPlayer = Players.LocalPlayer
+	HttpService = game:GetService("HttpService")
+	Players = game:GetService("Players")
+	TeleportService = game:GetService("TeleportService")
+	LocalPlayer = Players.LocalPlayer
 	
-	local function serverhopTo(placeId)
+	function serverhopTo(placeId)
 		TeleportService:Teleport(placeId, LocalPlayer)
 	end
+
+if not MAP_w2_true then
 	serverhopTo(8737899170)
 end
 
@@ -64,7 +65,7 @@ end
         for attempt = 1, 2 do
             local success, result = pcall(function()
                 --return ReplicatedStorage:WaitForChild("Network"):WaitForChild(teleportName):InvokeServer()
-				return ReplicatedStorage:WaitForChild("Network"):WaitForChild(teleportName):InvokeServer()
+				serverhopTo(140403681187145)
             end) 
             wait(10)
 
