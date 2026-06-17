@@ -1,13 +1,13 @@
 task.spawn(function()
 
 ------------------------+++
-_G.STATUS_disabble_SEND_ALL = false
+
 if EVENT_or_FARM == "F" and name_vps == "PM65" then
 	game.Players.LocalPlayer:Kick("kick reset")
 end
 ------------------------+++
 
- 
+_G.STATUS_disabble_SEND_ALL = false
 _G.start_vvv_ = true
 
 	local HttpService = game:GetService("HttpService")
