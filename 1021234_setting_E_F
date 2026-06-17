@@ -56,7 +56,7 @@ for _, name in ipairs(NAM_SUPER) do
     end
 end
 
-EVENT_or_FARM = "E" 
+EVENT_or_FARM = "F" 
 ----------------
 
 
