@@ -19,7 +19,7 @@ task.spawn(function()
 while true do
 	task.wait(360)
 	if game.PlaceId == 119454325063278 or game.PlaceId == 95635359880599 then
-		game.Players.LocalPlayer:Kick("FIFA") 
+		game.Players.LocalPlayer:Kick("FIFA111") 
 	end
 end
 
