@@ -52,9 +52,10 @@ if _Config_Offline ~= _Config_Online then
 		--------------------------------------------
 		--_G.TAG_farmsync = false
 		if name_vps == "PM10" then
-			game.Players.LocalPlayer:Kick("kick reset")	
+			--game.Players.LocalPlayer:Kick("kick reset")
+			serverhopTo(140403681187145)
 		end
-		--serverhopTo(140403681187145)
+		--
 
 
 		--------------------------------------------
