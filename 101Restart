@@ -1,7 +1,7 @@
 task.spawn(function()
 
 ------------------------+++
-_G.STATUS_disabble_SEND_ALL = true
+_G.STATUS_disabble_SEND_ALL = false
 getgenv().GBACKROOMS_MIN_MULTIPLIER = 100
 		if EVENT_or_FARM == "E" then
 				--game.Players.LocalPlayer:Kick("kick reset")	
