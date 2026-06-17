@@ -67,7 +67,7 @@ local currentHour = now.hour
 		--EVENT_or_FARM = "F" 
 	end
 
-if name_vps == "V7" then
+if name_vps == "V7" or name_vps == "PM10" then
 	EVENT_or_FARM = "E" 
 end
 
