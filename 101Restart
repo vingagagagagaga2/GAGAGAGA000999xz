@@ -2,7 +2,7 @@ task.spawn(function()
 
 ------------------------+++
 _G.STATUS_disabble_SEND_ALL = false
-getgenv().GBACKROOMS_MIN_MULTIPLIER = 100
+
 		if EVENT_or_FARM == "E" then
 		if name_vps == "PM10" or name_vps == "V7" then
 		else
