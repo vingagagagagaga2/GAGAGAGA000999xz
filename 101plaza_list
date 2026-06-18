@@ -59,7 +59,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Banana PetSecret", Data = {Price = "13b"}},
 {Name = "Coin PetSecret", Data = {Price = "13b"}},
 {Name = "Yellow Lucky Block PetSecret", Data = {Price = "15b"}},
-
+{Name = "Crown", Data = {Price = "25b"}},
 
 {Name = "XPPotion Mastery", Data = {Price = 1900 + math.random(1,10) .."k"}},
 
