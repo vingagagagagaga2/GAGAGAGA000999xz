@@ -85,7 +85,8 @@ getgenv().GMAIL_ITEMS = {
 ["Insta Plant Capsule"] = {Class = "Misc", Id= "Insta Plant Capsule", MinAmount = 1000},
 
 ["Exclusive Egg 60"] = {Class = "Egg", Id= "Exclusive Egg 60", MinAmount = 1},
-
+["Magic Shard"] = {Class = "Misc", Id= "Magic Shard", MinAmount = 20},
+["Bucket O' Magic"] = {Class = "Misc", Id= "Bucket O' Magic", MinAmount = 20},
 ["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 5,keepAmount = 4},
 ["Ghostly Pack"] = {Class = "Lootbox", Id = "Ghostly Pack", MinAmount = 1},
 
