@@ -9,7 +9,7 @@ local SETTINGS_SENT_CURRENCY = {
 	["Diamonds"] = {
 		Class = "Currency",
 		Id = "Diamonds",
-		MinAmount = "6b",
+		MinAmount = "8b",
 		KeepAmount = "50m",
 	},
 }
