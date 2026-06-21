@@ -80,3 +80,5 @@ if EVENT_or_FARM == "E" then
 else
 	vinGWEBHOOK_LINK = dis_farm
 end
+
+getgenv().EVENT_or_FARM = EVENT_or_FARM
