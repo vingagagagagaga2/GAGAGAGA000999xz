@@ -2,8 +2,8 @@ task.spawn(function()
 
 ------------------------+++
 --Thu_7_openall = true
-if EVENT_or_FARM == "F" then
-	--game.Players.LocalPlayer:Kick("kick reset")
+if EVENT_or_FARM == "E" then
+	game.Players.LocalPlayer:Kick("kick reset")
 end
 
 task.spawn(function()
