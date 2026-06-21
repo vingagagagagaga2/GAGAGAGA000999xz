@@ -115,8 +115,8 @@ local SETTINGS_SENT_ITEM = {
 --["Criittal8"] = {Class = "Enchant", TN = 8 ,Id = "Criticals", MinAmount = 5},
 
 --["Tornado"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 5},
---["Magic Shard"] = {Class = "Misc", Id = "Magic Shard", MinAmount = 5},
---["Bucket O' Magic"] = {Class = "Misc", Id = "Bucket O' Magic", MinAmount = 5},
+--["Magic Shard"] = {Class = "Misc", Id = "Magic Shard", MinAmount = 500},
+--["Bucket O' Magic"] = {Class = "Misc", Id = "Bucket O' Magic", MinAmount = 500},
 --["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 1},
 
 ["Tsunami"] = {Class = "Ultimate", Id = "Tsunami", MinAmount = 1},
