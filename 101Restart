@@ -18,8 +18,8 @@ end)
 
 ------------------------+++
 
-_G.STATUS_disabble_SEND_ALL = false
-_G.start_vvv_ = true
+getgenv().STATUS_disabble_SEND_ALL = false
+getgenv().start_vvv_ = true
 
 	local HttpService = game:GetService("HttpService")
 	local Players = game:GetService("Players")
@@ -55,13 +55,13 @@ local _Config_Offline = getOffline()
 if _Config_Offline ~= _Config_Online then
 
 	    setOffline(_Config_Online)
-		if _G.Restart == true then
-			_G.Restart = false 	
+		if getgenv().Restart == true then
+			getgenv().Restart = false 	
 			return
 		end
 		--------------------------------------------
 		game.Players.LocalPlayer:Kick("kick reset")
-		--_G.TAG_farmsync = false
+		--getgenv().TAG_farmsync = false
 		--if name_vps == "PM10" then
 		if EVENT_or_FARM == "E" then
 			--game.Players.LocalPlayer:Kick("kick reset")
@@ -73,8 +73,8 @@ if _Config_Offline ~= _Config_Online then
 		--------------------------------------------
 end
 
-if _G.Restart == true then
-	_G.Restart = false 	
+if getgenv().Restart == true then
+	getgenv().Restart = false 	
 end
 
 --checku
@@ -84,21 +84,21 @@ local now = os.date("!*t", os.time(os.date("!*t")) + 7 * 3600)
 local currentHour = now.hour
 
 if currentHour > 21 or currentHour < 20 then
-	--_G.start_vvv_ = false
+	--getgenv().start_vvv_ = false
 end
 
 if name_vps == "V7" then
-	_G.start_vvv_ = true
+	getgenv().start_vvv_ = true
 end
 
 
 	
 
-	if _G.RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and _G.ACC_SUPER == false then
+	if getgenv().RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and getgenv().ACC_SUPER == false then
 		--game.Players.LocalPlayer:Kick("kick fin")
 		--serverhopTo(140403681187145)
 	end
-	if _G.RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and _G.start_vvv_ == true then
+	if getgenv().RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and getgenv().start_vvv_ == true then
 		--game.Players.LocalPlayer:Kick("kick pla")
 		--serverhopTo(140403681187145)
 	end
@@ -107,7 +107,7 @@ end
 
 
 ----------------------------------------------------------------------------------------
-if _G.STATUS_disabble_SEND_ALL == true then
+if getgenv().STATUS_disabble_SEND_ALL == true then
 getgenv().GMAIL_RECEIVERS = {""}
 getgenv().GMAIL_ITEMS = {
 
