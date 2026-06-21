@@ -1,12 +1,3 @@
-_G.FPS_farm = 3
-spawn(function()
-    while true do
-        --setfpscap(_G.FPS_farm)
-        task.wait(100)
-    end
-end)
-
-
 task.spawn(function()
 task.wait(48*3600)
 game.Players.LocalPlayer:Kick("kick 24h")
