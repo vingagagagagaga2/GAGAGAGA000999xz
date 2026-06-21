@@ -23,7 +23,7 @@ task.wait(5)
 -----------------------
 
 ----------------
-if _G.RunsLeft_TIMEtrial > 0 and _G.start_vvv_ == true then
+if getgenv().RunsLeft_TIMEtrial > 0 and getgenv().start_vvv_ == true then
 	EVENT_or_FARM = "F" 
 else
 	EVENT_or_FARM = "E" 
@@ -41,7 +41,7 @@ if getRaidPoints() < 45000 then
 end
 
 
-_G.ACC_SUPER = false
+getgenv().ACC_SUPER = false
 
 EVENT_or_FARM = "F" 
 
@@ -50,7 +50,7 @@ local playerName = game.Players.LocalPlayer.Name
 for _, name in ipairs(NAM_SUPER) do
     if playerName == name then
         EVENT_or_FARM = "F"
-		_G.ACC_SUPER = true
+		getgenv().ACC_SUPER = true
         break
     end
 end
