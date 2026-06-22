@@ -70,8 +70,8 @@ if name_vps == "V7" then
 	--EVENT_or_FARM = "E" 
 end
 
-if name_vps == "LB1_2" then
-	--EVENT_or_FARM = "F" 
+if name_vps == "L1" then
+	EVENT_or_FARM = "E" 
 end
 
 
