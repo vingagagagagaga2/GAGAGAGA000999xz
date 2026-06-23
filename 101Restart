@@ -5,6 +5,10 @@ task.spawn(function()
 if getgenv().GGFX_MODE == 3 then
 	game.Players.LocalPlayer:Kick("kick reset")
 end
+		if EVENT_or_FARM == "E" then
+			game.Players.LocalPlayer:Kick("kick reset")
+			--serverhopTo(140403681187145)
+		end
 
 task.spawn(function()
 local Players = game:GetService("Players")
