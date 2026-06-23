@@ -5,8 +5,8 @@ task.spawn(function()
 if getgenv().GGFX_MODE == 3 then
 	game.Players.LocalPlayer:Kick("kick reset")
 end
-		if EVENT_or_FARM == "E" then
-			--game.Players.LocalPlayer:Kick("kick reset")
+		if EVENT_or_FARM == "E" and name_vps ~= "V7" then
+			game.Players.LocalPlayer:Kick("kick reset")
 			--serverhopTo(140403681187145)
 		end
 
