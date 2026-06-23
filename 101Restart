@@ -93,7 +93,7 @@ end
 	
 
 	if getgenv().RunsLeft_TIMEtrial == 0 and EVENT_or_FARM == "F" and getgenv().ACC_SUPER == false then
-		game.Players.LocalPlayer:Kick("kick fin")
+		--game.Players.LocalPlayer:Kick("kick fin")
 		--serverhopTo(140403681187145)
 	end
 	if getgenv().RunsLeft_TIMEtrial > 0 and EVENT_or_FARM == "E" and getgenv().start_vvv_ == true then
