@@ -34,7 +34,7 @@ getgenv().start_vvv_ = true
 		TeleportService:Teleport(placeId, LocalPlayer)
 	end
 
-local _Config_Online = 7
+local _Config_Online = 8
 
 
 local FILE_NAME = "OFFLINE.txt"
@@ -66,8 +66,8 @@ if _Config_Offline ~= _Config_Online then
 		--------------------------------------------
 		--game.Players.LocalPlayer:Kick("kick reset")
 		--getgenv().TAG_farmsync = false
-		--if name_vps == "V7" then
-		if EVENT_or_FARM == "E" then
+		if name_vps == "V7" then
+		--if EVENT_or_FARM == "E" then
 			game.Players.LocalPlayer:Kick("kick reset")
 			--serverhopTo(140403681187145)
 		end
