@@ -9,7 +9,7 @@ getgenv().GZONE_TO = 999
 --getgenv().GRANK_TO= 25
 
 getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch  Hybrid
-getgenv().GGFX_MODE = 1
+getgenv().GGFX_MODE = 3
 
 getgenv().GENCHANTS = {"Strong Pets","Criticals","Treasure Hunter","Diamonds","Diamonds","Treasure Hunter","Lucky Eggs","Huge Hunter","Diamonds"}
 -----------------------
