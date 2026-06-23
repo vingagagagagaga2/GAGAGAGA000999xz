@@ -6,7 +6,7 @@ task.spawn(function()
 local random_reset = math.random(1, 2)
 
 		if EVENT_or_FARM == "F" then
-			game.Players.LocalPlayer:Kick("kick reset")
+			--game.Players.LocalPlayer:Kick("kick reset")
 			--serverhopTo(140403681187145)
 		end
 
