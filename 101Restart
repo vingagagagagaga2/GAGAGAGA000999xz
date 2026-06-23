@@ -30,7 +30,7 @@ getgenv().start_vvv_ = true
 		TeleportService:Teleport(placeId, LocalPlayer)
 	end
 
-local _Config_Online = 7
+local _Config_Online = 6
 
 
 local FILE_NAME = "OFFLINE.txt"
