@@ -106,7 +106,64 @@ end
 		--serverhopTo(140403681187145)
 	end
 ----------------------------------------------------------------------------------------
+task.spawn(function()
+	task.wait(60*5) -- Chờ 5 phút đầu để dữ liệu game ổn định
+	local Players = game:GetService("Players")
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
+	local LocalPlayer = Players.LocalPlayer
+	local Client = ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client")
+	local SaveModule = require(Client:WaitForChild("Save"))
+
+	local function countGems(inventory)
+		local amount = 0
+		local currency = (inventory and inventory.Currency) or {}
+
+		for _, v in pairs(currency) do
+			if v and v.id == "Diamonds" then
+				amount = tonumber(v._am) or 0
+				break
+			end
+		end
+
+		return amount
+	end
+
+    local function getEggsHatched()
+		local data = SaveModule.Get()
+        return tonumber(data and data.EggsHatched) or 0
+    end
+
+    while true do
+		local saveBefore = SaveModule.Get()
+		local inventoryBefore = (saveBefore and saveBefore.Inventory) or {}
+		local gemBefore = countGems(inventoryBefore)
+		local eggBefore = getEggsHatched()
+
+		task.wait(1800)
+
+		local saveAfter = SaveModule.Get()
+		local inventoryAfter = (saveAfter and saveAfter.Inventory) or {}
+		local gemAfter = countGems(inventoryAfter)
+		local eggAfter = getEggsHatched()
+
+		local deltaGem = gemAfter - gemBefore
+		local deltaEgg = eggAfter - eggBefore
+        local HttpService = game:GetService("HttpService")
+        local TeleportService = game:GetService("TeleportService")
+
+        local function serverhopTo(placeId)
+            TeleportService:Teleport(placeId, LocalPlayer)
+        end
+
+		if deltaGem == 0 and deltaEgg == 0 then
+			serverhopTo(140403681187145)
+            task.wait(3)
+            Players.LocalPlayer:Kick("0GEM 0EGG 30P")
+            break
+        end
+    end
+end)
 ----------------------------------------------------------------------------------------
 if getgenv().STATUS_disabble_SEND_ALL == true then
 getgenv().GMAIL_RECEIVERS = {""}
