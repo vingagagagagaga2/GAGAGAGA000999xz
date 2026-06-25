@@ -5,12 +5,6 @@ task.spawn(function()
 
 local random_reset = math.random(1, 2)
 
-		if getgenv().GBACKROOMS_KICK_AFTER_BOSS == true and EVENT_or_FARM == "E" then
-		else
-			game.Players.LocalPlayer:Kick("kick BOSS_RESPAWN")
-			--serverhopTo(140403681187145)
-		end
-
 task.spawn(function()
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
