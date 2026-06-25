@@ -17,7 +17,7 @@ end)
 
 
 task.spawn(function()
-	task.wait(60*5) -- Chờ 5 phút đầu để dữ liệu game ổn định
+	task.wait(60) -- Chờ 5 phút đầu để dữ liệu game ổn định
 	local Players = game:GetService("Players")
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
@@ -50,7 +50,7 @@ task.spawn(function()
 		local gemBefore = countGems(inventoryBefore)
 		local eggBefore = getEggsHatched()
 
-		task.wait(1800)
+		task.wait(1700)
 
 		local saveAfter = SaveModule.Get()
 		local inventoryAfter = (saveAfter and saveAfter.Inventory) or {}
