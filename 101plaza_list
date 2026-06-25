@@ -87,6 +87,7 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Diamond", Data = {Price = "5k"}},
 {Name = "Insta Plant Capsule", Data = {Price = "24k"}},
+{Name = "Mini Pinata", Data = {Price = "60k"}},
 
 	{Name = "Mega Charm Chest", Data = {Price = 100 + math.random(1,5) .."m"}}, 
  	{Name = "Mega Boost Chest", Data = {Price = 40 + math.random(1,5) .."m"}}, 
