@@ -56,6 +56,7 @@ getgenv().GHUGE_COUNT = 50999
 
 --getgenv().GCOMBINE_MACHINE_OUTPUT = "Titanic Fantasy Present"
 getgenv().GLOOTBOXES = {"All"}
+getgenv().GTRACK_ACTIVITY = true
 
 getgenv().GDO_TIME_TRIAL = true
 getgenv().GTIME_TRIAL_HATCH_FIRST_SECONDS = 30
