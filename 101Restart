@@ -6,7 +6,7 @@ task.spawn(function()
 local random_reset = math.random(1, 2)
 
 if random_reset == 1 and getgenv().GBACKROOMS_TOKEN_CHEST_FARM == true then
-	game.Players.LocalPlayer:Kick("kick reset")
+	--game.Players.LocalPlayer:Kick("kick reset")
 end
 
 task.spawn(function()
