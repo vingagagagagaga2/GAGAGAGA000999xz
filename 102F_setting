@@ -87,6 +87,11 @@ getgenv().GMAIL_ITEMS = {
 ["Exclusive Raffle Ticket"] = {Class = "Misc", Id = "Exclusive Raffle Ticket", MinAmount = 1},
 ["Backrooms Luck Booster"] = {Class = "Consumable", Id = "Backrooms Luck Booster",MinAmount = 1},
 ["Backrooms Teleport Booster"] = {Class = "Consumable", Id = "Backrooms Teleport Booster",MinAmount = 1},
+["Titanic Ghostly Wolf Card"] = {Class = "Card", Id = "Titanic Ghostly Wolf Card", Amount = 1, AllVariants = true},
+["Ghostly Bunny Card"] = {Class = "Card", Id = "Ghostly Bunny Card", Amount = 1, AllVariants = true},
+["Ghostly Fox Card"] = {Class = "Card", Id = "Ghostly Fox Card", Amount = 1, AllVariants = true},
+["Ghostly Cat Card"] = {Class = "Card", Id = "Ghostly Cat Card", Amount = 1, AllVariants = true},
+["Huge Ghostly Dragon Card"] = {Class = "Card", Id = "Huge Ghostly Dragon Card", Amount = 1, AllVariants = true},
 
 }
 
