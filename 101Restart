@@ -5,16 +5,13 @@ task.spawn(function()
 
 local random_reset = math.random(1, 2)
 
-task.wait(30)
-
-
 task.spawn(function()
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
 local playerCount = #Players:GetPlayers()
 if playerCount > 1 and game.PlaceId == 140403681187145 and EVENT_or_FARM == "F" then
-	Players.LocalPlayer:Kick("severvip")
+	--Players.LocalPlayer:Kick("severvip")
 end
 end)
 
