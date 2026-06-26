@@ -32,7 +32,12 @@ getgenv().Settings_autoplaza = {
 {Name = "Gargantuan 1x1x1x1", Data = {Price = 115 + math.random(1,10)*0.01 .."b"}},
 {Name = "Titanic Smiley Penguin", Data = {Price = 4.5 + math.random(1,10)*0.01 .."b"}},
 
-
+{Name = "Titanic Ghostly Wolf Card", Data = {Price = "+10%"}}, 
+{Name = "Ghostly Bunny Card", Data = {Price = "+10%"}}, 
+{Name = "Ghostly Fox Card", Data = {Price = "+10%"}}, 
+{Name = "Ghostly Cat Card", Data = {Price = "+10%"}}, 
+{Name = "Huge Ghostly Dragon Card", Data = {Price = "+10%"}}, 
+{Name = "Anime Lemur Card", Data = {Price = "+10%"}}, 
 -------------------------------------------------------------------------------
 
 
