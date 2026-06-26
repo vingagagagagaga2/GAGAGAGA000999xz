@@ -1,4 +1,4 @@
-
+task.spawn(function()
 
 
 
@@ -86,3 +86,6 @@ end
 		player:Kick("SETTING SAI")
     end
 end
+
+
+end)
