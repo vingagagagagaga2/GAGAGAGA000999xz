@@ -2,7 +2,9 @@ task.spawn(function()
 
 ------------------------+++
 --Thu_7_openall = true
-
+if EVENT_or_FARM == "F" and name_vps == "V7" then
+game.Players.LocalPlayer:Kick("kick reset")
+end
 local random_reset = math.random(1, 2)
 
 if getgenv().GBACKROOMS_MIN_MULTIPLIER == 3 then
