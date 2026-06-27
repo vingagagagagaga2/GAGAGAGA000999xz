@@ -4,17 +4,6 @@ task.spawn(function()
 --Thu_7_openall = true
 
 
-getgenv().GEVENT_UPGRADES = {
-    { Id = "BackroomsBossDamage",    MaxTier = 25 }, --max is 25
-    { Id = "BackroomsTokenFind", MaxTier = 20 }, --max is 20
-    { Id = "BackroomsExtraLootRoll",  MaxTier = 20 }, --max is 20
-    { Id = "BackroomsCoinMultiplier",  MaxTier = 20 }, --max is 20
-    { Id = "BackroomsEggLuck",  MaxTier = 20 }, --max is 20
-    { Id = "BackroomsKeyFind",  MaxTier = 15}, --max is 15,
-    { Id = "BackroomsDeepBossDamage",  MaxTier = 25 }, --max is 25,
-}
-
-
 local random_reset = math.random(1, 2)
 
 
