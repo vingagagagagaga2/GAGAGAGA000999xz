@@ -87,11 +87,11 @@ getgenv().Settings_autoplaza = {
 
 
 
-{Name = "Fantasy Key", Data = {Price = "58.9K"}},
-{Name = "Void Key", Data = {Price = "46.9K"}},
-{Name = "Tech Key", Data = {Price = "23.9K"}},
-{Name = "Secret Key", Data = {Price = "24.8K"}},
-{Name = "Crystal Key", Data = {Price = "12.9K"}},
+{Name = "Fantasy Key", Data = {Price = "58.9k"}},
+{Name = "Void Key", Data = {Price = "46.9k"}},
+{Name = "Tech Key", Data = {Price = "23.9k"}},
+{Name = "Secret Key", Data = {Price = "24.8k"}},
+{Name = "Crystal Key", Data = {Price = "12.9k"}},
 
 {Name = "Hacker Key", Data = {Price = "1m"}},
 
