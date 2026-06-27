@@ -34,11 +34,11 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Titanic Ghostly Wolf Card", Data = {Price = "+10%"}}, 
 {Name = "Huge Ghostly Dragon Card", Data = {Price = "+10%"}}, 
-{Name = "Ghostly Bunny Card", Data = {Price = "+200%"}}, 
-{Name = "Ghostly Fox Card", Data = {Price = "+200%"}}, 
-{Name = "Ghostly Cat Card", Data = {Price = "+200%"}}, 
+{Name = "Ghostly Bunny Card", Data = {Price = "+100%"}}, 
+{Name = "Ghostly Fox Card", Data = {Price = "+100%"}}, 
+{Name = "Ghostly Cat Card", Data = {Price = "+100%"}}, 
 
-{Name = "Anime Lemur Card", Data = {Price = "+200%"}}, 
+{Name = "Anime Lemur Card", Data = {Price = "+100%"}}, 
 -------------------------------------------------------------------------------
 
 
