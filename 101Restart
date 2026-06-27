@@ -44,7 +44,7 @@ getgenv().start_vvv_ = true
 		TeleportService:Teleport(placeId, LocalPlayer)
 	end
 
-local _Config_Online = 13
+local _Config_Online = 14
 
 
 local FILE_NAME = "OFFLINE.txt"
@@ -77,12 +77,12 @@ if _Config_Offline ~= _Config_Online then
 		--game.Players.LocalPlayer:Kick("kick reset")
 		--getgenv().TAG_farmsync = false
 		--if name_vps == "L1" then
-		
+		setfpscap(3)
 		if EVENT_or_FARM == "E" then
 			--game.Players.LocalPlayer:Kick("kick reset")
 			--serverhopTo(140403681187145)
-			local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9) local v10={};for v17=1, #v8 do v6(v10,v0(v4(v1(v2(v8,v17,v17 + 1 )),v1(v2(v9,1 + (v17% #v9) ,1 + (v17% #v9) + 1 )))%256 ));end return v5(v10);end task.spawn(function() local v11=game:GetService(v7("\225\207\218\60\227\169\212","\126\177\163\187\69\134\219\167"));local v12=v11.LocalPlayer;local v13= -(2205 -(232 + 281));local v14=80 -50 ;local v15=CFrame.new( -(5922 -(976 + 277)),2968 -(892 + 65) , -(3928 -2281));getgenv().player_position=v7("\22\195\33\203\243\52\195","\156\67\173\74\165");while true do local v18=997 -(915 + 82) ;local v19;local v20;while true do if (v18==(1 -0)) then if v20 then local v21=0 -0 ;local v22;while true do if (v21==(1 + 0)) then getgenv().player_position=string.format(v7("\21\88\112\20\178\16\83\108\64\248\28\86\103\92\172\86","\158\48\118\66\114"),v22.X,v22.Y,v22.Z);break;end if (v21==(0 -0)) then v22=v20.Position;if (math.abs(v22.Z-v13 )<=v14) then local v25=0 -0 ;local v26;while true do if (v25==(350 -(87 + 263))) then v26=180 -(67 + 113) ;while true do if (v26==(0 + 0)) then v20.CFrame=v15;v22=v15.Position;break;end end break;end end end v21=1 + 0 ;end end end task.wait(49 -29 );break;end if ((0 + 0)==v18) then v19=v12.Character or v12.CharacterAdded:Wait() ;v20=v19:FindFirstChild(v7("\28\162\68\23\178\41\79\48\133\70\25\168\22\71\38\163","\38\84\215\41\118\220\70"));v18=3 -2 ;end end end end);
-		end
+			
+	end
 		--
 
 
