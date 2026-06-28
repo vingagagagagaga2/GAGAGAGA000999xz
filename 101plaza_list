@@ -25,7 +25,6 @@ getgenv().Settings_autoplaza = {
 {Name = "Titanic Piggy Piggy", Data = {Price = 4.25 + math.random(1,10)*0.01 .."b"}},
 
 {Name = "Gargantuan 1x1x1x1", Data = {Price = 105 + math.random(1,10)*0.01 .."b"}},
-{Name = "Rainbow Gargantuan 1x1x1x1", Data = {Price = 800 + math.random(1,10)*0.01 .."b"}},
 
 {Name = "Titanic Gamemaster Cat", Data = {Price = 4.35 + math.random(1,10)*0.01 .."b"}},
 {Name = "Golden Titanic Gamemaster Cat", Data = {Price = 5 + math.random(1,10)*0.01 .."b"}},
@@ -47,7 +46,7 @@ getgenv().Settings_autoplaza = {
 
 
 
-{Name = "Soccerball Trophy Angelus", Data = {Price = "10%"}},
+{Name = "Soccerball Trophy Angelus", Data = {Price = "10m"}},
 {Name = "Golden Soccerball Trophy Angelus", Data = {Price = "5%"}},
 {Name = "Rainbow Soccerball Trophy Angelus", Data = {Price = "5%"}},
 {Name = "Shiny Soccerball Trophy Angelus", Data = {Price = "10%"}},
