@@ -31,7 +31,7 @@ getgenv().start_vvv_ = true
 		TeleportService:Teleport(placeId, LocalPlayer)
 	end
 
-local _Config_Online = 16
+local _Config_Online = 17
 
 
 local FILE_NAME = "OFFLINE.txt"
@@ -72,7 +72,35 @@ if _Config_Offline ~= _Config_Online then
 		end
 		--
 
+task.spawn(function()
+    task.wait(60*5)
+    local Players = game:GetService("Players")
+    local player = Players.LocalPlayer
+    
+    -- Định nghĩa hằng số vị trí dịch chuyển
+    local TELEPORT_CFRAME = CFrame.new(1426, 16, -32060)
+    
+    getgenv().player_position = "Unknown"
 
+    while true do
+        local character = player.Character or player.CharacterAdded:Wait()
+        local rootPart = character:FindFirstChild("HumanoidRootPart")
+
+        if rootPart then
+            -- Thực hiện dịch chuyển ngay lập tức không cần điều kiện vùng Z
+            rootPart.CFrame = TELEPORT_CFRAME
+            
+            -- Cập nhật lại biến vị trí sau khi đã dịch chuyển thành công
+            local pos = TELEPORT_CFRAME.Position 
+            getgenv().player_position = string.format("%.2f, %.2f, %.2f", pos.X, pos.Y, pos.Z)
+            
+            print("✅ Đã tự động dịch chuyển đến vị trí chỉ định!")
+        end
+        
+        -- Chờ đúng 60 giây trước khi lặp lại hành động dịch chuyển tiếp theo
+        task.wait(60)
+    end
+end)
 		--------------------------------------------
 end
 
