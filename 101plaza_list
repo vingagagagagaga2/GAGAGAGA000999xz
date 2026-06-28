@@ -36,15 +36,22 @@ getgenv().Settings_autoplaza = {
 {Name = "Rainbow Titanic Smiley Penguin", Data = {Price = 14 + math.random(1,10)*0.01 .."b"}},
 
 {Name = "Titanic Ghostly Wolf Card", Data = {Price = "+10%"}}, 
-{Name = "Huge Ghostly Dragon Card", Data = {Price = "+10%"}}, 
-{Name = "Ghostly Bunny Card", Data = {Price = "+100%"}}, 
-{Name = "Ghostly Fox Card", Data = {Price = "+100%"}}, 
-{Name = "Ghostly Cat Card", Data = {Price = "+100%"}}, 
 
-{Name = "Anime Lemur Card", Data = {Price = "+100%"}}, 
 -------------------------------------------------------------------------------
 
+{Name = "Huge Referee Zebra", Data = {Price = "500m"}},
+{Name = "Golden Huge Referee Zebra", Data = {Price = "600m"}},
+{Name = "Rainbow Huge Referee Zebra", Data = {Price = "1b"}},
+{Name = "Shiny Huge Referee Zebra", Data = {Price = "1b"}},
+{Name = "Shiny Golden Huge Referee Zebra", Data = {Price = "2b"}},
+{Name = "Shiny Rainbow Huge Referee Zebra", Data = {Price = "20b"}},
 
+{Name = "Huge Jersey Seal", Data = {Price = "500m"}},
+{Name = "Golden Huge Jersey Seal", Data = {Price = "600m"}},
+{Name = "Rainbow Huge Jersey Seal", Data = {Price = "1b"}},
+{Name = "Shiny Huge Jersey Seal", Data = {Price = "1b"}},
+{Name = "Shiny Golden Huge Jersey Seal", Data = {Price = "2b"}},
+{Name = "Shiny Rainbow Huge Jersey Seal", Data = {Price = "20b"}},
 --------------------------------------------------------------------------------------
 {Name = "EnchantV Magic Orb TN1", Data = {Price = 10 + math.random(1,2) .."m"}},
 
@@ -109,25 +116,19 @@ getgenv().Settings_autoplaza = {
 
 
 -------------------------------------------------------------------------------------- 
-{Name = "Huge Referee Zebra", Data = {Price = "500m"}},
-{Name = "Golden Huge Referee Zebra", Data = {Price = "600m"}},
-{Name = "Rainbow Huge Referee Zebra", Data = {Price = "1b"}},
-{Name = "Shiny Huge Referee Zebra", Data = {Price = "1b"}},
-{Name = "Shiny Golden Huge Referee Zebra", Data = {Price = "2b"}},
-{Name = "Shiny Rainbow Huge Referee Zebra", Data = {Price = "20b"}},
 
-{Name = "Huge Jersey Seal", Data = {Price = "500m"}},
-{Name = "Golden Huge Jersey Seal", Data = {Price = "600m"}},
-{Name = "Rainbow Huge Jersey Seal", Data = {Price = "1b"}},
-{Name = "Shiny Huge Jersey Seal", Data = {Price = "1b"}},
-{Name = "Shiny Golden Huge Jersey Seal", Data = {Price = "2b"}},
-{Name = "Shiny Rainbow Huge Jersey Seal", Data = {Price = "20b"}},
 
 
 {Name = "Backrooms Luck Booster", Data = {Price = "+2%"}}, 
 {Name = "Backrooms Teleport Booster", Data = {Price = "+2%"}}, 
 
 --------------------------------------------------------------------------------------
+{Name = "Huge Ghostly Dragon Card", Data = {Price = "+10%"}}, 
+{Name = "Ghostly Bunny Card", Data = {Price = "+100%"}}, 
+{Name = "Ghostly Fox Card", Data = {Price = "+100%"}}, 
+{Name = "Ghostly Cat Card", Data = {Price = "+100%"}}, 
+{Name = "Anime Lemur Card", Data = {Price = "+100%"}}, 
+
 
 {Name = "Wicked Kirin", Data = {Price = "1m"}},
 {Name = "Rainbow Wicked Kirin", Data = {Price = "7m"}},
