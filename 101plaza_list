@@ -105,18 +105,27 @@ getgenv().Settings_autoplaza = {
  	{Name = "Mega Potion Chest", Data = {Price = 15 + math.random(1,5) .."m"}}, 
 
 
-{Name = "Wicked Kirin", Data = {Price = "1m"}},
-{Name = "Rainbow Wicked Kirin", Data = {Price = "7m"}},
-{Name = "Shiny Wicked Kirin", Data = {Price = "100m"}},
-{Name = "Shiny Golden Wicked Kirin", Data = {Price = "100m"}},
-{Name = "Shiny Rainbow Wicked Kirin", Data = {Price = "500m"}},
+
 
 -------------------------------------------------------------------------------------- 
+{Name = "Huge Referee Zebra", Data = {Price = "500m"}},
+{Name = "Golden Huge Referee Zebra", Data = {Price = "600m"}},
+{Name = "Rainbow Huge Referee Zebra", Data = {Price = "1b"}},
+{Name = "Shiny Huge Referee Zebra", Data = {Price = "1b"}},
+{Name = "Shiny Golden Huge Referee Zebra", Data = {Price = "2b"}},
+{Name = "Shiny Rainbow Huge Referee Zebra", Data = {Price = "20b"}},
+
+
 {Name = "Backrooms Luck Booster", Data = {Price = "+2%"}}, 
 {Name = "Backrooms Teleport Booster", Data = {Price = "+2%"}}, 
 
 --------------------------------------------------------------------------------------
 
+{Name = "Wicked Kirin", Data = {Price = "1m"}},
+{Name = "Rainbow Wicked Kirin", Data = {Price = "7m"}},
+{Name = "Shiny Wicked Kirin", Data = {Price = "100m"}},
+{Name = "Shiny Golden Wicked Kirin", Data = {Price = "100m"}},
+{Name = "Shiny Rainbow Wicked Kirin", Data = {Price = "500m"}},
 
 {Name = "Shiny Rainbow All Huges", Data = {Price = "5%", Min_sell = "2b", Max_sell = "15b"}},
 {Name = "Shiny Golden All Huges", Data = {Price = "5%", Min_sell = "700m", Max_sell = "2.5b"}},
