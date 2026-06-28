@@ -6,8 +6,6 @@ task.spawn(function()
 
 local random_reset = math.random(1, 2)
 
-getgenv().GLOOTBOXES = {"Locked Hype Egg 3"}
-
 task.spawn(function()
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
