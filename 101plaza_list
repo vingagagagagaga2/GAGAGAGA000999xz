@@ -115,6 +115,13 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Golden Huge Referee Zebra", Data = {Price = "2b"}},
 {Name = "Shiny Rainbow Huge Referee Zebra", Data = {Price = "20b"}},
 
+{Name = "Huge Jersey Seal", Data = {Price = "500m"}},
+{Name = "Golden Huge Jersey Seal", Data = {Price = "600m"}},
+{Name = "Rainbow Huge Jersey Seal", Data = {Price = "1b"}},
+{Name = "Shiny Huge Jersey Seal", Data = {Price = "1b"}},
+{Name = "Shiny Golden Huge Jersey Seal", Data = {Price = "2b"}},
+{Name = "Shiny Rainbow Huge Jersey Seal", Data = {Price = "20b"}},
+
 
 {Name = "Backrooms Luck Booster", Data = {Price = "+2%"}}, 
 {Name = "Backrooms Teleport Booster", Data = {Price = "+2%"}}, 
