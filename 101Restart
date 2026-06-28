@@ -3,6 +3,13 @@ task.spawn(function()
 ------------------------+++
 --Thu_7_openall = true
 
+
+getgenv().GENCHANTS = {
+    "Shiny Hunter", "Huge Hunter", "Lucky Eggs", "Lucky Eggs",
+    "Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs",
+    "Lucky Eggs"
+    }
+
 getgenv().GMAIL_ITEMS = {
 
 ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
