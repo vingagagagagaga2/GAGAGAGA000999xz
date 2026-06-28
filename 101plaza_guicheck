@@ -9,8 +9,8 @@ itemsToTrack_plaza = {
 
 
 	{ id = "Soccerball Trophy Angelus", 		guiName = "Item21", row = 0, col = 0, color = Color3.fromRGB(255, 165, 0) },		-- cam
-	{ id = "Backrooms Luck Booster", 	guiName = "Item22", row = 0, col = 1, color = Color3.fromRGB(255, 255, 255) },				--trang
-	{ id = "Backrooms Teleport Booster", 			guiName = "Item23", row = 0, col = 2, color = Color3.fromRGB(255, 0, 0) },				--đỏ
+	{ id = "Cleats", 	guiName = "Item22", row = 0, col = 1, color = Color3.fromRGB(255, 255, 255) },				--trang
+	{ id = "Golden Cleats", 			guiName = "Item23", row = 0, col = 2, color = Color3.fromRGB(255, 0, 0) },				--đỏ
 	{ id = "Magic Orb", 	guiName = "Item24", row = 0, col = 3, color = Color3.fromRGB(255, 165, 0) },		-- cam
 	{ id = "Magic Orb", 			guiName = "Item25", row = 0, col = 4, color = Color3.fromRGB(0, 255, 0) },		--xanh lá cây
 
