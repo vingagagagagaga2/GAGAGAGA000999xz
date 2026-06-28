@@ -54,17 +54,17 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Rainbow Soccerball Trophy Angelus", Data = {Price = "31b"}},
 
 
-{Name = "Huge Referee Zebra", Data = {Price = "+2%"}},
-{Name = "Golden Huge Referee Zebra", Data = {Price = "+2%"}},
-{Name = "Rainbow Huge Referee Zebra", Data = {Price = "+2%"}},
-{Name = "Shiny Huge Referee Zebra", Data = {Price = "+2%"}},
+{Name = "Huge Referee Zebra", Data = {Price = "+5%"}},
+{Name = "Golden Huge Referee Zebra", Data = {Price = "+5%"}},
+{Name = "Rainbow Huge Referee Zebra", Data = {Price = "+5%"}},
+{Name = "Shiny Huge Referee Zebra", Data = {Price = "+5%"}},
 {Name = "Shiny Golden Huge Referee Zebra", Data = {Price = "2b"}},
 {Name = "Shiny Rainbow Huge Referee Zebra", Data = {Price = "20b"}},
 
-{Name = "Huge Jersey Seal", Data = {Price = "+2%"}},
-{Name = "Golden Huge Jersey Seal", Data = {Price = "+2%"}},
-{Name = "Rainbow Huge Jersey Seal", Data = {Price = "+2%"}},
-{Name = "Shiny Huge Jersey Seal", Data = {Price = "+2%"}},
+{Name = "Huge Jersey Seal", Data = {Price = "+5%"}},
+{Name = "Golden Huge Jersey Seal", Data = {Price = "+5%"}},
+{Name = "Rainbow Huge Jersey Seal", Data = {Price = "+5%"}},
+{Name = "Shiny Huge Jersey Seal", Data = {Price = "+5%"}},
 {Name = "Shiny Golden Huge Jersey Seal", Data = {Price = "2b"}},
 {Name = "Shiny Rainbow Huge Jersey Seal", Data = {Price = "20b"}},
 
