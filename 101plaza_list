@@ -47,25 +47,25 @@ getgenv().Settings_autoplaza = {
 
 
 
-{Name = "Soccerball Trophy Angelus", Data = {Price = "5%"}},
-{Name = "Golden Soccerball Trophy Angelus", Data = {Price = "+2%"}},
-{Name = "Rainbow Soccerball Trophy Angelus", Data = {Price = "+2%"}},
-{Name = "Shiny Soccerball Trophy Angelus", Data = {Price = "1b"}},
-{Name = "Shiny Golden Soccerball Trophy Angelus", Data = {Price = "5b"}},
-{Name = "Shiny Rainbow Soccerball Trophy Angelus", Data = {Price = "40b"}},
+{Name = "Soccerball Trophy Angelus", Data = {Price = "10%"}},
+{Name = "Golden Soccerball Trophy Angelus", Data = {Price = "5%"}},
+{Name = "Rainbow Soccerball Trophy Angelus", Data = {Price = "5%"}},
+{Name = "Shiny Soccerball Trophy Angelus", Data = {Price = "10%"}},
+{Name = "Shiny Golden Soccerball Trophy Angelus", Data = {Price = "10%"}},
+{Name = "Shiny Rainbow Soccerball Trophy Angelus", Data = {Price = "10%"}},
 
 
-{Name = "Huge Referee Zebra", Data = {Price = "+2%"}},
-{Name = "Golden Huge Referee Zebra", Data = {Price = "+2%"}},
-{Name = "Rainbow Huge Referee Zebra", Data = {Price = "+2%"}},
-{Name = "Shiny Huge Referee Zebra", Data = {Price = "1b"}},
+{Name = "Huge Referee Zebra", Data = {Price = "5%"}},
+{Name = "Golden Huge Referee Zebra", Data = {Price = "5%"}},
+{Name = "Rainbow Huge Referee Zebra", Data = {Price = "5%"}},
+{Name = "Shiny Huge Referee Zebra", Data = {Price = "5%"}},
 {Name = "Shiny Golden Huge Referee Zebra", Data = {Price = "2b"}},
 {Name = "Shiny Rainbow Huge Referee Zebra", Data = {Price = "20b"}},
 
-{Name = "Huge Jersey Seal", Data = {Price = "+2%"}},
-{Name = "Golden Huge Jersey Seal", Data = {Price = "+2%"}},
-{Name = "Rainbow Huge Jersey Seal", Data = {Price = "+2%"}},
-{Name = "Shiny Huge Jersey Seal", Data = {Price = "1b"}},
+{Name = "Huge Jersey Seal", Data = {Price = "5%"}},
+{Name = "Golden Huge Jersey Seal", Data = {Price = "5%"}},
+{Name = "Rainbow Huge Jersey Seal", Data = {Price = "5%"}},
+{Name = "Shiny Huge Jersey Seal", Data = {Price = "5%"}},
 {Name = "Shiny Golden Huge Jersey Seal", Data = {Price = "2b"}},
 {Name = "Shiny Rainbow Huge Jersey Seal", Data = {Price = "20b"}},
 
