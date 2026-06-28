@@ -20,7 +20,7 @@ getgenv().GMAIL_ITEMS = {
 ["Ghostly Cat Card"] = {Class = "Card", Id = "Ghostly Cat Card", Amount = 1, AllVariants = true},
 ["Huge Ghostly Dragon Card"] = {Class = "Card", Id = "Huge Ghostly Dragon Card", Amount = 1, AllVariants = true},
 
-["Soccer Gift"] = {Class = "Lootbox", Id = "Soccer Gift",MinAmount = 100},
+["Soccer Gift"] = {Class = "Lootbox", Id = "Soccer Gift",MinAmount = 200},
 ["Cleats"] = {Class = "Consumable", Id = "Cleats",MinAmount = 5},
 ["Golden Cleats"] = {Class = "Consumable", Id = "Golden Cleats",MinAmount = 2},
 
