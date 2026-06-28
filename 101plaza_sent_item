@@ -1,7 +1,7 @@
 PAUSE_or_SEND = "p"
-NAME_USER_SEND = "EzraSaberStorm201889"
+NAME_USER_SEND = ""
 
-_duong_ = true --false/true
+_duong_ = false --false/true
 
 setfpscap(1)
 
