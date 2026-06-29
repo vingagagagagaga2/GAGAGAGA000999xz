@@ -41,6 +41,8 @@ getgenv().Settings_autoplaza = {
 {Name = "Golden Titanic Smiley Penguin", Data = {Price = 4.75 + math.random(1,10)*0.01 .."b"}},
 {Name = "Rainbow Titanic Smiley Penguin", Data = {Price = 14 + math.random(1,10)*0.01 .."b"}},
 
+{Name = "Titanic Soccerball Cat", Data = {Price = 6.5 + math.random(1,10)*0.01 .."b"}},
+
 {Name = "Titanic Ghostly Wolf Card", Data = {Price = "+10%"}}, 
 
 
