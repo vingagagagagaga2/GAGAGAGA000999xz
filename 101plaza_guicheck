@@ -8,7 +8,7 @@ itemsToTrack_plaza = {
 	{ id = "MVP Key Lower Half", 	guiName = "Item14", row = 1, col = 4, color = Color3.fromRGB(192,192,192) }, 		--xám
 
 
-	{ id = "Soccerball Trophy Angelus", 		guiName = "Item21", row = 0, col = 0, color = Color3.fromRGB(255, 165, 0) },		-- cam
+	{ id = "Huge Jersey Seal", 		guiName = "Item21", row = 0, col = 0, color = Color3.fromRGB(255, 165, 0) },		-- cam
 	{ id = "Cleats", 	guiName = "Item22", row = 0, col = 1, color = Color3.fromRGB(255, 255, 255) },				--trang
 	{ id = "Golden Cleats", 			guiName = "Item23", row = 0, col = 2, color = Color3.fromRGB(255, 0, 0) },				--đỏ
 	{ id = "Soccer Gift", 	guiName = "Item24", row = 0, col = 3, color = Color3.fromRGB(255, 165, 0) },		-- cam
