@@ -2,42 +2,6 @@ task.spawn(function()
 
 ------------------------+++
 --Thu_7_openall = true
-getgenv().GMAIL_ITEMS = {
-
-["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
-["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
-["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
-["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},
-["Secret pet5"] = {Class = "Pet", Id = "Crown", MinAmount = 1, AllVariants = true},
-
-["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "50m", MinAmount = "150m"},
-
-["Exclusive Raffle Ticket"] = {Class = "Misc", Id = "Exclusive Raffle Ticket", MinAmount = 1},
-
-["Titanic Ghostly Wolf Card"] = {Class = "Card", Id = "Titanic Ghostly Wolf Card", Amount = 1, AllVariants = true},
-["Ghostly Bunny Card"] = {Class = "Card", Id = "Ghostly Bunny Card", Amount = 1, AllVariants = true},
-["Ghostly Fox Card"] = {Class = "Card", Id = "Ghostly Fox Card", Amount = 1, AllVariants = true},
-["Ghostly Cat Card"] = {Class = "Card", Id = "Ghostly Cat Card", Amount = 1, AllVariants = true},
-["Huge Ghostly Dragon Card"] = {Class = "Card", Id = "Huge Ghostly Dragon Card", Amount = 1, AllVariants = true},
-
-["Soccer Gift"] = {Class = "Lootbox", Id = "Soccer Gift",MinAmount = 200},
-["Cleats"] = {Class = "Consumable", Id = "Cleats",MinAmount = 5},
-["Golden Cleats"] = {Class = "Consumable", Id = "Golden Cleats",MinAmount = 2},
-
-["Huge Jersey Seal"] = {Class = "Pet", Id = "Huge Jersey Seal", MinAmount = 1, AllVariants = true},
-["Huge Coach Chihuahua"] = {Class = "Pet", Id = "Huge Coach Chihuahua", MinAmount = 1, AllVariants = true},
-["Huge Goalie Monkey"] = {Class = "Pet", Id = "Huge Goalie Monkey", MinAmount = 1, AllVariants = true},
-["Huge Referee Zebra"] = {Class = "Pet", Id = "Huge Referee Zebra", MinAmount = 1, AllVariants = true},
-
-["Soccerball Trophy Angelus"] = {Class = "Pet", Id = "Soccerball Trophy Angelus", MinAmount = 35, KeepAmount = 9},
-["Golden Soccerball Trophy Angelus"] = {Class = "Pet", Id = "Soccerball Trophy Angelus", MinAmount = 15,IsGold = true, KeepAmount = 5},
-["Rainbow Soccerball Trophy Angelus"] = {Class = "Pet", Id = "Soccerball Trophy Angelus", KeepAmount = 1, MinAmount = 2,IsRainbow = true},
-["Shiny Soccerball Trophy Angelus"] = {Class = "Pet", Id = "Soccerball Trophy Angelus", MinAmount = 1,IsShiny = true},
-["Shiny Golden Soccerball Trophy Angelus"] = {Class = "Pet", Id = "Soccerball Trophy Angelus", MinAmount = 1,IsGolden = true,IsShiny = true},
-["Shiny Rainbow Soccerball Trophy Angelus"] = {Class = "Pet", Id = "Soccerball Trophy Angelus", MinAmount = 1,IsRainbow = true,IsShiny = true},
-
-}
-getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {"Wicked Kirin","Soccerball Trophy Angelus"}
 
 local random_reset = math.random(1, 2)
 
@@ -66,7 +30,7 @@ getgenv().start_vvv_ = true
 		TeleportService:Teleport(placeId, LocalPlayer)
 	end
 
-local _Config_Online = 18
+local _Config_Online = 19
 
 
 local FILE_NAME = "OFFLINE.txt"
