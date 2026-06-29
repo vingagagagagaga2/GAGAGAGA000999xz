@@ -30,7 +30,7 @@ getgenv().GMAIL_ITEMS = {
 ["Huge Referee Zebra"] = {Class = "Pet", Id = "Huge Referee Zebra", MinAmount = 1, AllVariants = true},
 
 ["Golden Soccerball Trophy Angelus"] = {Class = "Pet", Id = "Soccerball Trophy Angelus", MinAmount = 10,IsGold = true},
-["Rainbow Soccerball Trophy Angelus"] = {Class = "Pet", Id = "Soccerball Trophy Angelus", KeepAmount = 15, MinAmount = 17,IsRainbow = true},
+["Rainbow Soccerball Trophy Angelus"] = {Class = "Pet", Id = "Soccerball Trophy Angelus", KeepAmount = 15, MinAmount = 16,IsRainbow = true},
 ["Shiny Soccerball Trophy Angelus"] = {Class = "Pet", Id = "Soccerball Trophy Angelus", MinAmount = 1,IsShiny = true},
 ["Shiny Golden Soccerball Trophy Angelus"] = {Class = "Pet", Id = "Soccerball Trophy Angelus", MinAmount = 1,IsGolden = true,IsShiny = true},
 ["Shiny Rainbow Soccerball Trophy Angelus"] = {Class = "Pet", Id = "Soccerball Trophy Angelus", MinAmount = 1,IsRainbow = true,IsShiny = true},
