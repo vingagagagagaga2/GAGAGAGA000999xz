@@ -2,7 +2,7 @@ task.spawn(function()
 
 ------------------------+++
 --Thu_7_openall = true
-getgenv().GLOOTBOXES = {"Locked Hype Egg 3","Soccer Gift"}
+
 local random_reset = math.random(1, 2)
 
 task.spawn(function()
