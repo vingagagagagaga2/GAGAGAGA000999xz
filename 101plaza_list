@@ -61,12 +61,12 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Golden Huge Referee Zebra", Data = {Price = "2b"}},
 {Name = "Shiny Rainbow Huge Referee Zebra", Data = {Price = "20b"}},
 
-{Name = "Huge Jersey Seal", Data = {Price = "+5%"}},
-{Name = "Golden Huge Jersey Seal", Data = {Price = "+5%"}},
-{Name = "Rainbow Huge Jersey Seal", Data = {Price = "+5%"}},
-{Name = "Shiny Huge Jersey Seal", Data = {Price = "+5%"}},
-{Name = "Shiny Golden Huge Jersey Seal", Data = {Price = "2b"}},
-{Name = "Shiny Rainbow Huge Jersey Seal", Data = {Price = "20b"}},
+{Name = "Huge Jersey Seal", Data = {Price = "+1%"}},
+{Name = "Golden Huge Jersey Seal", Data = {Price = "+1%"}},
+{Name = "Rainbow Huge Jersey Seal", Data = {Price = "+1%"}},
+{Name = "Shiny Huge Jersey Seal", Data = {Price = "+1%"}},
+{Name = "Shiny Golden Huge Jersey Seal", Data = {Price = "1.7b"}},
+{Name = "Shiny Rainbow Huge Jersey Seal", Data = {Price = "17b"}},
 
 
 --------------------------------------------------------------------------------------
