@@ -60,7 +60,7 @@ if _Config_Offline ~= _Config_Online then
 			return
 		end
 		--------------------------------------------
-		game.Players.LocalPlayer:Kick("kick reset")
+		--game.Players.LocalPlayer:Kick("kick reset")
 		--getgenv().TAG_farmsync = false
 		--if name_vps == "L1" then
 		--setfpscap(3)
