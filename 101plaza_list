@@ -10,7 +10,26 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Golden Soccerball Trophy Angelus", Data = {Price = "1%"}},
 {Name = "Shiny Rainbow Soccerball Trophy Angelus", Data = {Price = "14b"}},
 
---------------------------------------
+
+{Name = "Soccer Gift", Data = {Price = "10%"}},
+{Name = "Cleats", Data = {Price = "5%"}},
+{Name = "Golden Cleats", Data = {Price = "+5%"}},
+
+{Name = "Huge Referee Zebra", Data = {Price = "+5%"}},
+{Name = "Golden Huge Referee Zebra", Data = {Price = "+5%"}},
+{Name = "Rainbow Huge Referee Zebra", Data = {Price = "+5%"}},
+{Name = "Shiny Huge Referee Zebra", Data = {Price = "+5%"}},
+{Name = "Shiny Golden Huge Referee Zebra", Data = {Price = "2b"}},
+{Name = "Shiny Rainbow Huge Referee Zebra", Data = {Price = "20b"}},
+
+{Name = "Huge Jersey Seal", Data = {Price = "+1%"}},
+{Name = "Golden Huge Jersey Seal", Data = {Price = "+1%"}},
+{Name = "Rainbow Huge Jersey Seal", Data = {Price = "+1%"}},
+{Name = "Shiny Huge Jersey Seal", Data = {Price = "+1%"}},
+{Name = "Shiny Golden Huge Jersey Seal", Data = {Price = "1.7b"}},
+{Name = "Shiny Rainbow Huge Jersey Seal", Data = {Price = "17b"}},
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 {Name = "MVP Key", 				Data=  {Price = 850 + math.random(1,5)*1 .."k"}}, 	
 {Name = "MVP Key Upper Half",	Data=  {Price = 830 + math.random(1,5)*1 .."k"}}, 
@@ -44,52 +63,17 @@ getgenv().Settings_autoplaza = {
 
 
 
-
--------------------------------------------------------------------------------
-{Name = "Soccer Gift", Data = {Price = "10%"}},
-{Name = "Cleats", Data = {Price = "5%"}},
-{Name = "Golden Cleats", Data = {Price = "+5%"}},
-
-
-
-
-
-{Name = "Huge Referee Zebra", Data = {Price = "+5%"}},
-{Name = "Golden Huge Referee Zebra", Data = {Price = "+5%"}},
-{Name = "Rainbow Huge Referee Zebra", Data = {Price = "+5%"}},
-{Name = "Shiny Huge Referee Zebra", Data = {Price = "+5%"}},
-{Name = "Shiny Golden Huge Referee Zebra", Data = {Price = "2b"}},
-{Name = "Shiny Rainbow Huge Referee Zebra", Data = {Price = "20b"}},
-
-{Name = "Huge Jersey Seal", Data = {Price = "+1%"}},
-{Name = "Golden Huge Jersey Seal", Data = {Price = "+1%"}},
-{Name = "Rainbow Huge Jersey Seal", Data = {Price = "+1%"}},
-{Name = "Shiny Huge Jersey Seal", Data = {Price = "+1%"}},
-{Name = "Shiny Golden Huge Jersey Seal", Data = {Price = "1.7b"}},
-{Name = "Shiny Rainbow Huge Jersey Seal", Data = {Price = "17b"}},
-
-
---------------------------------------------------------------------------------------
-
-
-
-
-
 {Name = "EnchantV Magic Orb TN1", Data = {Price = 10 + math.random(1,2) .."m"}},
-
 {Name = "EnchantV Mega Chest Breaker TN1", Data = {Price = 15000 + math.random(1,100) .."m"}},
 {Name = "EnchantV Corruption TN1", Data = {Price = 4000 + math.random(1,100) .."m"}},
 {Name = "2026 New Years Gift", Data = {Price = "350m"}},
 {Name = "Exclusive Raffle Ticket", Data = {Price = "50m"}},
 {Name = "Ghostly Pack", Data = {Price = "100m"}},
 {Name = "Titanic Fantasy Present", Data = {Price = 120 + math.random(1,30) .."m"}},
-
 {Name = "Blossom Gift", Data = {Price = 3000 + math.random(1,50) .."k"}},
 {Name = "Time Trial Gift", Data = {Price = 449 + math.random(1,50) .."k"}},
 {Name = "Time Trial Gift 2", Data = {Price = 999 + math.random(1,50) .."k"}},
-
 {Name = "Deep Sea Treasure Chest", Data = {Price = "7m"}},		
-
 {Name = "Hype Egg", Data = {Price = 14 + math.random(1,5) .."m"}}, 
 {Name = "Huge Machine Egg 5", Data = {Price = "1b"}},
 {Name = "Exclusive Egg 60", Data = {Price = 190 + math.random(1,10) .."m"}}, 
@@ -106,7 +90,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Treasure TN1", Data = {Price = "4.5b"}},
 
 
----------------------------------------------------------
+-------------------------------------------------------------------------------
 {Name = "Chest Spell", Data = {Price = 130 + math.random(1,5) .."m"}}, 
 {Name = "Tsunami", Data = {Price = 55 + math.random(1,5) .."m"}}, 
 
@@ -121,7 +105,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Tech Key", Data = {Price = "23.7k"}},
 {Name = "Secret Key", Data = {Price = "30k"}},
 {Name = "Crystal Key", Data = {Price = "13.2k"}},
----------------------------------------------------------
+-------------------------------------------------------------------------------
 {Name = "Hacker Key", Data = {Price = "1m"}},
 
 --{Name = "Diamond", Data = {Price = "5k"}},
@@ -137,14 +121,14 @@ getgenv().Settings_autoplaza = {
 
 
 
--------------------------------------------------------------------------------------- 
+-------------------------------------------------------------------------------
 
 
 
 {Name = "Backrooms Luck Booster", Data = {Price = "+2%"}}, 
 {Name = "Backrooms Teleport Booster", Data = {Price = "+2%"}}, 
 
---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 {Name = "Huge Ghostly Dragon Card", Data = {Price = "+10%"}}, 
 {Name = "Ghostly Bunny Card", Data = {Price = "+100%"}}, 
 {Name = "Ghostly Fox Card", Data = {Price = "+100%"}}, 
