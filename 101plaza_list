@@ -3,6 +3,28 @@ _G.Restart = true
 getgenv().Settings_autoplaza = {
 ["Items"] = {
 
+
+
+{Name = "Titanic Werewolf", Data = {Price = 4.25 + math.random(1,10)*0.01 .."b"}},
+{Name = "Golden Titanic Werewolf", Data = {Price = 4.75 + math.random(1,10)*0.01 .."b"}},
+{Name = "Rainbow Titanic Werewolf", Data = {Price = 13.5 + math.random(1,10)*0.01 .."b"}},
+{Name = "Shiny Titanic Werewolf", Data = {Price = 17 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Scroll Dragon", Data = {Price = 4.75 + math.random(1,10)*0.01 .."b"}},
+{Name = "Golden Titanic Scroll Dragon", Data = {Price = 5.5 + math.random(1,10)*0.01 .."b"}},
+{Name = "Rainbow Titanic Scroll Dragon", Data = {Price = 18 + math.random(1,10).."b"}},
+{Name = "Titanic Propeller Cat", Data = {Price = 4.75 + math.random(1,10)*0.01 .."b"}},
+{Name = "Gargantuan 1x1x1x1", Data = {Price = 110 + math.random(1,5)*0.01 .."b"}},
+{Name = "Titanic Gamemaster Cat", Data = {Price = 4.25 + math.random(1,10)*0.01 .."b"}},
+{Name = "Golden Titanic Gamemaster Cat", Data = {Price = 4.5 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Smiley Penguin", Data = {Price = 4.25 + math.random(1,10)*0.01 .."b"}},
+{Name = "Golden Titanic Smiley Penguin", Data = {Price = 4.5 + math.random(1,10)*0.01 .."b"}},
+{Name = "Rainbow Titanic Smiley Penguin", Data = {Price = 14 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Soccerball Cat", Data = {Price = 6.75 + math.random(1,10)*0.01 .."b"}},
+{Name = "Golden Titanic Soccerball Cat", Data = {Price = 7.5 + math.random(1,10)*0.01 .."b"}},
+{Name = "Titanic Ghostly Wolf Card", Data = {Price = "+10%"}}, 
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 {Name = "Soccerball Trophy Angelus", Data = {Price = "1m"}},
 {Name = "Golden Soccerball Trophy Angelus", Data = {Price = "5m"}},
 {Name = "Rainbow Soccerball Trophy Angelus", Data = {Price = "40m"}},
@@ -31,36 +53,6 @@ getgenv().Settings_autoplaza = {
 {Name = "Shiny Rainbow Huge Jersey Seal", Data = {Price = "17b"}},
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
-
-{Name = "MVP Key", 				Data=  {Price = 880 + math.random(1,5)*1 .."k"}}, 	
-{Name = "MVP Key Upper Half",	Data=  {Price = 875 + math.random(1,5)*1 .."k"}}, 
-{Name = "MVP Key Lower Half",	Data = {Price = 30 + math.random(1,15)*1 .."k"}}, 
-
-
-{Name = "Titanic Werewolf", Data = {Price = 4.25 + math.random(1,10)*0.01 .."b"}},
-{Name = "Golden Titanic Werewolf", Data = {Price = 4.75 + math.random(1,10)*0.01 .."b"}},
-{Name = "Rainbow Titanic Werewolf", Data = {Price = 13.5 + math.random(1,10)*0.01 .."b"}},
-{Name = "Shiny Titanic Werewolf", Data = {Price = 17 + math.random(1,10)*0.01 .."b"}},
-
-{Name = "Titanic Scroll Dragon", Data = {Price = 4.75 + math.random(1,10)*0.01 .."b"}},
-{Name = "Golden Titanic Scroll Dragon", Data = {Price = 5.5 + math.random(1,10)*0.01 .."b"}},
-{Name = "Rainbow Titanic Scroll Dragon", Data = {Price = 18 + math.random(1,10).."b"}},
-
-{Name = "Titanic Propeller Cat", Data = {Price = 4.75 + math.random(1,10)*0.01 .."b"}},
-
-{Name = "Gargantuan 1x1x1x1", Data = {Price = 110 + math.random(1,5)*0.01 .."b"}},
-
-{Name = "Titanic Gamemaster Cat", Data = {Price = 4.25 + math.random(1,10)*0.01 .."b"}},
-{Name = "Golden Titanic Gamemaster Cat", Data = {Price = 4.5 + math.random(1,10)*0.01 .."b"}},
-{Name = "Titanic Smiley Penguin", Data = {Price = 4.25 + math.random(1,10)*0.01 .."b"}},
-{Name = "Golden Titanic Smiley Penguin", Data = {Price = 4.5 + math.random(1,10)*0.01 .."b"}},
-{Name = "Rainbow Titanic Smiley Penguin", Data = {Price = 14 + math.random(1,10)*0.01 .."b"}},
-
-{Name = "Titanic Soccerball Cat", Data = {Price = 6.75 + math.random(1,10)*0.01 .."b"}},
-{Name = "Golden Titanic Soccerball Cat", Data = {Price = 7.5 + math.random(1,10)*0.01 .."b"}},
-
-{Name = "Titanic Ghostly Wolf Card", Data = {Price = "+10%"}}, 
-
 
 
 {Name = "EnchantV Magic Orb TN1", Data = {Price = 10 + math.random(1,2) .."m"}},
@@ -91,6 +83,10 @@ getgenv().Settings_autoplaza = {
 
 
 -------------------------------------------------------------------------------
+{Name = "MVP Key", 				Data=  {Price = 880 + math.random(1,5)*1 .."k"}}, 	
+{Name = "MVP Key Upper Half",	Data=  {Price = 875 + math.random(1,5)*1 .."k"}}, 
+{Name = "MVP Key Lower Half",	Data = {Price = 30 + math.random(1,15)*1 .."k"}}, 
+
 {Name = "Chest Spell", Data = {Price = 136 + math.random(1,5) .."m"}}, 
 {Name = "Tsunami", Data = {Price = 57 + math.random(1,5) .."m"}}, 
 
