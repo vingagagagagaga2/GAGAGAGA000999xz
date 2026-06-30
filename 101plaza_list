@@ -126,10 +126,6 @@ getgenv().Settings_autoplaza = {
 -------------------------------------------------------------------------------
 
 
-
-{Name = "Backrooms Luck Booster", Data = {Price = "+2%"}}, 
-{Name = "Backrooms Teleport Booster", Data = {Price = "+2%"}}, 
-
 -------------------------------------------------------------------------------
 {Name = "Huge Ghostly Dragon Card", Data = {Price = "+10%"}}, 
 {Name = "Ghostly Bunny Card", Data = {Price = "+100%"}}, 
