@@ -3,9 +3,10 @@ _G.Restart = true
 getgenv().Settings_autoplaza = {
 ["Items"] = {
 
-{Name = "Soccerball Trophy Angelus", Data = {Price = "1.2m"}},
+{Name = "Soccerball Trophy Angelus", Data = {Price = "1m"}},
 {Name = "Golden Soccerball Trophy Angelus", Data = {Price = "8m"}},
---{Name = "Rainbow Soccerball Trophy Angelus", Data = {Price = "1%"}},
+{Name = "Rainbow Soccerball Trophy Angelus", Data = {Price = "64m"}},
+
 {Name = "Shiny Soccerball Trophy Angelus", Data = {Price = "5%"}},
 {Name = "Shiny Golden Soccerball Trophy Angelus", Data = {Price = "1%"}},
 {Name = "Shiny Rainbow Soccerball Trophy Angelus", Data = {Price = "11b"}},
