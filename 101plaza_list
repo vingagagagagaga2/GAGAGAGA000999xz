@@ -31,7 +31,7 @@ getgenv().Settings_autoplaza = {
 {Name = "Rainbow Soccerball Trophy Angelus", Data = {Price = "30m"}},
 
 {Name = "Shiny Soccerball Trophy Angelus", Data = {Price = "100m"}},
-{Name = "Shiny Golden Soccerball Trophy Angelus", Data = {Price = "800mb"}},
+{Name = "Shiny Golden Soccerball Trophy Angelus", Data = {Price = "800m"}},
 {Name = "Shiny Rainbow Soccerball Trophy Angelus", Data = {Price = "6.4b"}},
 
 
