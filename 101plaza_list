@@ -88,8 +88,8 @@ getgenv().Settings_autoplaza = {
 {Name = "MVP Key Upper Half",	Data=  {Price = 875 + math.random(1,5)*1 .."k"}}, 
 {Name = "MVP Key Lower Half",	Data = {Price = 30 + math.random(1,15)*1 .."k"}}, 
 
-{Name = "Chest Spell", Data = {Price = 136 + math.random(1,5) .."m"}}, 
-{Name = "Tsunami", Data = {Price = 57 + math.random(1,5) .."m"}}, 
+{Name = "Chest Spell", Data = {Price = 125 + math.random(1,5) .."m"}}, 
+{Name = "Tsunami", Data = {Price = 50 + math.random(1,5) .."m"}}, 
 
 {Name = "Charm Chisel", Data = {Price = "+1%"}},
 {Name = "Royalty TN1", Data = {Price = "+1%"}}, 
@@ -97,13 +97,13 @@ getgenv().Settings_autoplaza = {
 {Name = "XP TN1", Data = {Price = "+1%"}},
 {Name = "Glittering TN1", Data = {Price = "+1%"}},
 
-{Name = "Fantasy Key", Data = {Price = "52.1k"}},
-{Name = "Void Key", Data = {Price = "48.7k"}},
-{Name = "Tech Key", Data = {Price = "23.7k"}},
-{Name = "Secret Key", Data = {Price = "28.5k"}},
-{Name = "Crystal Key", Data = {Price = "13k"}},
+{Name = "Fantasy Key", Data = {Price = "52k"}},
+{Name = "Void Key", Data = {Price = "50k"}},
+{Name = "Tech Key", Data = {Price = "25k"}},
+{Name = "Secret Key", Data = {Price = "25k"}},
+{Name = "Crystal Key", Data = {Price = "15k"}},
 -------------------------------------------------------------------------------
-{Name = "Hacker Key", Data = {Price = "1m"}},
+{Name = "Hacker Key", Data = {Price = "400k"}},
 
 --{Name = "Diamond", Data = {Price = "5k"}},
 {Name = "Insta Plant Capsule", Data = {Price = "23k"}},
