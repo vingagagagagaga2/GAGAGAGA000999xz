@@ -15,7 +15,7 @@ local player = Players.LocalPlayer
 
 local playerCount = #Players:GetPlayers()
 if playerCount > 1 and game.PlaceId == 140403681187145 and EVENT_or_FARM == "F" then
-	--Players.LocalPlayer:Kick("severvip")
+	Players.LocalPlayer:Kick("severvip")
 end
 end)
 
