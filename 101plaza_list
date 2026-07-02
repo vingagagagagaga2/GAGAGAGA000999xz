@@ -36,7 +36,7 @@ getgenv().Settings_autoplaza = {
 
 {Name = "Soccer Gift", Data = {Price = "10%"}},
 {Name = "Cleats", Data = {Price = "5%"}},
-{Name = "Golden Cleats", Data = {Price = "+5%"}},
+--{Name = "Golden Cleats", Data = {Price = "+5%"}},
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 
