@@ -31,26 +31,12 @@ getgenv().Settings_autoplaza = {
 {Name = "Rainbow Soccerball Trophy Angelus", Data = {Price = "10m"}},
 {Name = "Shiny Soccerball Trophy Angelus", Data = {Price = "65m"}},
 {Name = "Shiny Golden Soccerball Trophy Angelus", Data = {Price = "425m"}},
-{Name = "Shiny Rainbow Soccerball Trophy Angelus", Data = {Price = "5b"}},
+{Name = "Shiny Rainbow Soccerball Trophy Angelus", Data = {Price = "4.5b"}},
 
 
 {Name = "Soccer Gift", Data = {Price = "10%"}},
 {Name = "Cleats", Data = {Price = "5%"}},
 {Name = "Golden Cleats", Data = {Price = "+5%"}},
-
-{Name = "Huge Referee Zebra", Data = {Price = "+10%"}},
-{Name = "Golden Huge Referee Zebra", Data = {Price = "+10%"}},
-{Name = "Rainbow Huge Referee Zebra", Data = {Price = "+10%"}},
-{Name = "Shiny Huge Referee Zebra", Data = {Price = "+10%"}},
-{Name = "Shiny Golden Huge Referee Zebra", Data = {Price = "2b"}},
-{Name = "Shiny Rainbow Huge Referee Zebra", Data = {Price = "20b"}},
-
-{Name = "Huge Jersey Seal", Data = {Price = "+1%"}},
-{Name = "Golden Huge Jersey Seal", Data = {Price = "+1%"}},
-{Name = "Rainbow Huge Jersey Seal", Data = {Price = "+1%"}},
-{Name = "Shiny Huge Jersey Seal", Data = {Price = "+1%"}},
-{Name = "Shiny Golden Huge Jersey Seal", Data = {Price = "1.3b"}},
-{Name = "Shiny Rainbow Huge Jersey Seal", Data = {Price = "13b"}},
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 
